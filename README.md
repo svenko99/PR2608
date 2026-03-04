@@ -1,2 +1,2 @@
-# pr-projekt
-Projekt pri predmetu 'Podatkovno rudarjenje'
+# Projekt
+- Projekt pri predmetu 'Podatkovno rudarjenje'
