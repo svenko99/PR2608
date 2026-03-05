@@ -1,3 +1,3 @@
 # Projekt
-- Člani: Sven, Lan
+- Člani: Sven Ulčar, Lan Lebar, [DODAJ]
 - Projekt pri predmetu 'Podatkovno rudarjenje'
