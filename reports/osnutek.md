@@ -1,4 +1,4 @@
-# Identifikacija vzorcev uspešnosti in tveganja stečaja pri slovenskih podjetjih
+# TODO <!--Identifikacija vzorcev uspešnosti in tveganja stečaja pri slovenskih podjetjih -->
 
 ## Opis problema
 TODO
@@ -25,7 +25,9 @@ Za pridobivanje podatkov iz spletne aplikacije e-Študentski servis bomo uporabi
 
 Znotraj aplikacije lahko vidimo zgolj trenutne objave dela. Pred seboj imamo 2 opciji:
 - Podatke scrapamo enkrat, in nad njimi izvajamo analizo
-- Podatke scrapamo par mescov, vsak dan ob isit uri. Tako bomo lahko sledili spremembam objav...
+- Podatke scrapamo par mescov, vsak dan ob isit uri. Tako bomo lahko sledili spremembam objav itd.
+
+V vsakem primeru bomo ob posameznem scrapanju pobrali vse podatke iz studentskega servisa. Podatkov bo kar veliko, v času pisanja tega dokumenta (11.3.2026) je na študentskem servisu objavljenih 2457 del.
 
 Podatke bomo pridobili iz preko URL-ja, ki je sestavlejn iz večih query parametrov, ki predstavljajo filtre. Primer:
 ```
