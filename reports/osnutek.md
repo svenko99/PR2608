@@ -27,7 +27,41 @@ Znotraj aplikacije lahko vidimo zgolj trenutne objave dela. Pred seboj imamo 2 o
 - Podatke scrapamo enkrat, in nad njimi izvajamo analizo
 - Podatke scrapamo par mescov, vsak dan ob isit uri. Tako bomo lahko sledili spremembam objav...
 
-Preden začnemo pisati `scraper.py`, najprej izvedemo analizo same aplikacije, in se odoločimo, katere podatke bomo zbirali. Vsaka objava na strani ima sledeče podatke:
+Podatke bomo pridobili iz preko URL-ja, ki je sestavlejn iz večih query parametrov, ki predstavljajo filtre. Primer:
+```
+https://studentski-servis.com/studenti/prosta-dela?
+page=1&
+isci=1&
+sort=&
+dd1=1&
+do1=1&
+dm1s=1&
+regija%5B%5D=ljubljana-z-okolico&
+regija%5B%5D=kranj-z-okolico&
+skD%5B%5D=A104&
+skD%5B%5D=A078&
+skD%5B%5D=A047&
+tdd1=1&
+tdv1=1&
+hourlyratefrom=7.77&
+hourlyrateto=8.88&
+hourly_rate=7.8%3B8.9
+```
+Obisk/HTTP klic zgornjega URL-ja nam vrne HTML stran, kateri je generiran na strežniku. To je HTML, ki vsebuje podatke, ki nas zanimajo.<br>
+Da smo dobili zgornji URL, smo preko uporabniškega vmesnika izbrali filtre:
+- *Danes objavlejna* in *Daljša od 10 dni*
+- Znotraj regije *Ljubljana z okolico* in *Kranj z okolico*
+- Vrsta dela *Programiranje*, *Marketing*  ali *Strežba*
+- Delovni čas *Dopoldan* ali *Med vikendi*
+- Neto urna postavka med *7.77* in *8.88* €/h
+
+Ker bomo scrapali, bi radi dobili vse možne ključe in njihove vrednosti, ki jih lahko pošljemo v HTTP zahtevi. Te podatke dobimo tako, da analiziramo HTML formo:
+TODO tabela
+
+
+
+### Oblika podatkov
+Objave oglasov so v spletni aplikaciji združene v več HTML strani (strani od 1 do n). Podatki posameznih objav so zapisani v spodnji tabeli:
 
 | Podatek          | Tip podatka | Obvezno | Primer vrednosti                        | Opombe                                                                |
 |------------------|-------------|---------|-----------------------------------------|-----------------------------------------------------------------------|
@@ -48,11 +82,6 @@ Preden začnemo pisati `scraper.py`, najprej izvedemo analizo same aplikacije, i
 | `contact_phone`  | `TEXT`      | ❌      | `031123456`                                               | `NULL` če ni navedeno                               |
 | `contact_email`  | `TEXT`      | ❌      | `email@domain.com`                                        | `NULL` če ni navedeno                               |
 | `scraped_at`     | `TEXT`      | ✅      | `2026-03-11T08:00:00+00:00`                               | Čas pridobitve podatka (ISO 8601, UTC)              |
-
-Objave del nimajo svojih URL-jev, vendar so združena v eno HTML stran.
-
-### Oblika podatkov
-TODO
 
 
 
