@@ -21,7 +21,7 @@ Pri projektu želimo odgovoriti na:
 Podatke za projekt bomo črpali iz [e-Študntskega servisa](https://studentski-servis.com/studenti). Ker ne ponujajo brezplačnega javno dostopnega API-ja bomo podatke scrapali iz njihove spletne aplikacije. Iz datotetke [`robots.txt`](https://studentski-servis.com/robots.txt) ugotovimo, da je scrapanje podatkov dovoljeno, saj vsebuje `User-agent: *` in `Allow: /`.
 
 ### Pridobivanje podatkov
-Za pridobivanje podatkov iz spletne aplikacije e-Študentski servis bomo uporabil Python knjižnico [BeautifulSoup](https://pypi.org/project/beautifulsoup4/).
+Za pridobivanje podatkov iz spletne aplikacije e-Študentski servis bomo uporabil Python knjižnico [BeautifulSoup](https://pypi.org/project/beautifulsoup4/).<br>Priodoblejene podatke bomo shranjevali v [data.csv](/data/data.csv). Če bo podatkov preveč, bomo shranjevali v relacijsko podatkovno bazo nekje v oblaku (eg. [PostgreSQL na Azure](https://azure.microsoft.com/en-us/products/postgresql/)).
 
 Znotraj aplikacije lahko vidimo zgolj trenutne objave dela. Pred seboj imamo 2 opciji:
 - Podatke scrapamo enkrat, in nad njimi izvajamo analizo
@@ -325,7 +325,7 @@ Ker bomo scrapali, bi radi dobili vse možne ključe in njihove vrednosti, ki ji
 
 
 ### Oblika podatkov
-Objave oglasov so v spletni aplikaciji združene v več HTML strani (strani od 1 do n). Podatki posameznih objav so zapisani v spodnji tabeli:
+Objave oglasov so v spletni aplikaciji združene v več HTML strani, strani od 1 do n. Stran rezultatov nam doloca `page` (glej zgoraj). Podatki posameznih objav so zapisani v spodnji tabeli:
 
 | Podatek          | Tip podatka | Obvezno | Primer vrednosti                        | Opombe                                                                |
 |------------------|-------------|---------|-----------------------------------------|-----------------------------------------------------------------------|
@@ -346,6 +346,3 @@ Objave oglasov so v spletni aplikaciji združene v več HTML strani (strani od 1
 | `contact_phone`  | `TEXT`      | ❌      | `031123456`                                               | `NULL` če ni navedeno                               |
 | `contact_email`  | `TEXT`      | ❌      | `email@domain.com`                                        | `NULL` če ni navedeno                               |
 | `scraped_at`     | `TEXT`      | ✅      | `2026-03-11T08:00:00+00:00`                               | Čas pridobitve podatka (ISO 8601, UTC)              |
-
-
-
