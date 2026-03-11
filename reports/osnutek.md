@@ -1,13 +1,25 @@
 # TODO <!--Identifikacija vzorcev uspešnosti in tveganja stečaja pri slovenskih podjetjih -->
 
 ## Opis problema
+e-Študentski servis je platforma katero uporabljajo dijaki in študenti iz cele Slovenije za iskanje študentskih del. Naš cilj je analizirati ponudbe del na e-Študentskem servisu in iz njih pridobiti nekaj uporabne statistike - v kateri regiji je največja ponudba dela, katera dela so najbolje plačana ipd.
+
+...
+
+---
+
+
 Študentski servis v Sloveniji zbira zelo obsežne podatke o ponujenih začasnih delih za študente, profilu študentov (npr. ime, starost spol, podatki o študiju ipd.), vrstah del (npr fizična, IT, dela s strankami itd.), urni postavki in trajanju zaposlitve(kratkotrjano/dolgotranjo delo, datum začetka).
 Problem, ki ga obravnavamo, je pomanjkanje celovitejšega vpogleda v trende in vzorce v teh podatkih, kar otežuje učinkovitejše povezovanje študentov z delodajalci. To lahko vodi do neučinkovitega zaposlovanja in neizkoriščenih priložnosti za študente ali pa pomanjkanje delovne sile za delodajalce.
 Problem je precej kompleksen, saj vključuje sezonske vplive, demografske faktorje, ekonomske kazalnike (npr. inflacija, gospodarska rast) in morebitne nepredvidljive zunanje dejavnike (npr. vojne in epidemije). 
 
 ## Cilj projekta
-Cilj je uporabiti tehnike podatkovnega rudarjenja za odkrivanje skritih vzorcev in s tem izboljšanje sistema.
 Pri projektu želimo odgovoriti na:
+- V katerih regijah je največja in najbolj plačana ponudba študentkih del?
+- Kakšne lastnosti imajo oglasi za delo, ki plačajo najbolje - tip dela, delovnik (dopoldan/popoldan), trajanje dela...?
+- Katere so veščine, ki jih zahtevajo najbolje plačana dela?
+
+---
+
 - Identifikacija trendov: Kateri sektorji del kažejo rast ali upad v zadnjih letih? 
 - Kako sezonski faktorji(npr. poletje, izpitno obdobje študentov) vplivajo na ponudbo in povpraševanje?  
 - Ali lahko na podlagi zgodovinskih podatkov napovemo povpraševanje po določenih vrstah del v prihodnjih mesecih? 
