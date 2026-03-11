@@ -8,10 +8,10 @@ Problem je precej kompleksen, saj vključuje sezonske vplive, demografske faktor
 ## Cilj projekta
 Cilj je uporabiti tehnike podatkovnega rudarjenja za odkrivanje skritih vzorcev in s tem izboljšanje sistema.
 Pri projektu želimo odgovoriti na:
--Identifikacija trendov: Kateri sektorji del kažejo rast ali upad v zadnjih letih? 
--Kako sezonski faktorji(npr. poletje, izpitno obdobje študentov) vplivajo na ponudbo in povpraševanje?  
--Ali lahko na podlagi zgodovinskih podatkov napovemo povpraševanje po določenih vrstah del v prihodnjih mesecih? 
--Kakšen je vpliv ekonomskih indikatorjev(npr. gospodarska rast, inflacija) na število in vrsto ponujenih del? 
+- Identifikacija trendov: Kateri sektorji del kažejo rast ali upad v zadnjih letih? 
+- Kako sezonski faktorji(npr. poletje, izpitno obdobje študentov) vplivajo na ponudbo in povpraševanje?  
+- Ali lahko na podlagi zgodovinskih podatkov napovemo povpraševanje po določenih vrstah del v prihodnjih mesecih? 
+- Kakšen je vpliv ekonomskih indikatorjev(npr. gospodarska rast, inflacija) na število in vrsto ponujenih del? 
 
 ## Vir in oblika podatkov
 
