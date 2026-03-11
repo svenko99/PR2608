@@ -1,20 +1,17 @@
 # TODO <!--Identifikacija vzorcev uspešnosti in tveganja stečaja pri slovenskih podjetjih -->
 
 ## Opis problema
-TODO
-<!-- V našem projektu se bomo ukvarjali z identifikacijo ključnih lastnosti in vzorcev, ki ločujejo uspešna slovenska podjetja od tistih, ki končajo v stečaju. Na podlagi finančnih, kadrovskih, poslovnih ter drugih podatkov želimo odkriti, kateri dejavniki (npr. velikost podjetja, panoga, lokacija, prisotnost tujih investitorjev ipd.) pomembno prispevajo k dolgoročni uspešnosti podjetja oziroma vodijo v njegov stečaj.
-
-S tem želimo ponuditi čimbolj uporabne vpoglede za podjetnike in investitorje, tako da imajo vpogled na katere lastnosti morajo biti ob poslovanju pozorni, tudi takšne, ki morda na prvi pogled niso tako očitne.
-
-Za podatke smo vzeli prva in zadnja 3 leta delujočih podjetij (za tista, ki imajo tako dolg čas obstoja), kot tudi podjetij, ki so šla v stečaj. Menimo, da se ključni podatki, ki prikazujejo ali bo podjetje uspešno nahajajo v prvih letih delovanja, tako bomo lahko tudi predvidevali, kako bodo novejša podjetja lahko končala. Zadnja 3 leta podatkov, bo pa namenjeno iskanju korelacij (ne)uspešnih podjetij. -->
+Študentski servis v Sloveniji zbira zelo obsežne podatke o ponujenih začasnih delih za študente, profilu študentov (npr. ime, starost spol, podatki o študiju ipd.), vrstah del (npr fizična, IT, dela s strankami itd.), urni postavki in trajanju zaposlitve(kratkotrjano/dolgotranjo delo, datum začetka).
+Problem, ki ga obravnavamo, je pomanjkanje celovitejšega vpogleda v trende in vzorce v teh podatkih, kar otežuje učinkovitejše povezovanje študentov z delodajalci. To lahko vodi do neučinkovitega zaposlovanja in neizkoriščenih priložnosti za študente ali pa pomanjkanje delovne sile za delodajalce.
+Problem je precej kompleksen, saj vključuje sezonske vplive, demografske faktorje, ekonomske kazalnike (npr. inflacija, gospodarska rast) in morebitne nepredvidljive zunanje dejavnike (npr. vojne in epidemije). 
 
 ## Cilj projekta
-
+Cilj je uporabiti tehnike podatkovnega rudarjenja za odkrivanje skritih vzorcev in s tem izboljšanje sistema.
 Pri projektu želimo odgovoriti na:
-<!-- - Katere korelacije in vzorci obstajajo med značilnostmi (ne)uspešnih podjetij?
-- Obstajajo kakšne ponavljajoče se napake podjetij, ki peljejo v veliko tveganje stečaja?
-- Kako vpliva lokacija podjetja, ali moramo biti v različnih regijah pozorni na specifične stvari?
-- Ali lahko predvidimo, kako bo podjetje končalo, glede na začetna 3 leta poslovanja? -->
+-Identifikacija trendov: Kateri sektorji del kažejo rast ali upad v zadnjih letih? 
+-Kako sezonski faktorji(npr. poletje, izpitno obdobje študentov) vplivajo na ponudbo in povpraševanje?  
+-Ali lahko na podlagi zgodovinskih podatkov napovemo povpraševanje po določenih vrstah del v prihodnjih mesecih? 
+-Kakšen je vpliv ekonomskih indikatorjev(npr. gospodarska rast, inflacija) na število in vrsto ponujenih del? 
 
 ## Vir in oblika podatkov
 
