@@ -18,6 +18,8 @@ Pri projektu želimo odgovoriti na vprašanja:
 - V katerih regijah je največja in najbolj plačana ponudba študentkih del?
 - Kakšne lastnosti imajo oglasi za delo, ki plačajo najbolje - tip dela, delovnik (dopoldan/popoldan), trajanje dela...?
 - Katere so veščine, ki jih zahtevajo najbolje plačana dela?
+- Koliko dolgo so oglasi objavljeni, gledena vrsto dela (ali obstaja povezava z vrsto,plačo,delovnikom,...)?
+- Katera vrsta dela se najbolj išče v katerih regijah?
 
 ## Vir in oblika podatkov
 
