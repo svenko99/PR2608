@@ -10,7 +10,7 @@ e-Študentski servis je platforma katero uporabljajo dijaki in študenti iz cele
 
 Študentski servis v Sloveniji zbira zelo obsežne podatke o ponujenih začasnih delih za študente, profilu študentov (npr. ime, starost spol, podatki o študiju ipd.), vrstah del (npr fizična, IT, dela s strankami itd.), urni postavki in trajanju zaposlitve(kratkotrjano/dolgotranjo delo, datum začetka).
 Problem, ki ga obravnavamo, je pomanjkanje celovitejšega vpogleda v trende in vzorce v teh podatkih, kar otežuje učinkovitejše povezovanje študentov z delodajalci. To lahko vodi do neučinkovitega zaposlovanja in neizkoriščenih priložnosti za študente ali pa pomanjkanje delovne sile za delodajalce.
-Problem je precej kompleksen, saj vključuje sezonske vplive, demografske faktorje, ekonomske kazalnike (npr. inflacija, gospodarska rast) in morebitne nepredvidljive zunanje dejavnike (npr. vojne in epidemije). 
+Problem je precej kompleksen, saj vključuje sezonske vplive, demografske faktorje, ekonomske kazalnike (npr. inflacija, gospodarska rast) in morebitne nepredvidljive zunanje dejavnike (npr. vojne in epidemije).
 
 ## Cilj projekta
 Pri projektu želimo odgovoriti na:
@@ -18,25 +18,20 @@ Pri projektu želimo odgovoriti na:
 - Kakšne lastnosti imajo oglasi za delo, ki plačajo najbolje - tip dela, delovnik (dopoldan/popoldan), trajanje dela...?
 - Katere so veščine, ki jih zahtevajo najbolje plačana dela?
 
----
-
-- Identifikacija trendov: Kateri sektorji del kažejo rast ali upad v zadnjih letih? 
-- Kako sezonski faktorji(npr. poletje, izpitno obdobje študentov) vplivajo na ponudbo in povpraševanje?  
-- Ali lahko na podlagi zgodovinskih podatkov napovemo povpraševanje po določenih vrstah del v prihodnjih mesecih? 
-- Kakšen je vpliv ekonomskih indikatorjev(npr. gospodarska rast, inflacija) na število in vrsto ponujenih del? 
-
 ## Vir in oblika podatkov
 
 Podatke za projekt bomo črpali iz [e-Študntskega servisa](https://studentski-servis.com/studenti). Ker ne ponujajo brezplačnega javno dostopnega API-ja bomo podatke scrapali iz njihove spletne aplikacije. Iz datotetke [`robots.txt`](https://studentski-servis.com/robots.txt) ugotovimo, da je scrapanje podatkov dovoljeno, saj vsebuje `User-agent: *` in `Allow: /`.
 
 ### Pridobivanje podatkov
-Za pridobivanje podatkov iz spletne aplikacije e-Študentski servis bomo uporabil Python knjižnico [BeautifulSoup](https://pypi.org/project/beautifulsoup4/).<br>Priodoblejene podatke bomo shranjevali v [data.csv](/data/data.csv). Če bo podatkov preveč, bomo shranjevali v relacijsko podatkovno bazo nekje v oblaku (eg. [PostgreSQL na Azure](https://azure.microsoft.com/en-us/products/postgresql/)).
+Za pridobivanje podatkov iz spletne aplikacije e-Študentski servis bomo uporabili Pythonovo knjižnico [BeautifulSoup](https://pypi.org/project/beautifulsoup4/).
 
-Znotraj aplikacije lahko vidimo zgolj trenutne objave dela. Pred seboj imamo 2 opciji:
-- Podatke scrapamo enkrat, in nad njimi izvajamo analizo
-- Podatke scrapamo par mescov, vsak dan ob isit uri. Tako bomo lahko sledili spremembam objav itd.
+Pridobljene podatke bomo shranjevali v [data.csv](/data/data.csv). Če bo podatkov preveč, jih bomo shranjevali v relacijsko podatkovno bazo v oblaku (npr. [PostgreSQL na Azure](https://azure.microsoft.com/en-us/products/postgresql/)).<br>
+Pričakujemo največ 5000 unikatnih oglasov. V času pisanja tega dokumenta (11.3.2026) je na študentskem servisu 2457 aktivnih oglasov.
 
-V vsakem primeru bomo ob posameznem scrapanju pobrali vse podatke iz studentskega servisa. Podatkov bo kar veliko, v času pisanja tega dokumenta (11.3.2026) je na študentskem servisu objavljenih 2457 del.
+Ker je v aplikaciji v danem času mogoče videti le trenutno objavljene oglase, želimo pa spremljati tudi njihovo dodajanje in odstranjevanje, bomo podatke zajemali vsak dan ob isti uri. Tako bomo v nekaj mesecih zgradili časovno zbirko oglasov s študentskega servisa.<br>
+Vsak dan bomo zajeli celoten e-Študentski servis. Pri oglasih, ki smo jih že videli, bomo posodobili atribut `last_seen`, nove oglase pa bomo dodali v zbirko.
+
+
 
 Podatke bomo pridobili iz preko URL-ja, ki je sestavlejn iz večih query parametrov, ki predstavljajo filtre. Primer:
 ```
@@ -356,4 +351,6 @@ Objave oglasov so v spletni aplikaciji združene v več HTML strani, strani od 1
 | `contact_name`   | `TEXT`      | ✅      | `Janez Primer`                                            |                                                     |
 | `contact_phone`  | `TEXT`      | ❌      | `031123456`                                               | `NULL` če ni navedeno                               |
 | `contact_email`  | `TEXT`      | ❌      | `email@domain.com`                                        | `NULL` če ni navedeno                               |
-| `scraped_at`     | `TEXT`      | ✅      | `2026-03-11T08:00:00+00:00`                               | Čas pridobitve podatka (ISO 8601, UTC)              |
+| `first_seen`     | `TEXT`      | ✅      | `2026-03-11T08:00:00+00:00`                               | Čas ob katerem je biu oglas prvič viden na servisu (~dodan)              |
+| `last_seen`      | `TEXT`      | ✅      | `2026-03-20T08:00:00+00:00`                               | Čas ob katerem je biu oglas zadnjič viden na servisu              |
+
