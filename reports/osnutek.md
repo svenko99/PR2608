@@ -6,7 +6,7 @@ V sklopu našega projekta bomo analizirali podatke iz servisa, in iz njih izrač
 
 Študenti pri iskanju dela pogosto upoštevajo vrsto dejavnikov, ki vplivajo na njihovo odločitev. Med najpogostejše sodijo višina plače, delovni čas, vrsta dela, zahtevane veščine in lokacija. Pogosto se zgodi, da se medtem, ko študent razmišlja o določeni priložnosti ali išče druge možnosti, delovno mesto že zapolni. Zanima nas, kakšne so lastnosti del, ki se hitro zapolnijo, in tistih ki se ne.
 
-Podjetjem, ki ponujajo študentsko delo ali prakso, bi prav tako koristil vpogled v to, katere dejavnike študenti najpogosteje upoštevajo pri izbiri dela, še posebej v posameznih regijah. Na podlagi takšnih podatkov bi lahko podjetja svoje ponudbe oziroma oglase prilagodila interesom in pričakovanjem študentov ter tako povečala zanimanje za ponujena delovna mesta.
+Študentom želimo olajšati iskanje dela tako, da jih informiramo o tem v katerih regijah ponujajo določena dela in katera dela so najbolje plačana glede na njihove preference in veščine.
 
 ## Cilj projekta
 Naš cilj je analizirati ponudbe del na e-Študentskem servisu in iz njih pridobiti nekaj uporabne statistike. S tem želimo pridobiti koristne informacije tako za študente, kot tudi za delodajalce.<br>
