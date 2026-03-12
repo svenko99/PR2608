@@ -2,11 +2,9 @@
 
 ## Opis problema
 e-Študentski servis je priljubljena platforma, katero uporabljajo dijaki in študenti na območju celotne Slovenije za iskanje raznovrstnih študentskih del, delodajalci pa za objavo le teh.<br>
-V sklopu našega projekta bomo analizirali podatke iz servisa, in iz njih izračunali uporabno statistiko ter našli trenutne trende študentskega dela.
+V sklopu našega projekta bomo analizirali podatke iz servisa, in iz njih izračunali uporabno statistiko ter našli trenutne trende študentskega dela. Naš cilj je študentom olajšati iskanje dela tako, da jih informiramo o tem v katerih regijah ponujajo določena dela in katera dela so najbolje plačana glede na njihove preference in veščine.
 
 Študenti pri iskanju dela pogosto upoštevajo vrsto dejavnikov, ki vplivajo na njihovo odločitev. Med najpogostejše sodijo višina plače, delovni čas, vrsta dela, zahtevane veščine in lokacija. Pogosto se zgodi, da se medtem, ko študent razmišlja o določeni priložnosti ali išče druge možnosti, delovno mesto že zapolni. Zanima nas, kakšne so lastnosti del, ki se hitro zapolnijo, in tistih ki se ne.
-
-Študentom želimo olajšati iskanje dela tako, da jih informiramo o tem v katerih regijah ponujajo določena dela in katera dela so najbolje plačana glede na njihove preference in veščine.
 
 ## Cilj projekta
 Naš cilj je analizirati ponudbe del na e-Študentskem servisu in iz njih pridobiti nekaj uporabne statistike. S tem želimo pridobiti koristne informacije tako za študente, kot tudi za delodajalce.<br>
