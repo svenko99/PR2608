@@ -14,11 +14,11 @@ Podjetjem, ki ponujajo študentsko delo ali prakso, bi prav tako koristilo, če 
 Naš cilj je analizirati ponudbe del na e-Študentskem servisu in iz njih pridobiti nekaj uporabne statistike. S tem želimo pridobiti koristne informacije tako za študente, kot tudi za delodajalce.<br>
 Pri projektu želimo odgovoriti na maslednja vprašanja:
 - V katerih regijah je največja in najbolj plačana ponudba študentkih del?
-- Kakšne lastnosti imajo oglasi za delo, ki plačajo najbolje - tip dela, delovnik (dopoldan/popoldan), trajanje dela...?
-- Katere so veščine, ki jih zahtevajo najbolje plačana dela?
-- Koliko dolgo so oglasi objavljeni, gledena vrsto dela (ali obstaja povezava z vrsto,plačo,delovnikom,...)?
-- Katera vrsta dela se najbolj išče v katerih regijah?
-- Katere vrste dela, so najhitreje odstranjene iz oglasov (delo je bilo že zasedeno)?
+- Katera so najbolj iskana dela se v posameznih regijah?
+- Kakšne lastnosti imajo oglasi za delo, ki plačajo najbolje - tip dela, delovnik (dopoldan/popoldan/med vikendi), trajanje dela...?
+- Katere veščine zahtevajo najbolje plačana dela?
+- Koliko dolgo so oglasi objavljeni, gledena vrsto dela (ali obstaja povezava z vrsto, urno postavko, delovnikom...)?
+- Kakšna dela so najpopularnejša med študenti - so najhitreje odstranjena iz oglasov?
 
 ## Vir in oblika podatkov
 
