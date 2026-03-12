@@ -24,6 +24,7 @@ Pri projektu želimo odgovoriti na vprašanja:
 - Katere so veščine, ki jih zahtevajo najbolje plačana dela?
 - Koliko dolgo so oglasi objavljeni, gledena vrsto dela (ali obstaja povezava z vrsto,plačo,delovnikom,...)?
 - Katera vrsta dela se najbolj išče v katerih regijah?
+- Katere vrste dela, so najhitreje odstranjene iz oglasov (delo je bilo že zasedeno)?
 
 ## Vir in oblika podatkov
 
