@@ -10,15 +10,9 @@ Poleg tega trenutno nimamo enotnega pregleda podatkov, ki bi študentom omogoča
 
 Podjetjem, ki ponujajo študentsko delo ali prakso, bi prav tako koristilo, če bi imela vpogled v to, katere dejavnike študenti najpogosteje upoštevajo pri izbiri dela, še posebej v posameznih regijah. Na podlagi takšnih podatkov bi lahko podjetja svoje ponudbe oziroma oglase prilagodila interesom in pričakovanjem študentov ter tako povečala zanimanje za ponujena delovna mesta.
 
----
-
-Študentski servis v Sloveniji zbira zelo obsežne podatke o ponujenih začasnih delih za študente, profilu študentov (npr. ime, starost spol, podatki o študiju ipd.), vrstah del (npr fizična, IT, dela s strankami itd.), urni postavki in trajanju zaposlitve(kratkotrjano/dolgotranjo delo, datum začetka).
-Problem, ki ga obravnavamo, je pomanjkanje celovitejšega vpogleda v trende in vzorce v teh podatkih, kar otežuje učinkovitejše povezovanje študentov z delodajalci. To lahko vodi do neučinkovitega zaposlovanja in neizkoriščenih priložnosti za študente ali pa pomanjkanje delovne sile za delodajalce.
-Problem je precej kompleksen, saj vključuje sezonske vplive, demografske faktorje, ekonomske kazalnike (npr. inflacija, gospodarska rast) in morebitne nepredvidljive zunanje dejavnike (npr. vojne in epidemije).
-
 ## Cilj projekta
-Naš cilj je analizirati ponudbe del na e-Študentskem servisu in iz njih pridobiti nekaj uporabne statistike - v kateri regiji je največja ponudba dela, katera dela so najbolje plačana ipd. S tem želimo pridobiti koristne informacije tako za študente, kot tudi za delodajalce.
-Pri projektu želimo odgovoriti na vprašanja:
+Naš cilj je analizirati ponudbe del na e-Študentskem servisu in iz njih pridobiti nekaj uporabne statistike. S tem želimo pridobiti koristne informacije tako za študente, kot tudi za delodajalce.<br>
+Pri projektu želimo odgovoriti na maslednja vprašanja:
 - V katerih regijah je največja in najbolj plačana ponudba študentkih del?
 - Kakšne lastnosti imajo oglasi za delo, ki plačajo najbolje - tip dela, delovnik (dopoldan/popoldan), trajanje dela...?
 - Katere so veščine, ki jih zahtevajo najbolje plačana dela?
