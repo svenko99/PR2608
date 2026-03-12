@@ -1,26 +1,27 @@
 # TODO <!--Identifikacija vzorcev uspešnosti in tveganja stečaja pri slovenskih podjetjih -->
 
 ## Opis problema
-e-Študentski servis je platforma katero uporabljajo dijaki in študenti iz cele Slovenije za iskanje študentskih del. Naš cilj je analizirati ponudbe del na e-Študentskem servisu in iz njih pridobiti nekaj uporabne statistike - v kateri regiji je največja ponudba dela, katera dela so najbolje plačana ipd.
+e-Študentski servis je priljubljena platforma, katero uporabljajo dijaki in študenti na območju celotne Slovenije za iskanje raznovrstnih študentskih del, delodajalci pa za objavo le teh. 
+Problem, ki ga obravnavamo, je pomanjkanje celovitejšega vpogleda v vzorce in trende teh podatkov. To otežuje učinkovito povezovanje študentov z delodajalci, vodi do neučinkovitega zaposlovanja in neizkoriščenih priložnosti na obeh straneh. 
 
 ...
 
 ---
-
 
 Študentski servis v Sloveniji zbira zelo obsežne podatke o ponujenih začasnih delih za študente, profilu študentov (npr. ime, starost spol, podatki o študiju ipd.), vrstah del (npr fizična, IT, dela s strankami itd.), urni postavki in trajanju zaposlitve(kratkotrjano/dolgotranjo delo, datum začetka).
 Problem, ki ga obravnavamo, je pomanjkanje celovitejšega vpogleda v trende in vzorce v teh podatkih, kar otežuje učinkovitejše povezovanje študentov z delodajalci. To lahko vodi do neučinkovitega zaposlovanja in neizkoriščenih priložnosti za študente ali pa pomanjkanje delovne sile za delodajalce.
 Problem je precej kompleksen, saj vključuje sezonske vplive, demografske faktorje, ekonomske kazalnike (npr. inflacija, gospodarska rast) in morebitne nepredvidljive zunanje dejavnike (npr. vojne in epidemije).
 
 ## Cilj projekta
-Pri projektu želimo odgovoriti na:
+Naš cilj je analizirati ponudbe del na e-Študentskem servisu in iz njih pridobiti nekaj uporabne statistike - v kateri regiji je največja ponudba dela, katera dela so najbolje plačana ipd. S tem želimo pridobiti koristne informacije tako za študente, kot tudi za delodajalce.
+Pri projektu želimo odgovoriti na vprašanja:
 - V katerih regijah je največja in najbolj plačana ponudba študentkih del?
 - Kakšne lastnosti imajo oglasi za delo, ki plačajo najbolje - tip dela, delovnik (dopoldan/popoldan), trajanje dela...?
 - Katere so veščine, ki jih zahtevajo najbolje plačana dela?
 
 ## Vir in oblika podatkov
 
-Podatke za projekt bomo črpali iz [e-Študntskega servisa](https://studentski-servis.com/studenti). Ker ne ponujajo brezplačnega javno dostopnega API-ja bomo podatke scrapali iz njihove spletne aplikacije. Iz datotetke [`robots.txt`](https://studentski-servis.com/robots.txt) ugotovimo, da je scrapanje podatkov dovoljeno, saj vsebuje `User-agent: *` in `Allow: /`.
+Podatke za projekt bomo črpali iz [e-Študentskega servisa](https://studentski-servis.com/studenti). Ker ne ponujajo brezplačnega javno dostopnega API-ja bomo podatke scrapali iz njihove spletne aplikacije. Iz datotetke [`robots.txt`](https://studentski-servis.com/robots.txt) ugotovimo, da je scrapanje podatkov dovoljeno, saj vsebuje `User-agent: *` in `Allow: /`.
 
 ### Pridobivanje podatkov
 Za pridobivanje podatkov iz spletne aplikacije e-Študentski servis bomo uporabili Pythonovo knjižnico [BeautifulSoup](https://pypi.org/project/beautifulsoup4/).
