@@ -10,8 +10,6 @@ Poleg tega trenutno nimamo enotnega pregleda podatkov, ki bi študentom omogoča
 
 Podjetjem, ki ponujajo študentsko delo ali prakso, bi prav tako koristilo, če bi imela vpogled v to, katere dejavnike študenti najpogosteje upoštevajo pri izbiri dela, še posebej v posameznih regijah. Na podlagi takšnih podatkov bi lahko podjetja svoje ponudbe oziroma oglase prilagodila interesom in pričakovanjem študentov ter tako povečala zanimanje za ponujena delovna mesta.
 
-...
-
 ---
 
 Študentski servis v Sloveniji zbira zelo obsežne podatke o ponujenih začasnih delih za študente, profilu študentov (npr. ime, starost spol, podatki o študiju ipd.), vrstah del (npr fizična, IT, dela s strankami itd.), urni postavki in trajanju zaposlitve(kratkotrjano/dolgotranjo delo, datum začetka).
