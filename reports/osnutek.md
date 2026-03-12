@@ -2,11 +2,8 @@
 
 ## Opis problema
 e-Študentski servis je priljubljena platforma, katero uporabljajo dijaki in študenti na območju celotne Slovenije za iskanje raznovrstnih študentskih del, delodajalci pa za objavo le teh. 
-Problem, ki ga obravnavamo, je pomanjkanje celovitejšega vpogleda v vzorce in trende teh podatkov. To otežuje učinkovito povezovanje študentov z delodajalci, vodi do neučinkovitega zaposlovanja in neizkoriščenih priložnosti na obeh straneh. 
 
 Študenti pri iskanju dela pogosto upoštevajo številne dejavnike, ki vplivajo na njihovo odločitev. Med najpogostejše sodijo višina plače, delovni čas, vrsta dela, zahtevane veščine ter tudi lokacija delovnega mesta. Vendar pa se pogosto zgodi, da se medtem, ko študent razmišlja o določeni priložnosti ali išče druge možnosti, delovno mesto že zapolni in ni več na voljo.
-
-Poleg tega trenutno nimamo enotnega pregleda podatkov, ki bi študentom omogočal hitrejšo in bolj učinkovito odločitev pri izbiri dela. Takšne informacije bi lahko pomembno pripomogle k boljšemu razumevanju trga študentskega dela.
 
 Podjetjem, ki ponujajo študentsko delo ali prakso, bi prav tako koristilo, če bi imela vpogled v to, katere dejavnike študenti najpogosteje upoštevajo pri izbiri dela, še posebej v posameznih regijah. Na podlagi takšnih podatkov bi lahko podjetja svoje ponudbe oziroma oglase prilagodila interesom in pričakovanjem študentov ter tako povečala zanimanje za ponujena delovna mesta.
 
