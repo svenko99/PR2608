@@ -1,4 +1,4 @@
-# TODO <!--Identifikacija vzorcev uspešnosti in tveganja stečaja pri slovenskih podjetjih -->
+# Analiza ponudbe študenskega dela v Sloeniji - veščine najbolj plačanih študentov
 
 ## Opis problema
 e-Študentski servis je priljubljena platforma, katero uporabljajo dijaki in študenti na območju celotne Slovenije za iskanje raznovrstnih študentskih del, delodajalci pa za objavo le teh.<br>
