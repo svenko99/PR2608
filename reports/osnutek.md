@@ -1,7 +1,7 @@
-# Analiza ponudbe študenskega dela v Sloeniji - veščine najbolj plačanih študentov
+# Analiza ponudbe študenskega dela v Sloveniji - veščine najbolj plačanih študentov
 
 ## Opis problema
-e-Študentski servis je priljubljena platforma, katero uporabljajo dijaki in študenti na območju celotne Slovenije za iskanje raznovrstnih študentskih del, delodajalci pa za objavo le teh.<br>
+e-Študentski servis je priljubljena platforma, katero uporabljajo dijaki in študenti na območju celotne Slovenije za iskanje študentskih del, delodajalci pa za objavo le teh.<br>
 V sklopu našega projekta bomo analizirali podatke iz servisa, in iz njih izračunali uporabno statistiko ter našli trenutne trende študentskega dela. Naš cilj je študentom olajšati iskanje dela tako, da jih informiramo o tem v katerih regijah ponujajo določena dela in katera dela so najbolje plačana glede na njihove preference in veščine.
 
 Študenti pri iskanju dela pogosto upoštevajo vrsto dejavnikov, ki vplivajo na njihovo odločitev. Med najpogostejše sodijo višina plače, delovni čas, vrsta dela, zahtevane veščine in lokacija. Pogosto se zgodi, da se medtem, ko študent razmišlja o določeni priložnosti ali išče druge možnosti, delovno mesto že zapolni. Zanima nas, kakšne so lastnosti del, ki se hitro zapolnijo, in tistih ki se ne.
@@ -17,7 +17,6 @@ Pri projektu želimo odgovoriti na maslednja vprašanja:
 - Kakšna dela so najpopularnejša med študenti - so najhitreje odstranjena iz oglasov?
 
 ## Vir in oblika podatkov
-
 Podatke za projekt bomo črpali iz [e-Študentskega servisa](https://studentski-servis.com/studenti). Ker ne ponujajo brezplačnega javno dostopnega API-ja bomo podatke scrapali iz njihove spletne aplikacije. Iz datotetke [`robots.txt`](https://studentski-servis.com/robots.txt) ugotovimo, da je scrapanje podatkov dovoljeno, saj vsebuje `User-agent: *` in `Allow: /`.
 
 ### Pridobivanje podatkov
@@ -28,8 +27,6 @@ Pričakujemo največ 5000 unikatnih oglasov. V času pisanja tega dokumenta (11.
 
 Ker je v aplikaciji v danem času mogoče videti le trenutno objavljene oglase, želimo pa spremljati tudi njihovo dodajanje in odstranjevanje, bomo podatke zajemali vsak dan ob isti uri. Tako bomo v nekaj mesecih zgradili časovno zbirko oglasov s študentskega servisa.<br>
 Vsak dan bomo zajeli celoten e-Študentski servis. Pri oglasih, ki smo jih že videli, bomo posodobili atribut `last_seen`, nove oglase pa bomo dodali v zbirko.
-
-
 
 Podatke bomo pridobili iz preko URL-ja, ki je sestavlejn iz večih query parametrov, ki predstavljajo filtre. Primer:
 ```
