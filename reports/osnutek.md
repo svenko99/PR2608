@@ -1,351 +1,114 @@
-# Analiza ponudbe študenskega dela v Sloveniji - veščine najbolj plačanih študentov
+# Analiza ponudbe študentskega dela v Sloveniji na podlagi oglasov e-Študentskega servisa
 
 ## Opis problema
-e-Študentski servis je priljubljena platforma, katero uporabljajo dijaki in študenti na območju celotne Slovenije za iskanje študentskih del, delodajalci pa za objavo le teh.<br>
-V sklopu našega projekta bomo analizirali podatke iz servisa, in iz njih izračunali uporabno statistiko ter našli trenutne trende študentskega dela. Naš cilj je študentom olajšati iskanje dela tako, da jih informiramo o tem v katerih regijah ponujajo določena dela in katera dela so najbolje plačana glede na njihove preference in veščine.
 
-Študenti pri iskanju dela pogosto upoštevajo vrsto dejavnikov, ki vplivajo na njihovo odločitev. Med najpogostejše sodijo višina plače, delovni čas, vrsta dela, zahtevane veščine in lokacija. Pogosto se zgodi, da se medtem, ko študent razmišlja o določeni priložnosti ali išče druge možnosti, delovno mesto že zapolni. Zanima nas, kakšne so lastnosti del, ki se hitro zapolnijo, in tistih ki se ne.
+e-Študentski servis predstavlja velik in ažuren vir podatkov o ponudbi študentskega dela v Sloveniji. Na portalu so javno objavljeni oglasi, ki vsebujejo informacije o delodajalcu, lokaciji, plačilu, delovniku, trajanju dela, začetku dela in besedilnem opisu nalog. Ti podatki so pri posameznem oglasu dostopni, niso pa pripravljeni v obliki, ki bi omogočala sistematično analizo celotne ponudbe.
+
+Problem našega projekta je pomanjkanje strukturiranega vpogleda v trg študentskega dela, kot se kaže skozi javno objavljene oglase. Iz same spletne aplikacije je težko odgovoriti na vprašanja, kot so: kje je ponudbe največ, katera dela so bolje plačana, katere lastnosti se pojavljajo pri bolje plačanih oglasih in kako dolgo oglasi ostanejo aktivni. Uporabnik lahko pregleduje posamezne oglase in filtrira rezultate, ne more pa enostavno opazovati splošnih vzorcev v večji množici podatkov.
+
+Z vidika podatkovnega rudarjenja je problem zanimiv zato, ker vsebuje kombinacijo strukturiranih in nestrukturiranih podatkov. Del atributov je že neposredno zapisan v strukturirani obliki, na primer urna postavka, lokacija ali delovnik, del informacij pa je skrit v prostem besedilu opisa oglasa. To omogoča povezovanje klasične analize atributov z analizo besedila.
+
+Pomembna lastnost teh podatkov je tudi njihova časovna omejenost. Portal prikazuje le trenutno aktivne oglase, zato brez sprotnega zajema ni mogoče ugotoviti, kako dolgo je bil posamezen oglas prisoten. Če oglase zbiramo več tednov, dobimo dodatno informacijo o dinamiki ponudbe: kateri tipi oglasov se pojavljajo pogosto, kateri izginejo hitro in kateri ostanejo prisotni dlje časa.
+
+Projekt bo zato obravnaval javno objavljene oglase za študentsko delo kot vir podatkov za analizo značilnosti ponudbe. Osredotočili se bomo na opis vzorcev v podatkih, primerjavo med oglasi in iskanje povezav med lastnostmi oglasa ter višino plačila.
+
+## Kaj bomo raziskovali
+
+Našo raziskavo bomo usmerili v tri sklope.
+
+Prvi sklop bo opisna analiza ponudbe. Zanimalo nas bo, kako je ponudba porazdeljena po lokacijah, kako pogosto se pojavljajo posamezni delovniki, kakšne so razlike med kratkotrajnimi in dolgoročnejšimi deli ter kako se porazdeljuje plačilo med oglasi.
+
+Drugi sklop bo analiza povezanosti med atributi oglasa in višino plačila. Raziskovali bomo, ali so bolje plačani oglasi povezani z določenimi lokacijami, določenimi tipi delovnika, določenimi opisi dela ali določenimi vsebinskimi značilnostmi oglasa.
+
+Tretji sklop bo osnovna časovna analiza. Ker bodo podatki zbrani v omejenem obdobju, raziskava ne bo usmerjena v dolgoročne trende, ampak v kratkoročno dinamiko. Zanimalo nas bo, koliko časa oglasi praviloma ostanejo vidni, ali so bolje plačani oglasi prisotni krajši ali daljši čas in ali se v obdobju opazovanja spreminja skupna količina ponudbe.
 
 ## Cilj projekta
-Naš cilj je analizirati ponudbe del na e-Študentskem servisu in iz njih pridobiti nekaj uporabne statistike. S tem želimo pridobiti koristne informacije tako za študente, kot tudi za delodajalce.<br>
-Pri projektu želimo odgovoriti na maslednja vprašanja:
-- V katerih regijah je največja in najbolj plačana ponudba študentkih del?
-- Katera so najbolj iskana dela se v posameznih regijah?
-- Kakšne lastnosti imajo oglasi za delo, ki plačajo najbolje - tip dela, delovnik (dopoldan/popoldan/med vikendi), trajanje dela...?
-- Katere veščine zahtevajo najbolje plačana dela?
-- Koliko dolgo so oglasi objavljeni, gledena vrsto dela (ali obstaja povezava z vrsto, urno postavko, delovnikom...)?
-- Kakšna dela so najpopularnejša med študenti - so najhitreje odstranjena iz oglasov?
+
+Cilj projekta je zgraditi podatkovno zbirko javno objavljenih oglasov z e-Študentskega servisa in na njej izvesti analizo ponudbe študentskega dela v Sloveniji.
+
+Praktični cilj je pretvoriti razpršene spletne podatke v obliko, ki omogoča nadaljnjo obdelavo, čiščenje, agregiranje in analizo. Raziskovalni cilj pa je iz teh podatkov izluščiti uporabne in preverljive ugotovitve o lastnostih oglasov, razporeditvi ponudbe in dejavnikih, ki so povezani z višino plačila.
+
+V projektu želimo odgovoriti predvsem na naslednja vprašanja:
+
+- Kje se pojavlja največ ponudbe študentskega dela?
+- Kje so oglasi za študentsko delo v povprečju najbolje plačani?
+- Katere lastnosti imajo bolje plačani oglasi?
+- Katere besede, izrazi ali veščine se najpogosteje pojavljajo v bolje plačanih oglasih?
+- Kako dolgo oglasi praviloma ostanejo prisotni na portalu?
+- Ali je trajanje prisotnosti oglasa povezano z njegovo vrsto, plačilom ali delovnikom?
+
+Končni rezultat projekta bo urejen podatkovni nabor ter analiza, ki bo pokazala, da je mogoče tudi iz javno dostopnih spletnih oglasov s pomočjo podatkovnega rudarjenja pridobiti smiselne informacije o strukturi in kratkoročni dinamiki ponudbe študentskega dela.
 
 ## Vir in oblika podatkov
-Podatke za projekt bomo črpali iz [e-Študentskega servisa](https://studentski-servis.com/studenti). Ker ne ponujajo brezplačnega javno dostopnega API-ja bomo podatke scrapali iz njihove spletne aplikacije. Iz datotetke [`robots.txt`](https://studentski-servis.com/robots.txt) ugotovimo, da je scrapanje podatkov dovoljeno, saj vsebuje `User-agent: *` in `Allow: /`.
 
-### Pridobivanje podatkov
-Za pridobivanje podatkov iz spletne aplikacije e-Študentski servis bomo uporabili Pythonovo knjižnico [BeautifulSoup](https://pypi.org/project/beautifulsoup4/).
+Podatke za projekt bomo pridobili s portala [e-Študentski servis](https://studentski-servis.com/studenti). Portal ne ponuja brezplačnega javnega API-ja za sistematičen dostop do oglasov, zato bomo podatke pridobivali iz HTML vsebine spletne aplikacije.
 
-Pridobljene podatke bomo shranjevali v [data.csv](/data/data.csv). Če bo podatkov preveč, jih bomo shranjevali v relacijsko podatkovno bazo v oblaku (npr. [PostgreSQL na Azure](https://azure.microsoft.com/en-us/products/postgresql/)).<br>
-Pričakujemo največ 5000 unikatnih oglasov. V času pisanja tega dokumenta (11.3.2026) je na študentskem servisu 2457 aktivnih oglasov.
+Pri tem je pomembno, da datoteka [`robots.txt`](https://studentski-servis.com/robots.txt) za domeno `studentski-servis.com` vsebuje `User-agent: *` in `Allow: /`, kar pomeni, da je dostop do poti na strani splošno dovoljen.
 
-Ker je v aplikaciji v danem času mogoče videti le trenutno objavljene oglase, želimo pa spremljati tudi njihovo dodajanje in odstranjevanje, bomo podatke zajemali vsak dan ob isti uri. Tako bomo v nekaj mesecih zgradili časovno zbirko oglasov s študentskega servisa.<br>
-Vsak dan bomo zajeli celoten e-Študentski servis. Pri oglasih, ki smo jih že videli, bomo posodobili atribut `last_seen`, nove oglase pa bomo dodali v zbirko.
+Za zajem podatkov bomo uporabili Python in knjižnico BeautifulSoup, s katero bomo iz HTML dokumentov izluščili podatke o posameznih oglasih. Rezultati iskanja na portalu so razdeljeni na več strani, pri čemer posamezno stran določa URL parameter `page`. Ob vsakem zagonu bomo zato prebrali vse strani rezultatov.
 
-Podatke bomo pridobili iz preko URL-ja, ki je sestavlejn iz večih query parametrov, ki predstavljajo filtre. Primer:
-```
-https://studentski-servis.com/studenti/prosta-dela?
-page=1&
-isci=1&
-sort=&
-dd1=1&
-do1=1&
-dm1s=1&
-regija%5B%5D=ljubljana-z-okolico&
-regija%5B%5D=kranj-z-okolico&
-skD%5B%5D=A104&
-skD%5B%5D=A078&
-skD%5B%5D=A047&
-tdd1=1&
-tdv1=1&
-hourlyratefrom=7.77&
-hourlyrateto=8.88&
-hourly_rate=7.8%3B8.9
-```
-Obisk/HTTP klic zgornjega URL-ja nam vrne HTML stran, kateri je generiran na strežniku. To je HTML, ki vsebuje podatke, ki nas zanimajo.<br>
-Da smo dobili zgornji URL, smo preko uporabniškega vmesnika izbrali filtre:
-- *Danes objavlejna* in *Daljša od 10 dni*
-- Znotraj regije *Ljubljana z okolico* in *Kranj z okolico*
-- Vrsta dela *Programiranje*, *Marketing*  ali *Strežba*
-- Delovni čas *Dopoldan* ali *Med vikendi*
-- Neto urna postavka med *7.77* in *8.88* €/h
+Podatke bomo shranjevali v dve CSV datoteki. Datoteka `data/data.csv` bo vsebovala zadnje znano stanje vsakega unikatnega oglasa. Datoteka `data/history.csv` bo vsebovala zgodovino opažanj, torej eno vrstico za vsak oglas ob vsakem zajemu. Takšna zasnova omogoča analizo trenutnega stanja in osnovno časovno analizo v omejenem obdobju zbiranja.
 
-Ker bomo scrapali, bi radi dobili vse možne ključe in njihove vrednosti, ki jih lahko pošljemo v HTTP zahtevi. Te podatke dobimo tako, da analiziramo HTML formo:
+## Podroben opis podatkov
 
-<details>
-<summary><b>Filttiranje podatkov</b></summary>
+Osnovna enota opazovanja je en oglas za študentsko delo. Iz vsakega oglasa bomo izluščili strukturirane podatke, ki jih bomo nato shranili v dve ločeni datoteki.
 
-| Query parameter | Vrednost oz. tip | Primer | Opis |
-|----------------|---------------|--------|------|
-| `page` | `INTEGER` | `1` | Številka strani |
-| `isci` | `1` | `1` | Podatek mora biti obvezno prisoten za iskanje |
-| `sort` | `""` \| `urna-postavka` \| `vrsta-dela` \| `prosta-mesta` | `urna-postavka` | Razvrščanje rezultatov |
-| `dd1` | `1` | `1` | Filter: danes objavljena |
-| `dk1` | `1` | `1` | Filter: kratkotrajna dela |
-| `do1` | `1` | `1` | Filter: daljša od 10 dni |
-| `dm1` | `1` | `1` | Filter: za mlajše od 18 let |
-| `dm1s` | `1` | `1` | Skrito polje, vedno `1` ob izbiri `dm1` |
-| `notifications` | `1` | `1` | Filter: dela za katera si obveščen |
-| `regija[]` | `TEXT` | `ljubljana-z-okolico` | Regija (možnih več vrednosti, glej spodaj) |
-| `skD[]` | `TEXT` | `A078` | Vrsta dela (možnih več vrednosti, glej spodaj) |
-| `tdd1` | `1` | `1` | Delovnik: dopoldan |
-| `tdp1` | `1` | `1` | Delovnik: popoldan |
-| `tdv1` | `1` | `1` | Delovnik: med vikendi |
-| `tdi1` | `1` | `1` | Delovnik: izmensko |
-| `hourlyratefrom` | `REAL` | `7.77` | Minimalna neto urna postavka (€/h) |
-| `hourlyrateto` | `REAL` | `8.88` | Maksimalna neto urna postavka (€/h) |
-| `hourly_rate` | `REAL;REAL` | `7.8;8.9` | Razpon urne postavke (redundantno z zgornjima dvema vhodoma) |
+### Datoteka `data/data.csv`
 
-#### Filtriranje po regiji `regija[]`
+Datoteka `data.csv` vsebuje eno vrstico na unikatni oglas. Namenjena je shranjevanju zadnjega znanega stanja posameznega oglasa. Če isti oglas opazimo večkrat, v tej datoteki posodobimo njegove podatke, ne pa dodamo nove vrstice.
 
-| Vrednost | Opis |
-|----------|------|
-| `osrednjeslovenska` | Osrednjeslovenska (nadskupina) |
-| `ljubljana-z-okolico` | Ljubljana z okolico |
-| `domzale-kamnik` | Domžale–Kamnik |
-| `grosuplje-z-okolico` | Grosuplje z okolico |
-| `vrhnika-z-okolico` | Vrhnika z okolico |
-| `podravska` | Podravska (nadskupina) |
-| `maribor-z-okolico` | Maribor z okolico |
-| `ptuj-z-okolico` | Ptuj z okolico |
-| `koroska` | Koroška |
-| `pomurska` | Pomurska |
-| `savinjska` | Savinjska |
-| `zasavska` | Zasavska |
-| `gorenjska` | Gorenjska (nadskupina) |
-| `kranj-z-okolico` | Kranj z okolico |
-| `skofja-loka-z-okolico` | Škofja Loka z okolico |
-| `radovljica-z-okolico` | Radovljica z okolico |
-| `jesenice-z-okolico` | Jesenice z okolico |
-| `goriska` | Goriška |
-| `primorsko-notranjska` | Primorsko-notranjska |
-| `obalno-kraska` | Obalno-kraška (nadskupina) |
-| `koper-z-okolico` | Koper z okolico |
-| `izola-z-okolico` | Izola z okolico |
-| `piran-z-okolico` | Piran z okolico |
-| `kras` | Kras |
-| `posavska` | Posavska |
-| `dolenjska` | Dolenjska |
+| Atribut             | Tip podatka | Obvezno | Primer vrednosti                 | Opis                                                 |
+|---------------------|-------------|---------|----------------------------------|------------------------------------------------------|
+| `id`                | `TEXT`      | da      | `475748`                         | Enolični identifikator oglasa na portalu             |
+| `title`             | `TEXT`      | da      | `POMOČ V TRGOVINI`               | Glavni naslov oglasa                                 |
+| `subtitle`          | `TEXT`      | ne      | `POLNJENJE POLIC`                | Dodatni naslov oglasa                                |
+| `company`           | `TEXT`      | da      | `MERCATOR D.O.O.`                | Naziv delodajalca                                    |
+| `location`          | `TEXT`      | da      | `LJUBLJANA, NOVE FUŽINE 33`      | Lokacija oglasa v obliki, kot je zapisana na portalu |
+| `sublocation`       | `TEXT`      | ne      | `HIPERMARKET KRANJ PRIMSKOVO`    | Dodatna lokacija ali ime objekta                     |
+| `hourly_rate_neto`  | `REAL`      | ne      | `7.73`                           | Neto urna postavka, če je navedena                   |
+| `hourly_rate_bruto` | `REAL`      | ne      | `8.98`                           | Bruto urna postavka, če je navedena                  |
+| `hourly_rate_from`  | `TEXT`      | da      | `7.73 €/h neto (8.98 €/h bruto)` | Surov zapis plačila iz oglasa                        |
+| `payment_type`      | `TEXT`      | da      | `HOURLY`                         | Normaliziran tip plačila                             |
+| `description`       | `TEXT`      | da      | `Iščejo študenta/ko za delo ...` | Besedilni opis dela                                  |
+| `open_positions`    | `INTEGER`   | ne      | `2`                              | Število prostih mest, če je navedeno                 |
+| `duration`          | `TEXT`      | da      | `DLJE ČASA (ZAČ. IN OBČ. DELO)`  | Trajanje dela v obliki, kot je zapisano v oglasu     |
+| `work_schedule`     | `TEXT`      | da      | `IZMENSKO`                       | Delovnik oglasa                                      |
+| `start_date`        | `TEXT`      | ne      | `2026-03-25`                     | Datum začetka dela, če je naveden                    |
+| `contact_name`      | `TEXT`      | da      | `Janez Primer`                   | Ime kontaktne osebe                                  |
+| `contact_phone`     | `TEXT`      | ne      | `031123456`                      | Telefonska številka                                  |
+| `contact_email`     | `TEXT`      | ne      | `email@domain.com`               | Elektronski naslov                                   |
+| `contact_webpage`   | `TEXT`      | ne      | `https://podjetje.si`            | Spletna povezava, če obstaja                         |
+| `first_seen`        | `TEXT`      | da      | `2026-03-11T08:00:00+00:00`      | Čas prvega opažanja oglasa                           |
+| `last_seen`         | `TEXT`      | da      | `2026-03-20T08:00:00+00:00`      | Čas zadnjega opažanja oglasa                         |
+| `currently_visible` | `BOOLEAN`   | da      | `1`                              | Ali je bil oglas prisoten pri zadnjem zajemu         |
 
-#### Filtriranje po vrsti dela: `skD[]`
+Datoteka `data.csv` nam omogoča odgovor na vprašanja, kateri oglasi so trenutno aktivni, kakšne lastnosti imajo aktivni oglasi in koliko časa je bil določen oglas prisoten v obdobju opazovanja.
 
-| Vrednost | Opis | Nadskupina |
-|----------|------|------------|
-| `014` | strežba | — |
-| `A821` | pomoč v strežbi | strežba |
-| `A104` | strežba | strežba |
-| `A164` | strežba hrane in pijače | strežba |
-| `010` | prodaja | — |
-| `A022` | blagajnik | prodaja |
-| `A014` | delo na bencinskem servisu | prodaja |
-| `A841` | delo na stojnici | prodaja |
-| `A064` | pobiranje cestnine | prodaja |
-| `A065` | pobiranje vstopnine | prodaja |
-| `A083` | pomoč pri prodaji | prodaja |
-| `A116` | pomoč v trgovini | prodaja |
-| `A076` | prodaja | prodaja |
-| `002` | fizična dela | — |
-| `A006` | arheološka izkopavanja | fizična dela |
-| `A010` | čiščenje | fizična dela |
-| `A009` | delo v delavnici | fizična dela |
-| `A023` | delo v proizvodnji | fizična dela |
-| `A024` | delo v skladišču | fizična dela |
-| `A036` | delo v tiskarni | fizična dela |
-| `A028` | fizična dela | fizična dela |
-| `A033` | gradbena dela | fizična dela |
-| `A158` | kidanje snega | fizična dela |
-| `A142` | mizarska dela | fizična dela |
-| `A051` | montaža | fizična dela |
-| `A067` | nakladanje / razkladanje | fizična dela |
-| `A842` | pastir/-ica | fizična dela |
-| `A094` | selitve | fizična dela |
-| `A098` | slikopleskarska dela | fizična dela |
-| `A110` | težja fizična dela | fizična dela |
-| `A126` | vrtnarska dela | fizična dela |
-| `A836` | vulkanizerska dela | fizična dela |
-| `006` | delo na terenu | — |
-| `A018` | delo na terenu | delo na terenu |
-| `A043` | kurir/ka | delo na terenu |
-| `A062` | pismonoša | delo na terenu |
-| `A063` | plakatiranje | delo na terenu |
-| `A084` | raznašanje | delo na terenu |
-| `A085` | raznašanje časopisov | delo na terenu |
-| `A086` | raznašanje reklamnih letakov | delo na terenu |
-| `A159` | razvoz | delo na terenu |
-| `004` | računalništvo in programiranje | — |
-| `A832` | informatika | računalništvo in programiranje |
-| `A210` | izdelava in urejanje spletne strani | računalništvo in programiranje |
-| `A055` | obdelava podatkov | računalništvo in programiranje |
-| `A078` | programiranje | računalništvo in programiranje |
-| `A090` | računalniške storitve | računalništvo in programiranje |
-| `A095` | servisiranje računalniške opreme | računalništvo in programiranje |
-| `013` | gostinstvo in turizem | — |
-| `A822` | delo v igralnici | gostinstvo in turizem |
-| `A032` | delo v kuhinji | gostinstvo in turizem |
-| `A130` | delo v turizmu | gostinstvo in turizem |
-| `A075` | krupje/krupjejka | gostinstvo in turizem |
-| `A118` | pomoč v kuhinji | gostinstvo in turizem |
-| `A161` | portir/ka | gostinstvo in turizem |
-| `A160` | sobar/ica | gostinstvo in turizem |
-| `A070` | valej/valejka | gostinstvo in turizem |
-| `005` | strokovna dela | — |
-| `A826` | arheološka dela | strokovna dela |
-| `A008` | asistent/ka | strokovna dela |
-| `A019` | delo v knjižnici | strokovna dela |
-| `A835` | delo v logistiki | strokovna dela |
-| `A852` | delo z umetno inteligenco | strokovna dela |
-| `A834` | digitalni marketing | strokovna dela |
-| `A133` | elektrotehnična dela | strokovna dela |
-| `A027` | figurant | strokovna dela |
-| `A833` | informacijsko komunikacijska dela | strokovna dela |
-| `A824` | inštalacije | strokovna dela |
-| `A837` | kontrola kakovosti | strokovna dela |
-| `A045` | lektoriranje | strokovna dela |
-| `A047` | marketing | strokovna dela |
-| `A139` | meritve | strokovna dela |
-| `A052` | nastop | strokovna dela |
-| `A054` | novinarska dela | strokovna dela |
-| `A143` | pomoč na področju marketinga | strokovna dela |
-| `A136` | pravne storitve | strokovna dela |
-| `A073` | prevajanje | strokovna dela |
-| `A079` | projektiranje | strokovna dela |
-| `A152` | projektno delo | strokovna dela |
-| `A082` | raziskovalno delo | strokovna dela |
-| `A088` | restavriranje | strokovna dela |
-| `A074` | reševalec/ka iz vode | strokovna dela |
-| `A099` | snemanje | strokovna dela |
-| `A851` | snemanje in urejanje kratkih videov | strokovna dela |
-| `A831` | sojenje tekme | strokovna dela |
-| `A103` | stevard/esa | strokovna dela |
-| `A844` | strojna dela | strokovna dela |
-| `A846` | strojniška dela | strokovna dela |
-| `A105` | strokovno delo | strokovna dela |
-| `A106` | svetovalec/ka | strokovna dela |
-| `A114` | urednik | strokovna dela |
-| `A156` | urednik spletnih vsebin | strokovna dela |
-| `A155` | urejanje druž. omrežij (fb, in, x, tik tok) | strokovna dela |
-| `A124` | vodenje | strokovna dela |
-| `008` | promocija | — |
-| `A011` | degustacije | promocija |
-| `A013` | deljenje letakov | promocija |
-| `A017` | delo na sejmu | promocija |
-| `A829` | hostes/a | promocija |
-| `A080` | promocija | promocija |
-| `016` | delo s strankami | — |
-| `A003` | animator/ka | delo s strankami |
-| `A096` | delo na recepciji | delo s strankami |
-| `A150` | delo s strankami | delo s strankami |
-| `A839` | delo v loteriji | delo s strankami |
-| `A838` | delo v rent a car agenciji | delo s strankami |
-| `A015` | helpdesk | delo s strankami |
-| `A037` | informator/ka | delo s strankami |
-| `A163` | maskota | delo s strankami |
-| `A119` | pomoč uporabnikom | delo s strankami |
-| `A092` | tehnična pomoč | delo s strankami |
-| `A108` | telefonist/ka | delo s strankami |
-| `007` | trženje in anketiranje | — |
-| `A002` | akviziterska dela | trženje in anketiranje |
-| `A004` | anketiranje | trženje in anketiranje |
-| `A005` | anketiranje po telefonu | trženje in anketiranje |
-| `A042` | klicni center | trženje in anketiranje |
-| `A041` | komercialna dela | trženje in anketiranje |
-| `A071` | pospeševanje prodaje | trženje in anketiranje |
-| `A109` | telefonski marketing | trženje in anketiranje |
-| `A113` | trženje | trženje in anketiranje |
-| `009` | poučevanje | — |
-| `A115` | delo v fitnesu | poučevanje |
-| `A825` | delo z otroki | poučevanje |
-| `A025` | demonstrator/ka | poučevanje |
-| `A038` | inštrukcije | poučevanje |
-| `A049` | mentor/ica | poučevanje |
-| `A068` | pomočnik vzgojitelja/vzgojiteljice | poučevanje |
-| `A072` | poučevanje | poučevanje |
-| `A125` | predavanje | poučevanje |
-| `A112` | trener/ka | poučevanje |
-| `A121` | učitelj/ica plavanja | poučevanje |
-| `A077` | učitelj/ica smučanja | poučevanje |
-| `A120` | vaditelj/ica | poučevanje |
-| `A122` | varstvo | poučevanje |
-| `001` | lažja dela | — |
-| `A061` | aranžiranje | lažja dela |
-| `A012` | deklariranje | lažja dela |
-| `A149` | delo v avtopralnici | lažja dela |
-| `A840` | delo v pekarni | lažja dela |
-| `A029` | dežurstvo | lažja dela |
-| `A026` | etiketiranje | lažja dela |
-| `A650` | inventura | lažja dela |
-| `A100` | kuvertiranje | lažja dela |
-| `A044` | lažja fizična dela | lažja dela |
-| `A046` | lepljenje | lažja dela |
-| `A060` | maska | lažja dela |
-| `A050` | model | lažja dela |
-| `A059` | pakiranje | lažja dela |
-| `A827` | parkiranje vozil | lažja dela |
-| `A066` | polnjenje polic | lažja dela |
-| `A144` | pomoč v skladišču in prod. centrih | lažja dela |
-| `A678` | reditelj | lažja dela |
-| `A093` | ročna dela | lažja dela |
-| `A097` | sestavljanje | lažja dela |
-| `A101` | sortiranje | lažja dela |
-| `A141` | statist | lažja dela |
-| `A107` | štetje prometa | lažja dela |
-| `A151` | urejanje okolice | lažja dela |
-| `A134` | vlaganje | lažja dela |
-| `A127` | vzdrževanje | lažja dela |
-| `A132` | zlaganje | lažja dela |
-| `003` | administrativna dela | — |
-| `A001` | administrativna dela | administrativna dela |
-| `A007` | arhivsko delo | administrativna dela |
-| `A853` | asistent/ka v kadrovski službi | administrativna dela |
-| `A016` | delo na računalniku | administrativna dela |
-| `A031` | fotokopiranje | administrativna dela |
-| `A830` | klasifikacija ključnih besed | administrativna dela |
-| `A040` | knjigovodska dela | administrativna dela |
-| `A849` | obdelava in odprema spletnih naročil | administrativna dela |
-| `A058` | organizacijska dela | administrativna dela |
-| `A135` | popis podatkov | administrativna dela |
-| `A081` | računovodska dela | administrativna dela |
-| `A154` | špedicijska dela | administrativna dela |
-| `A138` | tajniška dela | administrativna dela |
-| `A117` | urejanje besedil | administrativna dela |
-| `A123` | vnos podatkov v računalnik | administrativna dela |
-| `A140` | zahtevna administrativna dela | administrativna dela |
-| `015` | oblikovanje | — |
-| `A030` | fotografiranje | oblikovanje |
-| `A034` | grafična dela | oblikovanje |
-| `A153` | grafična priprava za tisk | oblikovanje |
-| `A069` | grafično oblikovanje | oblikovanje |
-| `A056` | oblikovanje | oblikovanje |
-| `A091` | risanje | oblikovanje |
-| `012` | zdravstvo in farmacija | — |
-| `A147` | delo v farmaciji | zdravstvo in farmacija |
-| `A020` | delo v laboratoriju | zdravstvo in farmacija |
-| `A021` | delo v lekarni | zdravstvo in farmacija |
-| `A148` | delo v ordinaciji | zdravstvo in farmacija |
-| `A157` | delo v velnesu | zdravstvo in farmacija |
-| `A146` | delo v zdravstvu | zdravstvo in farmacija |
-| `A039` | fizioterapija | zdravstvo in farmacija |
-| `A848` | jemanje brisov | zdravstvo in farmacija |
-| `A850` | kineziolog/inja | zdravstvo in farmacija |
-| `A145` | kozmetične storitve | zdravstvo in farmacija |
-| `A162` | maser/ka | zdravstvo in farmacija |
-| `A048` | medicinska sestra | zdravstvo in farmacija |
-| `A053` | negovanje | zdravstvo in farmacija |
-| `A847` | pomoč pri oskrbi stanovalcev | zdravstvo in farmacija |
-| `A843` | pomoč pri triaži | zdravstvo in farmacija |
-| `A102` | spremljevalec/spremljevalka | zdravstvo in farmacija |
-| `A087` | zdravstvena nega | zdravstvo in farmacija |
-| `A131` | zdravstveni tehnik | zdravstvo in farmacija |
-</details>
+### Datoteka `data/history.csv`
 
+Datoteka `history.csv` vsebuje eno vrstico za vsak opažen oglas ob vsakem zajemu. Če je isti oglas prisoten deset dni zapored, bo v tej datoteki zapisan desetkrat. Namen te datoteke je ohraniti zgodovino opažanj in omogočiti časovno analizo.
 
-### Oblika podatkov
-Objave oglasov so v spletni aplikaciji združene v več HTML strani, strani od 1 do n. Stran rezultatov nam doloca `page` (glej zgoraj). Podatki posameznih objav so zapisani v spodnji tabeli:
+| Atribut             | Tip podatka | Obvezno | Primer vrednosti                 | Opis                                                             |
+|---------------------|-------------|---------|----------------------------------|------------------------------------------------------------------|
+| `listing_id`        | `TEXT`      | da      | `475748`                         | Identifikator oglasa, ki povezuje vrstico z oglasom v `data.csv` |
+| `seen_at`           | `TEXT`      | da      | `2026-03-20T08:00:00+00:00`      | Čas konkretnega zajema, pri katerem je bil oglas opažen          |
+| `title`             | `TEXT`      | da      | `POMOČ V TRGOVINI`               | Naslov oglasa v trenutku zajema                                  |
+| `subtitle`          | `TEXT`      | ne      | `POLNJENJE POLIC`                | Dodatni naslov oglasa v trenutku zajema                          |
+| `company`           | `TEXT`      | da      | `MERCATOR D.O.O.`                | Naziv delodajalca                                                |
+| `location`          | `TEXT`      | da      | `LJUBLJANA, NOVE FUŽINE 33`      | Lokacija oglasa                                                  |
+| `sublocation`       | `TEXT`      | ne      | `HIPERMARKET KRANJ PRIMSKOVO`    | Dodatna lokacija ali objekt                                      |
+| `hourly_rate_neto`  | `REAL`      | ne      | `7.73`                           | Neto urna postavka                                               |
+| `hourly_rate_bruto` | `REAL`      | ne      | `8.98`                           | Bruto urna postavka                                              |
+| `hourly_rate_from`  | `TEXT`      | da      | `7.73 €/h neto (8.98 €/h bruto)` | Surov zapis plačila                                              |
+| `payment_type`      | `TEXT`      | da      | `HOURLY`                         | Normaliziran tip plačila                                         |
+| `description`       | `TEXT`      | da      | `Iščejo študenta/ko za delo ...` | Opis dela                                                        |
+| `open_positions`    | `INTEGER`   | ne      | `2`                              | Število prostih mest                                             |
+| `duration`          | `TEXT`      | da      | `DLJE ČASA (ZAČ. IN OBČ. DELO)`  | Trajanje dela                                                    |
+| `work_schedule`     | `TEXT`      | da      | `IZMENSKO`                       | Delovnik                                                         |
+| `start_date`        | `TEXT`      | ne      | `2026-03-25`                     | Datum začetka dela                                               |
+| `contact_name`      | `TEXT`      | da      | `Janez Primer`                   | Ime kontaktne osebe                                              |
+| `contact_phone`     | `TEXT`      | ne      | `031123456`                      | Telefonska številka                                              |
+| `contact_email`     | `TEXT`      | ne      | `email@domain.com`               | Elektronski naslov                                               |
+| `contact_webpage`   | `TEXT`      | ne      | `https://podjetje.si`            | Spletna povezava                                                 |
 
-| Podatek          | Tip podatka | Obvezno | Primer vrednosti                        | Opombe                                                                |
-|------------------|-------------|---------|-----------------------------------------|-----------------------------------------------------------------------|
-| `id`             | `TEXT`      | ✅      | `475748`                                                  | Enolični identifikator objave                       |
-| `title`          | `TEXT`      | ✅      | `POMOČ V TRGOVINI`                                        | Glavna kategorija dela                              |
-| `subtitle`       | `TEXT`      | ❌      | `POLNJENJE POLIC`                                         | Podkategorija, ni vedno prisotna                    |
-| `company`        | `TEXT`      | ✅      | `MERCATOR D.O.O.`                                         |                                                     |
-| `location`       | `TEXT`      | ✅      | `LJUBLJANA , NOVE FUŽINE 33`                              | Mesto ali regija                                    |
-| `sublocation`    | `TEXT`      | ❌      | `HIPERMARKET KRANJ PRIMSKOVO`                             | Naslov ali ime objekta (npr. `Pekarna`, `ZD Kranj`) |
-| `rate_neto`      | `REAL`      | ❌      | `7.73`                                                    | `NULL` če je plačilo po dogovoru                    |
-| `rate_bruto`     | `REAL`      | ❌      | `8.98`                                                    | `NULL` če je plačilo po dogovoru                    |
-| `description`    | `TEXT`      | ✅      | `Iščejo študenta/ki za delo v ...`                        | Besedilo opisa dela                                 |
-| `open_positions` | `INTEGER`   | ❌      | `2`                                                       | `NULL` če ni navedeno                               |
-| `duration`       | `TEXT`      | ✅      | `Dlje časa (zač. in obč. delo)`, `PO DOGOVORU`...         |                                                     |
-| `work_schedule`  | `TEXT`      | ✅      | `IZMENSKO`                                                | Dopoldan / popoldan / izmensko / po dogovoru        |
-| `start_date`     | `TEXT`      | ❌      | `25.3.2026`                                               | `NULL` če ni navedeno                               |
-| `contact_name`   | `TEXT`      | ✅      | `Janez Primer`                                            |                                                     |
-| `contact_phone`  | `TEXT`      | ❌      | `031123456`                                               | `NULL` če ni navedeno                               |
-| `contact_email`  | `TEXT`      | ❌      | `email@domain.com`                                        | `NULL` če ni navedeno                               |
-| `first_seen`     | `TEXT`      | ✅      | `2026-03-11T08:00:00+00:00`                               | Čas ob katerem je biu oglas prvič viden na servisu (~dodan)              |
-| `last_seen`      | `TEXT`      | ✅      | `2026-03-20T08:00:00+00:00`                               | Čas ob katerem je biu oglas zadnjič viden na servisu              |
-
+Datoteka `history.csv` nam omogoča analizo spreminjanja ponudbe skozi čas. Iz nje lahko ugotovimo, kdaj se je določen oglas pojavil, koliko dni je ostal prisoten in kako se je skupna količina oglasov spreminjala med posameznimi zajemi.
