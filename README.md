@@ -9,9 +9,7 @@
 ## Zagon scraperja
 
 Za zagon potrebuješ nameščen [`uv`](https://docs.astral.sh/uv/) in veljaven `STUDENTSKI_SERVIS_COOKIE`, shranjen v
-datoteki `.env` v mapi `src`.
-
-Scraper se nato zaganja iz mape `src`:
+datoteki `.env` v mapi `src`. Scraper se nato zaganja iz mape `src`.
 
 ```bash
 cd src
