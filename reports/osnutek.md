@@ -41,7 +41,7 @@ Končni rezultat projekta bo urejen podatkovni nabor ter analiza, ki bo pokazala
 
 ## Vir in oblika podatkov
 
-Podatke za projekt bomo pridobili s portala [e-Študentski servis](https://studentski-servis.com/studenti). Portal ne ponuja brezplačnega javnega API-ja za sistematičen dostop do oglasov, zato bomo podatke pridobivali iz HTML vsebine spletne aplikacije.
+Podatke za projekt bomo pridobili s portala [e-Študentski servis](https://studentski-servis.com/studenti). Portal ne ponuja  javnega API-ja za sistematičen dostop do oglasov, zato bomo podatke pridobivali iz HTML vsebine spletne aplikacije (scraping).
 
 Pri tem je pomembno, da datoteka [`robots.txt`](https://studentski-servis.com/robots.txt) za domeno `studentski-servis.com` vsebuje `User-agent: *` in `Allow: /`, kar pomeni, da je dostop do poti na strani splošno dovoljen.
 
