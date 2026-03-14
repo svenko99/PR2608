@@ -19,12 +19,12 @@ uv run python main.py
 ```
 
 Ob zagonu se trenutni oglasi preberejo s portala, nato pa se podatki shranijo oziroma posodobijo v `data/data.csv` in
-`data/history.csv`.
+`data/changes.csv`.
 
 ## TODO
 
-- Posodobi delovanje `history.csv`, da bo shranjevala zgolj spremembe (preimenuj v `changes.csv`)
 - Dodajanje filtrov v `osnutek.md`
+- Odstrani kontaktne podatke iz scrapanja (name, mail, webpage, phone)
 - Preveri veljavnost piškotka pred scrapanjem (pošlji Discrod webhook). Ne scrapaj, če je expired. Cookie je neveljaven,
   če se ne bo v HTML prikazoval `company` atribut (celoten stolpec za `company` bo `null`)
   če bo v stolpcu

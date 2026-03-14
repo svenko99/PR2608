@@ -10,7 +10,7 @@ import requests
 from bs4 import BeautifulSoup, Tag
 from dotenv import load_dotenv
 
-from models import PaymentType, StudentListing, WorkSchedule
+from models import ListingChange, PaymentType, StudentListing, WorkSchedule
 
 load_dotenv()
 
@@ -18,7 +18,7 @@ load_dotenv()
 class Scraper:
     BASE_URL = "https://www.studentski-servis.com/studenti/prosta-dela"
     CSV_FILE = Path("../data/data.csv")
-    HISTORY_CSV_FILE = Path("../data/history.csv")
+    CHANGES_CSV_FILE = Path("../data/changes.csv")
 
     def __init__(
             self,
@@ -154,23 +154,29 @@ class Scraper:
             self,
             current_listings: list[StudentListing],
             csv_path: Path | None = None,
-            history_csv_path: Path | None = None,
-    ) -> None:
+            changes_csv_path: Path | None = None,
+    ) -> list[ListingChange]:
         csv_path = csv_path or self.CSV_FILE
-        history_csv_path = history_csv_path or self.HISTORY_CSV_FILE
+        changes_csv_path = changes_csv_path or self.CHANGES_CSV_FILE
 
         csv_path.parent.mkdir(parents=True, exist_ok=True)
-        history_csv_path.parent.mkdir(parents=True, exist_ok=True)
+        changes_csv_path.parent.mkdir(parents=True, exist_ok=True)
 
         existing = self._load_existing_csv(csv_path)
+        changes: list[ListingChange] = []
+
         for listing in current_listings:
-            if listing.id in existing:
-                listing.first_seen = existing[listing.id].first_seen
+            old_listing = existing.get(listing.id)
+            if old_listing is not None:
+                changes.extend(self._build_listing_changes(old_listing, listing))
+                listing.first_seen = old_listing.first_seen
 
             existing[listing.id] = listing
 
         self._write_csv(csv_path, existing)
-        self._append_history_csv(history_csv_path, current_listings)
+        self._append_changes_csv(changes_csv_path, changes)
+
+        return changes
 
     def _load_existing_csv(self, csv_path: Path) -> dict[int, StudentListing]:
         if not csv_path.exists():
@@ -196,19 +202,40 @@ class Scraper:
             writer.writeheader()
             writer.writerows(rows)
 
-    def _append_history_csv(self, csv_path: Path, listings: list[StudentListing]) -> None:
-        if not listings:
-            return
-
-        rows = [listing.to_history_row() for listing in listings]
-        fieldnames = list(rows[0].keys())
+    def _append_changes_csv(self, csv_path: Path, changes: list[ListingChange]) -> None:
         file_exists = csv_path.exists()
 
         with csv_path.open("a", encoding="utf-8", newline="") as f:
-            writer = csv.DictWriter(f, fieldnames=fieldnames)
+            writer = csv.DictWriter(f, fieldnames=ListingChange.csv_fieldnames())
             if not file_exists:
                 writer.writeheader()
-            writer.writerows(rows)
+            if changes:
+                writer.writerows(change.to_csv_row() for change in changes)
+
+    def _build_listing_changes(
+            self,
+            old_listing: StudentListing,
+            new_listing: StudentListing,
+    ) -> list[ListingChange]:
+        changes: list[ListingChange] = []
+
+        for field_name in StudentListing.comparable_fields():
+            old_value = getattr(old_listing, field_name)
+            new_value = getattr(new_listing, field_name)
+            if old_value == new_value:
+                continue
+
+            changes.append(
+                ListingChange(
+                    listing_id=new_listing.id,
+                    changed_at=new_listing.last_seen,
+                    field=field_name,
+                    old_value=StudentListing.serialize_value(old_value),
+                    new_value=StudentListing.serialize_value(new_value),
+                )
+            )
+
+        return changes
 
     def _clean_text(self, node: Tag | None) -> str | None:
         if node is None:
