@@ -8,8 +8,7 @@
 
 ## Scraper
 
-Za zagon potrebuješ nameščen [`uv`](https://docs.astral.sh/uv/) in veljaven `STUDENTSKI_SERVIS_COOKIE`, shranjen v
-datoteki `.env` v mapi `src`. Scraper se nato zaganja iz mape `src`.
+Za zagon potrebuješ nameščen [`uv`](https://docs.astral.sh/uv/) in veljaven `STUDENTSKI_SERVIS_COOKIE`, shranjen v datoteki `.env` v mapi `src`. Scraper se nato zaganja iz mape `src`.
 
 ```bash
 cd src
@@ -18,12 +17,11 @@ echo 'STUDENTSKI_SERVIS_COOKIE=ess_sess...' > .env
 uv run python main.py
 ```
 
-Ob zagonu se trenutni oglasi preberejo s portala, nato pa se podatki shranijo oziroma posodobijo v `data/data.csv` in
-`data/changes.csv`.
+Ob zagonu se trenutni oglasi preberejo s portala, nato pa se podatki shranijo oziroma posodobijo v `data/data.csv` in `data/changes.csv`.
+
+Pred začetkom scrapanja scraper preveri veljavnost piškotka na prvi strani. Če pri vseh uspešno razbranih oglasih manjka `company`, se zagon prekine in v CSV datoteke ne zapisuje ničesar.
 
 ## TODO
 
 - Dodajanje filtrov v `osnutek.md`
-- Preveri veljavnost piškotka pred scrapanjem (pošlji Discrod webhook). Ne scrapaj, če je expired. Cookie je neveljaven,
-  če se ne bo v HTML prikazoval `company` atribut (celoten stolpec za `company` bo `null`)
-  če bo v stolpcu
+- Pošlji Discord webhook, če je cookie expired

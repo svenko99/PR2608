@@ -15,6 +15,10 @@ from models import ListingChange, PaymentType, StudentListing, WorkSchedule
 load_dotenv()
 
 
+class InvalidCookieError(RuntimeError):
+    pass
+
+
 class Scraper:
     BASE_URL = "https://www.studentski-servis.com/studenti/prosta-dela"
     CSV_FILE = Path("../data/data.csv")
@@ -49,6 +53,27 @@ class Scraper:
 
     def extract_data(self, page_number: int = 1, seen_at: datetime | None = None) -> list[StudentListing]:
         html_text = self.get_html_content(page_number)
+        return self._parse_listings_from_html(html_text, seen_at=seen_at)
+
+    def validate_cookie(self) -> None:
+        html_text = self.get_html_content(page_number=1)
+        listings = self._parse_listings_from_html(html_text)
+
+        if not listings:
+            raise InvalidCookieError(
+                "Cookie ni veljaven: na prvi strani ni bilo mogoče uspešno razbrati nobenega oglasa."
+            )
+
+        if all(not listing.company for listing in listings):
+            raise InvalidCookieError(
+                "Cookie ni veljaven: noben oglas na prvi strani nima izpolnjenega polja company."
+            )
+
+    def _parse_listings_from_html(
+            self,
+            html_text: str,
+            seen_at: datetime | None = None,
+    ) -> list[StudentListing]:
         soup = BeautifulSoup(html_text, "html.parser")
 
         seen_at = seen_at or datetime.now(UTC)
