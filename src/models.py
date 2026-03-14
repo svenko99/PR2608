@@ -64,11 +64,6 @@ class StudentListing:
     work_schedule: WorkSchedule | None
     start_date: date | None
 
-    contact_name: str | None
-    contact_phone: str | None
-    contact_email: str | None
-    contact_webpage: str | None
-
     first_seen: datetime
     last_seen: datetime
 
@@ -107,10 +102,6 @@ class StudentListing:
             "duration": self.duration or "",
             "work_schedule": self.serialize_value(self.work_schedule),
             "start_date": self.serialize_value(self.start_date),
-            "contact_name": self.contact_name or "",
-            "contact_phone": self.contact_phone or "",
-            "contact_email": self.contact_email or "",
-            "contact_webpage": self.contact_webpage or "",
             "first_seen": self.serialize_value(self.first_seen),
             "last_seen": self.serialize_value(self.last_seen),
         }
@@ -142,10 +133,6 @@ class StudentListing:
             duration=row["duration"] or None,
             work_schedule=work_schedule,
             start_date=start_date,
-            contact_name=row["contact_name"] or None,
-            contact_phone=row["contact_phone"] or None,
-            contact_email=row["contact_email"] or None,
-            contact_webpage=row["contact_webpage"] or None,
             first_seen=datetime.fromisoformat(row["first_seen"]),
             last_seen=datetime.fromisoformat(row["last_seen"]),
         )

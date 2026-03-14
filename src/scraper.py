@@ -121,11 +121,6 @@ class Scraper:
         work_schedule = self._parse_work_schedule(attrs.get("Delovnik"))
         start_date = self._parse_slovenian_date(attrs.get("Začetek dela"))
 
-        contact_name = self._extract_contact_name(article)
-        contact_email = self._extract_contact_email(article)
-        contact_phones = self._extract_contact_phones(article)
-        contact_webpage = self._extract_contact_webpage(article)
-
         return StudentListing(
             id=listing_id,
             title=title,
@@ -142,10 +137,6 @@ class Scraper:
             duration=duration,
             work_schedule=work_schedule,
             start_date=start_date,
-            contact_name=contact_name,
-            contact_phone=", ".join(contact_phones) if contact_phones else None,
-            contact_email=contact_email,
-            contact_webpage=contact_webpage,
             first_seen=seen_at,
             last_seen=seen_at,
         )
@@ -344,12 +335,6 @@ class Scraper:
     def _get_left_column(self, article: Tag) -> Tag:
         return article.select_one("div.col-12.col-md-8") or article
 
-    def _get_contact_containers(self, article: Tag) -> list[Tag]:
-        containers: list[Tag] = []
-        containers.extend(article.select("[id^='job-details-mview-']"))
-        containers.extend(article.select("[id^='jobDetail-']"))
-        return containers
-
     def _get_icon_name(self, use_tag: Tag | None) -> str | None:
         if use_tag is None:
             return None
@@ -371,38 +356,3 @@ class Scraper:
         title = titles[0] if len(titles) > 0 else None
         subtitle = titles[1] if len(titles) > 1 else None
         return title, subtitle
-
-    def _extract_contact_name(self, article: Tag) -> str | None:
-        for container in self._get_contact_containers(article):
-            for span in container.select("span"):
-                use = span.select_one("svg use")
-                if self._get_icon_name(use) == "icon-person":
-                    text = self._strip_svg_and_get_text(span)
-                    if text and text.upper() != "KONTAKT DELODAJALCA":
-                        return text
-        return None
-
-    def _extract_contact_email(self, article: Tag) -> str | None:
-        for a in article.select("a[href]"):
-            href = (a.get("href") or "").strip()
-            if href.lower().startswith("mailto:"):
-                return href[7:].strip() or None
-        return None
-
-    def _extract_contact_phones(self, article: Tag) -> list[str]:
-        phones: list[str] = []
-        for a in article.select("a[href]"):
-            href = (a.get("href") or "").strip()
-            if href.lower().startswith("tel:"):
-                phone = href[4:].strip()
-                if phone and phone not in phones:
-                    phones.append(phone)
-        return phones
-
-    def _extract_contact_webpage(self, article: Tag) -> str | None:
-        for container in self._get_contact_containers(article):
-            for a in container.select("a[href]"):
-                href = (a.get("href") or "").strip()
-                if href.startswith("http"):
-                    return href
-        return None
