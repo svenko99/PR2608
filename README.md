@@ -23,7 +23,6 @@ Ob zagonu se trenutni oglasi preberejo s portala, nato pa se podatki shranijo oz
 
 ## TODO
 
-- Izbriši atribut `currently_visible`
 - Posodobi delovanje `history.csv`, da bo shranjevala zgolj spremembe (preimenuj v `changes.csv`)
 - Dodajanje filtrov v `osnutek.md`
 - Preveri veljavnost piškotka pred scrapanjem (pošlji Discrod webhook). Ne scrapaj, če je expired. Cookie je neveljaven,

@@ -148,7 +148,6 @@ class Scraper:
             contact_webpage=contact_webpage,
             first_seen=seen_at,
             last_seen=seen_at,
-            currently_visible=True,
         )
 
     def update_csv_database(
@@ -164,18 +163,11 @@ class Scraper:
         history_csv_path.parent.mkdir(parents=True, exist_ok=True)
 
         existing = self._load_existing_csv(csv_path)
-        current_ids = {listing.id for listing in current_listings}
-
         for listing in current_listings:
             if listing.id in existing:
                 listing.first_seen = existing[listing.id].first_seen
 
-            listing.currently_visible = True
             existing[listing.id] = listing
-
-        for listing_id, old_listing in existing.items():
-            if listing_id not in current_ids:
-                old_listing.currently_visible = False
 
         self._write_csv(csv_path, existing)
         self._append_history_csv(history_csv_path, current_listings)

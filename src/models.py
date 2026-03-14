@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
-from datetime import UTC, date, datetime
+from datetime import date, datetime
 from enum import Enum
 
 
@@ -49,7 +49,6 @@ class StudentListing:
 
     first_seen: datetime
     last_seen: datetime
-    currently_visible: bool
 
     def to_csv_row(self) -> dict[str, str]:
         return {
@@ -74,7 +73,6 @@ class StudentListing:
             "contact_webpage": self.contact_webpage or "",
             "first_seen": self.first_seen.isoformat(),
             "last_seen": self.last_seen.isoformat(),
-            "currently_visible": "1" if self.currently_visible else "0",
         }
 
     @classmethod
@@ -87,9 +85,6 @@ class StudentListing:
 
         start_date_raw = row.get("start_date", "").strip()
         start_date = date.fromisoformat(start_date_raw) if start_date_raw else None
-
-        currently_visible_raw = row.get("currently_visible", "").strip()
-        currently_visible = currently_visible_raw == "1"
 
         return cls(
             id=int(row["id"]),
@@ -113,7 +108,6 @@ class StudentListing:
             contact_webpage=row["contact_webpage"] or None,
             first_seen=datetime.fromisoformat(row["first_seen"]),
             last_seen=datetime.fromisoformat(row["last_seen"]),
-            currently_visible=currently_visible,
         )
 
     def to_history_row(self) -> dict[str, str]:
