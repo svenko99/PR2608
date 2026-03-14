@@ -8,18 +8,17 @@
 
 ## Scraper
 
-Za zagon potrebuješ nameščen [`uv`](https://docs.astral.sh/uv/) in veljaven `STUDENTSKI_SERVIS_COOKIE`, shranjen v datoteki `.env` v mapi `src`. Scraper se nato zaganja iz mape `src`.
+Za zagon potrebuješ nameščen [`uv`](https://docs.astral.sh/uv/) ter datoteko `.env` v mapi `src` s poverilnico (`STUDENTSKI_SERVIS_EMAIL` in `STUDENTSKI_SERVIS_PASSWORD`) ali veljavnim `STUDENTSKI_SERVIS_COOKIE`. Scraper se zaganja iz mape `src`.
 
 ```bash
 cd src
 uv sync
-echo 'STUDENTSKI_SERVIS_COOKIE=ess_sess...' > .env
 uv run python main.py
 ```
 
 Ob zagonu se trenutni oglasi preberejo s portala, nato pa se podatki shranijo oziroma posodobijo v `data/data.csv` in `data/changes.csv`.
 
-Pred začetkom scrapanja scraper preveri veljavnost piškotka na prvi strani. Če pri vseh uspešno razbranih oglasih manjka `company`, se zagon prekine in v CSV datoteke ne zapisuje ničesar.
+Pred začetkom scrapanja scraper preveri veljavnost piškotka na prvi strani. Če je potekel, se samodejno prijavi z email/geslom in nov cookie shrani v `.env`. Če pri vseh uspešno razbranih oglasih manjka `company`, se zagon prekine in v CSV datoteke ne zapisuje ničesar.
 
 ## TODO
 
