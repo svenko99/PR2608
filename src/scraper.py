@@ -8,7 +8,7 @@ import re
 
 import requests
 from bs4 import BeautifulSoup, Tag
-from dotenv import load_dotenv
+from dotenv import find_dotenv, load_dotenv, set_key
 
 from models import ListingChange, PaymentType, StudentListing, WorkSchedule
 
@@ -16,6 +16,10 @@ load_dotenv()
 
 
 class InvalidCookieError(RuntimeError):
+    pass
+
+
+class LoginError(RuntimeError):
     pass
 
 
@@ -36,11 +40,75 @@ class Scraper:
 
         self.session = requests.Session()
         cookie = os.getenv("STUDENTSKI_SERVIS_COOKIE")
-        if not self.testing and not cookie:
-            raise ValueError("Manjka STUDENTSKI_SERVIS_COOKIE v .env")
+        has_credentials = bool(
+            os.getenv("STUDENTSKI_SERVIS_EMAIL") and os.getenv("STUDENTSKI_SERVIS_PASSWORD")
+        )
+        if not self.testing and not cookie and not has_credentials:
+            raise ValueError(
+                "Manjka STUDENTSKI_SERVIS_COOKIE ali "
+                "STUDENTSKI_SERVIS_EMAIL + STUDENTSKI_SERVIS_PASSWORD v .env"
+            )
 
         if cookie:
             self.session.headers.update({"Cookie": cookie})
+
+    def login(self) -> None:
+        """Prijavi se z email/geslom in posodobi session cookie."""
+        email = os.getenv("STUDENTSKI_SERVIS_EMAIL")
+        password = os.getenv("STUDENTSKI_SERVIS_PASSWORD")
+
+        if not email or not password:
+            raise LoginError(
+                "Manjka STUDENTSKI_SERVIS_EMAIL ali STUDENTSKI_SERVIS_PASSWORD v .env"
+            )
+
+        # Pridobi CSRF tokene s strani
+        response = self.session.get(self.BASE_URL, timeout=self.timeout)
+        response.raise_for_status()
+
+        soup = BeautifulSoup(response.text, "html.parser")
+        session_key_el = soup.select_one('input[name="_session_key"]')
+        token_el = soup.select_one('input[name="_token"]')
+
+        if not session_key_el or not token_el:
+            raise LoginError("Ni mogoče najti CSRF tokenov na strani za prijavo.")
+
+        login_response = self.session.post(
+            self.BASE_URL,
+            headers={
+                "X-OCTOBER-REQUEST-HANDLER": "onSignin",
+                "X-OCTOBER-REQUEST-PARTIALS": "",
+                "X-Requested-With": "XMLHttpRequest",
+                "Referer": self.BASE_URL,
+            },
+            data={
+                "_session_key": session_key_el["value"],
+                "_token": token_el["value"],
+                "login": email,
+                "password": password,
+                "remember": "1",
+                "artref": "",
+            },
+            timeout=self.timeout,
+        )
+        login_response.raise_for_status()
+
+        # Posodobi Cookie header iz session cookie jara
+        new_cookie = "; ".join(
+            f"{c.name}={c.value}" for c in self.session.cookies
+        )
+        if not new_cookie:
+            raise LoginError("Prijava ni uspela: strežnik ni vrnil nobenega cookija.")
+
+        self.session.headers.update({"Cookie": new_cookie})
+
+        dotenv_path = find_dotenv(usecwd=True) or find_dotenv(
+            filename=".env",
+            raise_error_if_not_found=False,
+            usecwd=False,
+        )
+        if dotenv_path:
+            set_key(dotenv_path, "STUDENTSKI_SERVIS_COOKIE", new_cookie)
 
     def get_html_content(self, page_number: int = 1) -> str:
         if self.testing:
