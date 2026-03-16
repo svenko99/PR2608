@@ -239,7 +239,7 @@ class Scraper:
             current_listings: list[StudentListing],
             csv_path: Path | None = None,
             changes_csv_path: Path | None = None,
-    ) -> list[ListingChange]:
+    ) -> tuple[list[ListingChange], int]:
         csv_path = csv_path or self.CSV_FILE
         changes_csv_path = changes_csv_path or self.CHANGES_CSV_FILE
 
@@ -248,19 +248,22 @@ class Scraper:
 
         existing = self._load_existing_csv(csv_path)
         changes: list[ListingChange] = []
+        new_count = 0
 
         for listing in current_listings:
             old_listing = existing.get(listing.id)
             if old_listing is not None:
                 changes.extend(self._build_listing_changes(old_listing, listing))
                 listing.first_seen = old_listing.first_seen
+            else:
+                new_count += 1
 
             existing[listing.id] = listing
 
         self._write_csv(csv_path, existing)
         self._append_changes_csv(changes_csv_path, changes)
 
-        return changes
+        return changes, new_count
 
     def _load_existing_csv(self, csv_path: Path) -> dict[int, StudentListing]:
         if not csv_path.exists():
