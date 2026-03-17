@@ -219,3 +219,31 @@ listing_id,changed_at,field,old_value,new_value
 430775,2026-03-16T20:01:33.242608+00:00,hourly_rate_neto,7.74,8.61
 430775,2026-03-16T20:01:33.242608+00:00,hourly_rate_bruto,9.0,10.0
 430775,2026-03-16T20:01:33.242608+00:00,hourly_rate_from,7.74 €/h neto (9.00 €/h bruto),8.61 €/h neto (10.00 €/h bruto)
+476048,2026-03-17T17:40:10.238782+00:00,start_date,2026-03-17,
+476030,2026-03-17T17:40:10.238782+00:00,start_date,2026-03-17,
+476024,2026-03-17T17:40:10.238782+00:00,start_date,2026-03-17,
+476023,2026-03-17T17:40:10.238782+00:00,start_date,2026-03-17,
+475985,2026-03-17T17:40:10.238782+00:00,start_date,2026-03-17,
+475984,2026-03-17T17:40:10.238782+00:00,start_date,2026-03-17,
+475982,2026-03-17T17:40:10.238782+00:00,start_date,2026-03-17,
+475946,2026-03-17T17:40:10.238782+00:00,start_date,2026-03-17,
+475902,2026-03-17T17:40:10.238782+00:00,open_positions,3,
+475902,2026-03-17T17:40:10.238782+00:00,start_date,2026-03-25,2026-04-25
+475868,2026-03-17T17:40:10.238782+00:00,description,"V trgovskem centru deluje nova prodajalna domačega sladoleda na kepice. Za to delo potrebujejo prodajno naravnane in sposobne posameznike, ki imajo delovne navade, razvito motoriko dela in znajo počistiti (znajo uporabljati krpo, metlo in podobne predmete). Delo je srednje dinamično, lahko je zelo sproščeno in obenem zabavno.","Sladoledarna za sladoledno sezono 2026 potrebuje dijake/inje in študente/ke. Za to delo potrebujejo prodajno naravnane in sposobne posameznike, ki imajo delovne navade, razvito motoriko dela in znajo počistiti (znajo uporabljati krpo, metlo in podobne predmete). Delo je srednje dinamično, lahko je zelo sproščeno in obenem zabavno."
+475856,2026-03-17T17:40:10.238782+00:00,hourly_rate_neto,8.1,8.8
+475856,2026-03-17T17:40:10.238782+00:00,hourly_rate_bruto,9.41,10.23
+475856,2026-03-17T17:40:10.238782+00:00,hourly_rate_from,8.10 €/h neto (9.41 €/h bruto),8.80 €/h neto (10.23 €/h bruto)
+475856,2026-03-17T17:40:10.238782+00:00,start_date,2026-03-17,
+475726,2026-03-17T17:40:10.238782+00:00,hourly_rate_neto,7.73,8.0
+475726,2026-03-17T17:40:10.238782+00:00,hourly_rate_bruto,8.98,9.3
+475726,2026-03-17T17:40:10.238782+00:00,hourly_rate_from,7.73 €/h neto (8.98 €/h bruto),8.00 €/h neto (9.30 €/h bruto)
+475653,2026-03-17T17:40:10.238782+00:00,start_date,2026-03-17,
+475476,2026-03-17T17:40:10.238782+00:00,start_date,2026-03-17,
+475300,2026-03-17T17:40:10.238782+00:00,start_date,2026-03-17,
+475299,2026-03-17T17:40:10.238782+00:00,start_date,2026-03-17,
+475087,2026-03-17T17:40:10.238782+00:00,description,"Iščejo polnoletnega kandidata/ko, ki ima izkušnje s področja gostinstva in strežbe (pomoč pri organizaciji protokoloranih dogodkov). Delo bo potekalo po dogovoru tudi popoldne in občasno za vikende - po potrebi in dogovoru. Prošnjo z življenjepisom pošljite na e-naslov.","Iščejo polnoletnega kandidata/ko, ki ima izkušnje s področja gostinstva in strežbe. Delovni čas večinoma samo do 16. ure, po potrebi (občasno tudi kasneje). Prošnjo z življenjepisom pošljite na e-naslov."
+475033,2026-03-17T17:40:10.238782+00:00,start_date,2026-03-17,
+474941,2026-03-17T17:40:10.238782+00:00,title,FIZIČNA DELA,LAŽJA FIZIČNA DELA
+474941,2026-03-17T17:40:10.238782+00:00,description,"Iščejo osebo za pomoč pri hišniških opravilih, ki lahko obsegajo tudi lažja do težja fizična opravila. Zaželeno je, da je oseba ročno in tehnično spretna. Delo se opravlja po večini od ponedeljka dalje v dopoldanskem času, po potrebi in dogovoru. Od kandidata/ke pričakujejo vozniški izpit B kategorije.","Iščejo osebo za pomoč pri hišniških opravilih, ki lahko obsegajo lažja fizična dela in pomoč pri administraciji. Zaželeno je, da je oseba ročno in tehnično spretna in ji ni tuje delo za računalnikom. Delo se opravlja po večini med ponedeljkom in petkom v dopoldanskem času. Od kandidata/ke pričakujejo vozniški izpit B kategorije."
+474752,2026-03-17T17:40:10.238782+00:00,description,Pomoč v vulkanizerski delavnici v času sezone menjave gum. Zaželene so izkušnje pri menjavi gum in vzdrževanju vozil. Nudijo možnost priučitve.,Pomoč v vulkanizerski delavnici v času sezone menjave gum. Zaželene so izkušnje pri menjavi gum in vzdrževanju vozil. Izkušnje so zaželene. Nudijo možnost priučitve.
+474599,2026-03-17T17:40:10.238782+00:00,start_date,,2026-04-01
