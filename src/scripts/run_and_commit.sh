@@ -8,7 +8,7 @@ LOG_FILE="$REPO_DIR/cron.log"
 cd "$SRC_DIR"
 
 # Zaženi scraper in shrani izhod
-OUTPUT=$(uv run python main.py 2>&1) || {
+OUTPUT=$(/home/sven/.local/bin/uv run python main.py 2>&1) || {
     echo "[$(date)] NAPAKA pri scrapanju:" >> "$LOG_FILE"
     echo "$OUTPUT" >> "$LOG_FILE"
     exit 1
