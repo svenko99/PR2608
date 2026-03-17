@@ -5,6 +5,7 @@ from pathlib import Path
 import csv
 import os
 import re
+import time
 
 import requests
 from bs4 import BeautifulSoup, Tag
@@ -28,17 +29,26 @@ class Scraper:
     CSV_FILE = Path("../data/data.csv")
     CHANGES_CSV_FILE = Path("../data/changes.csv")
 
+    USER_AGENT = (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/123.0.0.0 Safari/537.36"
+    )
+
     def __init__(
             self,
             testing: bool = False,
             testing_file: str = "testing.html",
             timeout: int = 15,
+            page_delay: float = 0.3,
     ) -> None:
         self.testing = testing
         self.testing_file = Path(testing_file)
         self.timeout = timeout
+        self.page_delay = page_delay
 
         self.session = requests.Session()
+        self.session.headers.update({"User-Agent": self.USER_AGENT})
         cookie = os.getenv("STUDENTSKI_SERVIS_COOKIE")
         has_credentials = bool(
             os.getenv("STUDENTSKI_SERVIS_EMAIL") and os.getenv("STUDENTSKI_SERVIS_PASSWORD")
@@ -176,6 +186,8 @@ class Scraper:
         final_page = min(max_page, total_pages) if max_page is not None else total_pages
 
         for page_number in range(1, final_page + 1):
+            if page_number > 1:
+                time.sleep(self.page_delay)
             page_listings = self.extract_data(page_number, seen_at=seen_at)
             print(f"Stran {page_number}: {len(page_listings)} listingov")
             all_listings.extend(page_listings)
