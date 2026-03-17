@@ -8,6 +8,11 @@
 
 ## Scraper
 
+Scraper teče na Svenovem Raspberry Pi vsak dan ob 20:00, kjer se zažene skripta [
+`run_and_commit.sh`](./src/scripts/run_and_commit.sh), ki zažene scraper in commita ter pusha nove podatke.
+
+### Navodila za zagon
+
 Za zagon potrebuješ nameščen [`uv`](https://docs.astral.sh/uv/) ter datoteko `.env` v mapi `src` s poverilnico (
 `STUDENTSKI_SERVIS_EMAIL` in `STUDENTSKI_SERVIS_PASSWORD`) ali veljavnim `STUDENTSKI_SERVIS_COOKIE`. Scraper se zaganja
 iz mape `src`.
@@ -29,4 +34,3 @@ v CSV datoteke ne zapisuje ničesar.
 
 - Dodajanje filtrov v `osnutek.md`
 - Pošlji Discord webhook, če je scrapanje neuspešno (pride do errorja)
-- Daj scraper na RaspberryPI, ki bo vsak dan scrapal in commital in pushal spremembe
