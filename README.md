@@ -30,7 +30,3 @@ Pred začetkom scrapanja scraper preveri veljavnost piškotka na prvi strani. Č
 email/geslom in nov cookie shrani v `.env`. Če pri vseh uspešno razbranih oglasih manjka `company`, se zagon prekine in
 v CSV datoteke ne zapisuje ničesar.
 
-## TODO
-
-- Dodajanje filtrov v `osnutek.md`
-- Pošlji Discord webhook, če je scrapanje neuspešno (pride do errorja)
