@@ -5,3 +5,4 @@ src/.env
 __pycache__/
 .claude/worktrees/
 cron.log
+.ipynb_checkpoints/
