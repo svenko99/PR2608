@@ -1,6 +1,6 @@
 #!/bin/bash
 set -euo pipefail
-REPO_DIR="/home/sven/Dev/PR268"
+REPO_DIR="/home/sven/Dev/PR2608"
 SRC_DIR="$REPO_DIR/src"
 LOG_FILE="$REPO_DIR/cron.log"
 
