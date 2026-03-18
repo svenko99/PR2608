@@ -215,7 +215,7 @@ listing_id,changed_at,field,old_value,new_value
 458992,2026-03-16T20:01:33.242608+00:00,description,Iščejo študenta/ko za delo predavatelja/ice umetne inteligence in digitalnih kompetenc. Zaželjene izkušnje z izvajanjem izobraževanj s področja digitalnih kompetenc. Pošlji prijavo z navedenimi izkušnjami.,Iščejo študenta/ko za delo predavatelja/ice umetne inteligence in digitalnih kompetenc. Zaželene izkušnje z izvajanjem izobraževanj s področja digitalnih kompetenc. Pošlji prijavo z navedenimi izkušnjami.
 446204,2026-03-16T20:01:33.242608+00:00,hourly_rate_neto,8.0,10.0
 446204,2026-03-16T20:01:33.242608+00:00,hourly_rate_bruto,9.3,11.62
-446204,2026-03-16T20:01:33.242608+00:00,hourly_rate_from,8.00 €/h neto (9.30 €/h bruto),10.00 €/h neto (11.62 €/h bruto)
+476198,2026-03-16T20:01:33.242608+00:00,hourly_rate_from,8.00 €/h neto (9.30 €/h bruto),10.00 €/h neto (11.62 €/h bruto)
 430775,2026-03-16T20:01:33.242608+00:00,hourly_rate_neto,7.74,8.61
 430775,2026-03-16T20:01:33.242608+00:00,hourly_rate_bruto,9.0,10.0
 430775,2026-03-16T20:01:33.242608+00:00,hourly_rate_from,7.74 €/h neto (9.00 €/h bruto),8.61 €/h neto (10.00 €/h bruto)
@@ -282,3 +282,4 @@ listing_id,changed_at,field,old_value,new_value
 475115,2026-03-18T10:40:17.118039+00:00,hourly_rate_bruto,,9.88
 475115,2026-03-18T10:40:17.118039+00:00,hourly_rate_from,PO DOGOVORU,8.50 €/h neto (9.88 €/h bruto)
 475115,2026-03-18T10:40:17.118039+00:00,payment_type,NEGOTIABLE,HOURLY
+476184,2026-03-18T11:16:44.590731+00:00,duration,JUNIJ 2026 - OKTOBER 2026,DLJE ČASA (ZAČ. IN OBČ. DELO)

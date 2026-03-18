@@ -40,7 +40,7 @@ class Scraper:
             testing: bool = False,
             testing_file: str = "testing.html",
             timeout: int = 15,
-            page_delay: float = 0.3,
+            page_delay: float = 2,
     ) -> None:
         self.testing = testing
         self.testing_file = Path(testing_file)
@@ -160,7 +160,8 @@ class Scraper:
         for article in soup.select("article.job-item"):
             try:
                 listings.append(self.parse_listing(article, seen_at=seen_at))
-            except ValueError:
+            except ValueError as e:
+                print("Parse listing error:", e)
                 continue
 
         return listings
@@ -374,7 +375,8 @@ class Scraper:
         value = re.sub(r"\s+", " ", value).strip()
         try:
             return datetime.strptime(value, "%d. %m. %Y").date()
-        except ValueError:
+        except ValueError as e:
+            print("Error parse_date:", e)
             return None
 
     def _parse_work_schedule(self, value: str | None) -> WorkSchedule | None:
