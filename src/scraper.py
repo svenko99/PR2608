@@ -176,6 +176,7 @@ class Scraper:
             if raw and raw.isdigit():
                 page_numbers.append(int(raw))
 
+        print("TOTAL_PAGES:", page_numbers)
         return max(page_numbers) if page_numbers else 1
 
     def extract_multiple_pages(self, max_page: int | None = None) -> list[StudentListing]:
@@ -184,6 +185,7 @@ class Scraper:
 
         total_pages = self.get_total_pages()
         final_page = min(max_page, total_pages) if max_page is not None else total_pages
+        print(f"Skupaj strani za obdelat: {final_page}")
 
         for page_number in range(1, final_page + 1):
             if page_number > 1:
@@ -201,12 +203,14 @@ class Scraper:
     def parse_listing(self, article: Tag, seen_at: datetime) -> StudentListing:
         listing_id = self._parse_int(article.get("data-jobid"))
         if listing_id is None:
+            print("Oglas preskočen, ker nima veljavnega data-jobid:", article)
             raise ValueError("Manjka ali je neveljaven data-jobid")
 
         left = self._get_left_column(article)
 
         title, subtitle = self._extract_titles(left)
         if not title:
+            print(f"Oglas {listing_id} preskočen, ker nima naslova:", article)
             raise ValueError(f"Oglas {listing_id} nima naslova")
 
         company = self._extract_icon_text_from_ps(left, "icon-building") or ""
