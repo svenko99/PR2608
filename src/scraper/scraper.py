@@ -236,6 +236,8 @@ class Scraper:
             hourly_rate_bruto=hourly_rate_bruto,
             payment_type=payment_type,
             normalized_payment_type=None,
+            normalized_city=None,
+            normalized_region=None,
             description=description,
             open_positions=open_positions,
             duration=duration,

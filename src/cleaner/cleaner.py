@@ -10,6 +10,12 @@ from models import ListingChange, PaymentType, StudentListing
 class Cleaner:
     CSV_FILE = Path("../data/data.csv")
     CHANGES_CSV_FILE = Path("../data/changes.csv")
+    NASELJA_CSV = Path("../data/naselja.csv")
+
+    def __init__(self, naselja_csv_path: Path | None = None) -> None:
+        self._naselja, self._naselja_regija = self._load_naselja(
+            naselja_csv_path or self.NASELJA_CSV,
+        )
 
     def run(
             self,
@@ -32,9 +38,99 @@ class Cleaner:
     def _clean_listing(self, listing: StudentListing) -> StudentListing:
         """Normalizira polja listinga."""
         listing.normalized_payment_type = self._parse_payment_type(listing.payment_type)
+        city, region = self._parse_location(listing.location)
+        listing.normalized_city = city
+        listing.normalized_region = region
         return listing
 
     # ── Normalizacija ────────────────────────────────────────────────
+
+    @staticmethod
+    def _load_naselja(csv_path: Path) -> tuple[dict[str, str], dict[str, str]]:
+        """Naloži naselja.csv in vrne (naselje → regija, naselje → naselje) lookup."""
+        naselja: dict[str, str] = {}
+        naselja_regija: dict[str, str] = {}
+        if not csv_path.exists():
+            return naselja, naselja_regija
+
+        with csv_path.open("r", encoding="utf-8", newline="") as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                name = row["naselje"].strip().upper()
+                regija = row["regija"].strip()
+                naselja[name] = name
+                naselja_regija[name] = regija
+
+                # Dvojezična imena: "KOPER/CAPODISTRIA" → dodaj tudi "KOPER"
+                if "/" in name:
+                    short = name.split("/")[0].strip()
+                    naselja[short] = name
+                    naselja_regija[short] = regija
+
+        return naselja, naselja_regija
+
+    def _parse_location(self, value: str | None) -> tuple[str | None, str | None]:
+        """Iz surovega location stringa izvleče normalized_city in normalized_region."""
+        if not value:
+            return None, None
+
+        normalized = re.sub(r"\s+", " ", value).strip().upper()
+
+        # "OD DOMA" in variante niso mesto
+        if normalized in {"OD DOMA", "DELO OD DOMA", "DELO OD DOMA - REMOTE", "NA DALJAVO", "REMOTE"}:
+            return None, None
+
+        # Če je vrednost ime regije ali vsebuje ime regije, vrni samo regijo
+        REGIJE = {
+            "POMURSKA", "PODRAVSKA", "KOROŠKA", "SAVINJSKA", "ZASAVSKA",
+            "POSAVSKA", "JUGOVZHODNA SLOVENIJA", "OSREDNJESLOVENSKA",
+            "GORENJSKA", "PRIMORSKO-NOTRANJSKA", "GORIŠKA", "OBALNO-KRAŠKA",
+        }
+        REGIJA_ALIASI = {
+            "DOLENJSKA": "JUGOVZHODNA SLOVENIJA",
+            "DOLENJSKA REGIJA": "JUGOVZHODNA SLOVENIJA",
+            "PRIMORSKA": "OBALNO-KRAŠKA",
+            "J.PRIMORSKA": "OBALNO-KRAŠKA",
+            "ŠTAJERSKA": "PODRAVSKA",
+            "ŠTAJERSKA REGIJA": "PODRAVSKA",
+            "SAVINJSKA REGIJA": "SAVINJSKA",
+            "POMURSKA REGIJA": "POMURSKA",
+            "KOROŠKA REGIJA": "KOROŠKA",
+            "GORENJSKA REGIJA": "GORENJSKA",
+            "OBALNO KRAŠKA REGIJA": "OBALNO-KRAŠKA",
+        }
+
+        # Direktni match na regijo
+        if normalized in REGIJE:
+            return None, normalized
+        if normalized in REGIJA_ALIASI:
+            return None, REGIJA_ALIASI[normalized]
+
+        # Regija na začetku stringa (npr. "SAVINJSKA REGIJA, LOŽNICA PRI ŽALCU 58")
+        candidate_before_comma = re.split(r"[,]", normalized)[0].strip()
+        if candidate_before_comma in REGIJE:
+            return None, candidate_before_comma
+        if candidate_before_comma in REGIJA_ALIASI:
+            return None, REGIJA_ALIASI[candidate_before_comma]
+
+        # Izvleči kandidata: vse pred vejico, črtijo, oklepajem
+        candidate = re.split(r"[,(\-]", normalized)[0].strip()
+
+        # Odstrani morebitne presledke na koncu (npr. "VELENJE ")
+        candidate = candidate.strip()
+
+        if candidate in self._naselja:
+            return self._naselja[candidate], self._naselja_regija.get(candidate)
+
+        # Fallback: poskusi s krajšanjem besed z desne
+        # npr. "MARIBOR RAZVANJE" → "MARIBOR"
+        words = candidate.split()
+        for i in range(len(words) - 1, 0, -1):
+            shorter = " ".join(words[:i])
+            if shorter in self._naselja:
+                return self._naselja[shorter], self._naselja_regija.get(shorter)
+
+        return None, None
 
     @staticmethod
     def _parse_payment_type(value: str | None) -> PaymentType | None:
@@ -85,6 +181,10 @@ class Cleaner:
                 new_count += 1
 
             existing[listing.id] = listing
+
+        # Normaliziraj tudi obstoječe listinge (ki niso bili v trenutnem scrape-u)
+        for listing in existing.values():
+            self._clean_listing(listing)
 
         self._write_csv(csv_path, existing)
         self._append_changes_csv(changes_csv_path, changes)

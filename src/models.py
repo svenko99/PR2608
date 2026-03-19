@@ -58,6 +58,9 @@ class StudentListing:
     payment_type: str | None
     normalized_payment_type: PaymentType | None
 
+    normalized_city: str | None
+    normalized_region: str | None
+
     description: str | None
     open_positions: int | None
     duration: str | None
@@ -97,6 +100,8 @@ class StudentListing:
             "hourly_rate_bruto": self.serialize_value(self.hourly_rate_bruto),
             "payment_type": self.payment_type or "",
             "normalized_payment_type": self.serialize_value(self.normalized_payment_type),
+            "normalized_city": self.normalized_city or "",
+            "normalized_region": self.normalized_region or "",
             "description": self.description or "",
             "open_positions": self.serialize_value(self.open_positions),
             "duration": self.duration or "",
@@ -128,6 +133,8 @@ class StudentListing:
             hourly_rate_bruto=float(row["hourly_rate_bruto"]) if row["hourly_rate_bruto"] else None,
             payment_type=row["payment_type"] or None,
             normalized_payment_type=normalized_payment_type,
+            normalized_city=row.get("normalized_city") or None,
+            normalized_region=row.get("normalized_region") or None,
             description=row["description"] or None,
             open_positions=int(row["open_positions"]) if row["open_positions"] else None,
             duration=row["duration"] or None,
