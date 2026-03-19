@@ -31,7 +31,7 @@ class Cleaner:
 
     def _clean_listing(self, listing: StudentListing) -> StudentListing:
         """Normalizira polja listinga."""
-        listing.payment_type = self._parse_payment_type(listing.hourly_rate_from)
+        listing.normalized_payment_type = self._parse_payment_type(listing.payment_type)
         return listing
 
     # ── Normalizacija ────────────────────────────────────────────────

@@ -215,7 +215,7 @@ class Scraper:
 
         payment_li = left.select_one("li.job-payment")
         payment_text = self._clean_text(payment_li)
-        hourly_rate_neto, hourly_rate_bruto, hourly_rate_from = self._parse_hourly_rate(payment_text)
+        hourly_rate_neto, hourly_rate_bruto, payment_type = self._parse_hourly_rate(payment_text)
 
         description = self._clean_text(left.select_one("p.description"))
 
@@ -234,8 +234,8 @@ class Scraper:
             sublocation=sublocation,
             hourly_rate_neto=hourly_rate_neto,
             hourly_rate_bruto=hourly_rate_bruto,
-            hourly_rate_from=hourly_rate_from,
-            payment_type=None,
+            payment_type=payment_type,
+            normalized_payment_type=None,
             description=description,
             open_positions=open_positions,
             duration=duration,
