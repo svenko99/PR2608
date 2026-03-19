@@ -49,9 +49,11 @@ Datoteka `data.csv` vsebuje eno vrstico na unikatni oglas. Namenjena je shranjev
 | `sublocation`       | `TEXT`      | ne      | `HIPERMARKET KRANJ PRIMSKOVO`    | Dodatna lokacija ali ime objekta                     |
 | `hourly_rate_neto`  | `REAL`      | ne      | `7.73`                            | Neto urna postavka, če je navedena                   |
 | `hourly_rate_bruto` | `REAL`      | ne      | `8.98`                            | Bruto urna postavka, če je navedena                  |
-| `hourly_rate_from`  | `TEXT`      | ne      | `7.73 €/h neto (8.98 €/h bruto)` | Surov zapis plačila iz oglasa                        |
-| `payment_type`      | `TEXT`      | ne      | `HOURLY`                          | Normaliziran tip plačila (`HOURLY`, `NEGOTIABLE`, `PROJECT`, `PER_EVENT`, `PER_TRIP`, `OTHER`) |
-| `description`       | `TEXT`      | ne      | `Iščejo študenta/ko za delo ...`  | Opis dela                                  |
+| `payment_type`              | `TEXT`      | ne      | `7.73 €/h neto (8.98 €/h bruto)` | Surov zapis plačila iz oglasa                        |
+| `normalized_payment_type`   | `TEXT`      | ne      | `HOURLY`                          | Normaliziran tip plačila (`HOURLY`, `NEGOTIABLE`, `PROJECT`, `PER_EVENT`, `PER_TRIP`, `OTHER`) |
+| `normalized_city`           | `TEXT`      | ne      | `LJUBLJANA`                       | Normalizirano ime naselja, validirano proti seznamu naselij |
+| `normalized_region`         | `TEXT`      | ne      | `OSREDNJESLOVENSKA`               | Statistična regija, izpeljana iz naselja             |
+| `description`               | `TEXT`      | ne      | `Iščejo študenta/ko za delo ...`  | Opis dela                                  |
 | `open_positions`    | `INTEGER`   | ne      | `2`                               | Število prostih mest, če je navedeno                 |
 | `duration`          | `TEXT`      | ne      | `DLJE ČASA (ZAČ. IN OBČ. DELO)`  | Trajanje dela v obliki, kot je zapisano v oglasu     |
 | `work_schedule`     | `TEXT`      | ne      | `IZMENSKO`                        | Delovnik oglasa (`PO DOGOVORU`, `DOPOLDAN`, `IZMENSKO`, `POPOLDAN`, `MED VIKENDI`) |
