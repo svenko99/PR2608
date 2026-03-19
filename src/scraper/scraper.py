@@ -2,7 +2,6 @@ from __future__ import annotations
 
 from datetime import UTC, date, datetime
 from pathlib import Path
-import csv
 import os
 import re
 import time
@@ -11,7 +10,7 @@ import requests
 from bs4 import BeautifulSoup, Tag
 from dotenv import find_dotenv, load_dotenv, set_key
 
-from models import ListingChange, PaymentType, StudentListing, WorkSchedule
+from models import StudentListing, WorkSchedule
 
 load_dotenv()
 
@@ -26,8 +25,6 @@ class LoginError(RuntimeError):
 
 class Scraper:
     BASE_URL = "https://www.studentski-servis.com/studenti/prosta-dela"
-    CSV_FILE = Path("../data/data.csv")
-    CHANGES_CSV_FILE = Path("../data/changes.csv")
 
     USER_AGENT = (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -72,7 +69,6 @@ class Scraper:
                 "Manjka STUDENTSKI_SERVIS_EMAIL ali STUDENTSKI_SERVIS_PASSWORD v .env"
             )
 
-        # Pridobi CSRF tokene s strani
         response = self.session.get(self.BASE_URL, timeout=self.timeout)
         response.raise_for_status()
 
@@ -103,7 +99,6 @@ class Scraper:
         )
         login_response.raise_for_status()
 
-        # Posodobi Cookie header iz session cookie jara
         new_cookie = "; ".join(
             f"{c.name}={c.value}" for c in self.session.cookies
         )
@@ -220,8 +215,7 @@ class Scraper:
 
         payment_li = left.select_one("li.job-payment")
         payment_text = self._clean_text(payment_li)
-        hourly_rate_neto, hourly_rate_bruto, hourly_rate_from = self._parse_hourly_rate(payment_text)
-        payment_type = self._parse_payment_type(hourly_rate_from)
+        hourly_rate_neto, hourly_rate_bruto, payment_type = self._parse_hourly_rate(payment_text)
 
         description = self._clean_text(left.select_one("p.description"))
 
@@ -240,8 +234,10 @@ class Scraper:
             sublocation=sublocation,
             hourly_rate_neto=hourly_rate_neto,
             hourly_rate_bruto=hourly_rate_bruto,
-            hourly_rate_from=hourly_rate_from,
             payment_type=payment_type,
+            normalized_payment_type=None,
+            normalized_city=None,
+            normalized_region=None,
             description=description,
             open_positions=open_positions,
             duration=duration,
@@ -251,95 +247,7 @@ class Scraper:
             last_seen=seen_at,
         )
 
-    def update_csv_database(
-            self,
-            current_listings: list[StudentListing],
-            csv_path: Path | None = None,
-            changes_csv_path: Path | None = None,
-    ) -> tuple[list[ListingChange], int]:
-        csv_path = csv_path or self.CSV_FILE
-        changes_csv_path = changes_csv_path or self.CHANGES_CSV_FILE
-
-        csv_path.parent.mkdir(parents=True, exist_ok=True)
-        changes_csv_path.parent.mkdir(parents=True, exist_ok=True)
-
-        existing = self._load_existing_csv(csv_path)
-        changes: list[ListingChange] = []
-        new_count = 0
-
-        for listing in current_listings:
-            old_listing = existing.get(listing.id)
-            if old_listing is not None:
-                changes.extend(self._build_listing_changes(old_listing, listing))
-                listing.first_seen = old_listing.first_seen
-            else:
-                new_count += 1
-
-            existing[listing.id] = listing
-
-        self._write_csv(csv_path, existing)
-        self._append_changes_csv(changes_csv_path, changes)
-
-        return changes, new_count
-
-    def _load_existing_csv(self, csv_path: Path) -> dict[int, StudentListing]:
-        if not csv_path.exists():
-            return {}
-
-        listings: dict[int, StudentListing] = {}
-        with csv_path.open("r", encoding="utf-8", newline="") as f:
-            reader = csv.DictReader(f)
-            for row in reader:
-                listing = StudentListing.from_csv_row(row)
-                listings[listing.id] = listing
-
-        return listings
-
-    def _write_csv(self, csv_path: Path, listings_by_id: dict[int, StudentListing]) -> None:
-        rows = [listing.to_csv_row() for listing in sorted(listings_by_id.values(), key=lambda x: x.id)]
-        if not rows:
-            return
-
-        fieldnames = list(rows[0].keys())
-        with csv_path.open("w", encoding="utf-8", newline="") as f:
-            writer = csv.DictWriter(f, fieldnames=fieldnames)
-            writer.writeheader()
-            writer.writerows(rows)
-
-    def _append_changes_csv(self, csv_path: Path, changes: list[ListingChange]) -> None:
-        file_exists = csv_path.exists()
-
-        with csv_path.open("a", encoding="utf-8", newline="") as f:
-            writer = csv.DictWriter(f, fieldnames=ListingChange.csv_fieldnames())
-            if not file_exists:
-                writer.writeheader()
-            if changes:
-                writer.writerows(change.to_csv_row() for change in changes)
-
-    def _build_listing_changes(
-            self,
-            old_listing: StudentListing,
-            new_listing: StudentListing,
-    ) -> list[ListingChange]:
-        changes: list[ListingChange] = []
-
-        for field_name in StudentListing.comparable_fields():
-            old_value = getattr(old_listing, field_name)
-            new_value = getattr(new_listing, field_name)
-            if old_value == new_value:
-                continue
-
-            changes.append(
-                ListingChange(
-                    listing_id=new_listing.id,
-                    changed_at=new_listing.last_seen,
-                    field=field_name,
-                    old_value=StudentListing.serialize_value(old_value),
-                    new_value=StudentListing.serialize_value(new_value),
-                )
-            )
-
-        return changes
+    # Helpers
 
     def _clean_text(self, node: Tag | None) -> str | None:
         if node is None:
@@ -392,23 +300,6 @@ class Scraper:
             "MED VIKENDI": WorkSchedule.WEEKENDS,
         }
         return mapping.get(normalized)
-
-    def _parse_payment_type(self, value: str | None) -> PaymentType | None:
-        if not value:
-            return None
-
-        normalized = re.sub(r"\s+", " ", value).strip().upper()
-        if "/H" in normalized or "€/H" in normalized:
-            return PaymentType.HOURLY
-        if "DOGOVOR" in normalized:
-            return PaymentType.NEGOTIABLE
-        if "PROJEKT" in normalized:
-            return PaymentType.PROJECT
-        if "DOGODEK" in normalized:
-            return PaymentType.PER_EVENT
-        if "IZLET" in normalized:
-            return PaymentType.PER_TRIP
-        return PaymentType.OTHER
 
     def _parse_hourly_rate(self, text: str | None) -> tuple[float | None, float | None, str | None]:
         if not text:

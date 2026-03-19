@@ -55,8 +55,11 @@ class StudentListing:
 
     hourly_rate_neto: float | None
     hourly_rate_bruto: float | None
-    hourly_rate_from: str | None
-    payment_type: PaymentType | None
+    payment_type: str | None
+    normalized_payment_type: PaymentType | None
+
+    normalized_city: str | None
+    normalized_region: str | None
 
     description: str | None
     open_positions: int | None
@@ -83,6 +86,7 @@ class StudentListing:
             field.name
             for field in fields(cls)
             if field.name not in {"id", "first_seen", "last_seen"}
+            and not field.name.startswith("normalized_")
         )
 
     def to_csv_row(self) -> dict[str, str]:
@@ -95,8 +99,10 @@ class StudentListing:
             "sublocation": self.sublocation or "",
             "hourly_rate_neto": self.serialize_value(self.hourly_rate_neto),
             "hourly_rate_bruto": self.serialize_value(self.hourly_rate_bruto),
-            "hourly_rate_from": self.hourly_rate_from or "",
-            "payment_type": self.serialize_value(self.payment_type),
+            "payment_type": self.payment_type or "",
+            "normalized_payment_type": self.serialize_value(self.normalized_payment_type),
+            "normalized_city": self.normalized_city or "",
+            "normalized_region": self.normalized_region or "",
             "description": self.description or "",
             "open_positions": self.serialize_value(self.open_positions),
             "duration": self.duration or "",
@@ -111,8 +117,8 @@ class StudentListing:
         work_schedule_raw = row.get("work_schedule", "").strip()
         work_schedule = WorkSchedule(work_schedule_raw) if work_schedule_raw else None
 
-        payment_type_raw = row.get("payment_type", "").strip()
-        payment_type = PaymentType(payment_type_raw) if payment_type_raw else None
+        normalized_payment_type_raw = row.get("normalized_payment_type", "").strip()
+        normalized_payment_type = PaymentType(normalized_payment_type_raw) if normalized_payment_type_raw else None
 
         start_date_raw = row.get("start_date", "").strip()
         start_date = date.fromisoformat(start_date_raw) if start_date_raw else None
@@ -126,8 +132,10 @@ class StudentListing:
             sublocation=row["sublocation"] or None,
             hourly_rate_neto=float(row["hourly_rate_neto"]) if row["hourly_rate_neto"] else None,
             hourly_rate_bruto=float(row["hourly_rate_bruto"]) if row["hourly_rate_bruto"] else None,
-            hourly_rate_from=row["hourly_rate_from"] or None,
-            payment_type=payment_type,
+            payment_type=row["payment_type"] or None,
+            normalized_payment_type=normalized_payment_type,
+            normalized_city=row.get("normalized_city") or None,
+            normalized_region=row.get("normalized_region") or None,
             description=row["description"] or None,
             open_positions=int(row["open_positions"]) if row["open_positions"] else None,
             duration=row["duration"] or None,

@@ -6,3 +6,4 @@ __pycache__/
 .claude/worktrees/
 cron.log
 .ipynb_checkpoints/
+.venv/
