@@ -86,6 +86,7 @@ class StudentListing:
             field.name
             for field in fields(cls)
             if field.name not in {"id", "first_seen", "last_seen"}
+            and not field.name.startswith("normalized_")
         )
 
     def to_csv_row(self) -> dict[str, str]:
