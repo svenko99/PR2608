@@ -8,26 +8,23 @@ from models import ListingChange, PaymentType, StudentListing
 
 
 class Cleaner:
-    RAW_CSV_FILE = Path("../data/raw/data.csv")
-    CLEAN_CSV_FILE = Path("../data/clean/data.csv")
-    CHANGES_CSV_FILE = Path("../data/clean/changes.csv")
+    CSV_FILE = Path("../data/data.csv")
+    CHANGES_CSV_FILE = Path("../data/changes.csv")
 
     def run(
             self,
-            raw_csv_path: Path | None = None,
-            clean_csv_path: Path | None = None,
+            raw_listings: list[StudentListing],
+            csv_path: Path | None = None,
             changes_csv_path: Path | None = None,
     ) -> tuple[list[StudentListing], list[ListingChange], int]:
-        """Prebere surove podatke, jih očisti in zapiše v clean CSV."""
-        raw_csv_path = raw_csv_path or self.RAW_CSV_FILE
-        clean_csv_path = clean_csv_path or self.CLEAN_CSV_FILE
+        """Očisti surove listinge in posodobi CSV bazo."""
+        csv_path = csv_path or self.CSV_FILE
         changes_csv_path = changes_csv_path or self.CHANGES_CSV_FILE
 
-        raw_listings = self._load_csv(raw_csv_path)
         cleaned_listings = [self._clean_listing(listing) for listing in raw_listings]
 
         changes, new_count = self._update_csv_database(
-            cleaned_listings, clean_csv_path, changes_csv_path,
+            cleaned_listings, csv_path, changes_csv_path,
         )
 
         return cleaned_listings, changes, new_count
@@ -58,18 +55,6 @@ class Cleaner:
         return PaymentType.OTHER
 
     # ── CSV operacije ────────────────────────────────────────────────
-
-    def _load_csv(self, csv_path: Path) -> list[StudentListing]:
-        if not csv_path.exists():
-            return []
-
-        listings: list[StudentListing] = []
-        with csv_path.open("r", encoding="utf-8", newline="") as f:
-            reader = csv.DictReader(f)
-            for row in reader:
-                listings.append(StudentListing.from_csv_row(row))
-
-        return listings
 
     def _update_csv_database(
             self,

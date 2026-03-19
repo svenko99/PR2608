@@ -19,13 +19,10 @@ if __name__ == "__main__":
         print("Prijava uspešna.")
 
     listings = scraper.extract_multiple_pages()
-    scraper.save_raw_csv(listings)
-
-    print(f"Surovi podatki shranjeni v data/raw/data.csv ({len(listings)} oglasov).")
 
     cleaner = Cleaner()
-    cleaned_listings, changes, new_count = cleaner.run()
+    cleaned_listings, changes, new_count = cleaner.run(listings)
 
     print(f"Novih oglasov: {new_count}.")
-    print(f"Posodobljen data/clean/data.csv z {len(cleaned_listings)} trenutno videnimi oglasi.")
-    print(f"Posodobljen data/clean/changes.csv z {len(changes)} zaznanimi spremembami.")
+    print(f"Posodobljen data.csv z {len(cleaned_listings)} trenutno videnimi oglasi.")
+    print(f"Posodobljen changes.csv z {len(changes)} zaznanimi spremembami.")

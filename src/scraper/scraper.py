@@ -2,7 +2,6 @@ from __future__ import annotations
 
 from datetime import UTC, date, datetime
 from pathlib import Path
-import csv
 import os
 import re
 import time
@@ -26,7 +25,6 @@ class LoginError(RuntimeError):
 
 class Scraper:
     BASE_URL = "https://www.studentski-servis.com/studenti/prosta-dela"
-    RAW_CSV_FILE = Path("../data/raw/data.csv")
 
     USER_AGENT = (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -197,25 +195,6 @@ class Scraper:
             deduped[listing.id] = listing
 
         return list(deduped.values())
-
-    def save_raw_csv(
-            self,
-            listings: list[StudentListing],
-            csv_path: Path | None = None,
-    ) -> None:
-        """Zapiše surove podatke v raw CSV."""
-        csv_path = csv_path or self.RAW_CSV_FILE
-        csv_path.parent.mkdir(parents=True, exist_ok=True)
-
-        rows = [listing.to_csv_row() for listing in sorted(listings, key=lambda x: x.id)]
-        if not rows:
-            return
-
-        fieldnames = list(rows[0].keys())
-        with csv_path.open("w", encoding="utf-8", newline="") as f:
-            writer = csv.DictWriter(f, fieldnames=fieldnames)
-            writer.writeheader()
-            writer.writerows(rows)
 
     def parse_listing(self, article: Tag, seen_at: datetime) -> StudentListing:
         listing_id = self._parse_int(article.get("data-jobid"))
