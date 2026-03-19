@@ -13,7 +13,7 @@ class Cleaner:
     NASELJA_CSV = Path("../data/naselja.csv")
 
     def __init__(self, naselja_csv_path: Path | None = None) -> None:
-        self._naselja, self._naselja_regija = self._load_naselja(
+        self._naselja, self._naselja_regija, self._obcine_regija = self._load_naselja(
             naselja_csv_path or self.NASELJA_CSV,
         )
 
@@ -46,20 +46,26 @@ class Cleaner:
     # Normalizacija
 
     @staticmethod
-    def _load_naselja(csv_path: Path) -> tuple[dict[str, str], dict[str, str]]:
-        """Naloži naselja.csv in vrne (naselje → regija, naselje → naselje) lookup."""
+    def _load_naselja(csv_path: Path) -> tuple[dict[str, str], dict[str, str], dict[str, str]]:
+        """Naloži naselja.csv in vrne (naselje→naselje, naselje→regija, občina→regija) lookup."""
         naselja: dict[str, str] = {}
         naselja_regija: dict[str, str] = {}
+        obcine_regija: dict[str, str] = {}
         if not csv_path.exists():
-            return naselja, naselja_regija
+            return naselja, naselja_regija, obcine_regija
 
         with csv_path.open("r", encoding="utf-8", newline="") as f:
             reader = csv.DictReader(f)
             for row in reader:
                 name = row["naselje"].strip().upper()
+                obcina = row["obcina"].strip().upper()
                 regija = row["regija"].strip()
                 naselja[name] = name
                 naselja_regija[name] = regija
+
+                # Občina → regija lookup
+                if obcina and obcina not in obcine_regija:
+                    obcine_regija[obcina] = regija
 
                 # Dvojezična imena: "KOPER/CAPODISTRIA" → dodaj tudi "KOPER"
                 if "/" in name:
@@ -67,7 +73,7 @@ class Cleaner:
                     naselja[short] = name
                     naselja_regija[short] = regija
 
-        return naselja, naselja_regija
+        return naselja, naselja_regija, obcine_regija
 
     def _parse_location(self, value: str | None) -> tuple[str | None, str | None]:
         """Iz surovega location stringa izvleče normalized_city in normalized_region."""
@@ -129,6 +135,28 @@ class Cleaner:
             shorter = " ".join(words[:i])
             if shorter in self._naselja:
                 return self._naselja[shorter], self._naselja_regija.get(shorter)
+
+        # Fallback: občinski lookup — če je kandidat ime občine, vrni samo regijo
+        if candidate in self._obcine_regija:
+            return None, self._obcine_regija[candidate]
+
+        # Fallback: reverse lookup — poskusi najti naselje v delu za vejico
+        # Generična imena ki se pogosto pojavijo v naslovih in povzročijo napačne matche
+        _GENERIC_NAMES = {
+            "CESTA", "NOVA VAS", "POTOK", "ULICA", "VAS", "SELO", "LOG",
+            "PTUJSKA CESTA", "SV. DUH", "STEGNE",
+        }
+        parts = re.split(r"[,]", normalized)
+        if len(parts) > 1:
+            address_part = parts[1].strip()
+            # Odstrani hišno številko z desne (npr. "AMBROŽ POD KRVAVCEM 71" → "AMBROŽ POD KRVAVCEM")
+            addr_words = address_part.split()
+            for i in range(len(addr_words), 0, -1):
+                addr_candidate = " ".join(addr_words[:i])
+                if addr_candidate in _GENERIC_NAMES:
+                    continue
+                if addr_candidate in self._naselja:
+                    return self._naselja[addr_candidate], self._naselja_regija.get(addr_candidate)
 
         return None, None
 
