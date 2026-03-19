@@ -43,7 +43,7 @@ class Cleaner:
         listing.normalized_region = region
         return listing
 
-    # ── Normalizacija ────────────────────────────────────────────────
+    # Normalizacija
 
     @staticmethod
     def _load_naselja(csv_path: Path) -> tuple[dict[str, str], dict[str, str]]:
@@ -150,7 +150,7 @@ class Cleaner:
             return PaymentType.PER_TRIP
         return PaymentType.OTHER
 
-    # ── CSV operacije ────────────────────────────────────────────────
+    # CSV operacije
 
     def _update_csv_database(
             self,

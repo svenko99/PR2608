@@ -6,6 +6,7 @@ LOG_FILE="$REPO_DIR/cron.log"
 
 # Pull pred scraperjem
 cd "$REPO_DIR"
+git checkout main
 git pull --rebase
 
 cd "$SRC_DIR"

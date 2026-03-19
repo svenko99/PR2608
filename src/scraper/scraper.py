@@ -247,7 +247,7 @@ class Scraper:
             last_seen=seen_at,
         )
 
-    # ── Pomožne metode ──────────────────────────────────────────────
+    # Helpers
 
     def _clean_text(self, node: Tag | None) -> str | None:
         if node is None:
