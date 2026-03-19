@@ -19,6 +19,6 @@ echo "$OUTPUT" >> "$LOG_FILE"
 
 COMMIT_MSG=$(echo "$OUTPUT" | tail -n 3)
 cd "$REPO_DIR"
-git add data/data.csv data/changes.csv
+git add data/raw/data.csv data/clean/data.csv data/clean/changes.csv
 git commit -m "$COMMIT_MSG"
 git push

@@ -1,6 +1,7 @@
 import sys
 
 from scraper import InvalidCookieError, LoginError, Scraper
+from cleaner import Cleaner
 
 if __name__ == "__main__":
     scraper = Scraper(testing=False)
@@ -17,9 +18,14 @@ if __name__ == "__main__":
             raise SystemExit(1) from exc
         print("Prijava uspešna.")
 
-    listings = scraper.extract_multiple_pages()  # Prebere vse strani (dodaj parameter max_page če hočeš omejiti do katere strani gre)
-    changes, new_count = scraper.update_csv_database(listings)
+    listings = scraper.extract_multiple_pages()
+    scraper.save_raw_csv(listings)
+
+    print(f"Surovi podatki shranjeni v data/raw/data.csv ({len(listings)} oglasov).")
+
+    cleaner = Cleaner()
+    cleaned_listings, changes, new_count = cleaner.run()
 
     print(f"Novih oglasov: {new_count}.")
-    print(f"Posodobljen data.csv z {len(listings)} trenutno videnimi oglasi.")
-    print(f"Posodobljen changes.csv z {len(changes)} zaznanimi spremembami.")
+    print(f"Posodobljen data/clean/data.csv z {len(cleaned_listings)} trenutno videnimi oglasi.")
+    print(f"Posodobljen data/clean/changes.csv z {len(changes)} zaznanimi spremembami.")
