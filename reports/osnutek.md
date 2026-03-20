@@ -34,7 +34,7 @@ Rezultati iskanja na portalu so razdeljeni na več strani, pri čemer posamezno 
 
 ### Shranjenvanje podatkov
 Ker je v aplikaciji v danem času mogoče videti le trenutno objavljene oglase, želimo pa spremljati tudi njihovo dodajanje in odstranjevanje, bomo podatke zajemali vsak dan ob isti uri (20:00). Tako bomo v nekaj mesecih zgradili časovno zbirko oglasov s študentskega servisa.<br>
-Podatke bomo shranjevali v dve CSV datoteki. Datoteka `data.csv` bo vsebovala vse oglase in kdaj je bil posamezen oglas zadnjič viden na platformi (atribut `last_seen`). Datoteka `changes.csv` bo vsako posodobitev posamzenega oglasa.
+Podatke bomo shranjevali v dve CSV datoteki. Datoteka `data.csv` bo vsebovala vse oglase in kdaj je bil posamezen oglas zadnjič viden na platformi (atribut `last_seen`). Datoteka `changes.csv` bo beležila vsako posodobitev posamzenega oglasa.
 
 ### Datoteka `data.csv`
 Datoteka `data.csv` vsebuje eno vrstico na unikatni oglas. Namenjena je shranjevanju zadnjega stanja posameznega oglasa preko atributa `last_seen`. Če isti oglas opazimo večkrat, v tej datoteki posodobimo njegove podatke, ne pa dodamo nove vrstice.
