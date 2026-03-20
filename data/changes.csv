@@ -367,3 +367,45 @@ listing_id,changed_at,field,old_value,new_value
 435609,2026-03-19T17:43:41.554990+00:00,subtitle,,DELO V RESTAVRACIJI S HITRO PREHRANO
 428347,2026-03-19T17:43:41.554990+00:00,subtitle,,DELO V RESTAVRACIJI S HITRO PREHRANO
 428346,2026-03-19T17:43:41.554990+00:00,subtitle,,DELO V RESTAVRACIJI S HITRO PREHRANO
+476330,2026-03-20T19:00:06.766116+00:00,duration,PO DOGOVORU,DLJE ČASA (ZAČ. IN OBČ. DELO)
+476330,2026-03-20T19:00:06.766116+00:00,work_schedule,PO DOGOVORU,DOPOLDAN
+476330,2026-03-20T19:00:06.766116+00:00,start_date,2026-03-20,2026-03-24
+476325,2026-03-20T19:00:06.766116+00:00,start_date,2026-03-20,
+476314,2026-03-20T19:00:06.766116+00:00,description,"Iščejo vestne in zanesljive študente/ke za pomoč v proizvodnji v treh izmenah. Gre za pomožna dela v proizvodnji elektronike, večinoma na oddelku testiranja. Delo bo potekalo v lepo urejenem in čistem okolju, po potrebi. Pogoji so polnoletnost, znanje slovenskega jezika in zagotovljen prevoz. Pošljite prijavo.","Iščejo vestne in zanesljive študente/ke za pomoč v proizvodnji v jutranji izmeni. Gre za pomožna dela v proizvodnji elektronike, večinoma na oddelku testiranja. Delo bo potekalo v lepo urejenem in čistem okolju, po potrebi. Pogoji so polnoletnost, znanje slovenskega jezika in zagotovljen prevoz. Pošljite prijavo."
+476314,2026-03-20T19:00:06.766116+00:00,work_schedule,IZMENSKO,DOPOLDAN
+476269,2026-03-20T19:00:06.766116+00:00,start_date,2026-03-20,
+476259,2026-03-20T19:00:06.766116+00:00,start_date,2026-03-20,
+476250,2026-03-20T19:00:06.766116+00:00,start_date,2026-03-20,
+476216,2026-03-20T19:00:06.766116+00:00,start_date,2026-03-20,
+476206,2026-03-20T19:00:06.766116+00:00,start_date,2026-03-20,
+476144,2026-03-20T19:00:06.766116+00:00,title,TELEFONSKI MARKETING,POMOČ NA PODROČJU MARKETINGA
+476144,2026-03-20T19:00:06.766116+00:00,subtitle,,PRODAJNI/A SVETOVALEC/KA
+476122,2026-03-20T19:00:06.766116+00:00,description,"Uspešno podjetje išče več polnoletnih oseb za delo v skladišču (pomoč pri komisioniranju blaga, skrb za čistočo v skladišču, opravljanje drugih pomožnih del). Nudijo možnost dolgoročnega občasnega sodelovanja, možnost hitrega in strokovnega napredka, uvajanje z mentorjem/ico ter vključitev v karierni program Študent+. Delovni čas je po dogovoru. Z delom se lahko prične takoj, ko se v okviru podjetja opravi VPD in zdravniški pregled. Pogoj: vozniški izpit B kategorije.","Uspešno podjetje išče več polnoletnih oseb za delo v skladišču (pomoč pri komisioniranju blaga, skrb za čistočo v skladišču, opravljanje drugih pomožnih del). Nudijo možnost dolgoročnega občasnega sodelovanja, možnost hitrega in strokovnega napredka, uvajanje z mentorjem/ico ter vključitev v karierni program Študent+. Delovni čas je po dogovoru. Z delom se lahko prične takoj, ko se v okviru podjetja opravi VPD in zdravniški pregled. Pogoj: vozniški izpit B kategorije, slovenski jezik."
+476117,2026-03-20T19:00:06.766116+00:00,description,"Verjameš, da je podjetje z digitalno prihodnostjo pravi naslov zate? Svoje izkušnje boš pri njih tekom študentskega dela v službi IT lahko obogatil/a na področjih spremljanja in vzdrževanja računalniških sistemov podjetja, nameščanj in konfiguracij programske opreme ter reševanja tehničnih težav. Izzivi, ki te čakajo v ekipi: pomoč uporabnikom pri delu z Microsoft orodji, priprava in priključitev računalniške opreme, distribucija opreme. Pridruži se jim!","Verjameš, da je podjetje z digitalno prihodnostjo pravi naslov zate? Svoje izkušnje boš pri njih tekom študentskega dela v službi IT obogatil/a na področjih spremljanja in vzdrževanja računalniških sistemov podjetja, nameščanj in konfiguracij programske opreme, reševanja tehničnih težav. Izzivi, ki te čakajo v ekipi: pomoč uporabnikom pri delu z MS orodji, priprava in priključitev računalniške opreme, distribucija opreme. V primeru težav s prijavo preko spletnega obrazca, večkrat klikni na link."
+476061,2026-03-20T19:00:06.766116+00:00,start_date,2026-03-20,
+476039,2026-03-20T19:00:06.766116+00:00,start_date,2026-03-20,
+476019,2026-03-20T19:00:06.766116+00:00,start_date,2026-03-20,
+475958,2026-03-20T19:00:06.766116+00:00,start_date,2026-03-20,
+475957,2026-03-20T19:00:06.766116+00:00,start_date,2026-03-20,
+475954,2026-03-20T19:00:06.766116+00:00,start_date,2026-03-20,
+475951,2026-03-20T19:00:06.766116+00:00,description,"V svojo ekipo vabijo osebi za pomoč pri različnih elektroinštalacijskih delih. Pogoji so resnost, natančnost in pripravljenost na učenje, osnovno tehnično znanje (orodje ti ni tuje), vozniški izpit B kategorije, pripravljenost na delo na terenu ter znanje elektrotehnike. Zaželeno je, da ima oseba lasten prevoz.","V svojo ekipo vabijo osebi za pomoč pri različnih elektroinštalacijskih delih. Pogoji so resnost, natančnost in pripravljenost na učenje, osnovno tehnično znanje (orodje ti ni tuje), vozniški izpit B kategorije, pripravljenost na delo na terenu ter znanje elektrotehnike. Zaželeno je, da ima oseba lasten prevoz. Lokacija dela je večinoma Ljubljana in okolica."
+475947,2026-03-20T19:00:06.766116+00:00,start_date,2026-03-20,
+475925,2026-03-20T19:00:06.766116+00:00,start_date,2026-03-20,
+475910,2026-03-20T19:00:06.766116+00:00,start_date,2026-03-20,
+475909,2026-03-20T19:00:06.766116+00:00,start_date,2026-03-20,
+475893,2026-03-20T19:00:06.766116+00:00,start_date,2026-03-20,
+475862,2026-03-20T19:00:06.766116+00:00,start_date,2026-03-20,
+475820,2026-03-20T19:00:06.766116+00:00,start_date,2026-03-20,
+475771,2026-03-20T19:00:06.766116+00:00,hourly_rate_neto,8.0,10.0
+475771,2026-03-20T19:00:06.766116+00:00,hourly_rate_bruto,9.3,11.62
+475771,2026-03-20T19:00:06.766116+00:00,payment_type,8.00 €/h neto (9.30 €/h bruto),10.00 €/h neto (11.62 €/h bruto)
+475725,2026-03-20T19:00:06.766116+00:00,start_date,2026-03-20,
+475618,2026-03-20T19:00:06.766116+00:00,start_date,2026-03-20,
+475454,2026-03-20T19:00:06.766116+00:00,title,PROGRAMIRANJE,STROJNIŠKA DELA
+475348,2026-03-20T19:00:06.766116+00:00,start_date,2026-03-20,
+475173,2026-03-20T19:00:06.766116+00:00,start_date,2026-03-20,
+475089,2026-03-20T19:00:06.766116+00:00,start_date,,2026-03-26
+475033,2026-03-20T19:00:06.766116+00:00,description,"Iščejo večjezične študente/ke za podporo prodajnemu procesu. Delo obsega kontaktiranje oseb, ki so že oddale povpraševanje, kratek informativni klic in vnos podatkov v sistem. Potrebno je tekoče znanje angleščine ter vsaj enega izmed jezikov: španščina, italijanščina, nemščina ali francoščina. Delo ni prodaja, temveč podpora marketinški ekipi.","Iščejo večjezične študente/ke za podporo prodajnemu procesu. Delo obsega kontaktiranje oseb, ki so že oddale povpraševanje, kratek informativni klic in vnos podatkov v sistem. Zahtevano je tekoče znanje angleščine ter vsaj enega jezika: španščina, italijanščina, nemščina, francoščina, bolgarščina, slovaščina, madžarščina ali hrvaščina. Delo ni prodaja, temveč podpora marketing ekipi."
+474973,2026-03-20T19:00:06.766116+00:00,description,"Trgovec za gradnjo in dom potrebuje polnoletno osebo za delo na blagajni. Delo je dvoizmensko, vsaka 2. sobota v mesecu, vse po dogovoru in potrebi. Zahteva se polnoletnost in natačnost ter prijaznost pri delu.","Trgovec za gradnjo in dom potrebuje polnoletno osebo za delo na blagajni. Delo je dvoizmensko, vsaka 2. sobota v mesecu, vse po dogovoru in potrebi. Zahteva se polnoletnost in natačnost ter prijaznost pri delu. Lahko pokličete, še bolje, če se ne javijo, da oddate prijavo na e-naslov."
+474624,2026-03-20T19:00:06.766116+00:00,start_date,2026-03-20,
+473216,2026-03-20T19:00:06.766116+00:00,start_date,2026-03-20,
