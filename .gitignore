@@ -1,9 +1,17 @@
+# Hide .env and cron.log
 .env
-src/.env
-.DS_Store
-.idea/
-__pycache__/
-.claude/worktrees/
 cron.log
+
+# AI
+.claude/
+
+# macOS
+.DS_Store
+
+# JetBrains
+.idea/
+
+# Python
+__pycache__/
 .ipynb_checkpoints/
 .venv/
