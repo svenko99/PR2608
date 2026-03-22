@@ -23,6 +23,6 @@ if __name__ == "__main__":
     cleaner = Cleaner()
     cleaned_listings, changes, new_count = cleaner.run(listings)
 
-    print(f"Novih oglasov: {new_count}.")
-    print(f"Posodobljen data.csv z {len(cleaned_listings)} trenutno videnimi oglasi.")
-    print(f"Posodobljen changes.csv z {len(changes)} zaznanimi spremembami.")
+    print(f"Št. novih oglasov: {new_count}.")
+    print(f"data.csv ima {len(cleaned_listings)} trenutno videnih oglasov.")
+    print(f"changes.csv ima {len(changes)} novih sprememb.")
