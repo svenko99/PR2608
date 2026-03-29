@@ -6,6 +6,17 @@
 
 - [`osnutek.md`](/reports/osnutek.md)
 
+## Jupyter Notebook
+
+Za zagon Jupyter Notebook ([`rezultati.ipynb`](./src/notebook/rezultati.ipynb)) si naloži [
+`uv`](https://docs.astral.sh/uv/getting-started/installation/) in poženi:
+
+```bash
+cd src
+uv sync
+uv run --with jupyter jupyter lab
+```
+
 ## Scraper
 
 Scraper teče na Svenovem Raspberry Pi vsak dan ob 20:00, kjer se zažene skripta [
