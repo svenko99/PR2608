@@ -1106,3 +1106,54 @@ listing_id,changed_at,field,old_value,new_value
 435144,2026-04-01T18:00:07.642673+00:00,hourly_rate_neto,8.0,8.5
 435144,2026-04-01T18:00:07.642673+00:00,hourly_rate_bruto,9.3,9.88
 435144,2026-04-01T18:00:07.642673+00:00,payment_type,8.00 €/h neto (9.30 €/h bruto),8.50 €/h neto (9.88 €/h bruto)
+477226,2026-04-02T18:00:05.824516+00:00,subtitle,,RAZVOZ HRANE
+477220,2026-04-02T18:00:05.824516+00:00,subtitle,,POLNJENJE POLIC IN BLAGAJNIK
+477219,2026-04-02T18:00:05.824516+00:00,subtitle,,POLNJENJE POLIC IN BLAGAJNIK
+477218,2026-04-02T18:00:05.824516+00:00,subtitle,,POLNJENJE POLIC IN BLAGAJNIK
+477217,2026-04-02T18:00:05.824516+00:00,description,"Arhitekturno podjetje išče samoiniciativno, zanesljivo osebo (m/ž), ki želi pridobiti vpogled v delovanje arhitekturnega studia. Delo vključuje podporo pri organizaciji, pripravi dokumentov, spremljanju projektov, urejanju spletne strani in osnovnem marketingu. Iščejo osebo, ki se hitro uči, razmišlja samostojno in prevzema odgovornost. Nudijo fleksibilno študentsko delo in možnost daljšega občasnega sodelovanja, po potrebi in dogovoru. Delno delo z AI orodji in sodobnimi digitalnimi procesi.","Arhitekturno podjetje išče samoiniciativno, zanesljivo osebo (m/ž), ki želi pridobiti vpogled v delovanje arhitekturnega studia. Delo vključuje podporo pri organizaciji, pripravi dokumentov, spremljanju projektov, urejanju spletne strani in osnovnem marketingu. Delno delo z AI orodji in sodobnimi digitalnimi procesi. Iščejo osebo, ki se hitro uči, razmišlja samostojno in prevzema odgovornost. Nudijo fleksibilno študentsko delo in možnost daljšega občasnega sodelovanja, po potrebi in dogovoru."
+477199,2026-04-02T18:00:05.824516+00:00,description,"Iščejo polnoletno osebo za pomoč na recepciji, kontrola vhoda in izhoda, popis tovornih vozil, sprejem gostov.","Iščejo polnoletno osebo za pomoč na recepciji, kontrola vhoda in izhoda, popis tovornih vozil, sprejem gostov. Delo se prične takoj."
+477199,2026-04-02T18:00:05.824516+00:00,duration,DLJE ČASA (ZAČ. IN OBČ. DELO),1 MESEC
+477194,2026-04-02T18:00:05.824516+00:00,start_date,2026-04-02,
+477189,2026-04-02T18:00:05.824516+00:00,start_date,2026-04-02,
+477174,2026-04-02T18:00:05.824516+00:00,description,"Restavracija išče zanesljivega in komunikativnega študenta/ko za pomoč pri delu v restavraciji. Ponujajo: začetna urna postavka 9,30 € bruto,delo po dogovoru in potrebi, ki poteka med ponedeljkom in soboto (med 9. 00 in 21. 00), prijetno delovno okolje in možnost dolgoročnega, občasnega sodelovanja. Pričakujejo odgovornost in željo po učenju, prijaznost do strank ter pripravljenost na delo v dinamičnem okolju.","Restavracija išče zanesljivega in komunikativnega študenta/ko za pomoč pri delu v restavraciji. Ponujajo: začetna urna postavka 9,30 € bruto, delo po dogovoru in potrebi, ki poteka med ponedeljkom in soboto (med 9. 00 in 21. 00), prijetno delovno okolje in možnost dolgoročnega, občasnega sodelovanja. Pričakujejo odgovornost in željo po učenju, prijaznost do strank ter pripravljenost na delo v dinamičnem okolju."
+477173,2026-04-02T18:00:05.824516+00:00,start_date,2026-04-02,
+477162,2026-04-02T18:00:05.824516+00:00,start_date,2026-04-02,
+477135,2026-04-02T18:00:05.824516+00:00,start_date,2026-04-02,
+477107,2026-04-02T18:00:05.824516+00:00,start_date,2026-04-02,
+477100,2026-04-02T18:00:05.824516+00:00,start_date,2026-04-02,
+477088,2026-04-02T18:00:05.824516+00:00,start_date,2026-04-02,
+477077,2026-04-02T18:00:05.824516+00:00,hourly_rate_neto,7.74,8.61
+477077,2026-04-02T18:00:05.824516+00:00,hourly_rate_bruto,9.0,10.0
+477077,2026-04-02T18:00:05.824516+00:00,payment_type,7.74 €/h neto (9.00 €/h bruto),8.61 €/h neto (10.00 €/h bruto)
+476991,2026-04-02T18:00:05.824516+00:00,company,DSV TRANSPORT D.O.O.,DSV ROAD D.O.O.
+476938,2026-04-02T18:00:05.824516+00:00,hourly_rate_neto,8.0,8.5
+476938,2026-04-02T18:00:05.824516+00:00,hourly_rate_bruto,9.3,9.88
+476938,2026-04-02T18:00:05.824516+00:00,payment_type,8.00 €/h neto (9.30 €/h bruto),8.50 €/h neto (9.88 €/h bruto)
+476931,2026-04-02T18:00:05.824516+00:00,start_date,2026-04-02,
+476902,2026-04-02T18:00:05.824516+00:00,start_date,,2026-05-04
+476854,2026-04-02T18:00:05.824516+00:00,hourly_rate_neto,7.73,8.17
+476854,2026-04-02T18:00:05.824516+00:00,hourly_rate_bruto,8.98,9.5
+476854,2026-04-02T18:00:05.824516+00:00,payment_type,7.73 €/h neto (8.98 €/h bruto),8.17 €/h neto (9.50 €/h bruto)
+476815,2026-04-02T18:00:05.824516+00:00,start_date,2026-04-02,
+476762,2026-04-02T18:00:05.824516+00:00,description,"V zasebni pediatrični ambulanti iščejo pomoč v administraciji. Tvoje naloge bodo naročanje terminov, podajanje informacij, skrb za zadovoljstvo strank, sprejem pacientov in prodaja storitev. Želijo si odgovorne in visoko motivirane osebe, ki rada dela z ljudmi. Delo poteka v manjši ekipi, v zelo prijetnem in stimulativnem okolju. Pogoj je znanje slovenskega ter angleškega jezika, srbohrvaški jezik je plus. Predhodno delo v zdravstveni administraciji in izkušnje s prodajo so prednost.","V zasebni pediatrični ambulanti iščejo študenta/študentko za administrativno delo: naročanje terminov, komunikacijo s pacienti, sprejem in aktivno prodajo storitev. Iščejo odgovorno, motivirano osebo z dobrimi prodajnimi in komunikacijskimi sposobnostmi, tudi za storitve višjega cenovnega razreda. Pogoji: znanje SLO in ANG, znanje SRB/HR je prednost. Izkušnje v administraciji ali prodaji so plus."
+476602,2026-04-02T18:00:05.824516+00:00,sublocation,,TENIS KLUB Z SPORT
+476602,2026-04-02T18:00:05.824516+00:00,hourly_rate_neto,7.73,9.0
+476602,2026-04-02T18:00:05.824516+00:00,hourly_rate_bruto,8.98,10.46
+476602,2026-04-02T18:00:05.824516+00:00,payment_type,7.73 €/h neto (8.98 €/h bruto),9.00 €/h neto (10.46 €/h bruto)
+476602,2026-04-02T18:00:05.824516+00:00,description,Delo na recepciji tenis kluba in strežba v lokalu za člane znotraj kluba. Urnik dela je po dogovoru in potrebi.,"Iščejo zanesljive in pozitivne osebe. Delo v športnem okolju na recepciji tenis kluba in strežba v lokalu za člane znotraj kluba. Urnik dela je fleksibilen. Delo vključuje tudi vikende in praznike, zato iščejo zanesljive osebe (odsotnosti niso opcija). ZagotovljenI bonusi glede na uspešnost."
+476602,2026-04-02T18:00:05.824516+00:00,open_positions,,2
+475890,2026-04-02T18:00:05.824516+00:00,start_date,2026-04-02,
+475836,2026-04-02T18:00:05.824516+00:00,description,"Ste komunikativni, uživate v stikih s strankami in imate radi digitalne storitve? Potem se pridružite motivirani ekipi v oddelku digitalne prodaje/centra za pomoč strankam. Naloge: obravnavate in rešujete zahteve strank po telefonu, strankam nudite dragoceno podporo, stranke oskrbujete z odgovori na vprašanja o digitalnih storitvah. Nudijo prilagodljiv delovni čas, privlačen program usposabljanja in karierne priložnosti, delo v uspešni in v prihodnost usmerjeni mednarodni banki.","Ste komunikativni, uživate v stikih s strankami in imate radi digitalne storitve? Potem se pridružite motivirani ekipi v oddelku digitalne prodaje/centra za pomoč strankam. Naloge: obravnavate in rešujete zahteve strank po telefonu, strankam nudite dragoceno podporo, stranke oskrbujete z odgovori na vprašanja o digitalnih storitvah."
+475836,2026-04-02T18:00:05.824516+00:00,open_positions,3,6
+475215,2026-04-02T18:00:05.824516+00:00,description,"Iščejo polnoletne osebe z znanjem slovenskega jezika, ki imajo izkušnje s strežbo. Vabijo te v prijeten kolektiv. Delo poteka v popoldanskem času čez teden in ob vikendih, po potrebi in dogovoru. Dela se tudi med prazniki. Možnost priučitve ustrezne priprave kave in koktajlov.","Iščejo polnoletne osebe z znanjem slovenskega jezika, obvezne so izkušnje s strežbo. Vabijo te v prijeten kolektiv. Delo poteka v popoldanskem času čez teden in ob vikendih, po potrebi in dogovoru. Dela se tudi med prazniki. Možnost priučitve ustrezne priprave kave in koktajlov."
+474904,2026-04-02T18:00:05.824516+00:00,description,"Iščejo osebo za pomoč v kuhinji pri pripravi živil in enostavnih jedi. Več informacij na razgovoru. V kolikor nimaš izkušenj, te lahko priučijo. Pokliči ali pošlji e-prijavo.",Iščejo osebo za pomoč v kuhinji pri pripravi živil in enostavnih jedi. Zaželene so izkušnje. Več informacij na razgovoru. Pokliči ali pošlji e-prijavo.
+474904,2026-04-02T18:00:05.824516+00:00,work_schedule,PO DOGOVORU,DOPOLDAN
+474608,2026-04-02T18:00:05.824516+00:00,description,"Podjetje išče polnoletno osebo za delo v skladišču (skeniranje in prepakiranje paketov). Delo je srednje fizično. Dela se med 8. 00 in 16. 00, med tednom. Zaželene so izkušnje s tovrstnim delom. Pogoj je znanje slovenskega jezika. Pošlji e-prijavo in priloži izkušnje. .","Podjetje išče polnoletno osebo za pomoč v skladišču (skeniranje in prepakiranje paketov). Dela se med 8. 00 in 16. 00, med tednom. Zaželene izkušnje z tovrstnim delom. Pošlji e-prijavo. ."
+474608,2026-04-02T18:00:05.824516+00:00,start_date,,2026-04-06
+474002,2026-04-02T18:00:05.824516+00:00,start_date,2026-04-02,
+473617,2026-04-02T18:00:05.824516+00:00,description,"Iščejo komunikativni in proaktivni osebi z izkušnjami v prodaji, ki bosta skrbela za podporo strankam. Delo vključuje: sprejemanje dohodnih klicev in izvajanje odhodnih (kontakti, ki so že izrazili zanimanje), usklajevanje terminov s svetovalci, svetovanje in podporo strankam, ter pomoč pri odločitvah. Nudijo uvajanje, fleksibilen delovni čas, fiksno plačilo + nagrade. Če te veseli delo z ljudmi, pošlji prijavo!","Iščejo komunikativnega/i in proaktivnega/i študenta/ki, zaželeno absolventski staž, z izkušnjami v prodaji, ki bosta skrbela za podporo strankam. Delo vključuje: sprejemanje dohodnih klicev in izvajanje odhodnih (kontakti, ki so že izrazili zanimanje), usklajevanje terminov s svetovalci, svetovanje in podporo strankam, ter pomoč pri odločitvah. Nudijo uvajanje, fleksibilen delovni čas, fiksno plačilo + nagrade. Če te veseli delo z ljudmi, pošlji prijavo!"
+471615,2026-04-02T18:00:05.824516+00:00,work_schedule,PO DOGOVORU,POPOLDAN
+467790,2026-04-02T18:00:05.824516+00:00,hourly_rate_neto,8.0,8.5
+467790,2026-04-02T18:00:05.824516+00:00,hourly_rate_bruto,9.3,9.88
+467790,2026-04-02T18:00:05.824516+00:00,payment_type,8.00 €/h neto (9.30 €/h bruto),8.50 €/h neto (9.88 €/h bruto)
+456361,2026-04-02T18:00:05.824516+00:00,description,"Iščejo polnoletne osebe za delo v sektorju proizvodnje (posluževanje stiskalnic ali posluževanje brusilnih strojev). Kandidati morajo znati osnove slovenskega jezika (govor in razumevanje). Možnost daljšega, občasnega sodelovanja. Pričakujejo resnost - odgovornost, samostojnost, pripravljenost na učenje.","Iščejo polnoletne osebe za delo v sektorju proizvodnje (posluževanje stiskalnic ali brusilnih strojev). Kandidati morajo znati osnove slovenskega jezika (govor in razumevanje). Možnost daljšega, občasnega sodelovanja. Pričakujejo resnost - odgovornost, samostojnost, pripravljenost na učenje."
