@@ -5,6 +5,7 @@
 ## Poročila
 
 - [`osnutek.md`](/reports/osnutek.md)
+- [`VMESNO.md`](/reports/VMESNO.md)
 
 ## Jupyter Notebook
 
