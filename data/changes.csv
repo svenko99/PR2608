@@ -1437,3 +1437,72 @@ listing_id,changed_at,field,old_value,new_value
 447409,2026-04-07T20:02:42.287188+00:00,hourly_rate_neto,7.73,8.43
 447409,2026-04-07T20:02:42.287188+00:00,hourly_rate_bruto,8.98,9.8
 447409,2026-04-07T20:02:42.287188+00:00,payment_type,7.73 €/h neto (8.98 €/h bruto),8.43 €/h neto (9.80 €/h bruto)
+477556,2026-04-08T18:00:08.172264+00:00,start_date,2026-04-08,
+477548,2026-04-08T18:00:08.172264+00:00,description,"Iščejo komunikativno osebo, ki uživa v modi in prodaji oblačil. Delo poteka v dopoldanskem času in ob sobotah, po potrebi in dogovoru.","Iščejo komunikativno osebo, ki uživa v modi in prodaji oblačil. Delo poteka v popoldanskem času in ob sobotah, po potrebi in dogovoru."
+477548,2026-04-08T18:00:08.172264+00:00,work_schedule,DOPOLDAN,POPOLDAN
+477543,2026-04-08T18:00:08.172264+00:00,start_date,2026-04-08,
+477501,2026-04-08T18:00:08.172264+00:00,start_date,2026-04-08,
+477482,2026-04-08T18:00:08.172264+00:00,start_date,2026-04-08,
+477471,2026-04-08T18:00:08.172264+00:00,start_date,2026-04-08,
+477468,2026-04-08T18:00:08.172264+00:00,start_date,2026-04-08,
+477455,2026-04-08T18:00:08.172264+00:00,description,"Si natančna, komunikativna oseba (m/ž) in rada delaš z ljudmi? V salon vabijo osebo za delo z nohti (gel/BIAB/permanentni lak). Pričakujejo osnovne izkušnje, občutek za estetiko, zanesljivost in željo po učenju ter dolgoročnem občasnem sodelovanju. Nudijo urejeno okolje, fleksibilen urnik in možnost napredovanja. Pošlji predstavitev in slike svojega dela na mail.","Si natančna, komunikativna oseba (m/ž) in rada delaš z ljudmi? V salon vabijo osebo za delo z nohti (gel/BIAB/permanentni lak). Pričakujejo osnovne izkušnje, občutek za estetiko, zanesljivost in željo po učenju ter dolgoročnem občasnem sodelovanju. Nudijo urejeno okolje, fleksibilen urnik in možnost napredovanja. Pošlji kratko predstavitev in slike svojega dela."
+477387,2026-04-08T18:00:08.172264+00:00,start_date,2026-04-08,
+477334,2026-04-08T18:00:08.172264+00:00,hourly_rate_neto,7.73,8.17
+477334,2026-04-08T18:00:08.172264+00:00,hourly_rate_bruto,8.98,9.5
+477334,2026-04-08T18:00:08.172264+00:00,payment_type,7.73 €/h neto (8.98 €/h bruto),8.17 €/h neto (9.50 €/h bruto)
+477334,2026-04-08T18:00:08.172264+00:00,open_positions,5,10
+477334,2026-04-08T18:00:08.172264+00:00,start_date,2026-04-07,
+477328,2026-04-08T18:00:08.172264+00:00,start_date,2026-04-08,
+477313,2026-04-08T18:00:08.172264+00:00,description,"Iščejo zanesljivo in komunikativno osebo za delo v strežbi in na recepciji kavarne. Delo obsega sprejem gostov, pripravo in strežbo pijače, delo z blagajno ter skrb za urejenost prostora. Obvezne so predhodne izkušnje v strežbi. Zaželene so prijaznost do gostov, odgovornost, samoiniciativnost ter sposobnost dela v ekipi. Nudijo prijetno delovno okolje in fleksibilen študentski urnik.","Iščejo zanesljivo in komunikativno osebo za delo v strežbi in na recepciji kavarne. Delo obsega sprejem gostov, pripravo in strežbo pijače, delo z blagajno ter skrb za urejenost prostora. Pričakujejo prijaznost do gostov, odgovornost, samoiniciativnost ter sposobnost dela v ekipi. Nudijo prijetno delovno okolje in fleksibilen študentski urnik."
+477313,2026-04-08T18:00:08.172264+00:00,open_positions,,2
+477305,2026-04-08T18:00:08.172264+00:00,start_date,2026-04-08,2026-04-10
+477259,2026-04-08T18:00:08.172264+00:00,start_date,2026-04-08,
+477238,2026-04-08T18:00:08.172264+00:00,start_date,2026-04-08,
+477217,2026-04-08T18:00:08.172264+00:00,start_date,2026-04-08,
+477192,2026-04-08T18:00:08.172264+00:00,hourly_rate_neto,8.17,9.9
+477192,2026-04-08T18:00:08.172264+00:00,hourly_rate_bruto,9.5,11.5
+477192,2026-04-08T18:00:08.172264+00:00,payment_type,8.17 €/h neto (9.50 €/h bruto),9.90 €/h neto (11.50 €/h bruto)
+477192,2026-04-08T18:00:08.172264+00:00,description,"Večja gostinska družba išče delavno in zanesljivo osebo za delo v kuhinji - kuhar, Delo obsega pripravo sendvičev sokov, peko že pripravljenih sladic, kruha., peciva. . . Nudijo možnost opravljanja dela skozi celo leto, tudi med počitnicami, po potrebi in dogovoru. Pogoja sta lasten prevoz in znanje slovenskega jezika. Nudijo razgibano delo in malico.","Večja gostinska družba išče delavno in zanesljivo osebo za delo v kuhinji - kuhar. Delo obsega pripravo sendvičev, sokov, peko že pripravljenih sladic, kruha, peciva. . . Nudijo možnost opravljanja dela skozi celo leto, tudi med počitnicami, po potrebi in dogovoru. Pogoja sta lasten prevoz in znanje slovenskega jezika. Nudijo razgibano delo in malico."
+477177,2026-04-08T18:00:08.172264+00:00,hourly_rate_neto,7.74,9.04
+477177,2026-04-08T18:00:08.172264+00:00,hourly_rate_bruto,9.0,10.5
+477177,2026-04-08T18:00:08.172264+00:00,payment_type,7.74 €/h neto (9.00 €/h bruto),9.04 €/h neto (10.50 €/h bruto)
+477056,2026-04-08T18:00:08.172264+00:00,start_date,2026-04-08,
+476965,2026-04-08T18:00:08.172264+00:00,description,V svojo sredino vabijo študenta/ko FRI ali FMF za delo na del. mestu samostojnega razvojnega inženirja. Poleg dobrih odnosov in dobrega plačila ti pripadajo tudi druge bonitete. Več o delu na spletni strani podjetja.,V svojo sredino vabijo študenta/ko FRI ali FMF za delo na del. mestu samostojnega razvojnega inženirja. Zaželeni/e študenti/ke višjih letnikov. Poleg dobrih odnosov in dobrega plačila ti pripadajo tudi druge bonitete. Možnost kasnejše redne zaposlitve. Več o delu na spletni strani podjetja.
+476872,2026-04-08T18:00:08.172264+00:00,start_date,2026-04-08,
+476829,2026-04-08T18:00:08.172264+00:00,start_date,2026-04-08,
+476779,2026-04-08T18:00:08.172264+00:00,start_date,,2026-04-09
+476687,2026-04-08T18:00:08.172264+00:00,location,"ILIRSKA BISTRICA, VILHARJEVA 18","IVANČNA GORICA, STANTETOVA 1A"
+476687,2026-04-08T18:00:08.172264+00:00,description,Iščejo študenta/ko za pomoč v trgovini in delo na blagajni. Delovnik je po potrebi in dogovoru.,"Iščejo študenta/ko z zanimanjem za delo v trgovini, predvsem delo na blagajni."
+475890,2026-04-08T18:00:08.172264+00:00,sublocation,BENCINSKI SERVIS PETROL BOVEC,BENCINSKI SERVIS PETROL
+475890,2026-04-08T18:00:08.172264+00:00,hourly_rate_neto,10.0,13.0
+475890,2026-04-08T18:00:08.172264+00:00,hourly_rate_bruto,11.62,15.11
+475890,2026-04-08T18:00:08.172264+00:00,payment_type,10.00 €/h neto (11.62 €/h bruto),13.00 €/h neto (15.11 €/h bruto)
+475876,2026-04-08T18:00:08.172264+00:00,hourly_rate_neto,7.92,8.6
+475876,2026-04-08T18:00:08.172264+00:00,hourly_rate_bruto,9.2,9.99
+475876,2026-04-08T18:00:08.172264+00:00,payment_type,7.92 €/h neto (9.20 €/h bruto),8.60 €/h neto (9.99 €/h bruto)
+475743,2026-04-08T18:00:08.172264+00:00,start_date,2026-04-08,
+475491,2026-04-08T18:00:08.172264+00:00,hourly_rate_neto,7.92,8.6
+475491,2026-04-08T18:00:08.172264+00:00,hourly_rate_bruto,9.2,9.99
+475491,2026-04-08T18:00:08.172264+00:00,payment_type,7.92 €/h neto (9.20 €/h bruto),8.60 €/h neto (9.99 €/h bruto)
+475390,2026-04-08T18:00:08.172264+00:00,hourly_rate_neto,7.74,9.04
+475390,2026-04-08T18:00:08.172264+00:00,hourly_rate_bruto,9.0,10.5
+475390,2026-04-08T18:00:08.172264+00:00,payment_type,7.74 €/h neto (9.00 €/h bruto),9.04 €/h neto (10.50 €/h bruto)
+475390,2026-04-08T18:00:08.172264+00:00,duration,PO DOGOVORU,DLJE ČASA (ZAČ. IN OBČ. DELO)
+473244,2026-04-08T18:00:08.172264+00:00,hourly_rate_neto,7.74,9.04
+473244,2026-04-08T18:00:08.172264+00:00,hourly_rate_bruto,9.0,10.5
+473244,2026-04-08T18:00:08.172264+00:00,payment_type,7.74 €/h neto (9.00 €/h bruto),9.04 €/h neto (10.50 €/h bruto)
+473244,2026-04-08T18:00:08.172264+00:00,description,"Večja gostinska družba išče delavni in zanesljivi osebi za pomoč v strežbi in pomivalnici. Delo obsega strežbo gostov, pomivanje in pospravljanje posode, čiščenje miz, priprava sendvičev, priprava kavic, priprava naravnih sokov itd. Pogoja: lasten prevoz ter znanje slovenskega jezika. Nudijo razgibano delo in malico.","Večja gostinska družba išče delavni in zanesljivi osebi za pomoč v strežbi in pomivalnici. Delo obsega strežbo gostov, pomivanje in pospravljanje posode, čiščenje miz, priprava sendvičev, priprava kavic, priprava naravnih sokov itd. Pogoji: polnoletnost, lasten prevoz ter znanje slovenskega jezika. Nudijo razgibano delo in malico."
+473244,2026-04-08T18:00:08.172264+00:00,duration,PO DOGOVORU,DLJE ČASA (ZAČ. IN OBČ. DELO)
+472985,2026-04-08T18:00:08.172264+00:00,hourly_rate_neto,7.73,7.8
+472985,2026-04-08T18:00:08.172264+00:00,hourly_rate_bruto,8.98,9.06
+472985,2026-04-08T18:00:08.172264+00:00,payment_type,7.73 €/h neto (8.98 €/h bruto),7.80 €/h neto (9.06 €/h bruto)
+472985,2026-04-08T18:00:08.172264+00:00,duration,PO DOGOVORU,DLJE ČASA (ZAČ. IN OBČ. DELO)
+466948,2026-04-08T18:00:08.172264+00:00,hourly_rate_neto,7.73,8.61
+466948,2026-04-08T18:00:08.172264+00:00,hourly_rate_bruto,8.98,10.0
+466948,2026-04-08T18:00:08.172264+00:00,payment_type,7.73 €/h neto (8.98 €/h bruto),8.61 €/h neto (10.00 €/h bruto)
+464617,2026-04-08T18:00:08.172264+00:00,hourly_rate_neto,8.17,9.47
+464617,2026-04-08T18:00:08.172264+00:00,hourly_rate_bruto,9.5,11.0
+464617,2026-04-08T18:00:08.172264+00:00,payment_type,8.17 €/h neto (9.50 €/h bruto),9.47 €/h neto (11.00 €/h bruto)
+438943,2026-04-08T18:00:08.172264+00:00,hourly_rate_neto,7.92,8.6
+438943,2026-04-08T18:00:08.172264+00:00,hourly_rate_bruto,9.2,9.99
+438943,2026-04-08T18:00:08.172264+00:00,payment_type,7.92 €/h neto (9.20 €/h bruto),8.60 €/h neto (9.99 €/h bruto)
