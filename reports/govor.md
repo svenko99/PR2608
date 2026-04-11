@@ -9,9 +9,10 @@ Trenutno imamo shranjenih več kot 4400 oglasov, kot pa smo že povedali, se ogl
 Da so nekateri podatki postali uporabnejši za analize smo se lotili tudi nekaj predprocesiranja – Lokacijo smo iz surove oblike normalizirali v ime naselja in statistične regije, kjer se bo študentsko delo izvajalo. Normalizirali smo s pomočjo ustvarjene tabele, ki povezuje naselja, občine in regije[slika]. Ti podatki bodo tako uporabnejši pri analiziranju oglasov glede na njihovo lokacijo. Iz surove oblike smo normalizirali tudi zapis plačila na oglasu, tako da smo dobili normaliziran tip plačila (na uro, na projekt, na izlet, na dogodek,  po dogovoru).
 
 V okviru analize želimo odgovoriti na naslednja vprašanja:
-•	Ali delodajalci dvigujejo plače, ko oglasa ne morejo zapolniti?
-•	Katere lastnosti imajo bolje plačani oglasi?
-•	Kje so dela najbolj plačana?
+
+- Ali delodajalci dvigujejo plače, ko oglasa ne morejo zapolniti?
+- Katere lastnosti imajo bolje plačani oglasi?
+- Kje so dela najbolj plačana?
 
 Raziskave z namenom pridobivanja odgovorov na vprašanja, ki nas zanimajo izvajamo v jupyter labu v skupnem zvezku. Najprej smo naredili osnovne statistike, ki prikažejo ključne lastnosti podatkovne zbirke nato pa smo se lotili vprašanj. Pri vsakem vprašanju poleg analize naredimo tudi vizualizacijo, tako da so rezultati jasno vidni. 
 
