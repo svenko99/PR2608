@@ -53,7 +53,7 @@ zaznanimi spremembami neto urne postavke ni bilo niti enega znižanja — vse so
 ponudbo šele, ko začetna postavka ne pritegne dovolj kandidatov. Za študente to pomeni, da se pri nekaterih oglasih
 splača počakati na boljšo ponudbo.
 
-## 4 Vsebina in dinamika trga
+## Vsebina in dinamika trga
 
 ### Programski jeziki v opisih
 
