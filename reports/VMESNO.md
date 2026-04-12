@@ -41,7 +41,7 @@ delo, kar zoži prostor za regionalne razlike.
 
 Primerjava plač po kategorijah dela razkrije znatne razlike. Najvišjo mediano neto urne postavke dosegajo oglasi za
 poučevanje in inštrukcije (11,19 €), sledijo promocijske aktivnosti (10,00 €). Na drugem koncu lestvice so proizvodna
-dela z mediano 7,74 €. Razpon median po kategorijah (3,45 €) je skoraj osemkrat večji od razpona po regijah (0,42 €),
+dela z mediano 7,74 €. Razpon median po kategorijah (3,45 €) je osemkrat večji od razpona po regijah (0,42 €),
 kar pomeni, da vrsta dela na plačilo vpliva bistveno bolj kot lokacija. Število prostih mest na urno postavko ne
 vpliva — mediana znaša 8 € ne glede na to, ali ima oglas eno, do pet ali več kot pet prostih mest.
 
