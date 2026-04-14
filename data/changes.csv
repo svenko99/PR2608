@@ -1801,3 +1801,86 @@ listing_id,changed_at,field,old_value,new_value
 433181,2026-04-13T19:21:35.672790+00:00,hourly_rate_neto,7.73,8.0
 433181,2026-04-13T19:21:35.672790+00:00,hourly_rate_bruto,8.98,9.3
 433181,2026-04-13T19:21:35.672790+00:00,payment_type,7.73 €/h neto (8.98 €/h bruto),8.00 €/h neto (9.30 €/h bruto)
+478128,2026-04-14T18:00:07.791091+00:00,description,Iščejo osebo za čiščenje poslovnih prostorov in administrativna dela.,"Iščejo osebo za čiščenje poslovnih prostorov in enostavna administrativna dela (kuvertiranje, priprava nalepk)."
+478127,2026-04-14T18:00:07.791091+00:00,start_date,2026-04-14,
+478113,2026-04-14T18:00:07.791091+00:00,start_date,2026-04-14,
+478106,2026-04-14T18:00:07.791091+00:00,start_date,2026-04-14,
+478104,2026-04-14T18:00:07.791091+00:00,start_date,2026-04-14,
+478074,2026-04-14T18:00:07.791091+00:00,start_date,2026-04-14,
+478072,2026-04-14T18:00:07.791091+00:00,start_date,2026-04-14,
+478069,2026-04-14T18:00:07.791091+00:00,start_date,2026-04-14,
+478067,2026-04-14T18:00:07.791091+00:00,start_date,2026-04-14,
+478066,2026-04-14T18:00:07.791091+00:00,start_date,2026-04-14,
+478065,2026-04-14T18:00:07.791091+00:00,start_date,2026-04-14,
+478064,2026-04-14T18:00:07.791091+00:00,start_date,2026-04-14,
+478058,2026-04-14T18:00:07.791091+00:00,start_date,2026-04-14,
+478057,2026-04-14T18:00:07.791091+00:00,start_date,2026-04-14,
+478053,2026-04-14T18:00:07.791091+00:00,start_date,2026-04-14,
+478052,2026-04-14T18:00:07.791091+00:00,start_date,2026-04-14,
+478043,2026-04-14T18:00:07.791091+00:00,start_date,2026-04-14,
+478039,2026-04-14T18:00:07.791091+00:00,start_date,2026-04-14,
+478038,2026-04-14T18:00:07.791091+00:00,start_date,2026-04-14,
+478034,2026-04-14T18:00:07.791091+00:00,start_date,2026-04-14,
+478028,2026-04-14T18:00:07.791091+00:00,start_date,2026-04-14,
+478027,2026-04-14T18:00:07.791091+00:00,description,"Iščejo študenta/ko za pomoč pri nameščanju operacijskega sistema na računalnike po navodilih naročnika in osnovna tehnična podpora v okviru nameščanja. Zahteva se osnovno zanje s področja računalništva, natančnost in zanesljivost. Naloge se opravlja v centralnem skladišču. K prijavi dodatje življenjepis s kontaktnimi podatki.","Iščejo študenta/ko za pomoč pri nameščanju operacijskega sistema na računalnike po navodilih naročnika in osnovna tehnična podpora v okviru nameščanja. Zahteva se osnovno znanje s področja računalništva, natančnost in zanesljivost. Naloge se opravlja v centralnem skladišču. K prijavi dodatje življenjepis s kontaktnimi podatki."
+478025,2026-04-14T18:00:07.791091+00:00,start_date,2026-04-14,
+478011,2026-04-14T18:00:07.791091+00:00,hourly_rate_neto,7.73,8.12
+478011,2026-04-14T18:00:07.791091+00:00,hourly_rate_bruto,8.98,9.44
+478011,2026-04-14T18:00:07.791091+00:00,payment_type,7.73 €/h neto (8.98 €/h bruto),8.12 €/h neto (9.44 €/h bruto)
+478010,2026-04-14T18:00:07.791091+00:00,start_date,2026-04-14,
+478000,2026-04-14T18:00:07.791091+00:00,start_date,2026-04-14,
+477986,2026-04-14T18:00:07.791091+00:00,hourly_rate_neto,8.0,9.0
+477986,2026-04-14T18:00:07.791091+00:00,hourly_rate_bruto,9.3,10.46
+477986,2026-04-14T18:00:07.791091+00:00,payment_type,8.00 €/h neto (9.30 €/h bruto),9.00 €/h neto (10.46 €/h bruto)
+477980,2026-04-14T18:00:07.791091+00:00,start_date,2026-04-14,
+477770,2026-04-14T18:00:07.791091+00:00,hourly_rate_neto,7.74,10.0
+477770,2026-04-14T18:00:07.791091+00:00,hourly_rate_bruto,9.0,11.62
+477770,2026-04-14T18:00:07.791091+00:00,payment_type,7.74 €/h neto (9.00 €/h bruto),10.00 €/h neto (11.62 €/h bruto)
+477770,2026-04-14T18:00:07.791091+00:00,description,"Iščejo marljivi osebi za čiščenja apartmajev in sob. Pomoč potrebujejo predvsem v dopoldanskem času, občasno popoldan, vse po dogovoru in potrebi. Čisti se v Izoli ter v okolici Portoroža. Urna postavka je od 9 € bruto, glede na izkušnje in trud se lahko dvigne.","Iščejo marljivi osebi za čiščenja apartmajev in sob. Pomoč potrebujejo predvsem v dopoldanskem času, občasno popoldan, vse po dogovoru in potrebi. Čisti se v Izoli ter v okolici Portoroža."
+477748,2026-04-14T18:00:07.791091+00:00,hourly_rate_neto,9.5,10.0
+477748,2026-04-14T18:00:07.791091+00:00,hourly_rate_bruto,11.04,11.62
+477748,2026-04-14T18:00:07.791091+00:00,payment_type,9.50 €/h neto (11.04 €/h bruto),10.00 €/h neto (11.62 €/h bruto)
+477722,2026-04-14T18:00:07.791091+00:00,description,"V podjetju, ki se ukvarja z organizacijo dogodkov, team buildingov, izvedbo otroških in družinskih animacij ter hotelsko animacijo, širijo ekipo, zato iščejo večje število fantov in deklet, ki radi delajo z ljudmi, so energični in si želijo novih izkušenj ter znanja. Če bi se rad/a priključil/a njihovi srčni ekipi, pošlji svoj CV in predstavitev svojih izkušenj na e-mail.","V podjetju, ki se ukvarja z organizacijo dogodkov, team buildingov, izvedbo otroških in družinskih animacij ter hotelsko animacijo, širijo ekipo, zato iščejo večje število polnoletnih fantov in deklet, ki radi delajo z ljudmi, so energični in si želijo novih izkušenj ter znanja. Če bi se rad/a priključil/a njihovi srčni ekipi, pošlji svoj CV in predstavitev svojih izkušenj na e-mail."
+477606,2026-04-14T18:00:07.791091+00:00,hourly_rate_neto,7.73,8.0
+477606,2026-04-14T18:00:07.791091+00:00,hourly_rate_bruto,8.98,9.3
+477606,2026-04-14T18:00:07.791091+00:00,payment_type,7.73 €/h neto (8.98 €/h bruto),8.00 €/h neto (9.30 €/h bruto)
+477528,2026-04-14T18:00:07.791091+00:00,start_date,2026-04-14,
+477525,2026-04-14T18:00:07.791091+00:00,location,SLIVNA,"VAČE, SLIVNA"
+477525,2026-04-14T18:00:07.791091+00:00,hourly_rate_neto,8.0,10.0
+477525,2026-04-14T18:00:07.791091+00:00,hourly_rate_bruto,9.3,11.62
+477525,2026-04-14T18:00:07.791091+00:00,payment_type,8.00 €/h neto (9.30 €/h bruto),10.00 €/h neto (11.62 €/h bruto)
+477522,2026-04-14T18:00:07.791091+00:00,start_date,2026-04-14,
+477481,2026-04-14T18:00:07.791091+00:00,start_date,2026-04-14,
+477450,2026-04-14T18:00:07.791091+00:00,start_date,2026-04-14,
+477449,2026-04-14T18:00:07.791091+00:00,start_date,2026-04-14,
+477409,2026-04-14T18:00:07.791091+00:00,start_date,2026-04-14,
+477359,2026-04-14T18:00:07.791091+00:00,hourly_rate_neto,,10.0
+477359,2026-04-14T18:00:07.791091+00:00,hourly_rate_bruto,,11.62
+477359,2026-04-14T18:00:07.791091+00:00,payment_type,PO DOGOVORU,10.00 €/h neto (11.62 €/h bruto)
+477359,2026-04-14T18:00:07.791091+00:00,description,"Iščejo komunikativne, odgovorne in samostojne osebe za delo na terenu v projektu priklopa na optično omrežje. Delo vključuje obisk potencialnih strank, predstavitev možnosti priklopa, vodenje evidenc, ter pomoč pri izpolnjevanju pogodb. Pogoji; dobre komunikacijske sposobnosti, zanesljivost, urejenost, samoiniciativnost, ter vozniški izpit B kategorije. Interesenti naj prijavo oddajo s klikom na zeleni gumb E-PRIJAVA.","Iščejo komunikativne, odgovorne in samostojne osebe za delo na terenu v projektu priklopa na optično omrežje. Delo vključuje obisk potencialnih strank, predstavitev možnosti priklopa, vodenje evidenc, ter pomoč pri izpolnjevanju pogodb. Pogoji; dobre komunikacijske sposobnosti, zanesljivost, urejenost, samoiniciativnost, ter vozniški izpit B kategorije. Interesenti naj prijavo oddajo s klikom na zeleni gumb E-PRIJAVA, ali jo pošljejo na e-naslov podjetja"
+477359,2026-04-14T18:00:07.791091+00:00,duration,DLJE ČASA (ZAČ. IN OBČ. DELO),PO DOGOVORU
+477339,2026-04-14T18:00:07.791091+00:00,start_date,2026-04-14,
+477230,2026-04-14T18:00:07.791091+00:00,start_date,2026-04-14,
+477083,2026-04-14T18:00:07.791091+00:00,start_date,2026-04-14,
+477062,2026-04-14T18:00:07.791091+00:00,description,Vrtec išče polnoletno osebo za delo hišnika (m/ž). Delo obsega predvsem košnjo trave in ostala vzdrževalna dela.,"Vrtec išče polnoletno osebo za delo hišnika (m/ž). Delo obsega predvsem košnjo trave in ostala vzdrževalna dela ter razvoz hrane,"
+476838,2026-04-14T18:00:07.791091+00:00,subtitle,,KUHAR/KUHARICA
+476838,2026-04-14T18:00:07.791091+00:00,description,"Če imaš izkušnje v kuhinji kot samostojni/a kuhar/ica, te vabijo, da popestriš njihov zavzeti team. Nudijo prijetno okolje, zanimivo delo in internacionalno osebje. Pošlji prijavo s CV-jem.","Če imaš izkušnje v kuhinji kot samostojni/a kuhar/ica, te vabijo, da popestriš njihov zavzeti team. Nudijo prijetno okolje, zanimivo ter razgibano delo in internacionalno osebje. Pošlji prijavo s CV-jem."
+476838,2026-04-14T18:00:07.791091+00:00,open_positions,2,3
+476838,2026-04-14T18:00:07.791091+00:00,work_schedule,IZMENSKO,DOPOLDAN
+476838,2026-04-14T18:00:07.791091+00:00,start_date,,2026-04-16
+476773,2026-04-14T18:00:07.791091+00:00,description,"Logistično podjetje išče polnoletnega/o študenta/ko za delo v skladišču (priprava blaga, komisioniranje blaga in delo s skenerjem). Dela se v hladilnici na -18°C, med ponedeljkom in petkom, med 13. 00 in 21. 00, po dogovoru in potrebi. Predhodne izkušnje z delom v skladišču niso potrebne, pogoj je le poznavanje slovenskega jezika.","Logistično podjetje išče polnoletnega/o študenta/ko za delo v skladišču (priprava blaga, komisioniranje blaga in delo s skenerjem). Dela se v hladilnici na -18°C, med ponedeljkom in petkom, med 13. 00 in 21. 00, po dogovoru in potrebi. Predhodne izkušnje z delom v skladišču niso potrebne, pogoj je poznavanje slovenskega jezika, zanesljivost in marljivost."
+476490,2026-04-14T18:00:07.791091+00:00,hourly_rate_neto,8.0,9.0
+476490,2026-04-14T18:00:07.791091+00:00,hourly_rate_bruto,9.3,10.46
+476490,2026-04-14T18:00:07.791091+00:00,payment_type,8.00 €/h neto (9.30 €/h bruto),9.00 €/h neto (10.46 €/h bruto)
+476490,2026-04-14T18:00:07.791091+00:00,description,"Za pomoč na paintball poligonu potrebujejo pomoč polnoletnih, zanesljivih oseb. Gre za animacijo, ter za pomoč in razlago pretežno otrokom na raznih dogodkih - rojstnih dnevih, ipd. Dela se v popoldanskem času in med vikendom, vse po potrebi in dogovoru. Zaželeno, ni pa nujno; pedagoška fakulteta, izpit B kategorije, lasten prevoz in izkušnje pri podobnih delih.","Za pomoč na paintball poligonu potrebujejo pomoč polnoletnih, zanesljivih oseb. Gre za animacijo, ter za pomoč in razlago pretežno otrokom na raznih dogodkih - rojstnih dnevih, ipd. Dela se v popoldanskem času in med vikendom, vse po potrebi in dogovoru."
+473122,2026-04-14T18:00:07.791091+00:00,hourly_rate_neto,8.0,9.0
+473122,2026-04-14T18:00:07.791091+00:00,hourly_rate_bruto,9.3,10.46
+473122,2026-04-14T18:00:07.791091+00:00,payment_type,8.00 €/h neto (9.30 €/h bruto),9.00 €/h neto (10.46 €/h bruto)
+471782,2026-04-14T18:00:07.791091+00:00,title,TRŽENJE,POSPEŠEVANJE PRODAJE
+471782,2026-04-14T18:00:07.791091+00:00,hourly_rate_neto,16.5,17.5
+471782,2026-04-14T18:00:07.791091+00:00,hourly_rate_bruto,19.17,20.34
+471782,2026-04-14T18:00:07.791091+00:00,payment_type,16.50 €/h neto (19.17 €/h bruto),17.50 €/h neto (20.34 €/h bruto)
+471782,2026-04-14T18:00:07.791091+00:00,open_positions,10,5
+471782,2026-04-14T18:00:07.791091+00:00,start_date,,2026-05-04
+471641,2026-04-14T18:00:07.791091+00:00,start_date,,2026-04-20
+435874,2026-04-14T18:00:07.791091+00:00,title,ZDRAVSTVENA NEGA,DELO V ZDRAVSTVU
