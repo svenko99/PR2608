@@ -1978,3 +1978,47 @@ listing_id,changed_at,field,old_value,new_value
 439585,2026-04-15T18:00:07.868523+00:00,hourly_rate_bruto,9.3,11.62
 439585,2026-04-15T18:00:07.868523+00:00,payment_type,8.00 €/h neto (9.30 €/h bruto),10.00 €/h neto (11.62 €/h bruto)
 419794,2026-04-15T18:00:07.868523+00:00,start_date,2026-04-15,
+478347,2026-04-16T18:00:07.263285+00:00,start_date,2026-04-16,
+478340,2026-04-16T18:00:07.263285+00:00,description,"Podjetje išče študentko ali študenta za pomoč v kuhinji. Delo vključuje pomoč v kuhinji, delitev obrokov, delo na blagajni in pomivanje posode. Delo poteka popoldne med 15. 30 in 19. 00 (po potrebi in dogovoru). Če si odgovoren/-na, uživaš v timskem delu in ti je delo v kuhinji blizu, boš pri njih več kot dobrodošel/-la. . Pridruži se kolektivu . . . z okusom!","Podjetje išče študentko ali študenta za pomoč v kuhinji. Delo vključuje pomoč v kuhinji, delitev obrokov, delo na blagajni in pomivanje posode. Delo poteka popoldne med 15. 30 in 19. 00 (po potrebi in dogovoru). Znanje slovenskega jezika je pogoj. Če si odgovoren/-na, uživaš v timskem delu in ti je delo v kuhinji blizu, boš pri njih več kot dobrodošel/-la. Pridruži se kolektivu . . . z okusom!"
+478340,2026-04-16T18:00:07.263285+00:00,work_schedule,PO DOGOVORU,POPOLDAN
+478334,2026-04-16T18:00:07.263285+00:00,start_date,2026-04-16,
+478332,2026-04-16T18:00:07.263285+00:00,start_date,2026-04-16,
+478326,2026-04-16T18:00:07.263285+00:00,start_date,2026-04-16,
+478296,2026-04-16T18:00:07.263285+00:00,start_date,2026-04-16,
+478295,2026-04-16T18:00:07.263285+00:00,start_date,2026-04-16,
+478254,2026-04-16T18:00:07.263285+00:00,start_date,2026-04-16,
+478243,2026-04-16T18:00:07.263285+00:00,start_date,2026-04-16,
+478242,2026-04-16T18:00:07.263285+00:00,start_date,2026-04-16,
+478146,2026-04-16T18:00:07.263285+00:00,title,DELO V KUHINJI,POMOČ V KUHINJI
+478146,2026-04-16T18:00:07.263285+00:00,hourly_rate_neto,8.5,9.0
+478146,2026-04-16T18:00:07.263285+00:00,hourly_rate_bruto,9.88,10.46
+478146,2026-04-16T18:00:07.263285+00:00,payment_type,8.50 €/h neto (9.88 €/h bruto),9.00 €/h neto (10.46 €/h bruto)
+478146,2026-04-16T18:00:07.263285+00:00,start_date,2026-04-20,2026-05-04
+478133,2026-04-16T18:00:07.263285+00:00,description,"Iščejo reditelje in informatorje (m/ž). Reditelji: obveščanje obiskovalcev o znamenitostih in pravilih obnašanja v parku, voznem redu avtobusov in parkiranju v parku, sodelovanje na prireditvah (urejanje stojnic in prostora), podiranje in sestavljanje lesene vodne pregrade – jezu na kopalnem prostoru Lajšt, pomoč pri tehničnih manjših popravilih. Informatorji: informiranje obiskovalcev (anketoranje, promocija, usmerjanje obiskovalcev na stojnici ali v objektu Divja bajta). Lasten prevoz.","Iščejo reditelje in informatorje (m/ž). Reditelji: obveščanje obiskovalcev o znamenitostih in pravilih obnašanja v parku, voznem redu avtobusov in parkiranju v parku, sodelovanje na prireditvah (urejanje stojnic in prostora), podiranje in sestavljanje lesene vodne pregrade – jezu na kopalnem prostoru Lajšt, pomoč pri tehničnih manjših popravilih. Informatorji: informiranje obiskovalcev (anketoranje, promocija, usmerjanje obiskovalcev na stojnici ali v objektu Divja bajta)."
+478109,2026-04-16T18:00:07.263285+00:00,start_date,2026-04-16,
+478100,2026-04-16T18:00:07.263285+00:00,description,"Potrebujejo osebo za nošenje maskote bober. Delo poteka med 10. in 17. uro (po potrebi dlje). Točno uro dela sporočijo dan pred dogodkom, zato naprošajo, da se prijavite le zanesljive osebe, ki lahko delo opravljate oba dneva. Na vaše e-prijave bodo odgovarjali od 16. 4. 2026 dalje.","Potrebujejo osebo za nošenje maskote bober. Delo poteka med 10. in 17. uro (po potrebi dlje). Točno uro dela sporočijo dan pred dogodkom, zato naprošajo, da se prijavite le zanesljive osebe, ki lahko delo opravljate oba dneva."
+478090,2026-04-16T18:00:07.263285+00:00,start_date,2026-04-16,
+478054,2026-04-16T18:00:07.263285+00:00,hourly_rate_neto,7.73,7.74
+478054,2026-04-16T18:00:07.263285+00:00,hourly_rate_bruto,8.98,9.0
+478054,2026-04-16T18:00:07.263285+00:00,payment_type,7.73 €/h neto (8.98 €/h bruto),7.74 €/h neto (9.00 €/h bruto)
+477856,2026-04-16T18:00:07.263285+00:00,start_date,2026-04-16,
+477758,2026-04-16T18:00:07.263285+00:00,start_date,2026-04-16,
+477632,2026-04-16T18:00:07.263285+00:00,start_date,2026-04-16,
+477529,2026-04-16T18:00:07.263285+00:00,start_date,2026-04-16,
+477505,2026-04-16T18:00:07.263285+00:00,start_date,2026-04-16,
+477440,2026-04-16T18:00:07.263285+00:00,start_date,2026-04-16,
+477217,2026-04-16T18:00:07.263285+00:00,description,"Arhitekturno podjetje išče samoiniciativno, zanesljivo osebo (m/ž), ki želi pridobiti vpogled v delovanje arhitekturnega studia. Delo vključuje podporo pri organizaciji, pripravi dokumentov, spremljanju projektov, urejanju spletne strani in osnovnem marketingu. Delno delo z AI orodji in sodobnimi digitalnimi procesi. Iščejo osebo, ki se hitro uči, razmišlja samostojno in prevzema odgovornost. Nudijo fleksibilno študentsko delo in možnost daljšega občasnega sodelovanja, po potrebi in dogovoru.","Arhitekturno podjetje išče samoiniciativno, zanesljivo osebo (m/ž), ki želi pridobiti vpogled v delovanje arhitekturnega studia. Delo vključuje podporo pri organizaciji, pripravi dokumentov, spremljanju projektov, urejanju spletne strani in osnovnem marketingu. Delno delo z AI orodjii. Iščejo osebo, ki se hitro uči, razmišlja samostojno in prevzema odgovornost. Nudijo fleksibilno študentsko delo in možnost daljšega občasnega sodelovanja, po potrebi in dogovoru."
+477217,2026-04-16T18:00:07.263285+00:00,start_date,,2026-05-04
+476838,2026-04-16T18:00:07.263285+00:00,start_date,2026-04-16,
+476825,2026-04-16T18:00:07.263285+00:00,start_date,,2026-05-01
+476660,2026-04-16T18:00:07.263285+00:00,hourly_rate_neto,7.73,9.04
+476660,2026-04-16T18:00:07.263285+00:00,hourly_rate_bruto,8.98,10.5
+476660,2026-04-16T18:00:07.263285+00:00,payment_type,7.73 €/h neto (8.98 €/h bruto),9.04 €/h neto (10.50 €/h bruto)
+475559,2026-04-16T18:00:07.263285+00:00,location,KRANJ Z OKOLICO,"OKOLICA KRANJA, GORENJSKA"
+475559,2026-04-16T18:00:07.263285+00:00,hourly_rate_neto,8.0,9.0
+475559,2026-04-16T18:00:07.263285+00:00,hourly_rate_bruto,9.3,10.46
+475559,2026-04-16T18:00:07.263285+00:00,payment_type,8.00 €/h neto (9.30 €/h bruto),9.00 €/h neto (10.46 €/h bruto)
+475559,2026-04-16T18:00:07.263285+00:00,description,"Podjetje potrebuje osebo za delo v gradbeništvu ( vožnja kombija, nabava materiala, delo s stroji (bagri, valjarji, dvigalo), izkopi, zunanje ureditve (tlakovanje dvorišč, polaganje robnikov), gradnja objektov (opaženje, armaturna dela, betoniranje)). Pošljite prijavo ali pokličite.","Podjetje potrebuje osebi za delo v gradbeništvu. Opis dela: vožnja kombija, nabava materiala, delo s stroji (bagri, valjarji, dvigalo . . . ), izkopi, zunanje ureditve (tlakovanje dvorišč, polaganje robnikov), gradnja objektov (opaženje, armaturna dela, betoniranje). Delovnik je prilagodljiv. Plačilo je odvisno od izkušenj in se glede na znanje in resnost tudi temu primerno poviša. Pošljite prijavo ali pokličite."
+475559,2026-04-16T18:00:07.263285+00:00,open_positions,,2
+475213,2026-04-16T18:00:07.263285+00:00,description,"Podjetje išče polnoletni osebi za strežbo in pripravo pijač, delo s kavomatom ter delo tudi z alkoholnimi pijačami. Zaželene so izkušnje v gostinstvu.","Podjetje išče polnoletni osebi za strežbo in pripravo pijač, delo s kavomatom ter delo tudi z alkoholnimi pijačami. Zaželene so izkušnje v gostinstvu. Možnost stimulacije v primeru dobro opravljenega dela."
+473248,2026-04-16T18:00:07.263285+00:00,description,Iščejo osebo za delo v strežbi. Zaželene so izkušnje ali pa vsaj želja po znanju. Delo bi potekalo med tednom in med vikendi po dogovoru. .,Iščejo osebo za delo v strežbi. Zaželene so izkušnje ali pa vsaj želja po znanju. Delo bi potekalo med tednom in med vikendi po dogovoru.
