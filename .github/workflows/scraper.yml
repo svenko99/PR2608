@@ -1,0 +1,64 @@
+name: Scraper
+
+on:
+  schedule:
+    # 18:00 UTC = 20:00 CEST (poleti) / 19:00 CET (pozimi)
+    - cron: "0 18 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v3
+
+      - name: Install dependencies
+        working-directory: src
+        run: uv sync
+
+      - name: Write .env
+        working-directory: src
+        run: |
+          {
+            echo "STUDENTSKI_SERVIS_EMAIL=${STUDENTSKI_SERVIS_EMAIL}"
+            echo "STUDENTSKI_SERVIS_PASSWORD=${STUDENTSKI_SERVIS_PASSWORD}"
+          } > .env
+        env:
+          STUDENTSKI_SERVIS_EMAIL: ${{ secrets.STUDENTSKI_SERVIS_EMAIL }}
+          STUDENTSKI_SERVIS_PASSWORD: ${{ secrets.STUDENTSKI_SERVIS_PASSWORD }}
+
+      - name: Run scraper
+        id: scrape
+        working-directory: src
+        run: |
+          set -o pipefail
+          OUTPUT=$(uv run python main.py 2>&1 | tee /dev/stderr)
+          {
+            echo "commit_msg<<EOF"
+            echo "$OUTPUT" | tail -n 3
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/data.csv data/changes.csv
+          if git diff --cached --quiet; then
+            echo "Ni sprememb za commit."
+            exit 0
+          fi
+          git commit -m "${COMMIT_MSG}"
+          git push
+        env:
+          COMMIT_MSG: ${{ steps.scrape.outputs.commit_msg }}
