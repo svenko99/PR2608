@@ -21,8 +21,9 @@ uv run --with jupyter jupyter lab
 
 ## Scraper
 
-Scraper teče na Svenovem Raspberry Pi vsak dan ob 20:00, kjer se zažene skripta [
-`run_and_commit.sh`](./src/scripts/run_and_commit.sh), ki zažene scraper in commita ter pusha nove podatke.
+Scraper teče na GitHub Actions vsak dan ob 18:00 UTC prek workflowa [
+`scraper.yml`](./.github/workflows/scraper.yml), ki zažene scraper ter commita in pusha nove podatke. Workflow je mogoče
+tudi ročno sprožiti prek `workflow_dispatch`.
 
 ### Navodila za zagon
 
