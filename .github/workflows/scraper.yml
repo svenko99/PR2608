@@ -2,8 +2,8 @@ name: Scraper
 
 on:
   schedule:
-    # 18:00 UTC = 20:00 CEST (poleti) / 19:00 CET (pozimi)
-    - cron: "0 18 * * *"
+    # 18:37 UTC = 20:37 CEST (poleti) / 19:37 CET (pozimi)
+    - cron: "39 18 * * *"
   workflow_dispatch:
 
 permissions:
