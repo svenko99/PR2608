@@ -21,7 +21,7 @@ uv run --with jupyter jupyter lab
 
 ## Scraper
 
-Scraper teče na GitHub Actions vsak dan ob 18:00 UTC prek workflowa [
+Scraper teče na GitHub Actions vsak dan ob 18:39 UTC prek workflowa [
 `scraper.yml`](./.github/workflows/scraper.yml), ki zažene scraper ter commita in pusha nove podatke. Workflow je mogoče
 tudi ročno sprožiti prek `workflow_dispatch`.
 
