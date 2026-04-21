@@ -2500,3 +2500,55 @@ listing_id,changed_at,field,old_value,new_value
 435143,2026-04-20T18:00:07.001839+00:00,hourly_rate_neto,8.0,8.5
 435143,2026-04-20T18:00:07.001839+00:00,hourly_rate_bruto,9.3,9.88
 435143,2026-04-20T18:00:07.001839+00:00,payment_type,8.00 €/h neto (9.30 €/h bruto),8.50 €/h neto (9.88 €/h bruto)
+478690,2026-04-21T19:07:20.438871+00:00,duration,PO DOGOVORU,DO 30. 9. 2026
+478690,2026-04-21T19:07:20.438871+00:00,start_date,2026-06-01,2026-05-10
+478683,2026-04-21T19:07:20.438871+00:00,start_date,2026-04-21,
+478682,2026-04-21T19:07:20.438871+00:00,start_date,2026-04-21,
+478675,2026-04-21T19:07:20.438871+00:00,start_date,2026-04-21,
+478657,2026-04-21T19:07:20.438871+00:00,start_date,2026-04-21,
+478648,2026-04-21T19:07:20.438871+00:00,start_date,2026-04-21,
+478640,2026-04-21T19:07:20.438871+00:00,start_date,2026-04-21,
+478635,2026-04-21T19:07:20.438871+00:00,start_date,2026-04-21,
+478633,2026-04-21T19:07:20.438871+00:00,start_date,2026-04-21,
+478632,2026-04-21T19:07:20.438871+00:00,start_date,2026-04-21,
+478622,2026-04-21T19:07:20.438871+00:00,start_date,2026-04-21,
+478608,2026-04-21T19:07:20.438871+00:00,start_date,2026-04-21,
+478605,2026-04-21T19:07:20.438871+00:00,start_date,2026-04-21,
+478603,2026-04-21T19:07:20.438871+00:00,start_date,2026-04-21,
+478548,2026-04-21T19:07:20.438871+00:00,hourly_rate_neto,7.73,9.0
+478548,2026-04-21T19:07:20.438871+00:00,hourly_rate_bruto,8.98,10.46
+478548,2026-04-21T19:07:20.438871+00:00,payment_type,7.73 €/h neto (8.98 €/h bruto),9.00 €/h neto (10.46 €/h bruto)
+478520,2026-04-21T19:07:20.438871+00:00,start_date,2026-04-21,
+478474,2026-04-21T19:07:20.438871+00:00,description,"Podjetje potrebuje osebi za delo na bencinskem servisu. Delo poteka v popoldanskem času, v petek, soboto in nedeljo, po potrebi in dogovoru.","Podjetje potrebuje osebi za delo na bencinskem servisu. Delo poteka v popoldanskem času med vikendi (petek, sobota in nedelja), po potrebi in dogovoru. Zaradi narave dela je obvezno znanje slovenskega jezika."
+478416,2026-04-21T19:07:20.438871+00:00,start_date,2026-04-21,
+478277,2026-04-21T19:07:20.438871+00:00,start_date,2026-04-27,2026-05-04
+478216,2026-04-21T19:07:20.438871+00:00,title,ADMINISTRATIVNA DELA,DELO V LOGISTIKI
+478063,2026-04-21T19:07:20.438871+00:00,start_date,2026-04-21,
+477828,2026-04-21T19:07:20.438871+00:00,description,"V svojo mlado in zagnano ekipo vabijo osebo za pomoč pri izvajanju elektroinštalacij. Delo poteka na terenu po celotni Sloveniji, največ na območju Ljubljane z okolico. Zaželeno znanje in izkušnje: montaža stikal, luči in vtičnic, pozidava doz in cevi, osnovna samostojnost pri delu. Pričakujejo resnost, zanesljivost, natančnost, urejenost in občutek za čisto delo, odgovoren odnos do dela in orodja, željo po učenju.","Iščejo osebo za pomoč pri izvedbi elektroinštalacij (klasičnih in pametnih sistemov), polaganju kablov, montaži vtičnic, stikal, svetil. Potrebno je osnovno poznavanje elektroinštalacij in električnih vezij, vozniško dovoljenje B kategorije, sposobnost rokovanja z ročnim in električnim orodjem."
+477732,2026-04-21T19:07:20.438871+00:00,open_positions,2,3
+477732,2026-04-21T19:07:20.438871+00:00,start_date,,2026-04-24
+477666,2026-04-21T19:07:20.438871+00:00,hourly_rate_neto,7.74,8.17
+477666,2026-04-21T19:07:20.438871+00:00,hourly_rate_bruto,9.0,9.5
+477666,2026-04-21T19:07:20.438871+00:00,payment_type,7.74 €/h neto (9.00 €/h bruto),8.17 €/h neto (9.50 €/h bruto)
+477616,2026-04-21T19:07:20.438871+00:00,start_date,2026-04-21,
+477591,2026-04-21T19:07:20.438871+00:00,title,VRTNARSKA DELA,POMOČ PRI PRODAJI
+477591,2026-04-21T19:07:20.438871+00:00,subtitle,PRODAJA,DELO V RASTLINJAKU
+477154,2026-04-21T19:07:20.438871+00:00,company,"ZAVOD ZA IZVAJANJE OSEBNE ASISTENCE ZVEZDA, GOLNIK","ZAVOD ZA IZVAJANJE OSEBNE ASISTENCE ZVEZDA, KRANJ"
+476267,2026-04-21T19:07:20.438871+00:00,title,STREŽBA HRANE IN PIJAČE,STREŽBA
+476267,2026-04-21T19:07:20.438871+00:00,subtitle,DELO V RESTAVRACIJI S HITRO PREHRANO,DELO V KAVARNI
+476267,2026-04-21T19:07:20.438871+00:00,description,"Iščejo osebe, ki imajo veselje do dela z ljudmi ter so odgovorne in pozitivno naravnane. Delo obsega pripravo in strežbo toplih ter hladnih napitkov, skrb za urejenost kavnega kotička in čiščenje. Nudijo prilagodljiv delovni čas, možnost občasnega dolgoročnega sodelovanja in nagrajevanja. Nočna urna postavka znaša 11 € bruto. Pogoj za nočno delo je polnoletnost.","Delo v kavarni. Iščejo osebe, ki imajo veselje do dela z ljudmi ter so odgovorne in pozitivno naravnane. Delo obsega pripravo in strežbo toplih ter hladnih napitkov, skrb za urejenost kavnega kotička in čiščenje. Nudijo prilagodljiv delovni čas, možnost občasnega dolgoročnega sodelovanja in nagrajevanja. Nočna urna postavka znaša 11 € bruto. Pogoj za nočno delo je polnoletnost."
+476230,2026-04-21T19:07:20.438871+00:00,hourly_rate_neto,7.73,9.0
+476230,2026-04-21T19:07:20.438871+00:00,hourly_rate_bruto,8.98,10.46
+476230,2026-04-21T19:07:20.438871+00:00,payment_type,7.73 €/h neto (8.98 €/h bruto),9.00 €/h neto (10.46 €/h bruto)
+476055,2026-04-21T19:07:20.438871+00:00,start_date,2026-04-21,
+473440,2026-04-21T19:07:20.438871+00:00,hourly_rate_neto,7.74,7.92
+473440,2026-04-21T19:07:20.438871+00:00,hourly_rate_bruto,9.0,9.2
+473440,2026-04-21T19:07:20.438871+00:00,payment_type,7.74 €/h neto (9.00 €/h bruto),7.92 €/h neto (9.20 €/h bruto)
+473221,2026-04-21T19:07:20.438871+00:00,open_positions,2,3
+473221,2026-04-21T19:07:20.438871+00:00,duration,PO DOGOVORU,DLJE ČASA (ZAČ. IN OBČ. DELO)
+472587,2026-04-21T19:07:20.438871+00:00,description,Iščejo osebo za delo med vikendi (po potrebi in dogovoru). Izkušnje so obvezne.,Iščejo polnoletno osebo za delo med vikendi (po potrebi in dogovoru). Izkušnje so obvezne.
+471360,2026-04-21T19:07:20.438871+00:00,description,"Iščejo se zanesljive in iznajdljive osebe za strežbo in delo s strankami v restavraciji s hitro prehrano. Z vestnim delom in željo po učenju novih stvari, si lahko pridobite zvišanje urne postavke. Delodajalec ponuja fleksibilen delovni čas, timsko delo in nagrajevanje najboljših oz. možnost napredovanj. Obvezno je znanje slovenskega jezika.","Iščejo osebe, ki imajo veselje do dela z ljudmi ter so odgovorne in pozitivno naravnane. Delo obsega pripravo in strežbo toplih ter hladnih napitkov, skrb za urejenost kavnega kotička in čiščenje. Nudijo prilagodljiv delovni čas, možnost občasnega dolgoročnega sodelovanja in nagrajevanja. Nočna urna postavka znaša 11 € bruto. Pogoj za nočno delo je polnoletnost."
+460237,2026-04-21T19:07:20.438871+00:00,hourly_rate_neto,7.73,8.5
+460237,2026-04-21T19:07:20.438871+00:00,hourly_rate_bruto,8.98,9.88
+460237,2026-04-21T19:07:20.438871+00:00,payment_type,7.73 €/h neto (8.98 €/h bruto),8.50 €/h neto (9.88 €/h bruto)
+460237,2026-04-21T19:07:20.438871+00:00,description,"Sladoledarna potrebuje več oseb za strežbo, prodajo sladoleda in sladic. Dela se tudi ob vikendih, delovni čas po dogovoru.´","Sladoledarna potrebuje več oseb za strežbo, prodajo sladoleda in sladic. Dela se tudi ob vikendih, delovni čas po dogovoru.´ Izkušnje v strežbi so zaželene."
