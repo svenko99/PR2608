@@ -2916,3 +2916,35 @@ listing_id,changed_at,field,old_value,new_value
 470782,2026-04-29T20:02:59.280698+00:00,hourly_rate_bruto,8.98,9.3
 470782,2026-04-29T20:02:59.280698+00:00,payment_type,7.73 €/h neto (8.98 €/h bruto),8.00 €/h neto (9.30 €/h bruto)
 442278,2026-04-29T20:02:59.280698+00:00,start_date,,2026-05-04
+479215,2026-04-30T20:00:51.803296+00:00,start_date,,2026-05-04
+479159,2026-04-30T20:00:51.803296+00:00,start_date,2026-04-30,
+479119,2026-04-30T20:00:51.803296+00:00,start_date,2026-04-30,
+479100,2026-04-30T20:00:51.803296+00:00,start_date,2026-04-30,
+479096,2026-04-30T20:00:51.803296+00:00,start_date,2026-04-30,
+479031,2026-04-30T20:00:51.803296+00:00,start_date,2026-04-30,
+479008,2026-04-30T20:00:51.803296+00:00,start_date,2026-04-30,
+478921,2026-04-30T20:00:51.803296+00:00,subtitle,,DELO V KOZMETIKI
+478680,2026-04-30T20:00:51.803296+00:00,description,"Podjetje vabi študenta/ko za delo v proizvodnji kozmetičnih izdelkov. Delo poteka med ponedeljkom in petkom, med 8.00 in 16.00 oziroma po dogovoru. Naloge vključujejo pakiranje, embaliranje, polnjenje ter druga dela. Pričakujejo natančnost, zanesljivost, odgovornost in pripravljenost za delo. Delo poteka v prijetnem, mladem timu z možnostjo dolgoročnega občasnega sodelovanja.","Podjetje vabi študenta/ko za delo v proizvodnji kozmetičnih izdelkov. Delo poteka med ponedeljkom in petkom po dogovoru v dopoldanskem času. Naloge vključujejo pakiranje, embaliranje, polnjenje ter druga dela. Pričakujejo natančnost, zanesljivost, odgovornost in pripravljenost za delo. Delo poteka v prijetnem, mladem timu z možnostjo dolgoročnega občasnega sodelovanja."
+478578,2026-04-30T20:00:51.803296+00:00,start_date,2026-04-30,
+478558,2026-04-30T20:00:51.803296+00:00,sublocation,,RIMSKE TERME
+478403,2026-04-30T20:00:51.803296+00:00,start_date,2026-05-04,2026-05-11
+478135,2026-04-30T20:00:51.803296+00:00,start_date,2026-04-30,
+477854,2026-04-30T20:00:51.803296+00:00,description,Iščejo študenta/ko za prodajo in svetovanje strankam v trgovini za male živali. Zaželeno poznavanje tematike malih živali. Delo poteka ob petkih med 14. in 18. uro in ob sobotah med 9. in 12. uro oz. po potrebi in dogovoru. Z delom se prične po začetnem uvajanju. Pošlji prijavo.,Iščejo študenta/ko za prodajo in svetovanje strankam v trgovini za male živali. Zaželeno poznavanje tematike malih živali. Delo poteka ob petka do sobote - potrebi in dogovoru. Z delom se prične po začetnem uvajanju. Pošlji prijavo.
+477854,2026-04-30T20:00:51.803296+00:00,work_schedule,MED VIKENDI,IZMENSKO
+477854,2026-04-30T20:00:51.803296+00:00,start_date,,2026-05-15
+477590,2026-04-30T20:00:51.803296+00:00,description,"Kavarna vabi v svoj kolektiv polnoletni, odgovorni in komunikativni osebi z veseljem do dela. Zaželene so izkušnje v strežbi in pripravi toplih napitkov, kav, cocktailov, ipd. Pogoj je znanje slovenskega jezika. Pridno in samostojno delo se dodatno nagradi. Možnost kasnejše redne zaposlitve. Za dodatne informacije jih pokliči.","Kavarna vabi v svoj kolektiv polnoletni, odgovorni in komunikativni osebi z veseljem do dela. Zaželene so izkušnje v strežbi in pripravi toplih napitkov, kav, cocktailov, ipd. Pogoj je znanje slovenskega jezika. Delo se lahko opravlja samo med tednom ali pa med vikendi, po dogovoru. Pridno in samostojno delo se dodatno nagradi. Možnost kasnejše redne zaposlitve. Za dodatne informacije jih pokliči."
+477145,2026-04-30T20:00:51.803296+00:00,description,"Podjetje potrebuje prijazno in nasmejano osebo za točenje pijač, pomoč pri strežbi pijače in hrane ter skrb za čistočo in urejenost miz.","Podjetje potrebuje prijazni in nasmejani osebi za točenje pijač, pomoč natakarjem pri strežbi pijače in hrane ter skrb za čistočo in urejenost miz."
+477145,2026-04-30T20:00:51.803296+00:00,open_positions,,2
+476934,2026-04-30T20:00:51.803296+00:00,description,"V lokalu potrebujejo osebo za strežbo toplih in hladnih pijač in napitkov. Plačilo je odvisno tudi od prometa. Izkušnje so zaželene, niso pa pogoj. Delovnik poteka med tednom s pričetkom ob 8. uri oziroma po potrebi.","V lokalu potrebujejo osebe za strežbo toplih in hladnih pijač in napitkov. Izkušnje so zaželene, niso pa pogoj. Delovnik poteka med tednom med 8. uro in 15. uro, sobota med 6. uro in 12. uro ter nedelja med 7. uro in 12. uro."
+476362,2026-04-30T20:00:51.803296+00:00,start_date,,2026-05-01
+476286,2026-04-30T20:00:51.803296+00:00,start_date,,2026-05-15
+476074,2026-04-30T20:00:51.803296+00:00,hourly_rate_neto,,8.0
+476074,2026-04-30T20:00:51.803296+00:00,hourly_rate_bruto,,9.3
+476074,2026-04-30T20:00:51.803296+00:00,payment_type,PO DOGOVORU,8.00 €/h neto (9.30 €/h bruto)
+476074,2026-04-30T20:00:51.803296+00:00,description,V hotelskem baru/restavraciji vabijo k sodelovanju prijazne in komunikativne osebe za strežbo. Izkušnje zaželene. .,V hotelskem baru/restavraciji vabijo k sodelovanju prijazne in komunikativne osebe za strežbo. Izkušnje zaželene. Obvezno znanje slovenskega jezika. .
+476074,2026-04-30T20:00:51.803296+00:00,duration,DLJE ČASA (ZAČ. IN OBČ. DELO),PO DOGOVORU
+474609,2026-04-30T20:00:51.803296+00:00,description,"Iščejo ambiciozne študente/ke za trženje vrhunskih telekomunikacijskih storitev. Če si komunikativna, samoiniciativna oseba, ki rada dela z ljudmi, te želijo v ekipi. Delo poteka v urejenem in dinamičnem okolju, kjer dobiš podporo, znanje in priložnost za osebno ter profesionalno rast. Ponujajo fleksibilen urnik, izobraževanje in možnost dolgoročnega občasnega sodelovanja. Če si ciljno usmerjen/a in te zanima delo z resnim potencialom, se prijavi. Pogoj je znanje slovenskega jezika.","V ekipi iščejo študente/ke, ki razmišljajo širše in jih ne zadovolji povprečen rezultat. Če si ambiciozen/a, vztrajen/a in te žene želja po dosežkih ter nadpovprečnem zaslužku, imaš pravo priložnost. Gre za hitro, zahtevno okolje, kjer šteje učinkovitost, vložen trud pa se jasno odrazi pri plačilu. Primerno za tiste, ki želijo rasti, izpiliti prodajo in graditi uspeh na lastnih rezultatih."
+474609,2026-04-30T20:00:51.803296+00:00,open_positions,10,5
+474609,2026-04-30T20:00:51.803296+00:00,work_schedule,DOPOLDAN,PO DOGOVORU
+474609,2026-04-30T20:00:51.803296+00:00,start_date,,2026-05-04
+429997,2026-04-30T20:00:51.803296+00:00,description,". Točenje in postrežba pijač v dnevnem baru. Zaželene izkušnje, ni pa nujno, osnovno znanje italijanskega in angleškega jezika. Iščejo vestne, delavne, komunikativne, samoiniciativne, odgovorne osebe.Pogoj je polnoletnost.","Točenje in postrežba pijač v dnevnem baru. Zaželene izkušnje, ni pa nujno, osnovno znanje italijanskega in angleškega jezika. Iščejo vestne, delavne, komunikativne, samoiniciativne, odgovorne osebe.Pogoj je polnoletnost."
