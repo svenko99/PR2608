@@ -3511,3 +3511,55 @@ listing_id,changed_at,field,old_value,new_value
 459330,2026-05-07T20:05:56.265103+00:00,hourly_rate_neto,8.61,9.04
 459330,2026-05-07T20:05:56.265103+00:00,hourly_rate_bruto,10.0,10.5
 459330,2026-05-07T20:05:56.265103+00:00,payment_type,8.61 €/h neto (10.00 €/h bruto),9.04 €/h neto (10.50 €/h bruto)
+479895,2026-05-08T19:58:05.703082+00:00,start_date,2026-05-08,
+479888,2026-05-08T19:58:05.703082+00:00,start_date,2026-05-08,
+479885,2026-05-08T19:58:05.703082+00:00,start_date,2026-05-08,
+479878,2026-05-08T19:58:05.703082+00:00,start_date,2026-05-08,
+479873,2026-05-08T19:58:05.703082+00:00,start_date,2026-05-08,
+479872,2026-05-08T19:58:05.703082+00:00,start_date,2026-05-08,
+479870,2026-05-08T19:58:05.703082+00:00,start_date,2026-05-08,
+479867,2026-05-08T19:58:05.703082+00:00,start_date,2026-05-08,
+479860,2026-05-08T19:58:05.703082+00:00,start_date,2026-05-08,
+479858,2026-05-08T19:58:05.703082+00:00,start_date,2026-05-08,
+479850,2026-05-08T19:58:05.703082+00:00,start_date,2026-05-08,
+479829,2026-05-08T19:58:05.703082+00:00,start_date,2026-05-08,
+479813,2026-05-08T19:58:05.703082+00:00,duration,DLJE ČASA (ZAČ. IN OBČ. DELO),DO TRI MESECE 4-5 DNI/TEDEN
+479805,2026-05-08T19:58:05.703082+00:00,description,"V prijeten mlad kolektiv vabijo osebi z vozniškim izpitom B kategorije (vsaj 1 leto), za dostavo hrane s službenim vozilom. Izkušnje so zaželene, niso pa pogoj. Delo poteka po potrebi in dogovoru.","V prijeten mlad kolektiv vabijo osebi z vozniškim izpitom B kategorije (vsaj 1 leto), za dostavo hrane s službenim vozilom. Izkušnje so zaželene, niso pa pogoj. Delo poteka po dogovoru. Obvezno tudi znanje slovenskega jezika."
+479757,2026-05-08T19:58:05.703082+00:00,hourly_rate_neto,9.0,10.0
+479757,2026-05-08T19:58:05.703082+00:00,hourly_rate_bruto,10.46,11.62
+479757,2026-05-08T19:58:05.703082+00:00,payment_type,9.00 €/h neto (10.46 €/h bruto),10.00 €/h neto (11.62 €/h bruto)
+479640,2026-05-08T19:58:05.703082+00:00,description,"Manjši lokal išče osebi za delo v strežbi pijače. Delo bo potekalo izmensko, po dogovoru.","Manjši lokal išče punci za delo v strežbi pijače. Delo bo potekalo izmensko, po dogovoru. Izkusnje obvezne"
+479629,2026-05-08T19:58:05.703082+00:00,start_date,2026-05-08,
+479627,2026-05-08T19:58:05.703082+00:00,start_date,2026-05-08,
+479614,2026-05-08T19:58:05.703082+00:00,start_date,2026-05-08,
+479577,2026-05-08T19:58:05.703082+00:00,start_date,2026-05-08,
+479511,2026-05-08T19:58:05.703082+00:00,start_date,2026-05-08,
+479506,2026-05-08T19:58:05.703082+00:00,start_date,2026-05-08,
+479497,2026-05-08T19:58:05.703082+00:00,start_date,2026-05-08,
+479480,2026-05-08T19:58:05.703082+00:00,start_date,2026-05-08,
+479405,2026-05-08T19:58:05.703082+00:00,start_date,2026-05-08,
+479323,2026-05-08T19:58:05.703082+00:00,start_date,2026-05-08,
+479322,2026-05-08T19:58:05.703082+00:00,start_date,2026-05-08,
+478717,2026-05-08T19:58:05.703082+00:00,start_date,2026-05-08,
+478716,2026-05-08T19:58:05.703082+00:00,start_date,2026-05-08,
+477705,2026-05-08T19:58:05.703082+00:00,hourly_rate_neto,7.73,8.0
+477705,2026-05-08T19:58:05.703082+00:00,hourly_rate_bruto,8.98,9.3
+477705,2026-05-08T19:58:05.703082+00:00,payment_type,7.73 €/h neto (8.98 €/h bruto),8.00 €/h neto (9.30 €/h bruto)
+477505,2026-05-08T19:58:05.703082+00:00,start_date,2026-05-08,
+475258,2026-05-08T19:58:05.703082+00:00,hourly_rate_neto,8.0,9.0
+475258,2026-05-08T19:58:05.703082+00:00,hourly_rate_bruto,9.3,10.46
+475258,2026-05-08T19:58:05.703082+00:00,payment_type,8.00 €/h neto (9.30 €/h bruto),9.00 €/h neto (10.46 €/h bruto)
+475249,2026-05-08T19:58:05.703082+00:00,hourly_rate_neto,8.0,9.0
+475249,2026-05-08T19:58:05.703082+00:00,hourly_rate_bruto,9.3,10.46
+475249,2026-05-08T19:58:05.703082+00:00,payment_type,8.00 €/h neto (9.30 €/h bruto),9.00 €/h neto (10.46 €/h bruto)
+475249,2026-05-08T19:58:05.703082+00:00,description,"Pridružite se ekipi in postanite del dinamičnega delovnega okolja! Iščejo motivirana/i študenta/ki za delo v strežbi v igralnem salonu. Ponujajo: fleksibilen delovni čas, prilagojen študentskim obveznostim z urejenimi delovnimi pogoji, urna postavka med vikendi in za nočno delo je 9,88 € bruto. Pošljite prijavo ali pokličite!","Pridružite se ekipi in postanite del dinamičnega delovnega okolja! Iščejo motivirana/i študenta/ki za delo v strežbi v igralnem salonu. Ponujajo: fleksibilen delovni čas, prilagojen študentskim obveznostim z urejenimi delovnimi pogoji. Pošljite prijavo ali pokličite!"
+475248,2026-05-08T19:58:05.703082+00:00,hourly_rate_neto,9.0,10.0
+475248,2026-05-08T19:58:05.703082+00:00,hourly_rate_bruto,10.46,11.62
+475248,2026-05-08T19:58:05.703082+00:00,payment_type,9.00 €/h neto (10.46 €/h bruto),10.00 €/h neto (11.62 €/h bruto)
+475248,2026-05-08T19:58:05.703082+00:00,description,"Pridružite se ekipi in postanite del dinamičnega delovnega okolja! Iščejo motivirana/i študenta/ki za delo na blagajni v igralnem salonu. Ponujajo: fleksibilen delovni čas, prilagojen študentskim obveznostim, možnost dodatnega zaslužka z urejenimi delovnimi pogoji, urna postavka med 10,46 € in 11,40 € bruto, možnost dodatnih stimulacij za izjemne dosežke in prizadevanje. Pogoja: polnoletnost in zaključena V. stopnja izobrazbe. Pošljite prijavo ali pokličite!","Pridružite se ekipi in postanite del dinamičnega delovnega okolja! Iščejo motivirana/i študenta/ki za delo na blagajni v igralnem salonu. Ponujajo: fleksibilen delovni čas, prilagojen študentskim obveznostim, možnost dodatnih stimulacij za izjemne dosežke in prizadevanje. Pogoja: polnoletnost in zaključena V. stopnja izobrazbe. Pošljite prijavo ali pokličite!"
+473139,2026-05-08T19:58:05.703082+00:00,hourly_rate_neto,7.73,8.0
+473139,2026-05-08T19:58:05.703082+00:00,hourly_rate_bruto,8.98,9.3
+473139,2026-05-08T19:58:05.703082+00:00,payment_type,7.73 €/h neto (8.98 €/h bruto),8.00 €/h neto (9.30 €/h bruto)
+442133,2026-05-08T19:58:05.703082+00:00,hourly_rate_neto,8.0,10.0
+442133,2026-05-08T19:58:05.703082+00:00,hourly_rate_bruto,9.3,11.62
+442133,2026-05-08T19:58:05.703082+00:00,payment_type,8.00 €/h neto (9.30 €/h bruto),10.00 €/h neto (11.62 €/h bruto)
