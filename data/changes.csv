@@ -3951,3 +3951,119 @@ listing_id,changed_at,field,old_value,new_value
 463311,2026-05-11T20:23:31.304571+00:00,hourly_rate_neto,7.73,7.74
 463311,2026-05-11T20:23:31.304571+00:00,hourly_rate_bruto,8.98,9.0
 463311,2026-05-11T20:23:31.304571+00:00,payment_type,7.73 €/h neto (8.98 €/h bruto),7.74 €/h neto (9.00 €/h bruto)
+480248,2026-05-12T20:19:55.410900+00:00,start_date,2026-05-12,
+480235,2026-05-12T20:19:55.410900+00:00,start_date,2026-05-12,
+480232,2026-05-12T20:19:55.410900+00:00,start_date,2026-05-12,
+480223,2026-05-12T20:19:55.410900+00:00,start_date,2026-05-12,
+480221,2026-05-12T20:19:55.410900+00:00,start_date,2026-05-12,
+480205,2026-05-12T20:19:55.410900+00:00,start_date,2026-05-12,
+480182,2026-05-12T20:19:55.410900+00:00,hourly_rate_neto,7.74,8.15
+480182,2026-05-12T20:19:55.410900+00:00,hourly_rate_bruto,8.99,9.47
+480182,2026-05-12T20:19:55.410900+00:00,payment_type,7.74 €/h neto (8.99 €/h bruto),8.15 €/h neto (9.47 €/h bruto)
+480137,2026-05-12T20:19:55.410900+00:00,start_date,2026-05-12,
+480119,2026-05-12T20:19:55.410900+00:00,start_date,2026-05-12,
+480090,2026-05-12T20:19:55.410900+00:00,start_date,2026-05-12,
+480075,2026-05-12T20:19:55.410900+00:00,start_date,2026-05-12,
+480072,2026-05-12T20:19:55.410900+00:00,start_date,2026-05-12,
+480063,2026-05-12T20:19:55.410900+00:00,start_date,2026-05-12,
+480042,2026-05-12T20:19:55.410900+00:00,location,"SEVNICA, RADNA 3, BOŠTAN","BOŠTANJ, RADNA 3"
+480027,2026-05-12T20:19:55.410900+00:00,hourly_rate_neto,7.73,8.43
+480027,2026-05-12T20:19:55.410900+00:00,hourly_rate_bruto,8.98,9.8
+480027,2026-05-12T20:19:55.410900+00:00,payment_type,7.73 €/h neto (8.98 €/h bruto),8.43 €/h neto (9.80 €/h bruto)
+480021,2026-05-12T20:19:55.410900+00:00,hourly_rate_neto,7.73,8.43
+480021,2026-05-12T20:19:55.410900+00:00,hourly_rate_bruto,8.98,9.8
+480021,2026-05-12T20:19:55.410900+00:00,payment_type,7.73 €/h neto (8.98 €/h bruto),8.43 €/h neto (9.80 €/h bruto)
+480021,2026-05-12T20:19:55.410900+00:00,description,"Iščejo zanesljive, odgovorne in polnoletne osebe za pomoč v kuhinji in pomivalnici. Delo vključuje pomoč pri pripravi hrane, pomivanje posode, vzdrževanje čistoče kuhinje ter skrb za urejenost delovnega okolja. Delo poteka izmensko, tudi ob vikendih, v prijetnem delovnem okolju. Nudijo organizirano malico ter redno in korektno plačilo. Pričakujejo natančnost, samostojnost, pripravljenost na timsko delo ter odgovoren odnos do dela. Nujen je lasten prevoz na delo.","Iščejo zanesljive, odgovorne in polnoletne osebe za pomoč v kuhinji in pomivalnici (pomoč pri pripravi hrane, pomivanje posode, vzdrževanje čistoče kuhinje ter skrb za urejenost delovnega okolja). Delo poteka izmensko, tudi ob vikendih, v prijetnem delovnem okolju. Nudijo organizirano malico ter redno in korektno plačilo. Pričakujejo natančnost, samostojnost, pripravljenost na timsko delo ter odgovoren odnos do dela. Nujen je lasten prevoz na delo."
+480013,2026-05-12T20:19:55.410900+00:00,hourly_rate_neto,7.74,9.04
+480013,2026-05-12T20:19:55.410900+00:00,hourly_rate_bruto,9.0,10.5
+480013,2026-05-12T20:19:55.410900+00:00,payment_type,7.74 €/h neto (9.00 €/h bruto),9.04 €/h neto (10.50 €/h bruto)
+480013,2026-05-12T20:19:55.410900+00:00,description,"Iščejo zanesljive, komunikativne in odgovorne polnoletne osebe za delo v strežbi. Delo obsega sprejem gostov, strežbo hrane in pijače ter skrb za urejenost delovnega okolja. Delo poteka izmensko, vključno z delom ob vikendih, v prijetnem okolju. Nudijo organizirano malico ter redno in korektno plačilo. Pričakujejo prijazen odnos do gostov, samostojnost in odgovornost pri delu. Zaželene so izkušnje v strežbi, niso pa pogoj. Nujen je lasten prevoz na delo.","Iščejo zanesljive, komunikativne in odgovorne polnoletne osebe za delo v strežbi (sprejem gostov, strežbo hrane in pijače ter skrb za urejenost delovnega okolja). Delo poteka izmensko, vključno z delom ob vikendih, v prijetnem okolju. Nudijo organizirano malico ter redno in korektno plačilo. Pričakujejo prijazen odnos do gostov, samostojnost in odgovornost pri delu. Zaželene so izkušnje v strežbi, niso pa pogoj. Nujen je lasten prevoz na delo. ."
+480007,2026-05-12T20:19:55.410900+00:00,hourly_rate_neto,7.73,8.43
+480007,2026-05-12T20:19:55.410900+00:00,hourly_rate_bruto,8.98,9.8
+480007,2026-05-12T20:19:55.410900+00:00,payment_type,7.73 €/h neto (8.98 €/h bruto),8.43 €/h neto (9.80 €/h bruto)
+480007,2026-05-12T20:19:55.410900+00:00,description,"Podjetje potrebuje zanesljive, odgovorne in polnoletne osebe za pomoč v strežbi. Delo vključuje pomoč pri deserviranju miz, čiščenje delovnih površin ter pripravo in postavitev bifeja. Delo poteka izmensko, tudi ob vikendih, v prijetnem delovnem okolju. Nudijo organizirano malico ter redno in korektno plačilo. Pričakujejo urejenost, samostojnost, pripravljenost na timsko delo ter odgovoren odnos do dela. Potreben je lasten prevoz na delo.","Podjetje potrebuje zanesljive, odgovorne in polnoletne osebe za pomoč v strežbi ( pomoč pri deserviranju miz, čiščenje delovnih površin ter pripravo in postavitev bifeja). Delo poteka izmensko, tudi ob vikendih, v prijetnem delovnem okolju. Nudijo organizirano malico ter redno in korektno plačilo. Pričakujejo urejenost, samostojnost, pripravljenost na timsko delo ter odgovoren odnos do dela. Potreben je lasten prevoz na delo."
+480001,2026-05-12T20:19:55.410900+00:00,hourly_rate_neto,7.73,7.74
+480001,2026-05-12T20:19:55.410900+00:00,hourly_rate_bruto,8.98,9.0
+480001,2026-05-12T20:19:55.410900+00:00,payment_type,7.73 €/h neto (8.98 €/h bruto),7.74 €/h neto (9.00 €/h bruto)
+480001,2026-05-12T20:19:55.410900+00:00,description,"Terme potrebujejo zanesljive, odgovorne in natančne polnoletne osebe za pomoč pri urejanju in čiščenju nastanitvenih prostorov. Naloge vključujejo pripravo sob, menjavo posteljnine ter skrb za urejenost skupnih prostorov. Nudijo izmensko delo ter možnost dela med tednom in ob vikendih. Poskrbljeno je za malico, delo pa poteka v prijetnem okolju z rednim in korektnim plačilom. Pričakujejo samostojnost in odgovoren odnos do dela.","Terme potrebujejo zanesljive, odgovorne in natančne polnoletne osebe za pomoč pri urejanju in čiščenju nastanitvenih prostorov (priprava ob, menjava posteljnine ter skrb za urejenost skupnih prostorov). Nudijo izmensko delo ter možnost dela med tednom in ob vikendih. Poskrbljeno je za malico, delo pa poteka v prijetnem okolju z rednim in korektnim plačilom. Pričakujejo samostojnost in odgovoren odnos do dela."
+479995,2026-05-12T20:19:55.410900+00:00,hourly_rate_neto,7.74,8.17
+479995,2026-05-12T20:19:55.410900+00:00,hourly_rate_bruto,9.0,9.5
+479995,2026-05-12T20:19:55.410900+00:00,payment_type,7.74 €/h neto (9.00 €/h bruto),8.17 €/h neto (9.50 €/h bruto)
+479986,2026-05-12T20:19:55.410900+00:00,start_date,2026-05-12,
+479882,2026-05-12T20:19:55.410900+00:00,start_date,2026-05-12,
+479827,2026-05-12T20:19:55.410900+00:00,hourly_rate_neto,9.0,9.5
+479827,2026-05-12T20:19:55.410900+00:00,hourly_rate_bruto,10.46,11.04
+479827,2026-05-12T20:19:55.410900+00:00,payment_type,9.00 €/h neto (10.46 €/h bruto),9.50 €/h neto (11.04 €/h bruto)
+479814,2026-05-12T20:19:55.410900+00:00,start_date,2026-05-12,
+479812,2026-05-12T20:19:55.410900+00:00,start_date,2026-05-12,
+479654,2026-05-12T20:19:55.410900+00:00,start_date,2026-05-12,
+479595,2026-05-12T20:19:55.410900+00:00,start_date,2026-05-12,
+479461,2026-05-12T20:19:55.410900+00:00,start_date,2026-05-12,
+479311,2026-05-12T20:19:55.410900+00:00,open_positions,,2
+479250,2026-05-12T20:19:55.410900+00:00,title,POMOČ V KUHINJI,DELO V KUHINJI
+479250,2026-05-12T20:19:55.410900+00:00,description,"Pomoč pri osnovni pripravi živil (čiščenje, rezanje ..), pomivanje posode in kuhinjskih pripomočkov, skrb za čistočo in urejenost kuhinje ter pomoč kuharju pri kuhinjskih opravilih. Delo vključuje tudi sodelovanje pri pripravi krožnikov ter upoštevanje higienskih standardov.","Pomoč pri osnovni pripravi živil (čiščenje, rezanje ..), pomivanje posode in kuhinjskih pripomočkov, skrb za čistočo in urejenost kuhinje. Delo vključuje tudi sodelovanje pri pripravi jedi, krožnikov ter upoštevanje higienskih standardov."
+478825,2026-05-12T20:19:55.410900+00:00,start_date,2026-05-12,
+478729,2026-05-12T20:19:55.410900+00:00,hourly_rate_neto,9.04,9.9
+478729,2026-05-12T20:19:55.410900+00:00,hourly_rate_bruto,10.5,11.5
+478729,2026-05-12T20:19:55.410900+00:00,payment_type,9.04 €/h neto (10.50 €/h bruto),9.90 €/h neto (11.50 €/h bruto)
+478728,2026-05-12T20:19:55.410900+00:00,hourly_rate_neto,7.73,7.74
+478728,2026-05-12T20:19:55.410900+00:00,hourly_rate_bruto,8.98,9.0
+478728,2026-05-12T20:19:55.410900+00:00,payment_type,7.73 €/h neto (8.98 €/h bruto),7.74 €/h neto (9.00 €/h bruto)
+478507,2026-05-12T20:19:55.410900+00:00,hourly_rate_neto,8.0,9.0
+478507,2026-05-12T20:19:55.410900+00:00,hourly_rate_bruto,9.3,10.46
+478507,2026-05-12T20:19:55.410900+00:00,payment_type,8.00 €/h neto (9.30 €/h bruto),9.00 €/h neto (10.46 €/h bruto)
+478507,2026-05-12T20:19:55.410900+00:00,description,"Pridruži se mladi, nasmejani in povezani ekipi. Delo poteka predvsem ob vikendih med šolskim letom ter med tednom v času šolskih počitnic. Obsega strežbo pijače in sladic, pripravo pijače za šankom ter pripravo kave iz kavomata. Zaželene so izkušnje v strežbi. Pričakujejo prijaznost, odgovornost in timski duh. Urna postavka je 9,30 € bruto, ob nedeljah in praznikih pa 10,46 € bruto. Zainteresirani pošljite prijavo na e-mail.","Pridruži se mladi, nasmejani in povezani ekipi. Delo poteka predvsem ob vikendih med šolskim letom ter med tednom v času šolskih počitnic. Obsega strežbo pijače in sladic, pripravo pijače za šankom ter pripravo kave iz kavomata. Zaželene so izkušnje v strežbi. Pričakujejo prijaznost, odgovornost in timski duh. Urna postavka je 10,46 € bruto, ob nedeljah in praznikih pa 11,62 € bruto. Zainteresirani pošljite prijavo na e-mail."
+478363,2026-05-12T20:19:55.410900+00:00,hourly_rate_neto,7.74,8.0
+478363,2026-05-12T20:19:55.410900+00:00,hourly_rate_bruto,9.0,9.3
+478363,2026-05-12T20:19:55.410900+00:00,payment_type,7.74 €/h neto (9.00 €/h bruto),8.00 €/h neto (9.30 €/h bruto)
+477867,2026-05-12T20:19:55.410900+00:00,hourly_rate_neto,7.73,8.17
+477867,2026-05-12T20:19:55.410900+00:00,hourly_rate_bruto,8.98,9.5
+477867,2026-05-12T20:19:55.410900+00:00,payment_type,7.73 €/h neto (8.98 €/h bruto),8.17 €/h neto (9.50 €/h bruto)
+477554,2026-05-12T20:19:55.410900+00:00,description,Podjetje potrebuje osebo za zlaganje izdellkov na police v tgovski verigi Spar. Delo poteka 2x na teden po 2 uri.,Podjetje potrebuje osebo za zlaganje modnih dodatkov na police v tgovski verigi Spar. Delo poteka 2x na teden po 2 uri.
+477482,2026-05-12T20:19:55.410900+00:00,description,"Podjetje potrebuje več oseb za pomoč v skladišču. Delovne naloge obsegajo pretovarjanje, natovarjanje in pakiranje blaga. Skladišče obratuje med ponedeljkom in petkom med 7. in 15. uro, po potrebi tudi v soboto, delovnik je po dogovoru oz. po potrebi. Pošljite prijavo.","Podjetje potrebuje več oseb za pomoč v skladišču, ki bi z delom lahko pričeli takoj oz. čimprej (trenutno ne potrebujejo pomoči za počitniško delo). Delovne naloge obsegajo pretovarjanje, natovarjanje in pakiranje blaga. Skladišče obratuje med ponedeljkom in petkom med 7. in 15. uro, po potrebi tudi v soboto. Pošljite prijavo."
+477482,2026-05-12T20:19:55.410900+00:00,duration,PO DOGOVORU,DLJE ČASA (ZAČ. IN OBČ. DELO)
+477422,2026-05-12T20:19:55.410900+00:00,hourly_rate_neto,8.0,9.0
+477422,2026-05-12T20:19:55.410900+00:00,hourly_rate_bruto,9.3,10.46
+477422,2026-05-12T20:19:55.410900+00:00,payment_type,8.00 €/h neto (9.30 €/h bruto),9.00 €/h neto (10.46 €/h bruto)
+477085,2026-05-12T20:19:55.410900+00:00,hourly_rate_neto,7.73,8.15
+477085,2026-05-12T20:19:55.410900+00:00,hourly_rate_bruto,8.98,9.47
+477085,2026-05-12T20:19:55.410900+00:00,payment_type,7.73 €/h neto (8.98 €/h bruto),8.15 €/h neto (9.47 €/h bruto)
+476643,2026-05-12T20:19:55.410900+00:00,description,"Iščejo polnoletni osebi za pomoč pri predpripravi pohištvene opreme za naklad. Delo obsega fizični naklad lažje opreme na tovorno vozilo, ter uporabo android aplikacije. Je terensko, dinamično, poteka med ponedeljkom in četrtkom, včasih tudi v petek (po potrebi in dogovoru). Pričakujejo vestnost in timsko naravnanost. Prijave z osnovnimi podatki pošljite na el. naslov ali pokličite v času delovnega tedna med 8.00 in 14.00.","Iščejo polnoletni osebi za pomoč pri predpripravi pohištvene opreme za naklad (fizični naklad lažje opreme na tovorno vozilo, ter uporabo android aplikacije). Je terensko, dinamično, poteka med ponedeljkom in četrtkom, včasih tudi v petek (po potrebi in dogovoru). Pričakujejo vestnost in timsko naravnanost. Prijave z osnovnimi podatki pošljite na el. naslov ali pokličite v času delovnega tedna med 8.00 in 14.00."
+476643,2026-05-12T20:19:55.410900+00:00,open_positions,2,
+476318,2026-05-12T20:19:55.410900+00:00,hourly_rate_neto,8.8,9.5
+476318,2026-05-12T20:19:55.410900+00:00,hourly_rate_bruto,10.23,11.04
+476318,2026-05-12T20:19:55.410900+00:00,payment_type,8.80 €/h neto (10.23 €/h bruto),9.50 €/h neto (11.04 €/h bruto)
+476318,2026-05-12T20:19:55.410900+00:00,description,"Iščejo 2 polnoletni osebi z izkušnjami za delo v strežbi/šanku. Priprava in postrežba hladnih in toplih napitkov ter prigrizkov. Urna postavka je začetna ob dogovoru, možnost napredovanja. Delo ob nedeljah in nočno delo je plačano več.","Iščejo 2 polnoletni osebi obvezno z izkušnjami za delo v strežbi/šanku. Priprava in postrežba hladnih in toplih napitkov ter prigrizkov. Urna postavka je začetna ali po dogovoru, možnost napredovanja. Delo ob nedeljah in nočno delo je plačano več."
+476317,2026-05-12T20:19:55.410900+00:00,hourly_rate_neto,8.0,8.5
+476317,2026-05-12T20:19:55.410900+00:00,hourly_rate_bruto,9.3,9.88
+476317,2026-05-12T20:19:55.410900+00:00,payment_type,8.00 €/h neto (9.30 €/h bruto),8.50 €/h neto (9.88 €/h bruto)
+476317,2026-05-12T20:19:55.410900+00:00,description,"Iščejo 2 polnoletni osebi za delo v pripravljalnici hrane - priprava tiramisujev, toastov ter različnih prigrizkov. Urna postavka je začetna ob dogovoru, možnost napredovanja.","Iščejo 2 polnoletni osebi z izkušnjami za delo v pripravljalnici hrane - priprava tiramisujev, toastov ter različnih prigrizkov. Urna postavka je začetna ali po dogovoru, možnost napredovanja. Delo ob nedeljah in nočno delo je plačano več."
+476296,2026-05-12T20:19:55.410900+00:00,description,"Iščejo zgovorne, energične in samozavestne osebe, ki uživajo v delu z ljudmi. Pridruži se njihovi ekipi in postani obraz blagovne znamke na različnih dogodkih po Sloveniji! Kaj bo tvoje delo? Izvajanje nagradnih žrebanj, podeljevanje darilnih paketov in darilnih kartic, aktivna interakcija z obiskovalci, promocija blagovne znamke na dogodkih. Če se prepoznaš v opisu, jim pošlji svoj CV skupaj s kratkim opisom dosedanjih izkušenj.","Iščejo zgovorne, energične in samozavestne osebe, ki uživajo v delu z ljudmi. Pridruži se njihovi ekipi in postani obraz blagovne znamke na različnih dogodkih po Sloveniji! Kaj bo tvoje delo? Izvajanje nagradnih žrebanj, podeljevanje darilnih paketov in darilnih kartic, aktivna interakcija z obiskovalci, promocija blagovne znamke na dogodkih. Če se prepoznaš v opisu, jim pošlji svoj CV skupaj s kratkim opisom dosedanjih izkušenj. Zaželene osebe iz področja Ljubljane in okilice."
+475763,2026-05-12T20:19:55.410900+00:00,hourly_rate_neto,7.73,7.96
+475763,2026-05-12T20:19:55.410900+00:00,hourly_rate_bruto,8.98,9.25
+475763,2026-05-12T20:19:55.410900+00:00,payment_type,7.73 €/h neto (8.98 €/h bruto),7.96 €/h neto (9.25 €/h bruto)
+475763,2026-05-12T20:19:55.410900+00:00,description,"Iščejo študente/ke za delo v proizvodnji modularnih bivalnih enot. Delo vključuje upravljanje strojev, montažo elementov, pakiranje izdelkov, skladiščenje ter druga lažja proizvodna dela. Pričakujejo odgovornost in zanesljivost. Nudijo plačilo 8,98 €/h bruto z možnostjo povišanja urne postavke, topel obrok ter priložnost za učenje.","Iščejo študente/ke za delo v proizvodnji modularnih bivalnih enot. Delo vključuje upravljanje strojev, montažo elementov, pakiranje izdelkov, skladiščenje ter druga lažja proizvodna dela. Pričakujejo odgovornost in zanesljivost. Nudijo plačilo 9,25 €/h bruto z možnostjo povišanja urne postavke, topel obrok ter priložnost za učenje."
+475047,2026-05-12T20:19:55.410900+00:00,hourly_rate_neto,,7.73
+475047,2026-05-12T20:19:55.410900+00:00,hourly_rate_bruto,,8.98
+475047,2026-05-12T20:19:55.410900+00:00,payment_type,PO DOGOVORU,7.73 €/h neto (8.98 €/h bruto)
+475047,2026-05-12T20:19:55.410900+00:00,description,Podjetje išče osebo za pomoč v strežbi. Delo poteka po dogovoru in potrebi. Zaželene so izkušnje z delom v strežbi.,"Podjetje išče osebo za pomoč v strežbi. Delo poteka po dogovoru in potrebi. Zaželene so izkušnje z delom v strežbi. V primeru dobro opravljenega dela, se urna postavka zviša."
+472510,2026-05-12T20:19:55.410900+00:00,description,Pomoč zdravstveno negovalnemu timu doma starejših pri opravilih nege in oskrbe starostnikov. Pogoj: študent/ka zdravstvene nege.,Pomoč zdravstveno negovalnemu timu doma starejših pri opravilih nege in oskrbe starostnikov. Zaželeno: študent/ka zdravstvene nege.
+471722,2026-05-12T20:19:55.410900+00:00,subtitle,VOZNIK SANITETNEGA VOZILA,SPREMLJEVALEC/KA V REŠEVALNEM VOZILU
+470612,2026-05-12T20:19:55.410900+00:00,description,Podjetje potrebuje več polnoletnih oseb za delo v proizvodnji. Pogoj je znanje slovenskega jezika. Delovni čas poteka izmensko oziroma po dogovoru. Bruto urna postavka je odvisna glede na izmeno dela. Nudijo tudi malico. Organiziran je brezplačni prevoz iz Trbovlje-Hrastnik- Prebold in Šoštanj-Velenje - Prebold. Možno je tudi opravljanje počitniškega dela.,Podjetje potrebuje več polnoletnih oseb za delo v proizvodnji. Pogoj je znanje slovenskega jezika. Delovni čas poteka izmensko oziroma po dogovoru. Bruto urna postavka je odvisna glede na izmeno dela. Nudijo tudi malico. Organiziran je brezplačni prevoz iz Trbovlje-Hrastnik- Prebold in Šoštanj-Velenje - Prebold. Možno je tudi opravljanje počitniškega dela. Sprejemajo tudi prošnje za počitniško delo.
+469581,2026-05-12T20:19:55.410900+00:00,title,MARKETING,PRODAJA
+469581,2026-05-12T20:19:55.410900+00:00,description,"Podjetje išče svetovalce/ke za odnose s strankami, delo direktnega marketinga. Iščejo komunikativne, motivirane in pozitivne študente/ke za delo s strankami po telefonu (digitalne valute), organizacijo sestankov in pomoč pri marketinških projektih. So mlado podjetje, kjer cenijo ideje, timski duh in dobro energijo. Nudijo mentorstvo, fleksibilen urnik, podporo pri učenju, možnost napredovanja ter delo, kjer vsak dan prinese nove izzive in uspehe.","Iščeš študentsko delo, kjer sta komunikacija in samozavest ključ do uspeha? Pridruži se mladi ekipi podjetja! Iščejo komunikativno in vztrajno polnoletno osebo za telefonsko komunikacijo s podjetniki, predstavitev poslovnih rešitev in dogovarjanje sestankov. Izkušnje niso pogoj – pomembni so energija, zanesljivost in želja po rezultatih. Nudijo fleksibilen urnik, stimulativno plačilo z nagradami, mentorstvo, delo v sproščeni ekipi, team buildinge, možnost dolgoročnega, občasnega sodelovanja."
+469581,2026-05-12T20:19:55.410900+00:00,start_date,,2026-05-18
+465571,2026-05-12T20:19:55.410900+00:00,description,Potrebujejo polnoletni osebi za strežbo v prijetni kavarni-slaščičarni. Potrebne so izkušnje in samoiniciativnost pri delu.,Potrebujejo polnoletni osebi za strežbo v prijetni kavarni-slaščičarni. Potrebne so izkušnje in samoiniciativnost pri delu. .
+464233,2026-05-12T20:19:55.410900+00:00,hourly_rate_neto,7.73,8.5
+464233,2026-05-12T20:19:55.410900+00:00,hourly_rate_bruto,8.98,9.88
+464233,2026-05-12T20:19:55.410900+00:00,payment_type,7.73 €/h neto (8.98 €/h bruto),8.50 €/h neto (9.88 €/h bruto)
+458611,2026-05-12T20:19:55.410900+00:00,hourly_rate_neto,7.73,8.0
+458611,2026-05-12T20:19:55.410900+00:00,hourly_rate_bruto,8.98,9.3
+458611,2026-05-12T20:19:55.410900+00:00,payment_type,7.73 €/h neto (8.98 €/h bruto),8.00 €/h neto (9.30 €/h bruto)
+455071,2026-05-12T20:19:55.410900+00:00,location,"KOPER, LUKA",KOPER
+455071,2026-05-12T20:19:55.410900+00:00,hourly_rate_neto,7.73,8.2
+455071,2026-05-12T20:19:55.410900+00:00,hourly_rate_bruto,8.98,9.53
+455071,2026-05-12T20:19:55.410900+00:00,payment_type,7.73 €/h neto (8.98 €/h bruto),8.20 €/h neto (9.53 €/h bruto)
+455071,2026-05-12T20:19:55.410900+00:00,description,"Podjetje išče več polnoletnih oseb za raztovarjanje avtomobilov iz ladje. Pogoj: veljaven izpit B kategorije. Delo poteka v treh izmenah, po potrebi in dogovoru. Pošlji prijavo.","Iščejo polnoletne osebe za raztovarjanje avtomobilov v Luki Koper. Pogoj za delo je veljaven izpit B kategorije. Delo poteka v treh izmenah, po potrebi in dogovoru. Poleg redne urne postavke nudijo tudi stimulacijo."
+438930,2026-05-12T20:19:55.410900+00:00,description,Priprava napitkov. Pogoj je starost nad 18 let. Dela se med tednom in med vikendi.,"Priprava napitkov. Delo poteka med tednom, po dogovoru in potrebi. Pogoj je polnoletnost."
+430980,2026-05-12T20:19:55.410900+00:00,description,"Iščejo pridne, zanesljive, komunikativne in odgovorne osebe za delo v restavraciji s strankami in delo v kuhinji s hitro prehrano. Delo v mladem kolektivu poteka med tednom in ob vikendih, po potrebi in dogovoru. Potrebujejo polnoletne osebe, ki lahko delo opravljajo tudi do polnoči.","Iščejo pridne, zanesljive, komunikativne in odgovorne osebe za delo v restavraciji s strankami in delo v kuhinji s hitro prehrano. Delo v mladem kolektivu poteka med tednom in ob vikendih, po potrebi in dogovoru. Potrebujejo osebe, ki lahko delo opravljajo do 22.00 in polnoletni do 24.00."
