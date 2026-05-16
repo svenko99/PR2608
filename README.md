@@ -7,6 +7,7 @@
 - [`osnutek.md`](/reports/osnutek.md)
 - [`VMESNO.md`](/reports/VMESNO.md)
 - [`PR2025-26_VMESNA_08.pptx`](/reports/PR2025-26_VMESNA_08.pptx)
+- [`KONČNO.md`](/reports/KONČNO.md)
 
 ## Jupyter Notebook
 
