@@ -22,15 +22,15 @@ uv run --with jupyter jupyter lab
 
 ## Streamlit aplikacija
 
-Interaktivni pregled podatkov in napovedovalec plače sta v [`streamlit/`](./streamlit/) (vstopna
-točka [`app.py`](./streamlit/app.py)). Za zagon iz korenske mape repozitorija:
+Aplikacija je dostopna na [pr2608.streamlit.app](https://pr2608.streamlit.app)
+
+Nahaja se v [`streamlit/`](./streamlit/). Za zagon iz korenske mape repozitorija poženi:
 
 ```bash
 uv run --project src streamlit run streamlit/app.py
 ```
 
-Aplikacija se odpre v brskalniku na [http://localhost:8501](http://localhost:8501). Ob prvem
-obisku strani **Napovedovalec plače** se model trenira.
+Aplikacija se odpre v brskalniku na [http://localhost:8501](http://localhost:8501).
 
 ## Scraper
 
