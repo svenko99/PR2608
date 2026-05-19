@@ -37,6 +37,11 @@ jobs:
           STUDENTSKI_SERVIS_EMAIL: ${{ secrets.STUDENTSKI_SERVIS_EMAIL }}
           STUDENTSKI_SERVIS_PASSWORD: ${{ secrets.STUDENTSKI_SERVIS_PASSWORD }}
 
+      - name: Sync repo
+        run: |
+          git fetch origin main
+          git reset --hard origin/main
+
       - name: Run scraper
         id: scrape
         working-directory: src
@@ -53,17 +58,11 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          git fetch origin main
-          git reset --hard origin/main
-
           git add data/data.csv data/changes.csv
-
           if git diff --cached --quiet; then
             echo "Ni sprememb za commit."
             exit 0
           fi
-
           git commit -m "${COMMIT_MSG}"
           git push origin main
         env:
