@@ -20,6 +20,18 @@ uv sync
 uv run --with jupyter jupyter lab
 ```
 
+## Streamlit aplikacija
+
+Interaktivni pregled podatkov in napovedovalec plače sta v [`streamlit/`](./streamlit/) (vstopna
+točka [`app.py`](./streamlit/app.py)). Za zagon iz korenske mape repozitorija:
+
+```bash
+uv run --project src streamlit run streamlit/app.py
+```
+
+Aplikacija se odpre v brskalniku na [http://localhost:8501](http://localhost:8501). Ob prvem
+obisku strani **Napovedovalec plače** se model trenira.
+
 ## Scraper
 
 Scraper teče na GitHub Actions vsak dan ob 18:39 UTC prek workflowa [
