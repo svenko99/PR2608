@@ -126,7 +126,7 @@ analize ključnih besed iz ugotovitve 3. **Dinamika trga** kaže časovno vrsto 
 in seznam dvigov plač iz `changes.csv`. **Napovedovalec plače** sprejme strukturirane
 atribute ali prosti opis dela, z modelom iz ugotovitve 3 napove razred urne postavke in
 prikaže najbolj podobne resnične oglase iz zbirke. Aplikacija je dostopna na
-[_URL po deploy-u_](https://example.streamlit.app/).
+[pr2608.streamlit.app](https://pr2608.streamlit.app/).
 
 ## Omejitve in nadaljnje delo
 
