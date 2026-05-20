@@ -31,9 +31,9 @@ class TrainedModels:
     text_model: LogisticRegression
     word_vec: TfidfVectorizer
     char_vec: TfidfVectorizer
-    text_matrix: csr_matrix  # za cosine similarity z oglasi iz zbirke
-    hourly_df: pd.DataFrame  # podmnožica oglasov, na kateri je model treniran (HOURLY + znana plača)
-    struct_train_examples: pd.DataFrame  # za izpis možnosti v UI selectboxih
+    text_matrix: csr_matrix
+    hourly_df: pd.DataFrame
+    struct_train_examples: pd.DataFrame
 
 
 def _to_class(x: float, q33: float, q66: float) -> str:
@@ -71,7 +71,6 @@ def train_models() -> TrainedModels:
     hourly = df[
         (df["normalized_payment_type"] == "HOURLY") & df["hourly_rate_neto"].notna()
     ].copy()
-    # Odstranimo podvojene opise (kot v notebooku) – preprečimo, da en pogost oglas prevladuje
     hourly = hourly.drop_duplicates(subset="description").reset_index(drop=True)
 
     q33 = float(hourly["hourly_rate_neto"].quantile(0.33))
@@ -82,7 +81,6 @@ def train_models() -> TrainedModels:
     ).str.lower()
     hourly["desc_len_log"] = np.log1p(hourly["description"].fillna("").str.len())
 
-    # === Strukturirani model ===
     X_struct = _prep_structured(hourly)
     y = hourly["razred"]
 
@@ -105,7 +103,6 @@ def train_models() -> TrainedModels:
     )
     struct_model.fit(X_struct, y)
 
-    # === Tekstovni model (TF-IDF: besedni + znakovni) ===
     stop = load_stopwords()
     word_vec = TfidfVectorizer(
         stop_words=stop,

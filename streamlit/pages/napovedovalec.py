@@ -89,7 +89,6 @@ tab_struct, tab_text = st.tabs(
     ["Strukturirani vnos", "Prosti opis dela"]
 )
 
-# ===================== STRUKTURIRAN VNOS =====================
 with tab_struct:
     st.markdown(
         "Model: **logistična regresija na strukturiranih atributih** (vrsta dela, regija, urnik, "
@@ -119,7 +118,6 @@ with tab_struct:
         pred, probs = predict_structured(models, vrsta, regija, urnik, trajanje, DEFAULT_DESC_LEN)
         render_prediction(pred, probs)
 
-# ===================== PROSTI OPIS =====================
 with tab_text:
     st.markdown(
         "Model: **TF-IDF (besedni + znakovni n-grami) + logistična regresija** na celotnem "

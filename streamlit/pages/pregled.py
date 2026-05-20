@@ -24,12 +24,9 @@ st.caption(
 data = load_data()
 geojson = load_geojson()
 
-# Placeholder za metrike – renderirane po filtriranju, vizualno pa na vrhu strani
 metrics_placeholder = st.container()
-
 st.divider()
 
-# --- Zemljevid ---
 st.subheader("Zemljevid Slovenije")
 
 metric_choice = st.radio(
@@ -38,7 +35,6 @@ metric_choice = st.radio(
     horizontal=True,
 )
 
-# --- Filtri pod "Prikaži po regijah" ---
 with st.container(border=True):
     st.subheader("Filtri")
 
@@ -62,7 +58,6 @@ with st.container(border=True):
             step=0.1,
         )
 
-# --- Filtriranje ---
 mask = (
         data["category"].isin(sel_categories)
         & data["hourly_rate_neto"].notna()
@@ -70,7 +65,6 @@ mask = (
 )
 filtered = data[mask]
 
-# --- Metrike v placeholder na vrhu ---
 with metrics_placeholder:
     c1, c2, c3, c4 = st.columns(4)
     c1.metric("Zadetkov", f"{len(filtered):,}".replace(",", "."))
@@ -159,7 +153,6 @@ else:
 
 st.divider()
 
-# --- Tabela rezultatov ---
 st.subheader("Tabela zadetkov")
 
 show_cols = [
@@ -204,7 +197,6 @@ st.dataframe(
     hide_index=True,
 )
 
-# --- Podroben pogled ---
 st.subheader("Podroben pogled na oglas")
 
 search_q = st.text_input(

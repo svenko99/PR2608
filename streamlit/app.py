@@ -1,5 +1,3 @@
-"""Streamlit aplikacija – vstopna točka, definira navigacijo s slovenskimi URL-ji."""
-
 import sys
 from pathlib import Path
 
@@ -12,24 +10,19 @@ st.set_page_config(
     layout="wide",
 )
 
-# Globalni CSS – Apple-like modra accent za vse interaktivne elemente
 st.markdown(
     """
     <style>
-    /* Tab labels (aktivna in neaktivna) */
     button.st-bq { color: #007AFF !important; }
 
-    /* Linki */
     a, a:hover, a:visited { color: #007AFF !important; }
 
-    /* Multiselect chip-i (npr. Kategorija dela) – modri background, bel text */
     span[data-baseweb="tag"] {
         background-color: #007AFF !important;
         color: white !important;
     }
     span[data-baseweb="tag"] svg { fill: white !important; }
 
-    /* Slider – modri track, thumb in vrednost */
     [data-baseweb="slider"] [role="slider"],
     [data-testid="stSlider"] [role="slider"] {
         background-color: #007AFF !important;
@@ -45,7 +38,6 @@ st.markdown(
         color: #007AFF !important;
     }
 
-    /* Checkbox in radio – modri accent */
     [data-baseweb="checkbox"] div[role="checkbox"][aria-checked="true"],
     [data-baseweb="radio"] div[role="radio"][aria-checked="true"] {
         background-color: #007AFF !important;

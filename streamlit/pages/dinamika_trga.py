@@ -24,7 +24,6 @@ tab1, tab2, tab3 = st.tabs(
     ["Časovna dinamika", "Dvigi plač", "Koncentracija podjetij"]
 )
 
-# ===================== TAB 1: ČASOVNA DINAMIKA =====================
 with tab1:
     st.subheader("Število novih oglasov skozi čas")
 
@@ -87,8 +86,6 @@ with tab1:
     )
     st.plotly_chart(fig_w, use_container_width=True)
 
-
-# ===================== TAB 2: DVIGI PLAČ =====================
 with tab2:
     st.subheader("Spremembe urne postavke")
 
@@ -252,8 +249,6 @@ with tab2:
     else:
         st.info("V podatkih ni sprememb urne postavke.")
 
-
-# ===================== TAB 3: KONCENTRACIJA PODJETIJ =====================
 with tab3:
     st.subheader("Pareto krivulja koncentracije")
 

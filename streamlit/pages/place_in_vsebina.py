@@ -27,7 +27,6 @@ overall_mean = hourly["hourly_rate_neto"].mean()
 
 tab1, tab2 = st.tabs(["Plače po atributih", "Ključne besede"])
 
-# ===================== TAB 1: PLAČE PO ATRIBUTIH =====================
 with tab1:
     st.subheader("Plače po izbranem atributu")
 

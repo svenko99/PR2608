@@ -33,7 +33,7 @@ st.markdown("## Glavne ugotovitve")
 st.markdown(
     """
 ### 1. Vsebina dela poganja plačo, lokacija skoraj nič
-Razpon median po regijah znaša le 0,40 €/h, po kategorijah dela pa 4 €/h – desetkrat več.
+Razpon median po regijah znaša le 0,40 €/h, po kategorijah dela pa 4 €/h - desetkrat več.
 
 ### 2. Plače gredo skoraj samo navzgor
 Od 274 sprememb urne postavke je bilo 99,6 % dvigov in eno samo znižanje. Mediana dviga znaša

@@ -10,7 +10,6 @@ import streamlit as st
 
 from utils.categorize import categorize, map_duration
 
-# Lokalne poti: streamlit/ je na isti ravni kot data/
 DATA_DIR = Path(__file__).resolve().parent.parent.parent / "data"
 STREAMLIT_DIR = Path(__file__).resolve().parent.parent
 
