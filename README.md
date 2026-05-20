@@ -22,9 +22,9 @@ uv run --with jupyter jupyter lab
 
 ## Streamlit aplikacija
 
-Aplikacija je dostopna na [pr2608.streamlit.app](https://pr2608.streamlit.app)
+Aplikacija je dostopna na spletni strani [https://pr2608.streamlit.app](https://pr2608.streamlit.app), na kateri so aktualni podatki, saj se ažurirajo ob vsakemu `git push`. 
 
-Nahaja se v [`streamlit/`](./streamlit/). Za zagon iz korenske mape repozitorija poženi:
+Nahaja se v [`streamlit/`](./streamlit/). Za lokalni zagon iz korenske mape repozitorija poženi:
 
 ```bash
 uv run --project src streamlit run streamlit/app.py
