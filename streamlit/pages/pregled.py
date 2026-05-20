@@ -139,6 +139,16 @@ if len(region_agg) > 0:
             box-shadow: 0 1px 3px rgba(0,0,0,0.08), 0 4px 12px rgba(0,0,0,0.05);
             border: 1px solid rgba(0,0,0,0.08);
         }
+        span[data-baseweb="tag"] {
+            background-color: #e0e0e0 !important;
+            color: #333333 !important;
+        }
+        span[data-baseweb="tag"] span {
+            color: #333333 !important;
+        }
+        span[data-baseweb="tag"] svg {
+            fill: #666666 !important;
+        }
         </style>
         """,
         unsafe_allow_html=True,

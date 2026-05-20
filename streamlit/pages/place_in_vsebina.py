@@ -110,7 +110,7 @@ with tab1:
         fig.add_vline(
             x=overall_median,
             line_dash="dash",
-            line_color="#007AFF",
+            line_color="#E03030",
             annotation_text=f"Skupna mediana {overall_median:.2f} €",
             annotation_position="top",
         )
@@ -292,7 +292,7 @@ with tab2:
                     f"{diff:+.2f} €/h",
                 )
 
-                st.markdown("**Najdrazji primeri z vzorcem:**")
+                st.markdown("**Najdražji primeri z vzorcem:**")
                 examples = hourly_unique.loc[mask].nlargest(5, "hourly_rate_neto")[
                     ["title", "company", "hourly_rate_neto", "normalized_city"]
                 ].rename(

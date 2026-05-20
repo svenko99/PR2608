@@ -65,7 +65,7 @@ def _prep_structured(df: pd.DataFrame) -> pd.DataFrame:
     )
 
 
-@st.cache_resource(show_spinner="Treniram napovedni model…")
+@st.cache_resource(show_spinner="Treniranje modela...")
 def train_models() -> TrainedModels:
     df = load_data()
     hourly = df[
