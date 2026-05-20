@@ -121,10 +121,10 @@ with tab2:
 
         bins_size = [0, 0.25, 0.50, 1.00, 2.00, float("inf")]
         labels_size = [
-            "0 - 0,25 €",
-            "0,25 - 0,50 €",
-            "0,50 - 1,00 €",
-            "1,00 - 2,00 €",
+            "0 – 0,25 €",
+            "0,25 – 0,50 €",
+            "0,50 – 1,00 €",
+            "1,00 – 2,00 €",
             "2,00 € +",
         ]
         rate_changes["abs_diff"] = rate_changes["diff"].abs()
@@ -151,8 +151,9 @@ with tab2:
                     orientation="h",
                     name="Dvig",
                     marker_color="#007AFF",
-                    text=raises_binned.values,
+                    text=[str(v) if v > 0 else "" for v in raises_binned.values],
                     textposition="outside",
+                    cliponaxis=False,
                 )
             )
             if cuts_binned.sum() > 0:
@@ -163,8 +164,9 @@ with tab2:
                         orientation="h",
                         name="Znižanje",
                         marker_color="#B0D4FF",
-                        text=cuts_binned.values,
+                        text=[str(v) if v > 0 else "" for v in cuts_binned.values],
                         textposition="outside",
+                        cliponaxis=False,
                     )
                 )
             fig_size.update_layout(
@@ -177,15 +179,17 @@ with tab2:
             )
             st.plotly_chart(fig_size, use_container_width=True)
 
-        bins_days = [-1, 1, 3, 7, 14, 21, 28, float("inf")]
+        bins_days = [-1, 3, 7, 14, 21, 28, 35, 42, 49, float("inf")]
         labels_days = [
-            "0 - 1 dan",
-            "2 - 3 dni",
-            "4 - 7 dni",
-            "8 - 14 dni",
-            "15 - 21 dni",
-            "22 - 28 dni",
-            "29+ dni",
+            "0 – 3 dni",
+            "4 – 7 dni",
+            "8 – 14 dni",
+            "15 – 21 dni",
+            "22 – 28 dni",
+            "29 – 35 dni",
+            "36 – 42 dni",
+            "43 – 49 dni",
+            "50+ dni",
         ]
         rate_changes["interval_days"] = pd.cut(
             rate_changes["days_after_post"], bins=bins_days, labels=labels_days, right=True
@@ -202,6 +206,7 @@ with tab2:
                     marker_color="#007AFF",
                     text=days_binned.values,
                     textposition="outside",
+                    cliponaxis=False,
                 )
             )
             fig_days.update_layout(
