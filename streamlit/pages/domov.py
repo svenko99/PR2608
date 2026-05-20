@@ -25,7 +25,8 @@ hourly = data[
 ].copy()
 
 region_medians = (
-    hourly.dropna(subset=["normalized_region"])
+    hourly
+    .dropna(subset=["normalized_region"])
     .groupby("normalized_region")["hourly_rate_neto"]
     .agg(["median", "count"])
 )
@@ -33,7 +34,8 @@ region_medians = region_medians[region_medians["count"] >= 5]
 region_spread = region_medians["median"].max() - region_medians["median"].min()
 
 category_medians = (
-    hourly.dropna(subset=["category"])
+    hourly
+    .dropna(subset=["category"])
     .groupby("category")["hourly_rate_neto"]
     .agg(["median", "count"])
 )
@@ -83,9 +85,7 @@ mon_avg = weekday_avg.get(0, 0)
 tue_avg = weekday_avg.get(1, 0)
 
 st.title("Analiza ponudbe študentskega dela v Sloveniji")
-st.markdown(
-    "Interaktivni pregled lastne podatkovne zbirke z e-Študentskega servisa."
-)
+st.markdown("Interaktivni pregled lastne podatkovne zbirke z e-Študentskega servisa.")
 
 c1, c2, c3, c4 = st.columns(4)
 c1.metric("Oglasov", fmt_int(len(data)))
@@ -108,7 +108,7 @@ cuts_text = (
 
 st.markdown(
     f"""
-### 1. Vsebina dela poganja plačo, lokacija skoraj nič
+### 1. Vsebina dela ima veliko večji vpliv na plačo kot lokacija dela
 Razpon median po regijah znaša le {fmt(region_spread)} €/h, po kategorijah dela pa {fmt(category_spread, 1)} €/h - približno
 {round(category_spread / region_spread) if region_spread > 0 else "—"}-krat več.
 
@@ -122,7 +122,7 @@ atributi 44,9 %. Trivialni baseline doseže 37,6 %.
 
 ### 4. Trg je izrazito fragmentiran
 {fmt(one_ad_pct, 0)} % podjetij ima v zbirki le en oglas. Največji delodajalec zaseda {fmt(top1_pct, 1)} % trga, top 10 skupaj
-{fmt(top10_pct, 0)} %. Pareto pravilo 80/20 tu odpove.
+{fmt(top10_pct, 0)} %.
 
 ### 5. Vrh novih objav v začetku tedna
 Ponedeljek ({fmt(mon_avg, 0)}) in torek ({fmt(tue_avg, 0)}) prinašata največ novih oglasov, ob vikendih in praznikih portal
