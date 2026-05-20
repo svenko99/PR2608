@@ -119,14 +119,20 @@ ko prispe največ sveže ponudbe.
 
 ## Streamlit aplikacija
 
-Interaktivni del projekta je Streamlit aplikacija s petimi stranmi. **Explorer** ponuja
-filtre po regiji, kategoriji in razponu plače z interaktivnim zemljevidom Slovenije.
-**Plače in vsebina** prikazuje primerjave plač po atributih ter interaktivno verzijo
-analize ključnih besed iz ugotovitve 3. **Dinamika trga** kaže časovno vrsto novih oglasov
-in seznam dvigov plač iz `changes.csv`. **Napovedovalec plače** sprejme strukturirane
-atribute ali prosti opis dela, z modelom iz ugotovitve 3 napove razred urne postavke in
-prikaže najbolj podobne resnične oglase iz zbirke. Aplikacija je dostopna na
-[pr2608.streamlit.app](https://pr2608.streamlit.app/).
+Interaktivni del projekta je Streamlit aplikacija s petimi stranmi.
+
+**Domov** prikazuje ključne metrike zbirke (število oglasov, podjetij, obdobje zbiranja, število sprememb) in povzetek petih glavnih ugotovitev.
+
+**Pregled** omogoča filtriranje zbirke po kategoriji dela in razponu neto urne postavke, z zemljevidom Slovenije, ki po izbiri kaže število oglasov ali mediano postavke po regijah; pod zemljevidom je tabela zadetkov in podrobni pogled na izbran oglas.
+
+**Plače in vsebina** ima dva zavihka: prvi primerja plače po izbranem atributu (regija, kategorija, urnik, trajanje, mesto, delodajalec) s stolpčnim grafom median in box-ploti porazdelitev po najpogostejših skupinah, drugi pa pokaže razlike v mediani plače za 15 ročno izbranih
+značk in dovoljuje uporabniku, da preizkusi lasten regex vzorec nad naslovi in opisi.
+
+**Dinamika trga** je razdeljena na tri zavihke: časovna dinamika novih oglasov s povprečji po dnevu v tednu, analiza dvigov plač iz `changes.csv` (velikost in čas sprememb, top 10 največjih dvigov) ter Pareto krivulja koncentracije podjetij s top 10 delodajalcev.
+
+**Napovedovalec plače** ponuja dva načina vnosa: strukturirane atribute (kategorija, regija, urnik, trajanje) z modelom logistične regresije ali prosti opis dela z modelom TF-IDF + logistične regresije iz ugotovitve 3; v obeh primerih izpiše napovedan razred urne postavke (nizka/srednja/visoka) z verjetnostmi, pri tekstovnem vnosu pa še samodejno prepozna kategorijo in prikaže pet najbolj podobnih oglasov iz zbirke
+
+Aplikacija je dostopna na [https://pr2608.streamlit.app](https://pr2608.streamlit.app/).
 
 ## Omejitve in nadaljnje delo
 
