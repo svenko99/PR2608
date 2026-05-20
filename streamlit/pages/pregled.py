@@ -1,10 +1,6 @@
-"""Pregled: filtriraj oglase + zemljevid + tabela rezultatov."""
-
 import sys
 from pathlib import Path
-
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-
 import pandas as pd
 import plotly.express as px
 import streamlit as st
@@ -73,8 +69,8 @@ with metrics_placeholder:
         c2.metric("Mediana plače", f"{hourly_f['hourly_rate_neto'].median():.2f} €/h")
         c3.metric("Povprečje plače", f"{hourly_f['hourly_rate_neto'].mean():.2f} €/h")
     else:
-        c2.metric("Mediana plače", "–")
-        c3.metric("Povprečje plače", "–")
+        c2.metric("Mediana plače", "-")
+        c3.metric("Povprečje plače", "-")
     c4.metric("Različnih podjetij", f"{filtered['company'].nunique():,}".replace(",", "."))
 
 if len(filtered) == 0:
@@ -123,7 +119,6 @@ if len(region_agg) > 0:
     )
     fig.update_layout(height=520, margin=dict(l=0, r=0, t=10, b=0))
 
-    # Apple-like okvirček (zaobljen, mehka senca)
     st.markdown(
         """
         <style>
@@ -226,14 +221,14 @@ else:
     MAX_SHOWN = 200
     truncated = searchable.head(MAX_SHOWN)
     options = [
-        f"#{row['id']} – {row['title']} ({row['company']})"
+        f"#{row['id']} - {row['title']} ({row['company']})"
         for _, row in truncated.iterrows()
     ]
     if len(searchable) > MAX_SHOWN:
         st.caption(f"Pokazanih je prvih {MAX_SHOWN}. Zoži iskanje za več relevantnih zadetkov.")
 
     sel = st.selectbox("Izberi oglas", options, index=0)
-    sel_id = int(sel.split(" – ")[0].lstrip("#"))
+    sel_id = int(sel.split(" - ")[0].lstrip("#"))
     row = data[data["id"] == sel_id].iloc[0]
     with st.container(border=True):
         st.markdown(f"### {row['title']}")
@@ -241,14 +236,14 @@ else:
             st.markdown(f"**{row['subtitle']}**")
         m1, m2, m3, m4 = st.columns(4)
         m1.markdown(f"**Delodajalec**\n\n{row['company']}")
-        m2.markdown(f"**Lokacija**\n\n{row['normalized_city'] or '–'}")
+        m2.markdown(f"**Lokacija**\n\n{row['normalized_city'] or '-'}")
         rate_text = (
             f"{row['hourly_rate_neto']:.2f} €/h"
             if pd.notna(row["hourly_rate_neto"])
-            else row["payment_label"] or "–"
+            else row["payment_label"] or "-"
         )
         m3.markdown(f"**Plačilo**\n\n{rate_text}")
-        m4.markdown(f"**Urnik**\n\n{row['schedule_label'] or '–'}")
+        m4.markdown(f"**Urnik**\n\n{row['schedule_label'] or '-'}")
         st.markdown("---")
         st.markdown("**Opis dela:**")
         st.write(row["description"] or "*(brez opisa)*")

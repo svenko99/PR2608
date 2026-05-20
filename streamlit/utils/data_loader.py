@@ -1,13 +1,8 @@
-"""Nalaganje in obogatitev podatkov za Streamlit aplikacijo."""
-
 from __future__ import annotations
-
 import json
 from pathlib import Path
-
 import pandas as pd
 import streamlit as st
-
 from utils.categorize import categorize, map_duration
 
 DATA_DIR = Path(__file__).resolve().parent.parent.parent / "data"
@@ -31,13 +26,11 @@ SCHEDULE_LABELS = {
 }
 
 def format_slovenian_date(d) -> str:
-    """'12.3.2026' iz datetime/Timestamp."""
     return f"{d.day}.{d.month}.{d.year}"
 
 
 @st.cache_data(show_spinner="Nalagam oglase…")
 def load_data() -> pd.DataFrame:
-    """Naloži data.csv, doda category in trajanje stolpca."""
     df = pd.read_csv(
         DATA_DIR / "data.csv",
         parse_dates=["first_seen", "last_seen", "start_date"],
@@ -71,7 +64,6 @@ def load_stopwords() -> list[str]:
 
 
 def normalize_region_name(region: str) -> str:
-    """Spravi ime regije v obliko, ki se ujema z GeoJSON SR_UIME (Title Case z malo za vezajem)."""
     if not isinstance(region, str):
         return region
     titled = region.title()

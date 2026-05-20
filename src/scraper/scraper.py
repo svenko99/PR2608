@@ -60,7 +60,7 @@ class Scraper:
             self.session.headers.update({"Cookie": cookie})
 
     def login(self) -> None:
-        """Prijavi se z email/geslom in posodobi session cookie."""
+        # Prijavi se z email/geslom in posodobi session cookie
         email = os.getenv("STUDENTSKI_SERVIS_EMAIL")
         password = os.getenv("STUDENTSKI_SERVIS_PASSWORD")
 

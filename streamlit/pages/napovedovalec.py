@@ -1,5 +1,3 @@
-"""Napovedovalec razreda plače + iskanje podobnih oglasov."""
-
 import sys
 from pathlib import Path
 
@@ -30,9 +28,9 @@ st.markdown(
     f"""
 **Meje razredov** (33. in 66. percentil oglasov z znano postavko):
 
-- **nizka** – < {models.q33:.2f} €/h
-- **srednja** – {models.q33:.2f} – {models.q66:.2f} €/h
-- **visoka** – > {models.q66:.2f} €/h
+- **nizka** - < {models.q33:.2f} €/h
+- **srednja** - {models.q33:.2f} - {models.q66:.2f} €/h
+- **visoka** - > {models.q66:.2f} €/h
 """
 )
 
@@ -78,8 +76,8 @@ def render_similar(vec, top_k: int = 5) -> None:
             cols[3].metric("podobnost", f"{row['similarity']:.2f}")
             with st.expander("Pokaži opis"):
                 st.write(
-                    f"**Lokacija:** {row['normalized_city'] or '–'}, "
-                    f"{row['normalized_region'] or '–'} • "
+                    f"**Lokacija:** {row['normalized_city'] or '-'}, "
+                    f"{row['normalized_region'] or '-'} • "
                     f"**Kategorija:** {row['category']}"
                 )
                 st.write(row["description"] or "*(brez opisa)*")
@@ -121,12 +119,12 @@ with tab_struct:
 with tab_text:
     st.markdown(
         "Model: **TF-IDF (besedni + znakovni n-grami) + logistična regresija** na celotnem "
-        "besedilu (naslov + opis). Točnost na testnem setu v notebooku: 50,2 % – najboljši model."
+        "besedilu (naslov + opis). Točnost na testnem setu v notebooku: 50,2 % - najboljši model."
     )
 
     title = st.text_input(
         "Naslov oglasa",
-        value="POMOČ V TRGOVINI – POLNJENJE POLIC",
+        value="POMOČ V TRGOVINI - POLNJENJE POLIC",
     )
     description = st.text_area(
         "Opis dela",

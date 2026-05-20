@@ -1,5 +1,3 @@
-"""Kategorizacija oglasov po naslovu (uporablja se v Q4 in Q10 notebooka)."""
-
 CATEGORIES = [
     "POUČEVANJE / INŠTRUKCIJE",
     "PROMOCIJE",
@@ -22,7 +20,7 @@ CATEGORIES = [
 
 
 def categorize(title: str) -> str:
-    """Kategorija oglasa iz velikih črk naslova (+ subtitle)."""
+    # Kategorija oglasa iz velikih črk naslova (+ subtitle).
     if not isinstance(title, str):
         return "OSTALO"
     t = title.upper()

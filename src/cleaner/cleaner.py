@@ -23,7 +23,7 @@ class Cleaner:
             csv_path: Path | None = None,
             changes_csv_path: Path | None = None,
     ) -> tuple[list[StudentListing], list[ListingChange], int]:
-        """Očisti surove listinge in posodobi CSV bazo."""
+        # Očisti surove listinge in posodobi CSV bazo
         csv_path = csv_path or self.CSV_FILE
         changes_csv_path = changes_csv_path or self.CHANGES_CSV_FILE
 
@@ -36,7 +36,7 @@ class Cleaner:
         return cleaned_listings, changes, new_count
 
     def _clean_listing(self, listing: StudentListing) -> StudentListing:
-        """Normalizira polja listinga."""
+        # Normalizira polja listinga
         listing.normalized_payment_type = self._parse_payment_type(listing.payment_type)
         city, region = self._parse_location(listing.location)
         listing.normalized_city = city
@@ -47,7 +47,7 @@ class Cleaner:
 
     @staticmethod
     def _load_naselja(csv_path: Path) -> tuple[dict[str, str], dict[str, str], dict[str, str]]:
-        """Naloži naselja.csv in vrne (naselje→naselje, naselje→regija, občina→regija) lookup."""
+        # Naloži naselja.csv in vrne (naselje→naselje, naselje→regija, občina→regija) lookup.
         naselja: dict[str, str] = {}
         naselja_regija: dict[str, str] = {}
         obcine_regija: dict[str, str] = {}
@@ -76,7 +76,7 @@ class Cleaner:
         return naselja, naselja_regija, obcine_regija
 
     def _parse_location(self, value: str | None) -> tuple[str | None, str | None]:
-        """Iz surovega location stringa izvleče normalized_city in normalized_region."""
+        # Iz surovega location stringa izvleče normalized_city in normalized_region
         if not value:
             return None, None
 

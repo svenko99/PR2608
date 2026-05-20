@@ -1,10 +1,6 @@
-"""Dinamika trga: časovne vrste novih oglasov, dvigi plač, koncentracija podjetij."""
-
 import sys
 from pathlib import Path
-
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
@@ -125,10 +121,10 @@ with tab2:
 
         bins_size = [0, 0.25, 0.50, 1.00, 2.00, float("inf")]
         labels_size = [
-            "0 – 0,25 €",
-            "0,25 – 0,50 €",
-            "0,50 – 1,00 €",
-            "1,00 – 2,00 €",
+            "0 - 0,25 €",
+            "0,25 - 0,50 €",
+            "0,50 - 1,00 €",
+            "1,00 - 2,00 €",
             "2,00 € +",
         ]
         rate_changes["abs_diff"] = rate_changes["diff"].abs()
@@ -183,12 +179,12 @@ with tab2:
 
         bins_days = [-1, 1, 3, 7, 14, 21, 28, float("inf")]
         labels_days = [
-            "0 – 1 dan",
-            "2 – 3 dni",
-            "4 – 7 dni",
-            "8 – 14 dni",
-            "15 – 21 dni",
-            "22 – 28 dni",
+            "0 - 1 dan",
+            "2 - 3 dni",
+            "4 - 7 dni",
+            "8 - 14 dni",
+            "15 - 21 dni",
+            "22 - 28 dni",
             "29+ dni",
         ]
         rate_changes["interval_days"] = pd.cut(

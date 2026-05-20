@@ -1,11 +1,7 @@
-"""Plače po atributih + analiza ključnih besed v opisih."""
-
 import re
 import sys
 from pathlib import Path
-
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
@@ -235,7 +231,7 @@ with tab2:
     fig_kw.add_vline(x=0, line_color="black", line_width=1)
     fig_kw.update_layout(
         height=520,
-        xaxis_title="Razlika v mediani plačila (€/h) – značka prisotna − odsotna",
+        xaxis_title="Razlika v mediani plačila (€/h)",
         margin=dict(l=10, r=10, t=30, b=30),
     )
     st.plotly_chart(fig_kw, use_container_width=True)

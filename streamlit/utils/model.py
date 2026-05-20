@@ -1,9 +1,5 @@
-"""Trening + napoved + iskanje podobnih oglasov (Q11 Korak 2 iz notebooka)."""
-
 from __future__ import annotations
-
 from dataclasses import dataclass
-
 import numpy as np
 import pandas as pd
 import streamlit as st
@@ -20,7 +16,6 @@ from utils.data_loader import load_data, load_stopwords
 
 CAT_COLS = ["vrsta_dela", "regija", "urnik", "trajanje"]
 NUM_COLS = ["desc_len_log"]
-
 
 @dataclass
 class TrainedModels:
@@ -163,7 +158,7 @@ def predict_structured(
     trajanje: str,
     desc_len: int,
 ) -> tuple[str, dict[str, float]]:
-    """Vrne (napovedan_razred, {razred: verjetnost})."""
+    # Vrne (napovedan_razred, {razred: verjetnost})
     X = pd.DataFrame(
         [
             {
@@ -184,7 +179,7 @@ def predict_structured(
 def predict_text(
     models: TrainedModels, title: str, description: str
 ) -> tuple[str, dict[str, float], csr_matrix]:
-    """Vrne (napovedan_razred, verjetnosti, TF-IDF vektor) za prosti opis."""
+    # Vrne (napovedan_razred, verjetnosti, TF-IDF vektor) za prosti opis
     text = ((title or "") + " " + (description or "")).lower()
     vec = hstack([models.word_vec.transform([text]), models.char_vec.transform([text])]).tocsr()
     proba = models.text_model.predict_proba(vec)[0]
@@ -194,7 +189,7 @@ def predict_text(
 
 
 def find_similar(models: TrainedModels, vec: csr_matrix, top_k: int = 5) -> pd.DataFrame:
-    """Vrne top_k najbolj podobnih oglasov (cosine similarity)."""
+    # Vrne top_k najbolj podobnih oglasov (cosine similarity).
     sims = cosine_similarity(vec, models.text_matrix).ravel()
     top_idx = np.argsort(sims)[::-1][:top_k]
     result = models.hourly_df.iloc[top_idx].copy()
@@ -203,6 +198,6 @@ def find_similar(models: TrainedModels, vec: csr_matrix, top_k: int = 5) -> pd.D
 
 
 def category_from_text(title: str, description: str = "") -> str:
-    """Hitra kategorizacija prostega opisa (za UI prikaz)."""
+    # Hitra kategorizacija prostega opisa (za UI prikaz)
     full = ((title or "") + " " + (description or ""))
     return categorize(full)

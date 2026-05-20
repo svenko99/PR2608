@@ -1,5 +1,3 @@
-"""Domača stran."""
-
 import sys
 from pathlib import Path
 
@@ -22,7 +20,7 @@ c1.metric("Oglasov", f"{len(data):,}".replace(",", "."))
 c2.metric("Različnih podjetij", f"{data['company'].nunique():,}".replace(",", "."))
 c3.metric(
     "Obdobje zbiranja",
-    f"{format_slovenian_date(data['first_seen'].min())} – {format_slovenian_date(data['last_seen'].max())}",
+    f"{format_slovenian_date(data['first_seen'].min())} - {format_slovenian_date(data['last_seen'].max())}",
 )
 c4.metric("Sprememb na oglasih", f"{len(changes):,}".replace(",", "."))
 
