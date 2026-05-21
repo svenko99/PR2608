@@ -29,7 +29,7 @@ def format_slovenian_date(d) -> str:
     return f"{d.day}.{d.month}.{d.year}"
 
 
-@st.cache_data(show_spinner="Nalagam oglase…")
+@st.cache_data(ttl="1h", show_spinner="Nalagam oglase…")
 def load_data() -> pd.DataFrame:
     df = pd.read_csv(
         DATA_DIR / "data.csv",
@@ -43,7 +43,7 @@ def load_data() -> pd.DataFrame:
     return df
 
 
-@st.cache_data(show_spinner="Nalagam spremembe…")
+@st.cache_data(ttl="1h", show_spinner="Nalagam spremembe…")
 def load_changes() -> pd.DataFrame:
     return pd.read_csv(
         DATA_DIR / "changes.csv",
@@ -51,13 +51,13 @@ def load_changes() -> pd.DataFrame:
     )
 
 
-@st.cache_data
+@st.cache_data(ttl="1h")
 def load_geojson() -> dict:
     with open(DATA_DIR / "slovenia_regions.geojson", "r") as f:
         return json.load(f)
 
 
-@st.cache_data
+@st.cache_data(ttl="1h")
 def load_stopwords() -> list[str]:
     raw = json.loads((STREAMLIT_DIR / "stopwords-sl.json").read_text())
     return sorted({w.rstrip(".") for w in raw})
