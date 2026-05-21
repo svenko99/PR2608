@@ -287,7 +287,7 @@ with tab2:
                     f"{diff:+.2f} €/h",
                 )
 
-                st.markdown("**Najdražji primeri z vzorcem:**")
+                st.markdown("**Najbolj plačani primeri z vzorcem:**")
                 examples = hourly_unique.loc[mask].nlargest(5, "hourly_rate_neto")[
                     ["title", "company", "hourly_rate_neto", "normalized_city"]
                 ].rename(
