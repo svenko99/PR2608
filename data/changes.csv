@@ -5175,3 +5175,90 @@ listing_id,changed_at,field,old_value,new_value
 439196,2026-05-25T20:13:50.135668+00:00,hourly_rate_bruto,10.46,11.04
 439196,2026-05-25T20:13:50.135668+00:00,payment_type,9.00 €/h neto (10.46 €/h bruto),9.50 €/h neto (11.04 €/h bruto)
 439196,2026-05-25T20:13:50.135668+00:00,duration,PO DOGOVORU,SEZONSKO OZIROMA PO DOGOVORU
+481676,2026-05-26T20:34:55.472877+00:00,start_date,2026-05-26,
+481671,2026-05-26T20:34:55.472877+00:00,start_date,2026-05-26,
+481656,2026-05-26T20:34:55.472877+00:00,start_date,2026-05-26,
+481648,2026-05-26T20:34:55.472877+00:00,start_date,2026-05-26,
+481631,2026-05-26T20:34:55.472877+00:00,start_date,2026-05-26,
+481628,2026-05-26T20:34:55.472877+00:00,start_date,2026-05-26,
+481627,2026-05-26T20:34:55.472877+00:00,start_date,2026-05-26,
+481617,2026-05-26T20:34:55.472877+00:00,start_date,2026-05-26,
+481616,2026-05-26T20:34:55.472877+00:00,start_date,2026-05-26,
+481607,2026-05-26T20:34:55.472877+00:00,start_date,2026-05-26,
+481602,2026-05-26T20:34:55.472877+00:00,start_date,2026-05-26,
+481600,2026-05-26T20:34:55.472877+00:00,start_date,2026-05-26,
+481595,2026-05-26T20:34:55.472877+00:00,start_date,2026-05-26,
+481573,2026-05-26T20:34:55.472877+00:00,start_date,2026-05-26,
+481564,2026-05-26T20:34:55.472877+00:00,start_date,2026-05-26,
+481562,2026-05-26T20:34:55.472877+00:00,start_date,2026-05-26,
+481559,2026-05-26T20:34:55.472877+00:00,start_date,2026-05-26,
+481558,2026-05-26T20:34:55.472877+00:00,start_date,2026-05-26,
+481551,2026-05-26T20:34:55.472877+00:00,start_date,2026-05-26,
+481542,2026-05-26T20:34:55.472877+00:00,description,"Iščejo fizično pripravljeno osebo za pomoč pri selitvi pohištva. Pričetek dela je ob 8. uri in bo trajalo približno do 17. ure. Pogoj izpit B kategorije, zaželene izkušnje z vožnjo kombija.","Iščejo fizično pripravljeno osebo za pomoč pri selitvi pohištva. Pričetek dela je ob 8. uri in bo trajalo približno do 16. ure. Pogoj izpit B kategorije, zaželene izkušnje z vožnjo kombija, ni pa pogoj."
+481542,2026-05-26T20:34:55.472877+00:00,duration,"26. 5. 2026, OZ. PO DOGOVORU ŠE ČETRTEK IN PETEK",28. IN 29. 5. 2026
+481542,2026-05-26T20:34:55.472877+00:00,start_date,2026-05-26,2026-05-28
+481536,2026-05-26T20:34:55.472877+00:00,start_date,2026-05-26,
+481367,2026-05-26T20:34:55.472877+00:00,title,STREŽBA,POMOČ V STREŽBI
+481367,2026-05-26T20:34:55.472877+00:00,sublocation,"CHAMPAGNE SUZY, HOTELSKI COCKTAIL BAR",CHAMPAGNE BAR SUZY
+481367,2026-05-26T20:34:55.472877+00:00,description,Bar hotela išče cocktail mixologista/ko in šankista/ko za pomoč pri strežbi. Zahtevajo urejenost in profesionalnost ter željo po visokem standardu dela.,Iščejo izkušeno osebo za delo v champagne in cocktail baru v centru Ljubljane. Prednost imajo kandidati/ke s predznanjem mešanja koktajlov.
+481367,2026-05-26T20:34:55.472877+00:00,duration,DLJE ČASA (ZAČ. IN OBČ. DELO),PO DOGOVORU
+481367,2026-05-26T20:34:55.472877+00:00,work_schedule,POPOLDAN,IZMENSKO
+481324,2026-05-26T20:34:55.472877+00:00,duration,PO DOGOVORU,POČITNIŠKO DELO
+481286,2026-05-26T20:34:55.472877+00:00,hourly_rate_neto,8.0,9.0
+481286,2026-05-26T20:34:55.472877+00:00,hourly_rate_bruto,9.3,10.46
+481286,2026-05-26T20:34:55.472877+00:00,payment_type,8.00 €/h neto (9.30 €/h bruto),9.00 €/h neto (10.46 €/h bruto)
+481215,2026-05-26T20:34:55.472877+00:00,hourly_rate_neto,8.61,9.47
+481215,2026-05-26T20:34:55.472877+00:00,hourly_rate_bruto,10.0,11.0
+481215,2026-05-26T20:34:55.472877+00:00,payment_type,8.61 €/h neto (10.00 €/h bruto),9.47 €/h neto (11.00 €/h bruto)
+481215,2026-05-26T20:34:55.472877+00:00,description,"Trgovina s pohištvom in dodatki za dom potrebuje osebe za pomoč v trgovini in delo v skladišču. Obseg del: sestavljanje pohištva, premikanje pohištva in pospravljanje skladišča.","Trgovina s pohištvom in dodatki za dom potrebuje osebo za pomoč v trgovini in delo v skladišču. Obseg del: sestavljanje pohištva, premikanje pohištva in pospravljanje skladišča."
+481126,2026-05-26T20:34:55.472877+00:00,subtitle,,DELO V DELAVNICI
+481126,2026-05-26T20:34:55.472877+00:00,start_date,2026-05-25,
+481119,2026-05-26T20:34:55.472877+00:00,start_date,2026-05-26,
+480819,2026-05-26T20:34:55.472877+00:00,start_date,2026-05-26,
+480759,2026-05-26T20:34:55.472877+00:00,duration,DLJE ČASA (ZAČ. IN OBČ. DELO),POČITNIŠKO DELO
+480716,2026-05-26T20:34:55.472877+00:00,description,Potrebujejo dve osebi za strežbo. Obratovalni čas bara je med 6. in 14. ter med 14. in 22. uro; ob nedeljah in praznikih pa med 8. in 14. ter 14. in 22. uro. Pokliči za več informacij. Izkušnje niso pogoj.,Potrebujejo dve osebi za strežbo. Obratovalni čas bara je med 6. in 14. ter med 14. in 22. uro; ob nedeljah in praznikih pa med 8. in 14. ter 14. in 22. uro. Pokliči za več informacij. Pogoja za delo sta polnoletnost ter izkušnje.
+480324,2026-05-26T20:34:55.472877+00:00,description,"Masažni salon išče certificirano maserja/-ko z znanjem različnih masažnih tehnik. Delovno mesto zajema opravljanje različnih vrst masaž, skrb za čistočo in urejenost prostora ter sprejem strank. Zaželeno znanje športne masaže in drugih masažnih ali manualnih tehnik. Prednost: kadidadati s področja fizioterapije, kineziologije, manualne terapije ali sorodnih smeri ter absolvent/-ka, vendar to ni pogoj. Nudijo stimulacijo. Pošljite prijavo s CV.","Masažni salon išče certificirano maserja/ko z znanjem različnih masažnih tehnik. Delovno mesto zajema opravljanje različnih vrst masaž, skrb za čistočo in urejenost prostora ter sprejem strank. Zaželeno znanje športne masaže in drugih masažnih ali manualnih tehnik. Prednost: kandidati s področja fizioterapije, kineziologije, manualne terapije ali sorodnih smeri ter absolvent/ka, vendar to ni pogoj. Nudijo stimulacijo. Pošljite prijavo s CV."
+480324,2026-05-26T20:34:55.472877+00:00,start_date,2026-06-01,2026-06-15
+480316,2026-05-26T20:34:55.472877+00:00,start_date,2026-05-26,
+479864,2026-05-26T20:34:55.472877+00:00,hourly_rate_neto,7.92,8.0
+479864,2026-05-26T20:34:55.472877+00:00,hourly_rate_bruto,9.2,9.3
+479864,2026-05-26T20:34:55.472877+00:00,payment_type,7.92 €/h neto (9.20 €/h bruto),8.00 €/h neto (9.30 €/h bruto)
+479864,2026-05-26T20:34:55.472877+00:00,start_date,,2026-05-27
+479757,2026-05-26T20:34:55.472877+00:00,description,"Uspešno e-commerce podjetje išče študente/ke za pakiranje paketov, sortiranje izdelkov in pomoč v skladišču. Gre za lažje fizično delo v urejenem okolju. Iščejo resne, natančne in polnoletne osebe z lastnim prevozom. Vsega vas naučijo! Ponujajo dolgoročno občasno sodelovanje z možnostjo kasnejše redne zaposlitve.","Uspešno e-commerce podjetje išče študente/ke za pakiranje paketov, sortiranje izdelkov in pomoč v skladišču. Lažje fizično delo v urejenem okolju. Iščejo resne, natančne in polnoletne osebe z lastnim prevozom. Vsega vas naučijo! Ponujajo dolgoročno občasno sodelovanje z možnostjo kasnejše redne zaposlitve."
+479519,2026-05-26T20:34:55.472877+00:00,hourly_rate_neto,9.2,13.0
+479519,2026-05-26T20:34:55.472877+00:00,hourly_rate_bruto,10.69,15.11
+479519,2026-05-26T20:34:55.472877+00:00,payment_type,9.20 €/h neto (10.69 €/h bruto),13.00 €/h neto (15.11 €/h bruto)
+479396,2026-05-26T20:34:55.472877+00:00,duration,DLJE ČASA (ZAČ. IN OBČ. DELO),POČITNIŠKO DELO
+479396,2026-05-26T20:34:55.472877+00:00,start_date,,2026-06-01
+479393,2026-05-26T20:34:55.472877+00:00,duration,DLJE ČASA (ZAČ. IN OBČ. DELO),POČITNIŠKO DELO
+479393,2026-05-26T20:34:55.472877+00:00,start_date,,2026-06-01
+479392,2026-05-26T20:34:55.472877+00:00,duration,DLJE ČASA (ZAČ. IN OBČ. DELO),POČITNIŠKO DELO
+479392,2026-05-26T20:34:55.472877+00:00,start_date,,2026-06-01
+479107,2026-05-26T20:34:55.472877+00:00,hourly_rate_neto,7.74,7.9
+479107,2026-05-26T20:34:55.472877+00:00,hourly_rate_bruto,9.0,9.18
+479107,2026-05-26T20:34:55.472877+00:00,payment_type,7.74 €/h neto (9.00 €/h bruto),7.90 €/h neto (9.18 €/h bruto)
+479107,2026-05-26T20:34:55.472877+00:00,duration,DLJE ČASA (ZAČ. IN OBČ. DELO),PO DOGOVORU
+478454,2026-05-26T20:34:55.472877+00:00,description,"Podjetje išče motivirano in odgovorno osebo za delo v skladišču. Naloge: sprejem, skladiščenje, urejanje in pošiljanje naročil. Izkušnje niso potrebne. Od kandidata/ke se pričakuje, da bo svoje delo izvajal/a z natančnostjo, organiziranostjo in skrbjo za varnost. Iščejo osebo za daljše občasno sodelovanje. Za prijavo pokličite.","Podjetje išče motivirane in odgovorne osebe za delo v skladišču. Naloge: sprejem, skladiščenje, urejanje in pošiljanje naročil. Izkušnje niso potrebne. Od kandidata/ke se pričakuje, da bo svoje delo izvajal/a z natančnostjo, organiziranostjo in skrbjo za varnost. Iščejo osebo za daljše občasno sodelovanje. Za prijavo pokličite."
+478077,2026-05-26T20:34:55.472877+00:00,start_date,2026-05-26,
+477655,2026-05-26T20:34:55.472877+00:00,description,"Uspešno trgovsko podjetje ti ponuja možnost dela v super kolektivu, kjer lahko dobro zaslužiš in dobiš veliko izkušenj na področju dela v trgovini. Nudijo ti prilagodljiv urnik, ki ti omogoča prilagajanje študijskim obveznostim. Če meniš, da si zanesljiva oseba, ki ji je mar za čistočo in red, ne odlašaj s prijavo in se jim pridruži. Pogoj za delo je polnoletnost.","Uspešno trgovsko podjetje ti ponuja možnost dela v super kolektivu med poletjem, kjer lahko dobro zaslužiš in dobiš veliko izkušenj na področju dela v trgovini. Nudijo ti prilagodljiv urnik, ki ti omogoča prilagajanje študijskim obveznostim. Če meniš, da si zanesljiva oseba, ki ji je mar za čistočo in red, ne odlašaj s prijavo in se jim pridruži. Pogoj za delo je polnoletnost."
+477655,2026-05-26T20:34:55.472877+00:00,duration,DLJE ČASA (ZAČ. IN OBČ. DELO),POČITNIŠKO DELO
+477655,2026-05-26T20:34:55.472877+00:00,start_date,,2026-06-01
+477511,2026-05-26T20:34:55.472877+00:00,description,"V svojo ekipo vabijo študenta/ki za delo v prijetni kavarnici s simpatično ekipo. Delo poteka med tednom popoldne po 15.uri, med vikendi pa je delo izmensko, vse po potrebi in dogovoru. Prednost imajo kandidati/ke z izkušnjami v strežbi.","V svojo ekipo vabijo študente/ke za delo v prijetni kavarnici s simpatično ekipo. Delo poteka med tednom popoldne po 15.uri, med vikendi pa je delo izmensko, vse po potrebi in dogovoru. Prednost imajo kandidati/ke z izkušnjami v strežbi."
+477511,2026-05-26T20:34:55.472877+00:00,open_positions,,3
+475213,2026-05-26T20:34:55.472877+00:00,hourly_rate_neto,7.73,9.0
+475213,2026-05-26T20:34:55.472877+00:00,hourly_rate_bruto,8.98,10.46
+475213,2026-05-26T20:34:55.472877+00:00,payment_type,7.73 €/h neto (8.98 €/h bruto),9.00 €/h neto (10.46 €/h bruto)
+472663,2026-05-26T20:34:55.472877+00:00,hourly_rate_neto,,9.0
+472663,2026-05-26T20:34:55.472877+00:00,hourly_rate_bruto,,10.46
+472663,2026-05-26T20:34:55.472877+00:00,payment_type,PO DOGOVORU,9.00 €/h neto (10.46 €/h bruto)
+472663,2026-05-26T20:34:55.472877+00:00,description,Iščejo osebo za delo v strežbi z izkušnjami. Delo poteka izmensko med ponedeljkom in nedeljo. Urna postavka po dogovoru.,"Iščejo polnoletno osebo za delo v strežbi z izkušnjami. Delo poteka izmensko med ponedeljkom in nedeljo, po dogovoru in potrebi. Urna postavka je od 10,46 € bruto dalje."
+470782,2026-05-26T20:34:55.472877+00:00,work_schedule,IZMENSKO,PO DOGOVORU
+464110,2026-05-26T20:34:55.472877+00:00,description,"Imata izkušnje v gostinstvu, ali pa si res, res želita delati v prijetni povsem novi butični kavarnici. Zgovorni, nasmejani, delavni in urejeni imata prednost :) Dela se med ponedeljkom in petkom in občasno soboto dopoldne (po potrebi in dogovoru), z urnikom med tednom pa se prilagodijo vajinim šolskim/študijskim obveznostim. Vabljena na razgovor, najraje imajo prijavo prek sms-a. Znanje slovenskega jezika je OBVEZNO !!!","Imata izkušnje v gostinstvu, ali pa si res, res želita delati v prijetni butični kavarnici. Zgovorni, nasmejani, delavni in urejeni imata prednost :) Dela se med ponedeljkom in petkom in občasno soboto dopoldne (po potrebi in dogovoru), z urnikom med tednom pa se prilagodijo vajinim šolskim/študijskim obveznostim. Vabljena na razgovor, najraje imajo prijavo prek sms-a. Znanje slovenskega jezika je OBVEZNO !!!"
+461338,2026-05-26T20:34:55.472877+00:00,duration,SEZONSKO DELO ALI PO DOGOVORU,SEZONSKO ALI PO DOGOVORU
+445477,2026-05-26T20:34:55.472877+00:00,hourly_rate_neto,9.5,10.0
+445477,2026-05-26T20:34:55.472877+00:00,hourly_rate_bruto,11.04,11.62
+445477,2026-05-26T20:34:55.472877+00:00,payment_type,9.50 €/h neto (11.04 €/h bruto),10.00 €/h neto (11.62 €/h bruto)
+439196,2026-05-26T20:34:55.472877+00:00,hourly_rate_neto,9.5,10.0
+439196,2026-05-26T20:34:55.472877+00:00,hourly_rate_bruto,11.04,11.62
+439196,2026-05-26T20:34:55.472877+00:00,payment_type,9.50 €/h neto (11.04 €/h bruto),10.00 €/h neto (11.62 €/h bruto)
+438346,2026-05-26T20:34:55.472877+00:00,description,"Za pomoč v kuhinji iščejo marljiva/i študenta/ki. Zaželena je natančnost, marljivost, čistost in dobra volja. Vse ostalo se da naučiti.","Za pomoč v kuhinji iščejo marljiva/i študenta/ki. Zaželena je natančnost, marljivost, čistost in dobra volja in vsaj osnovno znaje sloversnkega jezika. Vse ostalo se da naučiti."
