@@ -5262,3 +5262,116 @@ listing_id,changed_at,field,old_value,new_value
 439196,2026-05-26T20:34:55.472877+00:00,hourly_rate_bruto,11.04,11.62
 439196,2026-05-26T20:34:55.472877+00:00,payment_type,9.50 €/h neto (11.04 €/h bruto),10.00 €/h neto (11.62 €/h bruto)
 438346,2026-05-26T20:34:55.472877+00:00,description,"Za pomoč v kuhinji iščejo marljiva/i študenta/ki. Zaželena je natančnost, marljivost, čistost in dobra volja. Vse ostalo se da naučiti.","Za pomoč v kuhinji iščejo marljiva/i študenta/ki. Zaželena je natančnost, marljivost, čistost in dobra volja in vsaj osnovno znaje sloversnkega jezika. Vse ostalo se da naučiti."
+481850,2026-05-27T20:53:07.814240+00:00,location,"LENART, C. IVANA PIRHERJA 5","LENART, CESTA IVANA PIRHERJA 5"
+481850,2026-05-27T20:53:07.814240+00:00,description,"Iščejo komunikativne in prijazne osebe za hostesno delo na Veveričkinem festivalu v Lenartu. Delo zajema promocijo podjetja, pomoč pri nagradnih igrah, deljenje kronic in promocijskih daril otrokom ter zbiranje kontaktnih podatkov udeležencev. Delo poteka v sproščenem festivalskem okolju, z veliko stika z obiskovalci. Delovni čas je od 10. do 21. ure. Zahtevana je komunikativnost, urejenost in veselje do dela z ljudmi ter otroki.","Iščejo komunikativne in prijazne osebe za hostesno delo na Veveričkinem festivalu v Lenartu. Delo zajema promocijo podjetja, pomoč pri nagradnih igrah, deljenje kronic in promocijskih daril otrokom ter zbiranje kontaktnih podatkov udeležencev. Delo poteka v sproščenem festivalskem okolju, z veliko stika z obiskovalci. Delovni čas je med 10. in 21. uro. Zahtevana je komunikativnost, urejenost in veselje do dela z ljudmi ter otroki."
+481850,2026-05-27T20:53:07.814240+00:00,work_schedule,PO DOGOVORU,MED VIKENDI
+481848,2026-05-27T20:53:07.814240+00:00,sublocation,GMT ADEL,ADEL
+481848,2026-05-27T20:53:07.814240+00:00,description,Potrebujejo osebo za razvoz materiala. Pogoj je vozniški izpit B kategorije.,Trgovina z avtomobilskimi deli potrebuje osebo za razvoz materiala. Pogoj je vozniški izpit B kategorije.
+481848,2026-05-27T20:53:07.814240+00:00,start_date,2026-05-27,
+481847,2026-05-27T20:53:07.814240+00:00,subtitle,,KOŠNJA TRAVE
+481832,2026-05-27T20:53:07.814240+00:00,start_date,2026-05-27,
+481822,2026-05-27T20:53:07.814240+00:00,start_date,2026-05-27,
+481819,2026-05-27T20:53:07.814240+00:00,start_date,2026-05-27,
+481813,2026-05-27T20:53:07.814240+00:00,hourly_rate_neto,7.73,10.0
+481813,2026-05-27T20:53:07.814240+00:00,hourly_rate_bruto,8.98,11.62
+481813,2026-05-27T20:53:07.814240+00:00,payment_type,7.73 €/h neto (8.98 €/h bruto),10.00 €/h neto (11.62 €/h bruto)
+481801,2026-05-27T20:53:07.814240+00:00,start_date,2026-05-27,
+481795,2026-05-27T20:53:07.814240+00:00,start_date,2026-05-27,
+481776,2026-05-27T20:53:07.814240+00:00,start_date,2026-05-27,
+481771,2026-05-27T20:53:07.814240+00:00,start_date,2026-05-27,
+481738,2026-05-27T20:53:07.814240+00:00,start_date,2026-05-27,
+481729,2026-05-27T20:53:07.814240+00:00,start_date,2026-05-27,
+481726,2026-05-27T20:53:07.814240+00:00,start_date,2026-05-27,
+481725,2026-05-27T20:53:07.814240+00:00,start_date,2026-05-27,
+481716,2026-05-27T20:53:07.814240+00:00,start_date,2026-05-27,
+481672,2026-05-27T20:53:07.814240+00:00,start_date,2026-05-27,
+481617,2026-05-27T20:53:07.814240+00:00,hourly_rate_neto,8.0,8.3
+481617,2026-05-27T20:53:07.814240+00:00,hourly_rate_bruto,9.3,9.65
+481617,2026-05-27T20:53:07.814240+00:00,payment_type,8.00 €/h neto (9.30 €/h bruto),8.30 €/h neto (9.65 €/h bruto)
+481594,2026-05-27T20:53:07.814240+00:00,start_date,2026-05-27,
+481575,2026-05-27T20:53:07.814240+00:00,hourly_rate_neto,7.73,8.5
+481575,2026-05-27T20:53:07.814240+00:00,hourly_rate_bruto,8.98,9.88
+481575,2026-05-27T20:53:07.814240+00:00,payment_type,7.73 €/h neto (8.98 €/h bruto),8.50 €/h neto (9.88 €/h bruto)
+481575,2026-05-27T20:53:07.814240+00:00,start_date,2026-06-01,2026-06-08
+481560,2026-05-27T20:53:07.814240+00:00,subtitle,,POLNJENJE POLIC IN BLAGAJNIK
+481481,2026-05-27T20:53:07.814240+00:00,sublocation,VODNI PARK,
+481399,2026-05-27T20:53:07.814240+00:00,start_date,2026-05-27,
+481398,2026-05-27T20:53:07.814240+00:00,subtitle,,POLNJENJE POLIC IN BLAGAJNIK
+481398,2026-05-27T20:53:07.814240+00:00,start_date,2026-05-27,
+481363,2026-05-27T20:53:07.814240+00:00,start_date,2026-05-27,
+481213,2026-05-27T20:53:07.814240+00:00,start_date,2026-05-27,
+481145,2026-05-27T20:53:07.814240+00:00,hourly_rate_neto,,12.0
+481145,2026-05-27T20:53:07.814240+00:00,hourly_rate_bruto,,13.95
+481145,2026-05-27T20:53:07.814240+00:00,payment_type,PO DOGOVORU,12.00 €/h neto (13.95 €/h bruto)
+481025,2026-05-27T20:53:07.814240+00:00,subtitle,,POLNJENJE POLIC IN BLAGAJNIK
+481025,2026-05-27T20:53:07.814240+00:00,description,"Potrebujejo osebo za delo v trgovini, ki vključuje delo na blagajni, polnjenje polic, izdaja blaga strankam, skrb za sveže sadje in zelenjavo, skrb za urejenost in čistočo trgovine.","Potrebujejo osebo za delo v trgovini (delo na blagajni, polnjenje polic, izdaja blaga strankam, skrb za sveže sadje in zelenjavo, skrb za urejenost in čistočo trgovine)."
+481019,2026-05-27T20:53:07.814240+00:00,subtitle,ZLAGANJE PERILA,
+481019,2026-05-27T20:53:07.814240+00:00,description,"Na oddelku skupnega pomena potrebujejo študente/ke za pomoč pri spremstvu pacientov in pomoč v pralnici pri zlaganju čistega perila. Spremljevalci spremljajo pacienta na preglede/preiskave po OI in UKCL - sede, peš ali leže. Potrebujejo zanesljive osebe za daljše občasno sodelovanje. Delo poteka dopoldan ali popoldan, po potrebi in dogovoru.","Na oddelku skupnega pomena potrebujejo študente/ke za pomoč pri spremstvu pacientov. Spremljevalci spremljajo pacienta na preglede/preiskave po OI in UKCL - sede, peš ali leže. Potrebujejo zanesljive osebe za daljše občasno sodelovanje. Delo poteka dopoldan ali popoldan, po potrebi in dogovoru."
+481016,2026-05-27T20:53:07.814240+00:00,start_date,,2026-06-01
+480978,2026-05-27T20:53:07.814240+00:00,start_date,2026-05-27,
+480929,2026-05-27T20:53:07.814240+00:00,hourly_rate_neto,7.73,9.5
+480929,2026-05-27T20:53:07.814240+00:00,hourly_rate_bruto,8.98,11.04
+480929,2026-05-27T20:53:07.814240+00:00,payment_type,7.73 €/h neto (8.98 €/h bruto),9.50 €/h neto (11.04 €/h bruto)
+480929,2026-05-27T20:53:07.814240+00:00,start_date,2026-06-08,2026-06-15
+480801,2026-05-27T20:53:07.814240+00:00,title,ADMINISTRATIVNA DELA,SVETOVALEC/KA
+480800,2026-05-27T20:53:07.814240+00:00,title,ADMINISTRATIVNA DELA,SVETOVALEC/KA
+480799,2026-05-27T20:53:07.814240+00:00,title,ADMINISTRATIVNA DELA,SVETOVALEC/KA
+480791,2026-05-27T20:53:07.814240+00:00,hourly_rate_neto,,7.8
+480791,2026-05-27T20:53:07.814240+00:00,hourly_rate_bruto,,9.06
+480791,2026-05-27T20:53:07.814240+00:00,payment_type,PO DOGOVORU,7.80 €/h neto (9.06 €/h bruto)
+480742,2026-05-27T20:53:07.814240+00:00,description,"Trgovinsko podjetje išče polnoletno osebo za dela v trgovini. Delo bi obsegalo polnjenje polic, delo na strežnih linijah in blagajni.","Najboljši sosed išče polnoletne osebe za pomoč v trgovini in polnjenje polic. Pogoji za delo so polnoletnost, odgovornost, resnost in veselje do dela."
+480742,2026-05-27T20:53:07.814240+00:00,open_positions,,3
+480742,2026-05-27T20:53:07.814240+00:00,start_date,,2026-06-01
+480740,2026-05-27T20:53:07.814240+00:00,description,"Trgovinsko podjetje išče polnoletno osebo za dela v trgovini. Delo bi obsegalo polnjenje polic, delo na strežnih linijah in blagajni.","Najboljši sosed išče polnoletne osebe za pomoč v trgovini in polnjenje polic. Pogoj za delo je polnoletnost, odgovornost, resnost in veselje do dela."
+480740,2026-05-27T20:53:07.814240+00:00,open_positions,,3
+480740,2026-05-27T20:53:07.814240+00:00,start_date,,2026-06-01
+480739,2026-05-27T20:53:07.814240+00:00,description,"Trgovinsko podjetje išče polnoletno osebo za dela v trgovini. Delo bi obsegalo polnjenje polic, delo na strežnih linijah in blagajni.","Najboljši sosed išče polnoletne osebe za pomoč v trgovini in polnjenje polic. Pogoj za delo je polnoletnost, odgovornost, resnost in veselje do dela."
+480739,2026-05-27T20:53:07.814240+00:00,open_positions,,3
+480739,2026-05-27T20:53:07.814240+00:00,start_date,,2026-06-01
+480734,2026-05-27T20:53:07.814240+00:00,description,Trgovinsko podjetje išče polnoletno osebo za lažja dela v trgovini - pomoč na oddelkih in polnjenje polic.,"Najboljši sosed išče polnoletno osebo za pomoč v trgovini in polnjenje polic. Pogoji za delo so odgovornost, resnost in veselje do dela."
+480734,2026-05-27T20:53:07.814240+00:00,start_date,,2026-06-01
+480707,2026-05-27T20:53:07.814240+00:00,description,Trgovinsko podjetje išče polnoletno osebo za lažja dela v trgovini - pomoč na oddelkih in polnjenje polic.,"Najboljši sosed išče polnoletne osebe za pomoč v trgovini in polnjenje polic. Pogoji za delo so polnoletnost, odgovornost, resnost in veselje do dela."
+480707,2026-05-27T20:53:07.814240+00:00,open_positions,,3
+480707,2026-05-27T20:53:07.814240+00:00,start_date,,2026-06-01
+480699,2026-05-27T20:53:07.814240+00:00,hourly_rate_neto,7.73,8.61
+480699,2026-05-27T20:53:07.814240+00:00,hourly_rate_bruto,8.98,10.0
+480699,2026-05-27T20:53:07.814240+00:00,payment_type,7.73 €/h neto (8.98 €/h bruto),8.61 €/h neto (10.00 €/h bruto)
+480626,2026-05-27T20:53:07.814240+00:00,subtitle,,POLNJENJE POLIC IN BLAGAJNIK
+480558,2026-05-27T20:53:07.814240+00:00,hourly_rate_neto,7.73,9.5
+480558,2026-05-27T20:53:07.814240+00:00,hourly_rate_bruto,8.98,11.04
+480558,2026-05-27T20:53:07.814240+00:00,payment_type,7.73 €/h neto (8.98 €/h bruto),9.50 €/h neto (11.04 €/h bruto)
+480558,2026-05-27T20:53:07.814240+00:00,description,"Iščejo polnoletni osebi, ki bi njihovim zaposlenim priskočili na pomoč v proizvodnem obratu (pomoč na polnilnih linijah, manipulacije materialov, ročno polnjenje po navodilih, pomoč v skladišču, priprava surovin, čiščenje). Za delo je potrebna fizična pripravljenost. Malica je zagotovljena. Možnost brezplačnega parkiranja pred podjetjem.","Iščejo polnoletno osebo, ki bi njihovim zaposlenim priskočili na pomoč v proizvodnem obratu (pomoč na polnilnih linijah, manipulacije materialov, ročno polnjenje po navodilih, pomoč v skladišču, priprava surovin, čiščenje). Za delo je potrebna fizična pripravljenost. Malica je zagotovljena. Možnost brezplačnega parkiranja pred podjetjem."
+480558,2026-05-27T20:53:07.814240+00:00,open_positions,2,
+480558,2026-05-27T20:53:07.814240+00:00,work_schedule,IZMENSKO,DOPOLDAN
+480558,2026-05-27T20:53:07.814240+00:00,start_date,2026-06-08,2026-06-15
+480320,2026-05-27T20:53:07.814240+00:00,subtitle,,POLNJENJE POLIC IN BLAGAJNIK
+480308,2026-05-27T20:53:07.814240+00:00,start_date,2026-05-27,
+480302,2026-05-27T20:53:07.814240+00:00,subtitle,,POLNJENJE POLIC IN BLAGAJNIK
+480120,2026-05-27T20:53:07.814240+00:00,duration,DLJE ČASA (ZAČ. IN OBČ. DELO),POČITNIŠKO DELO
+479864,2026-05-27T20:53:07.814240+00:00,start_date,2026-05-27,
+479430,2026-05-27T20:53:07.814240+00:00,description,Trgovinsko podjetje išče polnoletno osebo za lažja dela v trgovini - pomoč na oddelkih in polnjenje polic.,"Najboljši sosed išče polnoletno osebo za pomoč v trgovini in polnjenje polic. Pogoj za delo je odgovornost, resnost in veselje do dela."
+479430,2026-05-27T20:53:07.814240+00:00,start_date,,2026-06-01
+479396,2026-05-27T20:53:07.814240+00:00,subtitle,,POLNJENJE POLIC IN BLAGAJNIK
+479393,2026-05-27T20:53:07.814240+00:00,subtitle,,POLNJENJE POLIC IN BLAGAJNIK
+479392,2026-05-27T20:53:07.814240+00:00,subtitle,,POLNJENJE POLIC IN BLAGAJNIK
+479207,2026-05-27T20:53:07.814240+00:00,description,"Za vsestransko pomoč na bencinskem servisu potrebujejo pomoč polnoletne, vestne, zanesljive in komunikativne osebe. Delo poteka v super ekipi in obsega prodajo blaga, urejanje notranjosti in zunanjosti bencinskega servisa. Urnik dela je v treh izmenah, po potrebi in dogovoru. Nočna urna postavka je 11,06 € bruto. Zaželeno vsaj minimalno znanje Italijanskega/angleškega jezika, saj so obmejni servis. Zagotovljena prilagodljivost glede šolanja. Če te delo zanima, jih pokliči ali pošlji prijavo.","Za vsestransko pomoč na bencinskem servisu potrebujejo pomoč polnoletne, vestne, zanesljive in komunikativne osebe. Delo poteka v super ekipi in obsega prodajo blaga, urejanje notranjosti in zunanjosti bencinskega servisa. Urnik dela je v treh izmenah, po potrebi in dogovoru (prilagodijo šolskim obveznostim). Nočna urna postavka je 11,06 € bruto. Zaželeno vsaj minimalno znanje angleškega jezika, saj so obmejni servis. Če te delo zanima, jih pokliči ali pošlji prijavo."
+478991,2026-05-27T20:53:07.814240+00:00,description,"Klicanje zainteresiranih strank, organizacija prodajnih sestankov ter pomoč pri manjših administrativnih nalogah. Znanje italijanskega jezika je obvezno.","Klicanje zainteresiranih strank, organizacija prodajnih sestankov ter pomoč pri manjših administrativnih nalogah. Obvezno znanje italijanščine ali španščine ali francoščine ali nemščine ali srbščine."
+478991,2026-05-27T20:53:07.814240+00:00,open_positions,,8
+478302,2026-05-27T20:53:07.814240+00:00,duration,PO DOGOVORU,DLJE ČASA (ZAČ. IN OBČ. DELO)
+478264,2026-05-27T20:53:07.814240+00:00,hourly_rate_neto,8.0,9.0
+478264,2026-05-27T20:53:07.814240+00:00,hourly_rate_bruto,9.3,10.46
+478264,2026-05-27T20:53:07.814240+00:00,payment_type,8.00 €/h neto (9.30 €/h bruto),9.00 €/h neto (10.46 €/h bruto)
+477825,2026-05-27T20:53:07.814240+00:00,title,STREŽBA HRANE IN PIJAČE,STREŽBA
+477825,2026-05-27T20:53:07.814240+00:00,description,"Iščejo osebo z izkušnjami v strežbi za delo v urejeni restavraciji in prijetnem kolektivu. Delo poteka med ponedeljkom in petkom, med 9.30 in 15.00, po dogovoru in potrebi. Priporočljiv je lastni prevoz.","V urejen kolektiv vabijo zanesljivo osebo za strežbo toplih in hladnih napitkov. Delo poteka v restavraciji znotraj poslovne stavbe, med ponedeljkom in petkom, med 9.30 in 15.00, po dogovoru in potrebi."
+477655,2026-05-27T20:53:07.814240+00:00,subtitle,,POLNJENJE POLIC IN BLAGAJNIK
+477514,2026-05-27T20:53:07.814240+00:00,company,"HAK INVEST, SVETOVANJE D.O.O.",HAK INVEST D.O.O.
+477445,2026-05-27T20:53:07.814240+00:00,duration,PO DOGOVORU,POČITNIŠKO DELO
+477085,2026-05-27T20:53:07.814240+00:00,subtitle,,POLNJENJE POLIC IN BLAGAJNIK
+476981,2026-05-27T20:53:07.814240+00:00,company,"HAK INVEST, SVETOVANJE D.O.O.",HAK INVEST D.O.O.
+476270,2026-05-27T20:53:07.814240+00:00,hourly_rate_neto,9.5,12.0
+476270,2026-05-27T20:53:07.814240+00:00,hourly_rate_bruto,11.04,13.95
+476270,2026-05-27T20:53:07.814240+00:00,payment_type,9.50 €/h neto (11.04 €/h bruto),12.00 €/h neto (13.95 €/h bruto)
+475184,2026-05-27T20:53:07.814240+00:00,hourly_rate_neto,8.0,9.5
+475184,2026-05-27T20:53:07.814240+00:00,hourly_rate_bruto,9.3,11.04
+475184,2026-05-27T20:53:07.814240+00:00,payment_type,8.00 €/h neto (9.30 €/h bruto),9.50 €/h neto (11.04 €/h bruto)
+471924,2026-05-27T20:53:07.814240+00:00,description,Iščejo osebe za pomoč v kuhinji. Pogoj so izkušnje. Urna postavka se kasneje zviša.,Iščejo osebe za pomoč v kuhinji. Pogoj so izkušnje in obvezno znanje slovenskega jezika. Urna postavka se kasneje zviša.
