@@ -5375,3 +5375,263 @@ listing_id,changed_at,field,old_value,new_value
 475184,2026-05-27T20:53:07.814240+00:00,hourly_rate_bruto,9.3,11.04
 475184,2026-05-27T20:53:07.814240+00:00,payment_type,8.00 €/h neto (9.30 €/h bruto),9.50 €/h neto (11.04 €/h bruto)
 471924,2026-05-27T20:53:07.814240+00:00,description,Iščejo osebe za pomoč v kuhinji. Pogoj so izkušnje. Urna postavka se kasneje zviša.,Iščejo osebe za pomoč v kuhinji. Pogoj so izkušnje in obvezno znanje slovenskega jezika. Urna postavka se kasneje zviša.
+481992,2026-05-28T20:58:41.378492+00:00,description,"Iščejo več oseb za pomoč pri pakiranju. Delo poteka v dopoldanski in popoldanski izmeni, po potrebi in dogovoru.","Iščejo več oseb za pomoč pri pakiranju. Delo poteka v dopoldanski in popoldanski izmeni, po potrebi in dogovoru. Nočna urna postavka je 10,50 €/h bruto."
+481973,2026-05-28T20:58:41.378492+00:00,start_date,2026-05-28,
+481972,2026-05-28T20:58:41.378492+00:00,open_positions,3,
+481972,2026-05-28T20:58:41.378492+00:00,duration,PO DOGOVORU,POČITNIŠKO DELO
+481972,2026-05-28T20:58:41.378492+00:00,work_schedule,PO DOGOVORU,POPOLDAN
+481972,2026-05-28T20:58:41.378492+00:00,start_date,,2026-09-02
+481970,2026-05-28T20:58:41.378492+00:00,start_date,2026-05-28,
+481950,2026-05-28T20:58:41.378492+00:00,start_date,2026-05-28,
+481942,2026-05-28T20:58:41.378492+00:00,start_date,2026-05-28,
+481933,2026-05-28T20:58:41.378492+00:00,description,"Prijeten družinski lokal išče prijazne in komunikativne osebe z izkušnjami v strežbi - za vodenje izmen in lokala. Pogoj je poznavanje kuhanja kave in strežbe pijač. Dela se med vikendi in med tednom popoldan, po dogovoru in potrebi. Urniki se sestavljajo en teden v naprej. Urna postavka je odvisna od predznanja in prijaznosti ter se giblje med 9,30 in 12,78 € bruto (začetniki 9,30 € bruto, samostojni natakarji 10,46 € bruto, vodja izmene 11,62 € bruto in vodja lokala 12,78 € bruto).","Prijeten družinski lokal išče prijazne in komunikativne osebe z izkušnjami v strežbi - za vodenje izmen in lokala. Pogoj je poznavanje kuhanja kave in strežbe pijač. Dela se med vikendi in med tednom popoldan, po dogovoru in potrebi. Urniki se sestavljajo en teden vnaprej. Urna postavka je odvisna od predznanja in prijaznosti ter se giblje med 9,30 in 12,78 € bruto (začetniki 9,30 € bruto, samostojni natakarji 10,46 € bruto, vodja izmene 11,62 € bruto in vodja lokala 12,78 € bruto)."
+481931,2026-05-28T20:58:41.378492+00:00,start_date,2026-05-28,
+481926,2026-05-28T20:58:41.378492+00:00,start_date,2026-05-28,
+481923,2026-05-28T20:58:41.378492+00:00,start_date,2026-05-28,
+481921,2026-05-28T20:58:41.378492+00:00,start_date,2026-05-28,
+481900,2026-05-28T20:58:41.378492+00:00,start_date,2026-05-28,
+481894,2026-05-28T20:58:41.378492+00:00,start_date,2026-05-28,
+481880,2026-05-28T20:58:41.378492+00:00,start_date,2026-05-28,
+481879,2026-05-28T20:58:41.378492+00:00,start_date,2026-05-28,
+481870,2026-05-28T20:58:41.378492+00:00,start_date,2026-05-28,
+481855,2026-05-28T20:58:41.378492+00:00,start_date,2026-05-28,
+481853,2026-05-28T20:58:41.378492+00:00,start_date,2026-05-28,
+481817,2026-05-28T20:58:41.378492+00:00,start_date,2026-05-28,
+481815,2026-05-28T20:58:41.378492+00:00,start_date,2026-05-28,
+481813,2026-05-28T20:58:41.378492+00:00,start_date,2026-05-28,
+481732,2026-05-28T20:58:41.378492+00:00,start_date,2026-05-28,
+481634,2026-05-28T20:58:41.378492+00:00,title,BLAGAJNIK,POMOČ V TRGOVINI
+481634,2026-05-28T20:58:41.378492+00:00,subtitle,,POLNJENJE POLIC
+481634,2026-05-28T20:58:41.378492+00:00,description,Trgovinsko podjetje išče polnoletni osebi za delo na blagajni.,"Najboljši sosed išče polnoletne osebe za pomoč v trgovini in polnjenje polic. Pogoji za delo so polnoletnost, odgovornost, resnost in veselje do dela."
+481634,2026-05-28T20:58:41.378492+00:00,open_positions,2,3
+481634,2026-05-28T20:58:41.378492+00:00,start_date,,2026-06-01
+481632,2026-05-28T20:58:41.378492+00:00,description,Trgovinsko podjetje išče polnoletni osebi za zahtevnejša dela v trgovini. Delo bi obsegalo delo na strežnih linijah in blagajni.,"Najboljši sosed išče polnoletne osebe za delo na blagajni in strežnih linijah. Pogoj za delo je polnoletnost, odgovornost, resnost in veselje do dela."
+481630,2026-05-28T20:58:41.378492+00:00,title,BLAGAJNIK,POMOČ V TRGOVINI
+481630,2026-05-28T20:58:41.378492+00:00,subtitle,,POLNJENJE POLIC
+481630,2026-05-28T20:58:41.378492+00:00,description,Trgovinsko podjetje išče polnoletno osebo za delo na blagajni.,"Najboljši sosed išče polnoletne osebe za pomoč v trgovini in polnjenje polic. Pogoj za delo je polnoletnost, odgovornost, resnost in veselje do dela."
+481630,2026-05-28T20:58:41.378492+00:00,start_date,,2026-06-01
+481625,2026-05-28T20:58:41.378492+00:00,start_date,2026-05-28,
+481598,2026-05-28T20:58:41.378492+00:00,start_date,2026-05-28,
+481570,2026-05-28T20:58:41.378492+00:00,location,"BAČ, BAČ 144A","KNEŽAK, BAČ 144A"
+481473,2026-05-28T20:58:41.378492+00:00,start_date,2026-05-28,
+481451,2026-05-28T20:58:41.378492+00:00,start_date,2026-05-28,
+481360,2026-05-28T20:58:41.378492+00:00,subtitle,,POMIVALEC
+481360,2026-05-28T20:58:41.378492+00:00,duration,DO SREDINE JULIJA,PO DOGOVORU
+481360,2026-05-28T20:58:41.378492+00:00,start_date,,2026-05-29
+481328,2026-05-28T20:58:41.378492+00:00,description,"Večja gostinska družba išče delavni in zanesljivi osebi za delo v trgovini. Delo zajema delo na blagajni, postrežbo strank in polnjenje polic. Navedena urna postavka je začetna. Delovnik je po dogovoru. Pogoji: polnoletnost, aktivno znanje slovenskega jezika ter lasten prevoz. Nudijo razgibano delo in malico.","Večja gostinska družba išče delavni in zanesljivi osebi za delo v trgovini (delo na blagajni, postrežbo strank in polnjenje polic). Navedena urna postavka je začetna. Delovnik je po dogovoru. Pogoji: polnoletnost, aktivno znanje slovenskega jezika ter lasten prevoz. Nudijo razgibano delo in malico."
+481324,2026-05-28T20:58:41.378492+00:00,title,LAŽJA FIZIČNA DELA,STROJNIŠKA DELA
+481039,2026-05-28T20:58:41.378492+00:00,start_date,2026-05-28,
+480985,2026-05-28T20:58:41.378492+00:00,start_date,2026-05-28,
+480740,2026-05-28T20:58:41.378492+00:00,subtitle,POLNJENJE POLIC IN BLAGAJNIK,POLNJENJE POLIC
+480739,2026-05-28T20:58:41.378492+00:00,subtitle,POLNJENJE POLIC IN BLAGAJNIK,POLNJENJE POLIC
+480603,2026-05-28T20:58:41.378492+00:00,company,P & P VIZIJA D.O.O.,KRONIS D.O.O.
+480602,2026-05-28T20:58:41.378492+00:00,company,P & P VIZIJA D.O.O.,KRONIS D.O.O.
+480596,2026-05-28T20:58:41.378492+00:00,hourly_rate_neto,7.73,8.7
+480596,2026-05-28T20:58:41.378492+00:00,hourly_rate_bruto,8.98,10.11
+480596,2026-05-28T20:58:41.378492+00:00,payment_type,7.73 €/h neto (8.98 €/h bruto),8.70 €/h neto (10.11 €/h bruto)
+480398,2026-05-28T20:58:41.378492+00:00,description,Trgovinsko podjetje išče polnoletno osebo za lažja dela v trgovini - pomoč na oddelkih in polnjenje polic. Pogoj je tekoče znanje slovenskega jezika.,"Najboljši sosed išče polnoletne osebe za pomoč v trgovini in polnjenje polic. Pogoji za delo so odgovornost, resnost in veselje do dela."
+480398,2026-05-28T20:58:41.378492+00:00,open_positions,,3
+480398,2026-05-28T20:58:41.378492+00:00,start_date,,2026-06-01
+480397,2026-05-28T20:58:41.378492+00:00,description,Trgovinsko podjetje išče polnoletno osebo za lažja dela v trgovini - pomoč na oddelkih in polnjenje polic.,"Najboljši sosed išče polnoletne osebe za pomoč v trgovini in polnjenje polic. Pogoj za delo je polnoletnost, odgovornost, resnost in veselje do dela."
+480397,2026-05-28T20:58:41.378492+00:00,open_positions,,3
+480397,2026-05-28T20:58:41.378492+00:00,start_date,,2026-06-01
+479743,2026-05-28T20:58:41.378492+00:00,description,Trgovinsko podjetje išče polnoletne osebe za zahtevnejša dela v trgovini. Delo bi obsegalo delo na strežnih linijah in blagajni,"Najboljši sosed išče polnoletne osebe za delo na blagajni in strežnih linijah. Pogoji za delo so polnoletnost, odgovornost, resnost in veselje do dela."
+479743,2026-05-28T20:58:41.378492+00:00,start_date,,2026-06-01
+479709,2026-05-28T20:58:41.378492+00:00,description,Trgovinsko podjetje išče polnoletno osebo za zahtevnejša dela v trgovini. Delo bi obsegalo delo na strežnih linijah in blagajni.,"Najboljši sosed išče polnoletno osebo za delo na blagajni in strežnih linijah. Pogoji za delo so polnoletnost, odgovornost, resnost in veselje do dela."
+479708,2026-05-28T20:58:41.378492+00:00,subtitle,,POLNJENJE POLIC
+479708,2026-05-28T20:58:41.378492+00:00,description,Trgovinsko podjetje išče polnoletno osebo za lažja dela v trgovini - pomoč na oddelkih in polnjenje polic.,"Najboljši sosed išče polnoletne osebe za pomoč v trgovini in polnjenje polic. Pogoj za delo je polnoletnost, odgovornost, resnost in veselje do dela."
+479705,2026-05-28T20:58:41.378492+00:00,description,Trgovsko podjetje išče polnoletne osebe za zahtevnejša dela v trgovini. Delo bo obsegalo delo na strežnih linijah in blagajni.,"Najboljši sosed išče polnoletne osebe za delo na blagajni in strežnih linijah. Pogoji za delo so polnoletnost, odgovornost, resnost in veselje do dela."
+479702,2026-05-28T20:58:41.378492+00:00,description,Trgovinsko podjetje išče polnoletno osebo za zahtevnejša dela v trgovini. Vaše naloge bodo delo na strežnih linijah in na blagajni.,"Najboljši sosed išče polnoletne osebe za delo na blagajni in strežnih linijah. Pogoji za delo so polnoletnost, odgovornost, resnost in veselje do dela."
+479702,2026-05-28T20:58:41.378492+00:00,open_positions,,3
+479701,2026-05-28T20:58:41.378492+00:00,description,Trgovinsko podjetje išče polnoletni osebi za zahtevnejša dela v trgovini. Delo bi obsegalo delo na strežnih linijah in blagajni.,"Najboljši sosed išče polnoletne osebe za delo na blagajni in strežnih linijah. Pogoji za delo so polnoletnost, odgovornost, resnost in veselje do dela."
+479701,2026-05-28T20:58:41.378492+00:00,open_positions,2,3
+479698,2026-05-28T20:58:41.378492+00:00,description,Trgovinsko podjetje išče polnoletne osebe za zahtevnejša dela v trgovini (delo na strežnih linijah in blagajni). Izmensko delo - po potrebi in dogovoru.,"Najboljši sosed išče polnoletne osebe za delo na blagajni in strežnih linijah. Pogoji za delo so polnoletnost, odgovornost, resnost in veselje do dela."
+479697,2026-05-28T20:58:41.378492+00:00,description,Trgovinsko podjetje išče polnoletne osebe za zahtevnejša dela v trgovini. Delo bi obsegalo delo na strežnih linijah in blagajni.,"Najboljši sosed išče polnoletne osebe za delo na blagajni in strežnih linijah. Pogoji za delo so polnoletnost, odgovornost, resnost in veselje do dela."
+479692,2026-05-28T20:58:41.378492+00:00,description,Trgovinsko podjetje išče polnoletno osebo za zahtevnejša dela v trgovini - delo na strežnih linijah in blagajni.,"Najboljši sosed išče polnoletne osebe za delo na blagajni in strežnih linijah. Pogoj za delo je polnoletnost, odgovornost, resnost in veselje do dela."
+479687,2026-05-28T20:58:41.378492+00:00,description,Trgovinsko podjetje išče polnoletno osebo za lažja dela v trgovini - pomoč na oddelkih in polnjenje polic.,"Najboljši sosed išče polnoletne osebe za pomoč v trgovini in polnjenje polic. Pogoji za delo so polnoletnost, odgovornost, resnost in veselje do dela."
+479687,2026-05-28T20:58:41.378492+00:00,open_positions,,3
+479686,2026-05-28T20:58:41.378492+00:00,description,Trgovinsko podjetje išče polnoletno osebo za zahtevnejša dela v trgovini. Delo bi obsegalo delo na strežnih linijah in blagajni.,"Najboljši sosed išče polnoletne osebe za delo na blagajni in strežnih linijah. Pogoj za delo je polnoletnost, odgovornost, resnost in veselje do dela."
+479686,2026-05-28T20:58:41.378492+00:00,open_positions,,3
+479684,2026-05-28T20:58:41.378492+00:00,description,Trgovinsko podjetje išče polnoletne osebe za zahtevnejša dela v trgovini (delo na strežnih linijah in blagajni). Izmensko delo - po potrebi in dogovoru.,"Najboljši sosed išče polnoletne osebe za delo na blagajni in strežnih linijah. Pogoj za delo je polnoletnost, odgovornost, resnost in veselje do dela."
+479378,2026-05-28T20:58:41.378492+00:00,description,"V svojo ekipo vabijo odgovorno, komunikativno in tehnično podkovano osebo za dostavo piva po Sloveniji ter za vzdrževanje in čiščenje točilnih sistemov v gostinskih lokalih. Obvezen je veljaven vozniški izpit kategorije B.","V svojo ekipo vabijo odgovorno, komunikativno in tehnično podkovano osebo za dostavo piva po Sloveniji ter za vzdrževanje in čiščenje točilnih sistemov v gostinskih lokalih. Obvezen je veljaven vozniški izpit kategorije B. Ni počitniško delo."
+479378,2026-05-28T20:58:41.378492+00:00,duration,PO DOGOVORU,DLJE ČASA (ZAČ. IN OBČ. DELO)
+479368,2026-05-28T20:58:41.378492+00:00,title,POMOČ V TRGOVINI,BLAGAJNIK
+479368,2026-05-28T20:58:41.378492+00:00,subtitle,DELO NA DELIKATESI,
+479368,2026-05-28T20:58:41.378492+00:00,hourly_rate_neto,8.61,11.19
+479368,2026-05-28T20:58:41.378492+00:00,hourly_rate_bruto,10.0,13.0
+479368,2026-05-28T20:58:41.378492+00:00,payment_type,8.61 €/h neto (10.00 €/h bruto),11.19 €/h neto (13.00 €/h bruto)
+479368,2026-05-28T20:58:41.378492+00:00,description,Trgovinsko podjetje išče polnoletne osebe za delo na strežnih linijah.,"Najboljši sosed išče polnoletne osebe za delo na blagajni in strežnih linijah. Pogoj za delo je polnoletnost, odgovornost, resnost in veselje do dela."
+479368,2026-05-28T20:58:41.378492+00:00,start_date,,2026-06-01
+479363,2026-05-28T20:58:41.378492+00:00,title,BLAGAJNIK,POMOČ V TRGOVINI
+479363,2026-05-28T20:58:41.378492+00:00,subtitle,,POLNJENJE POLIC
+479363,2026-05-28T20:58:41.378492+00:00,description,Trgovinsko podjetje išče polnoletno osebo za zahtevnejša dela v trgovini (delo na strežnih linijah in blagajni). Pogoja sta polnoletnost in znanje slovenskega jezika.,"Najboljši sosed išče polnoletne osebe za pomoč v trgovini in polnjenje polic. Pogoj za delo je polnoletnost, odgovornost, resnost in veselje do dela."
+479363,2026-05-28T20:58:41.378492+00:00,start_date,,2026-06-01
+479220,2026-05-28T20:58:41.378492+00:00,title,BLAGAJNIK,POMOČ V TRGOVINI
+479220,2026-05-28T20:58:41.378492+00:00,subtitle,,POLNJENJE POLIC
+479220,2026-05-28T20:58:41.378492+00:00,description,Trgovinsko podjetje išče polnoletno osebo za delo na blagajni.,"Najboljši sosed išče polnoletne osebe za pomoč v trgovini in polnjenje polic. Pogoj za delo je polnoletnost, odgovornost, resnost in veselje do dela."
+479177,2026-05-28T20:58:41.378492+00:00,description,"Iščejo konstrukterja/ko. 3D modeliranje v programskem okolju Solidworks za potrebe razvojnih projektov, izdelava konstruiranih kosov in testiranje na napravah z računalniškim vidom. Pričakujejo študenta/ko tehnične smeri, z ustreznim tehničnim in izvedbenim znanjem, ki je proaktiven/a in iznajdljiv/a pri reševanju tehničnih problemov. Možnost kasnejše redne zaposlitve. Prijavi priložite CV.","Iščejo konstrukterja/ko. 3D modeliranje v programskem okolju Solidworks za potrebe razvojnih projektov, izdelava konstruiranih kosov in testiranje na napravah z računalniškim vidom. Pričakujejo študenta/ko tehnične smeri, z ustreznim tehničnim in izvedbenim znanjem, ki je proaktiven/a in iznajdljiv/a pri reševanju tehničnih problemov. Ne gre za poletno delo, temveč si želijo daljšega občasnega sodelovanja z možnostjo kasnejše redne zaposlitve. Prijavi priložite CV."
+478983,2026-05-28T20:58:41.378492+00:00,duration,PO DOGOVORU,JUNIJ
+478537,2026-05-28T20:58:41.378492+00:00,description,"V dnevnem baru na bencinskem servisu potrebujejo več oseb za strežbo pijač. Dela se med vikendi, po potrebi in dogovoru. Nedeljska urna postavka je 11,62 € bruto. Za prijavo jih pokličite.","V dnevnem baru na bencinskem servisu potrebujejo več oseb za strežbo pijač. Dela se med vikendi, občasno tudi med tednom. Dela se po potrebi in dogovoru. Nedeljska urna postavka je 11,62 € bruto. Za prijavo jih pokličite."
+478464,2026-05-28T20:58:41.378492+00:00,duration,DLJE ČASA (ZAČ. IN OBČ. DELO),DO 31. 8. 2026
+476954,2026-05-28T20:58:41.378492+00:00,title,BLAGAJNIK,POMOČ V TRGOVINI
+476954,2026-05-28T20:58:41.378492+00:00,subtitle,,POLNJENJE POLIC
+476954,2026-05-28T20:58:41.378492+00:00,description,Trgovinsko podjetje išče polnoletno osebo za delo na blagajni.,"Iščejo polnoletno osebo za pomoč v trgovini in polnjenje polic. Pogoj za delo je odgovornost, resnost in veselje do dela"
+476954,2026-05-28T20:58:41.378492+00:00,start_date,,2026-06-01
+475231,2026-05-28T20:58:41.378492+00:00,hourly_rate_neto,8.61,9.47
+475231,2026-05-28T20:58:41.378492+00:00,hourly_rate_bruto,10.0,11.0
+475231,2026-05-28T20:58:41.378492+00:00,payment_type,8.61 €/h neto (10.00 €/h bruto),9.47 €/h neto (11.00 €/h bruto)
+475231,2026-05-28T20:58:41.378492+00:00,description,"Trgovinsko podjetje išče polnoletne osebe za pomoč v trgovini (pomoč na oddelkih, delo na blagajni). Pogoj je tekoče znanje slovenskega jezika.","Najboljši sosed išče polnoletne osebe za delo na blagajni in strežnih linijah. Pogoj za delo je polnoletnost, odgovornost, resnost in veselje do dela."
+475231,2026-05-28T20:58:41.378492+00:00,duration,DLJE ČASA (ZAČ. IN OBČ. DELO),PO DOGOVORU
+475231,2026-05-28T20:58:41.378492+00:00,start_date,,2026-06-01
+474759,2026-05-28T20:58:41.378492+00:00,description,"Podjetje potrebuje polnoletni, prijazni in zanesljivi osebi za delo reševalca/ke iz vode. Zaželena je veljavna licenca, v kolikor je nimate, vam podjetje nudi možnost sofinanciranja tečaja za reševalca/ko iz vode. Malica je zagotovljena, po dogovoru se uredi tudi možnost prenočišča.","Podjetje potrebuje polnoletni, prijazni in zanesljivi osebi za delo reševalca/ke iz vode. Obvezna je veljavna licenca A1/A2. Malica je zagotovljena, po dogovoru se uredi tudi možnost prenočišča."
+474758,2026-05-28T20:58:41.378492+00:00,description,"Podjetje potrebuje polnoletni, prijazni in zanesljivi osebi za delo reševalca/ke iz vode. Zaželena je veljavna licenca, v kolikor je nimate, vam podjetje nudi možnost sofinanciranja tečaja za reševalca/ko iz vode. Malica je zagotovljena, po dogovoru se uredi tudi možnost prenočišča.","Podjetje potrebuje polnoletni, prijazni in zanesljivi osebi za delo reševalca/ke iz vode. Obvezna je veljavna licenca A1/A2. Malica je zagotovljena, po dogovoru se uredi tudi možnost prenočišča."
+474757,2026-05-28T20:58:41.378492+00:00,description,"Podjetje potrebuje polnoletni, prijazni in zanesljivi osebi za delo reševalca/ke iz vode. Zaželena je veljavna licenca, v kolikor je nimate, vam podjetje nudi možnost sofinanciranja tečaja za reševalca/ko iz vode. Malica je zagotovljena, po dogovoru se uredi tudi možnost prenočišča.","Podjetje potrebuje polnoletni, prijazni in zanesljivi osebi za delo reševalca/ke iz vode. Obvezna je veljavna licenca A1/A2. Malica je zagotovljena, po dogovoru se uredi tudi možnost prenočišča."
+474644,2026-05-28T20:58:41.378492+00:00,title,BLAGAJNIK,POMOČ V TRGOVINI
+474644,2026-05-28T20:58:41.378492+00:00,subtitle,,POLNJENJE POLIC
+474644,2026-05-28T20:58:41.378492+00:00,description,Trgovinsko podjetje išče polnoletno osebo za zahtevnejša dela v trgovini - delo na blagajni.,"Najboljši sosed išče polnoletne osebe za pomoč v trgovini in polnjenje polic. Pogoj za delo je polnoletnost, odgovornost, resnost in veselje do dela."
+474644,2026-05-28T20:58:41.378492+00:00,open_positions,,3
+474644,2026-05-28T20:58:41.378492+00:00,duration,PO DOGOVORU,DLJE ČASA (ZAČ. IN OBČ. DELO)
+474329,2026-05-28T20:58:41.378492+00:00,hourly_rate_neto,7.73,7.74
+474329,2026-05-28T20:58:41.378492+00:00,hourly_rate_bruto,8.98,9.0
+474329,2026-05-28T20:58:41.378492+00:00,payment_type,7.73 €/h neto (8.98 €/h bruto),7.74 €/h neto (9.00 €/h bruto)
+474329,2026-05-28T20:58:41.378492+00:00,description,Trgovinsko podjetje išče polnoletno osebo za pomoč v trgovini. Delo bi obsegalo pomoč na oddelkih in polnjenje polic.,"Najboljši sosed išče polnoletne osebe za pomoč v trgovini in polnjenje polic. Pogoj za delo je polnoletnost, odgovornost, resnost in veselje do dela."
+474329,2026-05-28T20:58:41.378492+00:00,start_date,,2026-06-01
+474326,2026-05-28T20:58:41.378492+00:00,subtitle,,POLNJENJE POLIC
+474326,2026-05-28T20:58:41.378492+00:00,hourly_rate_neto,7.73,7.74
+474326,2026-05-28T20:58:41.378492+00:00,hourly_rate_bruto,8.98,9.0
+474326,2026-05-28T20:58:41.378492+00:00,payment_type,7.73 €/h neto (8.98 €/h bruto),7.74 €/h neto (9.00 €/h bruto)
+474326,2026-05-28T20:58:41.378492+00:00,description,Trgovinsko podjetje išče polnoletno osebo za lažja dela v trgovini - pomoč na oddelkih in polnjenje polic.,"Najboljši sosed išče polnoletne osebe za pomoč v trgovini in polnjenje polic. Pogoji za delo so odgovornost, resnost in veselje do dela."
+474326,2026-05-28T20:58:41.378492+00:00,open_positions,,3
+474120,2026-05-28T20:58:41.378492+00:00,sublocation,MARKET,MARKET KANAL
+474120,2026-05-28T20:58:41.378492+00:00,hourly_rate_neto,7.73,7.74
+474120,2026-05-28T20:58:41.378492+00:00,hourly_rate_bruto,8.98,9.0
+474120,2026-05-28T20:58:41.378492+00:00,payment_type,7.73 €/h neto (8.98 €/h bruto),7.74 €/h neto (9.00 €/h bruto)
+474120,2026-05-28T20:58:41.378492+00:00,description,Trgovinsko podjetje išče polnoletno osebo za lažja dela v trgovini (pomoč na oddelkih in polnjenje polic).,"Najboljši sosed išče polnoletne osebe za pomoč v trgovini in polnjenje polic. Pogoji za delo so polnoletnost, odgovornost, resnost in veselje do dela."
+474120,2026-05-28T20:58:41.378492+00:00,start_date,,2026-06-01
+474119,2026-05-28T20:58:41.378492+00:00,hourly_rate_neto,7.73,8.61
+474119,2026-05-28T20:58:41.378492+00:00,hourly_rate_bruto,8.98,10.0
+474119,2026-05-28T20:58:41.378492+00:00,payment_type,7.73 €/h neto (8.98 €/h bruto),8.61 €/h neto (10.00 €/h bruto)
+474119,2026-05-28T20:58:41.378492+00:00,description,Trgovinsko podjetje išče polnoletno osebo za lažja dela v trgovini - pomoč na oddelkih in polnjenje polic.,"Najboljši sosed išče polnoletne osebe za pomoč v trgovini in polnjenje polic. Pogoj za delo je polnoletnost, odgovornost, resnost in veselje do dela."
+474119,2026-05-28T20:58:41.378492+00:00,start_date,,2026-06-01
+474118,2026-05-28T20:58:41.378492+00:00,sublocation,MARKET,MARKET KOBARID
+474118,2026-05-28T20:58:41.378492+00:00,hourly_rate_neto,7.73,7.74
+474118,2026-05-28T20:58:41.378492+00:00,hourly_rate_bruto,8.98,9.0
+474118,2026-05-28T20:58:41.378492+00:00,payment_type,7.73 €/h neto (8.98 €/h bruto),7.74 €/h neto (9.00 €/h bruto)
+474118,2026-05-28T20:58:41.378492+00:00,description,Trgovinsko podjetje išče polnoletno osebo za lažja dela v trgovini - pomoč na oddelkih in polnjenje polic.,"Najboljši sosed išče polnoletne osebe za pomoč v trgovini in polnjenje polic. Pogoji za delo so polnoletnost, odgovornost, resnost in veselje do dela."
+474118,2026-05-28T20:58:41.378492+00:00,start_date,,2026-06-01
+474117,2026-05-28T20:58:41.378492+00:00,hourly_rate_neto,7.73,8.61
+474117,2026-05-28T20:58:41.378492+00:00,hourly_rate_bruto,8.98,10.0
+474117,2026-05-28T20:58:41.378492+00:00,payment_type,7.73 €/h neto (8.98 €/h bruto),8.61 €/h neto (10.00 €/h bruto)
+474117,2026-05-28T20:58:41.378492+00:00,description,Trgovinsko podjetje išče polnoletne osebe za lažja dela v trgovini - pomoč na oddelkih in polnjenje polic.,"Najboljši sosed išče polnoletne osebe za pomoč v trgovini in polnjenje polic. Pogoji za delo so polnoletnost, odgovornost, resnost in veselje do dela."
+474117,2026-05-28T20:58:41.378492+00:00,start_date,,2026-06-01
+474068,2026-05-28T20:58:41.378492+00:00,hourly_rate_neto,8.61,11.19
+474068,2026-05-28T20:58:41.378492+00:00,hourly_rate_bruto,10.0,13.0
+474068,2026-05-28T20:58:41.378492+00:00,payment_type,8.61 €/h neto (10.00 €/h bruto),11.19 €/h neto (13.00 €/h bruto)
+474068,2026-05-28T20:58:41.378492+00:00,description,Trgovinsko podjetje išče polnoletno osebo za zahtevnejša dela v trgovini. Delo bi obsegalo delo na strežnih linijah in blagajni.,"Najboljši sosed išče polnoletne osebe za delo na blagajni in strežnih linijah. Pogoj za delo je polnoletnost, odgovornost, resnost in veselje do dela."
+474068,2026-05-28T20:58:41.378492+00:00,start_date,,2026-06-01
+474037,2026-05-28T20:58:41.378492+00:00,description,Trgovinsko podjetje išče polnoletne osebe za zahtevnejša dela v trgovini. Delo bi obsegalo delo na strežnih linijah in blagajni.,"Najboljši sosed išče polnoletne osebe za delo na blagajni in strežnih linijah. Pogoj za delo je polnoletnost, odgovornost, resnost in veselje do dela."
+474037,2026-05-28T20:58:41.378492+00:00,start_date,,2026-06-01
+474035,2026-05-28T20:58:41.378492+00:00,description,Trgovinsko podjetje išče polnoletno osebo za zahtevnejša dela v trgovini. Delo bi obsegalo delo na strežnih linijah in blagajni.,"Najboljši sosed išče polnoletne osebe za delo na blagajni in strežnih linijah. Pogoj za delo je polnoletnost, odgovornost, resnost in veselje do dela."
+474035,2026-05-28T20:58:41.378492+00:00,start_date,,2026-06-01
+474030,2026-05-28T20:58:41.378492+00:00,description,Trgovinsko podjetje išče polnoletno osebo za zahtevnejša dela v trgovini. Delo bi obsegalo delo na strežnih linijah in blagajni.,"Najboljši sosed išče polnoletne osebe za delo na blagajni in strežnih linijah. Pogoj za delo je odgovornost, resnost in veselje do dela."
+474030,2026-05-28T20:58:41.378492+00:00,start_date,,2026-06-01
+474028,2026-05-28T20:58:41.378492+00:00,description,Trgovinsko podjetje išče polnoletno osebo za zahtevnejša dela v trgovini. Delo bi obsegalo delo na strežnih linijah in blagajni.,"Najboljši sosed išče polnoletne osebe za delo na blagajni in strežnih linijah. Pogoj za delo je polnoletnost, odgovornost, resnost in veselje do dela."
+474028,2026-05-28T20:58:41.378492+00:00,start_date,,2026-06-01
+474027,2026-05-28T20:58:41.378492+00:00,description,"Znano trgovsko podjetje v svojo ekipo vabi študenta/ko za zahtevnejša dela, in sicer za delo na blagajni in strežnih linijah.","Najboljši sosed išče polnoletne osebe za delo na blagajni in strežnih linijah. Pogoj za delo je polnoletnost, odgovornost, resnost in veselje do dela."
+474027,2026-05-28T20:58:41.378492+00:00,start_date,,2026-06-01
+474018,2026-05-28T20:58:41.378492+00:00,description,Trgovinsko podjetje išče polnoletno osebo za lažja dela v trgovini - pomoč na oddelkih in polnjenje polic.,"Najboljši sosed išče polnoletne osebe za pomoč v trgovini in polnjenje polic. Pogoj za delo je polnoletnost, odgovornost, resnost in veselje do dela."
+474018,2026-05-28T20:58:41.378492+00:00,open_positions,,3
+474018,2026-05-28T20:58:41.378492+00:00,start_date,,2026-06-01
+473958,2026-05-28T20:58:41.378492+00:00,description,Trgovinsko podjetje išče polnoletno osebo za zahtevnejša dela v trgovini. Delo bi obsegalo delo na strežnih linijah in blagajni.,"Najboljši sosed išče polnoletno osebo za delo na blagajni in strežnih linijah. Pogoji za delo so polnoletnost, odgovornost, resnost in veselje do dela."
+473947,2026-05-28T20:58:41.378492+00:00,description,Trgovinsko podjetje išče polnoletno osebo za zahtevnejša dela v trgovini. Delo bi obsegalo delo na strežnih linijah in blagajni.,"Najboljši sosed išče polnoletne osebe za delo na blagajni in strežnih linijah. Pogoji za delo so polnoletnost, odgovornost, resnost in veselje do dela."
+473924,2026-05-28T20:58:41.378492+00:00,sublocation,SUPERMARKET,
+473924,2026-05-28T20:58:41.378492+00:00,description,Trgovinsko podjetje išče polnoletne osebe za zahtevnejša dela v trgovini (delo na strežnih linijah in blagajni). Izmensko delo - po potrebi in dogovoru.,"Najboljši sosed išče polnoletne osebe za delo na blagajni in strežnih linijah. Pogoj za delo je polnoletnost, odgovornost, resnost in veselje do dela."
+473822,2026-05-28T20:58:41.378492+00:00,description,Trgovinsko podjetje išče polnoletno osebo za lažja dela v trgovini - pomoč na oddelkih in polnjenje polic. Izmensko delo - po potrebi in dogovoru.,"Najboljši sosed išče polnoletne osebe za pomoč v trgovini in polnjenje polic. Pogoj za delo je polnoletnost, odgovornost, resnost in veselje do dela."
+473822,2026-05-28T20:58:41.378492+00:00,start_date,,2026-06-01
+473263,2026-05-28T20:58:41.378492+00:00,hourly_rate_neto,8.5,9.0
+473263,2026-05-28T20:58:41.378492+00:00,hourly_rate_bruto,9.88,10.46
+473263,2026-05-28T20:58:41.378492+00:00,payment_type,8.50 €/h neto (9.88 €/h bruto),9.00 €/h neto (10.46 €/h bruto)
+473262,2026-05-28T20:58:41.378492+00:00,hourly_rate_neto,9.0,10.0
+473262,2026-05-28T20:58:41.378492+00:00,hourly_rate_bruto,10.46,11.62
+473262,2026-05-28T20:58:41.378492+00:00,payment_type,9.00 €/h neto (10.46 €/h bruto),10.00 €/h neto (11.62 €/h bruto)
+473017,2026-05-28T20:58:41.378492+00:00,title,BLAGAJNIK,POMOČ V TRGOVINI
+473017,2026-05-28T20:58:41.378492+00:00,subtitle,,POLNJENJE POLIC
+473017,2026-05-28T20:58:41.378492+00:00,hourly_rate_neto,7.73,7.74
+473017,2026-05-28T20:58:41.378492+00:00,hourly_rate_bruto,8.98,9.0
+473017,2026-05-28T20:58:41.378492+00:00,payment_type,7.73 €/h neto (8.98 €/h bruto),7.74 €/h neto (9.00 €/h bruto)
+473017,2026-05-28T20:58:41.378492+00:00,description,Trgovsko podjetje išče polnoletno osebo za pomoč v trgovini-polnjenje polic in delo na blagajni.,"Najboljši sosed išče polnoletne osebe za pomoč v trgovini in polnjenje polic. Pogoji za delo so polnoletnost, odgovornost, resnost in veselje do dela."
+473017,2026-05-28T20:58:41.378492+00:00,open_positions,,3
+473017,2026-05-28T20:58:41.378492+00:00,start_date,,2026-06-01
+473001,2026-05-28T20:58:41.378492+00:00,subtitle,,POLNJENJE POLIC
+473001,2026-05-28T20:58:41.378492+00:00,hourly_rate_neto,7.73,7.74
+473001,2026-05-28T20:58:41.378492+00:00,hourly_rate_bruto,8.98,9.0
+473001,2026-05-28T20:58:41.378492+00:00,payment_type,7.73 €/h neto (8.98 €/h bruto),7.74 €/h neto (9.00 €/h bruto)
+473001,2026-05-28T20:58:41.378492+00:00,description,Trgovinsko podjetje išče polnoletno osebo za pomoč v trgovini. Delo bi obsegalo pomoč na oddelkih in polnjenje polic.,"Najboljši sosed išče polnoletne osebe za pomoč v trgovini in polnjenje polic. Pogoj za delo je polnoletnost, odgovornost, resnost in veselje do dela."
+473001,2026-05-28T20:58:41.378492+00:00,start_date,,2026-06-01
+472983,2026-05-28T20:58:41.378492+00:00,title,BLAGAJNIK,POMOČ V TRGOVINI
+472983,2026-05-28T20:58:41.378492+00:00,subtitle,,POLNJENJE POLIC
+472983,2026-05-28T20:58:41.378492+00:00,hourly_rate_neto,7.73,7.74
+472983,2026-05-28T20:58:41.378492+00:00,hourly_rate_bruto,8.98,9.0
+472983,2026-05-28T20:58:41.378492+00:00,payment_type,7.73 €/h neto (8.98 €/h bruto),7.74 €/h neto (9.00 €/h bruto)
+472983,2026-05-28T20:58:41.378492+00:00,description,Trgovinsko podjetje išče polnoletno osebo za zahtevnejša dela v trgovini. Delo bi obsegalo delo na strežnih linijah in blagajni.,"Najboljši sosed išče polnoletne osebe za pomoč v trgovini in polnjenje polic. Pogoj za delo je polnoletnost, odgovornost, resnost in veselje do dela."
+472983,2026-05-28T20:58:41.378492+00:00,start_date,,2026-06-01
+472964,2026-05-28T20:58:41.378492+00:00,description,Trgovinsko podjetje išče polnoletno osebo za lažja dela v trgovini - pomoč na oddelkih in polnjenje polic.,"Najboljši sosed išče polnoletne osebe za pomoč v trgovini in polnjenje polic. Pogoj za delo je polnoletnost, odgovornost, resnost in veselje do dela."
+472964,2026-05-28T20:58:41.378492+00:00,start_date,,2026-06-01
+472963,2026-05-28T20:58:41.378492+00:00,description,Trgovinsko podjetje išče polnoletni osebi za lažja dela v trgovini - pomoč na oddelkih in polnjenje polic.,"Najboljši sosed išče polnoletne osebe za pomoč v trgovini in polnjenje polic. Pogoji za delo so polnoletnost, odgovornost, resnost in veselje do dela."
+472963,2026-05-28T20:58:41.378492+00:00,open_positions,2,3
+472963,2026-05-28T20:58:41.378492+00:00,start_date,,2026-06-01
+472956,2026-05-28T20:58:41.378492+00:00,hourly_rate_neto,7.73,7.74
+472956,2026-05-28T20:58:41.378492+00:00,hourly_rate_bruto,8.98,9.0
+472956,2026-05-28T20:58:41.378492+00:00,payment_type,7.73 €/h neto (8.98 €/h bruto),7.74 €/h neto (9.00 €/h bruto)
+472956,2026-05-28T20:58:41.378492+00:00,description,Podjetje išče polnoletno osebo za delo na blagajni in polnjenje polic. Izmensko delo - po potrebi in dogovoru.,"Najboljši sosed išče polnoletne osebe za pomoč v trgovini in polnjenje polic. Pogoj za delo je polnoletnost, odgovornost, resnost in veselje do dela."
+472956,2026-05-28T20:58:41.378492+00:00,start_date,,2026-06-01
+472945,2026-05-28T20:58:41.378492+00:00,description,Trgovinsko podjetje išče polnoletno osebo za zahtevnejša dela v trgovini. Delo bi obsegalo delo na strežnih linijah in blagajni.,"Najboljši sosed išče polnoletne osebe za delo na blagajni in strežnih linijah. Pogoji za delo so polnoletnost, odgovornost, resnost in veselje do dela."
+472945,2026-05-28T20:58:41.378492+00:00,open_positions,,3
+472945,2026-05-28T20:58:41.378492+00:00,start_date,,2026-06-01
+472944,2026-05-28T20:58:41.378492+00:00,description,Trgovinsko podjetje išče polnoletno osebo za zahtevnejša dela v trgovini (delo na strežnih linijah in blagajni).,"Najboljši sosed išče polnoletne osebe za delo na blagajni in strežnih linijah. Pogoji za delo so odgovornost, resnost in veselje do dela."
+472944,2026-05-28T20:58:41.378492+00:00,open_positions,,3
+472944,2026-05-28T20:58:41.378492+00:00,duration,PO DOGOVORU,DLJE ČASA (ZAČ. IN OBČ. DELO)
+472941,2026-05-28T20:58:41.378492+00:00,description,Trgovinsko podjetje išče polnoletno osebo za zahtevnejša dela v trgovini (delo na strežnih linijah in blagajni).,"Najboljši sosed išče polnoletne osebe za delo na blagajni in strežnih linijah. Pogoji za delo so odgovornost, resnost in veselje do dela."
+472941,2026-05-28T20:58:41.378492+00:00,open_positions,,3
+472936,2026-05-28T20:58:41.378492+00:00,description,Trgovinsko podjetje išče polnoletno osebo za zahtevnejša dela v trgovini. Delo bi obsegalo delo na strežnih linijah in blagajni.,"Najboljši sosed išče polnoletne osebe za delo na blagajni in strežnih linijah. Pogoj za delo je polnoletnost, odgovornost, resnost in veselje do dela."
+472935,2026-05-28T20:58:41.378492+00:00,description,Trgovinsko podjetje išče polnoletno osebo za zahtevnejša dela v trgovini (delo na strežnih linijah in blagajni).,"Najboljši sosed išče polnoletne osebe za delo na blagajni in strežnih linijah. Pogoj za delo je polnoletnost, odgovornost, resnost in veselje do dela."
+472934,2026-05-28T20:58:41.378492+00:00,description,Trgovinsko podjetje išče polnoletno osebo za zahtevnejša dela v trgovini. Delo bi obsegalo delo na strežnih linijah in blagajni.,"Najboljši sosed išče polnoletne osebe za delo na blagajni in strežnih linijah. Pogoj za delo je polnoletnost, odgovornost, resnost in veselje do dela."
+472895,2026-05-28T20:58:41.378492+00:00,description,Trgovinsko podjetje išče polnoletno osebo za zahtevnejša dela v trgovini (delo na strežnih linijah in blagajni). Izmensko delo - po potrebi in dogovoru.,"Najboljši sosed išče polnoletne osebe za delo na blagajni in strežnih linijah. Pogoji za delo so polnoletnost, odgovornost, resnost in veselje do dela."
+472845,2026-05-28T20:58:41.378492+00:00,description,Trgovinsko podjetje išče polnoletno osebo za lažja dela v trgovini - pomoč na oddelkih in polnjenje polic.,"Najboljši sosed išče polnoletne osebe za pomoč v trgovini in polnjenje polic. Pogoji za delo so odgovornost, resnost in veselje do dela."
+472845,2026-05-28T20:58:41.378492+00:00,open_positions,,3
+472726,2026-05-28T20:58:41.378492+00:00,title,LAŽJA FIZIČNA DELA,POMOČ V TRGOVINI
+472726,2026-05-28T20:58:41.378492+00:00,description,Trgovinsko podjetje išče polnoletno osebo za lažja dela v trgovini - pomoč na oddelkih in polnjenje polic.,"Najboljši sosed išče polnoletno osebo za pomoč v trgovini in polnjenje polic. Pogoj za delo je polnoletnost, odgovornost, resnost in veselje do dela."
+472139,2026-05-28T20:58:41.378492+00:00,duration,PO DOGOVORU,POČITNIŠKO DELO
+472139,2026-05-28T20:58:41.378492+00:00,start_date,,2026-06-01
+467568,2026-05-28T20:58:41.378492+00:00,subtitle,,POLNJENJE POLIC
+467568,2026-05-28T20:58:41.378492+00:00,description,Trgovinsko podjetje išče polnoletno osebo za lažja dela v trgovini - pomoč na oddelkih in polnjenje polic.,"Najboljši sosed išče polnoletne osebe za pomoč v trgovini in polnjenje polic. Pogoj za delo je polnoletnost, odgovornost, resnost in veselje do dela."
+467368,2026-05-28T20:58:41.378492+00:00,hourly_rate_neto,7.74,8.61
+467368,2026-05-28T20:58:41.378492+00:00,hourly_rate_bruto,9.0,10.0
+467368,2026-05-28T20:58:41.378492+00:00,payment_type,7.74 €/h neto (9.00 €/h bruto),8.61 €/h neto (10.00 €/h bruto)
+467368,2026-05-28T20:58:41.378492+00:00,description,Trgovinsko podjetje išče polnoletno osebo za zahtevnejša dela v trgovini. Delo bi obsegalo delo na strežnih linijah in blagajni.,"Najboljši sosed išče polnoletne osebe za delo na blagajni in strežnih linijah. Pogoji za delo so polnoletnost, odgovornost, resnost in veselje do dela."
+467368,2026-05-28T20:58:41.378492+00:00,open_positions,,3
+466420,2026-05-28T20:58:41.378492+00:00,subtitle,,PRIPRAVA HRANE
+466420,2026-05-28T20:58:41.378492+00:00,description,"Iščejo sandwich artista in vodji izmene. Usposabljanje in učenje nudijo znotraj podjetja z interaktivnimi kvizi in praktičnim pregledom vseh del, ki jih študent/ka opravlja. Nudijo možnost dolgoročnega, občasnega sodelovanja (po potrebi in dogovoru). Urna postavka se zviša glede na pozicijo. Nudijo tudi brezplačno hrano za malico. Pogoj; znanje slovenskega jezika, pripravljenost na izmensko delo, delo med vikendi ter fleksibilnost pri planiranju.","Iščejo sandwich artista in vodji izmene. Usposabljanje in učenje nudijo znotraj podjetja z interaktivnimi kvizi in praktičnim pregledom vseh del, ki jih študent/ka opravlja. Nudijo možnost dolgoročnega, občasnega sodelovanja (po potrebi in dogovoru). Urna postavka se zviša glede na pozicijo. Nudijo tudi brezplačno hrano za malico. Pogoj; znanje slovenskega jezika, pripravljenost na izmensko delo, delo med vikendi ter fleksibilnost pri planiranju. Kasneje možnost redne zaposlitve."
+466401,2026-05-28T20:58:41.378492+00:00,description,Trgovinsko podjetje išče polnoletno osebo za lažja dela v trgovini - pomoč na oddelkih in polnjenje polic.,"Najboljši sosed išče polnoletne osebe za pomoč v trgovini in polnjenje polic. Pogoj za delo je polnoletnost, odgovornost, resnost in veselje do dela."
+464365,2026-05-28T20:58:41.378492+00:00,subtitle,,POLNJENJE POLIC
+464365,2026-05-28T20:58:41.378492+00:00,description,Trgovinsko podjetje išče polnoletno osebo za lažja dela v trgovini - pomoč na oddelkih in polnjenje polic.,"Najboljši sosed išče polnoletne osebe za pomoč v trgovini in polnjenje polic. Pogoj za delo je polnoletnost, odgovornost, resnost in veselje do dela."
+463893,2026-05-28T20:58:41.378492+00:00,hourly_rate_neto,7.73,7.74
+463893,2026-05-28T20:58:41.378492+00:00,hourly_rate_bruto,8.98,9.0
+463893,2026-05-28T20:58:41.378492+00:00,payment_type,7.73 €/h neto (8.98 €/h bruto),7.74 €/h neto (9.00 €/h bruto)
+463893,2026-05-28T20:58:41.378492+00:00,description,Trgovinsko podjetje išče polnoletno osebo za lažja dela v trgovini - pomoč na oddelkih in polnjenje polic.,"Najboljši sosed išče polnoletne osebe za pomoč v trgovini in polnjenje polic. Pogoj za delo je polnoletnost, odgovornost, resnost in veselje do dela."
+463326,2026-05-28T20:58:41.378492+00:00,title,BLAGAJNIK,POMOČ V TRGOVINI
+463326,2026-05-28T20:58:41.378492+00:00,description,Trgovinsko podjetje išče polnoletno osebo za lažja dela v trgovini - pomoč na oddelkih in polnjenje polic.,"Najboljši sosed išče polnoletne osebe za pomoč v trgovini in polnjenje polic. Pogoj za delo je polnoletnost, odgovornost, resnost in veselje do dela."
+463314,2026-05-28T20:58:41.378492+00:00,description,Trgovinsko podjetje išče polnoletno osebo za zahtevnejša dela v trgovini (delo na strežnih linijah in blagajni).,"Najboljši sosed išče polnoletne osebe za delo na blagajni in strežnih linijah. Pogoji za delo so polnoletnost, odgovornost, resnost in veselje do dela."
+463314,2026-05-28T20:58:41.378492+00:00,open_positions,,3
+463311,2026-05-28T20:58:41.378492+00:00,description,Trgovinsko podjetje išče polnoletni osebi za lažja dela v trgovini - pomoč na oddelkih in polnjenje polic.,"Najboljši sosed išče polnoletne osebe za pomoč v trgovini in polnjenje polic. Pogoji za delo so polnoletnost, odgovornost, resnost in veselje do dela."
+463311,2026-05-28T20:58:41.378492+00:00,open_positions,2,3
+463310,2026-05-28T20:58:41.378492+00:00,description,Trgovinsko podjetje išče polnoletni osebi za zahtevnejša dela v trgovini (delo na strežnih linijah in blagajni).,"Najboljši sosed išče polnoletne osebe za delo na blagajni in strežnih linijah. Pogoji za delo so polnoletnost, odgovornost, resnost in veselje do dela."
+463310,2026-05-28T20:58:41.378492+00:00,open_positions,2,3
+463308,2026-05-28T20:58:41.378492+00:00,hourly_rate_neto,8.0,8.5
+463308,2026-05-28T20:58:41.378492+00:00,hourly_rate_bruto,9.3,9.88
+463308,2026-05-28T20:58:41.378492+00:00,payment_type,8.00 €/h neto (9.30 €/h bruto),8.50 €/h neto (9.88 €/h bruto)
+461402,2026-05-28T20:58:41.378492+00:00,location,DOMŽALE,"DOMŽALE, LJUBLJANSKA CESTA 72"
+438980,2026-05-28T20:58:41.378492+00:00,description,Trgovinsko podjetje išče osebo za lažja dela v trgovini - pomoč na oddelkih in polnjenje polic.,"Najboljši sosed išče polnoletne osebe za pomoč v trgovini in polnjenje polic. Pogoji za delo so odgovornost, resnost in veselje do dela."
+438980,2026-05-28T20:58:41.378492+00:00,open_positions,,3
+438980,2026-05-28T20:58:41.378492+00:00,duration,DLJE ČASA (ZAČ. IN OBČ. DELO),PO DOGOVORU
+438980,2026-05-28T20:58:41.378492+00:00,start_date,,2026-06-01
