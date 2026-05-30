@@ -66,7 +66,7 @@ slabšega odziva, ampak šele po več tednih. Pri oglasih, ki na portalu ostajaj
 tednov, se študentu splača počakati: postavka se pogosto popravi navzgor, skoraj nikoli ne
 nižje.
 
-![Velikost in čas dvigov urne postavke](img/q2_dvigi2.png)
+![Velikost in čas dvigov urne postavke](img/q2_dvigi.png)
 
 ### 3. Besedilo oglasa napove plačo bolje kot strukturirani atributi
 
