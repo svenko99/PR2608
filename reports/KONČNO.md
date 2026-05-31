@@ -11,12 +11,12 @@ očistimo in iz njih izluščimo razlike in trende, ki jih portal sam ne pokaže
 predstavimo glavni prispevek projekta, lastno podatkovno zbirko, in pet ugotovitev, ki
 najbolj koristijo iskalcem in ponudnikom študentskega dela.
 
-## Podatki: lastna zbirka 8441 oglasov
+## Podatki: lastna zbirka 8574 oglasov
 
 Glavni prispevek projekta je sama podatkovna zbirka. E-Študentski servis ne ponuja API-ja
 in prikazuje le trenutno aktivne oglase, zato je sistematično spremljanje trga možno samo
 z lastnim scrape-anjem. Scraper teče na GitHub Actions vsak dan ob 20:00 in je v obdobju
-od **12. marca do 28. maja 2026** zbral **8.441 unikatnih oglasov** od **4.040 različnih
+od **12. marca do 30. maja 2026** zbral **8.574 unikatnih oglasov** od **4.080 različnih
 delodajalcev**. Polje neto urne postavke je izpolnjeno pri **94 %** oglasov, ostali navajajo
 drug tip plačila.
 
@@ -38,75 +38,76 @@ naša zbirka edini vir za spremljanje trga skozi čas. Podrobna shema podatkov j
 ### 1. Vsebina dela poganja plačo, lokacija skoraj nič
 
 Razlike v plačah po regijah so presenetljivo majhne. Mediana neto urne postavke se po 12
-statističnih regijah giblje od **7,83 €/h v Zasavski** do **8,46 €/h v Gorenjski**, razpon
-torej znaša le **0,63 €/h**. Pričakovanja, da je v Ljubljani plača opazno boljša, podatki
+statističnih regijah giblje od **8,00 €/h** (v večini regij) do **8,50 €/h v Gorenjski**, razpon
+torej znaša le **0,50 €/h**. Pričakovanja, da je v Ljubljani plača opazno boljša, podatki
 ne potrdijo: Osrednjeslovenska je nad mediano le za 2 centa. Razlog je sistemski: zakonsko
 določena minimalna neto postavka (7,73 €/h) je spodnja meja, ki ji večina oglasov v vseh
 regijah sledi, kar zoži prostor za regionalne razlike.
 
-![Mediana neto urne postavke po regijah Slovenije](img/q3_regije_map_update.png)
+![Mediana neto urne postavke po regijah Slovenije](img/q3_regije_map.png)
 
-Pravo razliko prinese vrsta dela. **Poučevanje** ima mediano **12,00 €/h** (50 % nad
+Pravo razliko prinese vrsta dela. **Poučevanje** ima mediano **12,00 €/h** (47 % nad
 splošno mediano), **gostinstvo 8,17 €**, **prodaja 7,80 €**, **proizvodnja 8,00 €**. Razpon
-med kategorijami presega **4 €/h**, torej več kot **šestkrat več** kot razpon po regijah. Za
+med kategorijami presega **4 €/h**, torej več kot **osemkrat več** kot razpon po regijah. Za
 študenta je tako bolj pomembno, *kakšno* delo opravlja, kot pa *kje* ga opravlja.
 
-![Mediana plače po kategorijah dela](img/q9_kategorije_update.png)
+![Mediana plače po kategorijah dela](img/q9_kategorije.png)
 
 ### 2. Plače gredo skoraj samo navzgor
 
-Od **356 sprememb urne postavke**, ki smo jih zaznali na že objavljenih oglasih, je bilo
-**354 dvigov in le dve znižanji**, torej 99,4 % v eno smer. Tipičen dvig znaša
-**0,82 €/h** (mediana), največji v zbirki **7,09 €/h**. Največ dvigov se nahaja v intervalu
+Od **405 sprememb urne postavke**, ki smo jih zaznali na že objavljenih oglasih, je bilo
+**403 dvigov in le dve znižanji**, torej 99,5 % v eno smer. Tipičen dvig znaša
+**0,50 €/h** (mediana), največji v zbirki **7,09 €/h**. Največ dvigov se nahaja v intervalu
 od 0,50 do 1,00 €/h, kar ustreza preskoku za eno do dve interne stopnje postavk.
 
-Dvigi pridejo z opaznim časovnim zamikom. Polovica se jih zgodi v razponu **6 do 39 dni**
-od prve objave, z mediano pri **25 dneh**. Delodajalec postavke ne dvigne ob prvih dneh
+Dvigi pridejo z opaznim časovnim zamikom. Polovica se jih zgodi v razponu **9 do 56 dni**
+od prve objave, z mediano pri **27 dneh**. Delodajalec postavke ne dvigne ob prvih dneh
 slabšega odziva, ampak šele po več tednih. Pri oglasih, ki na portalu ostajajo aktivni več
 tednov, se študentu splača počakati: postavka se pogosto popravi navzgor, skoraj nikoli ne
 nižje.
 
-![Velikost in čas dvigov urne postavke](img/q2_dvigi_update.png)
+![Velikost in čas dvigov urne postavke](img/q2_dvigi.png)
 
 ### 3. Besedilo oglasa napove plačo bolje kot strukturirani atributi
 
 Vprašanje napovedovanja plače smo razdelili v dva koraka. Prvi je razumljiv: preveri 15
 ročno izbranih besednih značk in primerja mediano plače z in brez prisotnosti značke v
 oglasu. Najmočnejši pozitivni signali so **inštrukcije in poučevanje (+4,00 €/h)**, **fitnes
-in vodenje vadb (+3,43)**, **promocije (+1,00)** in **delo z otroki (+1,00)**. Edini izrazito
+in vodenje vadb (+3,40)**, **promocije (+1,00)** in **delo z otroki (+1,00)**. Edini izrazito
 negativen signal je **trgovina, blagajna in polnjenje polic (−0,37 €/h)**. Logistična
 regresija na teh 15 značkah doseže **ROC-AUC 0,69**, kar potrjuje, da signali niso slučajni.
 
-Drugi korak primerja tri klasifikatorje za napoved razreda plače (nizka/srednja/visoka po
+Drugi korak primerja štiri klasifikatorje za napoved razreda plače (nizka/srednja/visoka po
 33./66. percentilu). Modele smo trenirali na 80 % stratificirano vzorčenih oglasov in
 evalvirali na preostalih 20 %; v Koraku 1 smo z 5-kratnim prečnim preverjanjem ocenili
 stabilnost ROC-AUC, v Koraku 2 pa kakovost merili s kontingenčno tabelo in
 `classification_report`-om (precision, recall, F1 po razredu), ne le s skupno točnostjo. Trivialni baseline, ki vedno
 napove najpogostejši razred, doseže
-**37,0 %**. Model na strukturiranih atributih (vrsta dela, regija, urnik, trajanje, dolžina
-opisa) ga prekaša s **46,5 %**. Model na celotnem besedilu (TF-IDF + logistična regresija)
-pa doseže **53,8 %**. Razlika **7,3 odstotne točke** med besedilom in strukturiranimi
-atributi potrjuje hipotezo, da opis nosi specifike (zahtevane veščine, vrsta naloge), ki jih
-kategorialna polja izpustijo. Najmočnejše besede iz modela potrdijo prvi korak: pri visoki
+**36,9 %**. Model na strukturiranih atributih (vrsta dela, regija, urnik, trajanje, dolžina
+opisa) ga prekaša s **49,5 %**. Modela na celotnem besedilu (TF-IDF) dosežeta **51,5 %**
+(logistična regresija) in **53,5 %** (ComplementNB). Razlika **4,0 odstotne točke** med
+najboljšim besedilnim modelom in strukturiranimi atributi potrjuje hipotezo, da opis nosi
+specifike (zahtevane veščine, vrsta naloge), ki jih kategorialna polja izpustijo.
+Najmočnejše besede iz logistične regresije potrdijo prvi korak: pri visoki
 plači dominirajo *poučevanje*, *trženje*, *promocija*, *izobraževanja*; pri nizki *prodaja*,
-*pomoč prodaji*, *dostavo*.
+*poslovalnica*, *dostava*.
 
-![Razlike v mediani plače glede na ključne besede v oglasu](img/q11_znacke_update.png)
+![Razlike v mediani plače glede na ključne besede v oglasu](img/q11_znacke.png)
 
 ### 4. Trg je izrazito fragmentiran
 
-V dveh mesecih in pol je oglase objavljalo **4.040 različnih podjetij**. Pričakovali smo zmerno
-koncentracijo, a podatki kažejo skrajno razdrobljenost: **63,8 % podjetij (2.579) ima v
-zbirki le en oglas**, največje (Mercator z 390 oglasi) zaseda **4,62 %** trga, top 10
-delodajalcev skupaj le **11,36 %**. Klasično Pareto pravilo 80/20 tu odpove: za 80 % oglasov
+V dveh mesecih in pol je oglase objavljalo **4.080 različnih podjetij**. Pričakovali smo zmerno
+koncentracijo, a podatki kažejo skrajno razdrobljenost: **63,7 % podjetij (2.597) ima v
+zbirki le en oglas**, največje (Mercator z 420 oglasi) zaseda **4,90 %** trga, top 10
+delodajalcev skupaj le **11,59 %**. Klasično Pareto pravilo 80/20 tu odpove: za 80 % oglasov
 potrebujemo bistveno več kot 20% podjetij.
 
-Geografska slika je obratna: **44 % vseh oglasov** je v Osrednjeslovenski regiji, sledita
-Gorenjska (11,5 %) in Podravska (10,9 %). Trg je torej geografsko skoncentriran v Ljubljani
+Geografska slika je obratna: **46 % vseh oglasov** je v Osrednjeslovenski regiji, sledita
+Gorenjska (11,9 %) in Podravska (11,2 %). Trg je torej geografsko skoncentriran v Ljubljani
 in okolici, strukturno pa razpršen med veliko manjših delodajalcev, ki študentsko delo
 potrebujejo le občasno.
 
-![Kumulativni delež oglasov po podjetjih](img/q8_pareto_update.png)
+![Kumulativni delež oglasov po podjetjih](img/q8_pareto.png)
 
 ### 5. Vrh novih objav v začetku tedna
 
@@ -146,7 +147,7 @@ jo razbere kot signal. V naslednji iteraciji to omilimo z regex filtrom za samos
 števila pred vektorizacijo.
 
 Scraper teče samodejno na GitHub Actions in ga lahko pustimo aktivnega po zaključku
-predmeta. Pri trenutni hitrosti (~112 novih oglasov dnevno) bi v enem letu nastala zbirka
-**~40.000 unikatnih oglasov**, kar bi naslednji generaciji omogočilo analize, ki jih z
+predmeta. Pri trenutni hitrosti (~113 novih oglasov dnevno) bi v enem letu nastala zbirka
+**~41.000 unikatnih oglasov**, kar bi naslednji generaciji omogočilo analize, ki jih z
 dvomesečnim oknom ne moremo izvesti: sezonska nihanja, dolgoročna gibanja postavk in
 dinamika podjetij.
