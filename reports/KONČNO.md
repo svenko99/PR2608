@@ -44,14 +44,14 @@ ne potrdijo: Osrednjeslovenska je nad mediano le za 2 centa. Razlog je sistemski
 določena minimalna neto postavka (7,73 €/h) je spodnja meja, ki ji večina oglasov v vseh
 regijah sledi, kar zoži prostor za regionalne razlike.
 
-![Mediana neto urne postavke po regijah Slovenije](img/q3_regije_map.png)
+![Mediana neto urne postavke po regijah Slovenije](img/q3_regije_map_update.png)
 
 Pravo razliko prinese vrsta dela. **Poučevanje** ima mediano **12,00 €/h** (50 % nad
 splošno mediano), **gostinstvo 8,17 €**, **prodaja 7,80 €**, **proizvodnja 8,00 €**. Razpon
 med kategorijami presega **4 €/h**, torej več kot **šestkrat več** kot razpon po regijah. Za
 študenta je tako bolj pomembno, *kakšno* delo opravlja, kot pa *kje* ga opravlja.
 
-![Mediana plače po kategorijah dela](img/q9_kategorije.png)
+![Mediana plače po kategorijah dela](img/q9_kategorije_update.png)
 
 ### 2. Plače gredo skoraj samo navzgor
 
@@ -66,7 +66,7 @@ slabšega odziva, ampak šele po več tednih. Pri oglasih, ki na portalu ostajaj
 tednov, se študentu splača počakati: postavka se pogosto popravi navzgor, skoraj nikoli ne
 nižje.
 
-![Velikost in čas dvigov urne postavke](img/q2_dvigi.png)
+![Velikost in čas dvigov urne postavke](img/q2_dvigi_update.png)
 
 ### 3. Besedilo oglasa napove plačo bolje kot strukturirani atributi
 
@@ -91,7 +91,7 @@ kategorialna polja izpustijo. Najmočnejše besede iz modela potrdijo prvi korak
 plači dominirajo *poučevanje*, *trženje*, *promocija*, *izobraževanja*; pri nizki *prodaja*,
 *pomoč prodaji*, *dostavo*.
 
-![Razlike v mediani plače glede na ključne besede v oglasu](img/q11_znacke.png)
+![Razlike v mediani plače glede na ključne besede v oglasu](img/q11_znacke_update.png)
 
 ### 4. Trg je izrazito fragmentiran
 
@@ -106,7 +106,7 @@ Gorenjska (11,5 %) in Podravska (10,9 %). Trg je torej geografsko skoncentriran 
 in okolici, strukturno pa razpršen med veliko manjših delodajalcev, ki študentsko delo
 potrebujejo le občasno.
 
-![Kumulativni delež oglasov po podjetjih](img/q8_pareto.png)
+![Kumulativni delež oglasov po podjetjih](img/q8_pareto_update.png)
 
 ### 5. Vrh novih objav v začetku tedna
 
