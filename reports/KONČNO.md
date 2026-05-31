@@ -11,7 +11,7 @@ očistimo in iz njih izluščimo razlike in trende, ki jih portal sam ne pokaže
 predstavimo glavni prispevek projekta, lastno podatkovno zbirko, in pet ugotovitev, ki
 najbolj koristijo iskalcem in ponudnikom študentskega dela.
 
-## Podatki: lastna zbirka 8574 oglasov
+## Podatki: lastna zbirka 7045 oglasov
 
 Glavni prispevek projekta je sama podatkovna zbirka. E-Študentski servis ne ponuja API-ja
 in prikazuje le trenutno aktivne oglase, zato je sistematično spremljanje trga možno samo
