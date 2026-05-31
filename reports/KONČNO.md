@@ -16,7 +16,7 @@ najbolj koristijo iskalcem in ponudnikom študentskega dela.
 Glavni prispevek projekta je sama podatkovna zbirka. E-Študentski servis ne ponuja API-ja
 in prikazuje le trenutno aktivne oglase, zato je sistematično spremljanje trga možno samo
 z lastnim scrape-anjem. Scraper teče na GitHub Actions vsak dan ob 20:00 in je v obdobju
-od **12. marca do 29. maja 2026** zbral **8.574 unikatnih oglasov** od **4.080 različnih
+od **12. marca do 15. maja 2026** zbral **7.045 unikatnih oglasov** od **3.598 različnih
 delodajalcev**. Polje neto urne postavke je izpolnjeno pri **94 %** oglasov, ostali navajajo
 drug tip plačila.
 
