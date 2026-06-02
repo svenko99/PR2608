@@ -26,7 +26,7 @@ ključnih besedah v naslovu, ki oglase razvrsti v 17 kategorij.
 
 Prva in morda najbolj presenetljiva ugotovitev: **kje** delaš, skoraj nič ne vpliva na plačo. Mediana neto postavke se
 po vseh dvanajstih regijah giblje le med **8,00 € v večini regij** in **8,50 € v Gorenjski** — cel razpon torej komaj 50
-centov. Tudi Ljubljana ni izjema. 
+centov.
 
 Pravo razliko prinese **vrsta dela**. Poučevanje in inštrukcije imajo mediano **12 € na uro**, promocije skoraj 10,
 gostinstvo dobrih 8, na dnu pa je trgovina in prodaja s **7,80 €**. Razpon med vrsto dela je več kot **4 €** — torej
