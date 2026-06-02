@@ -1,16 +1,22 @@
 ## Del 1 — Problem in podatkovna zbirka *(član 1)*
 
-Pozdravljeni. V okviru našega projekta smo analizirali trg študentskega dela v Sloveniji z analizo oglasov na e-Študentskem servisu.
+Pozdravljeni. V okviru našega projekta smo analizirali trg študentskega dela v Sloveniji z analizo oglasov na
+e-Študentskem servisu.
 
-E-Študentski servis je največji portal za študentsko delo pri nas, ki pa ima eno precej veliko omejitev: prikazuje samo trenutno aktivne
-oglase. Ko oglas izgine, izginejo z njim tudi vsi njegovi podatki — API-ja pa portal nima. Iz takega pogleda tako nimamo pregleda nad analizo ponudbe (npr. kje so postavke najvišje) 
+E-Študentski servis je največji portal za študentsko delo pri nas, ki pa ima eno precej veliko omejitev: prikazuje samo
+trenutno aktivne
+oglase. Ko oglas izgine, izginejo z njim tudi vsi njegovi podatki — API-ja pa portal nima. Iz takega pogleda tako nimamo
+pregleda nad analizo ponudbe (npr. kje so postavke najvišje)
 ali nad tem kako se ponudba spreminja skozi čas.
 
 Zato smo to zgodovino zgradili sami, in to je naš glavni prispevek: lastna podatkovna zbirka. Od 12. marca scraper vsak
-večer samodejno teče preko GitHub Actions in pobere oglase iz portala. Do 30. maja smo  zbrali **8.574 unikatnih oglasov** od
-**4.080 različnih delodajalcev**, ključne ugotovitve iz teh podatkov bomo predstavili v nadaljevanju; na aplikaciji pa imamo najnovejše podatke.
+večer samodejno teče preko GitHub Actions in pobere oglase iz portala. Do 30. maja smo zbrali **8.574 unikatnih oglasov
+** od
+**4.080 različnih delodajalcev**, ključne ugotovitve iz teh podatkov bomo predstavili v nadaljevanju; na aplikaciji pa
+imamo najnovejše podatke.
 
-Podatke hranimo v dveh datotekah — prva beleži vse navedene podatke o posameznem oglasu, druga pa beleži vsako spremembo na obstoječem oglasu, na
+Podatke hranimo v dveh datotekah — prva beleži vse navedene podatke o posameznem oglasu, druga pa beleži vsako spremembo
+na obstoječem oglasu, na
 primer če delodajalec dvigne postavko. Lokacije smo normalizirali v regije, vrsto dela pa določili s klasifikatorjem na
 ključnih besedah v naslovu, ki oglase razvrsti v 17 kategorij.
 
@@ -41,7 +47,8 @@ polovica se jih zgodi šele med 9. in 56. dnevom po objavi, mediana je pri **27 
 tednov slabega odziva in šele nato zviša ponudbo — pri oglasu, ki dolgo visi, se včasih splača počakati.
 
 Pogledali smo tudi, kdo sploh objavlja. Trg je izjemno **razdrobljen**: med 4.080 delodajalci jih ima skoraj **64 % le
-en sam oglas**. Največji, Mercator z 420 oglasi, pokriva komaj **4,9 %** trga, deset največjih skupaj pa **dobrih 11 %**.
+en sam oglas**. Največji, Mercator z 420 oglasi, pokriva komaj **4,9 %** trga, deset največjih skupaj pa **dobrih 11 %
+**.
 Geografsko je slika ravno obratna — skoraj **polovica vseh oglasov** je v osrednjeslovenski regiji.
 
 ---
@@ -52,11 +59,15 @@ Najbolj nas je zanimalo, ali lahko plačo napovemo vnaprej. Plače smo razvrstil
 ** — in zgradili tri modele.
 
 Osnovni "baseline", ki vedno ugiba najpogostejši razred, zadene **37 %**. Model na strukturiranih atributih — vrsta
-dela, regija, urnik, trajanje — to dvigne na **skoraj 50 %**. Najbolje pa se odreže model, ki bere kar **celoten opis** oglasa:
-doseže **dobrih 53 %**. Z drugimi besedami, prosto besedilo opisa nosi informacijo o plači, ki je suhi atributi ne ujamejo.
+dela, regija, urnik, trajanje — to dvigne na **skoraj 50 %**. Najbolje pa se odreže model, ki bere kar **celoten opis**
+oglasa:
+doseže **dobrih 53 %**. Z drugimi besedami, prosto besedilo opisa nosi informacijo o plači, ki je suhi atributi ne
+ujamejo.
 
-Glede metode, da boste vedeli, kaj smo uporabili: za napoved smo primerjali **logistično regresijo** in **naivni Bayes**,
-besedilo pa predstavili z vektorizacijo **TF-IDF**. Modele smo trenirali na 80 % podatkov in jih preverili na preostalih 20 %,
+Glede metode, da boste vedeli, kaj smo uporabili: za napoved smo primerjali **logistično regresijo** in **naivni Bayes
+**,
+besedilo pa predstavili z vektorizacijo **TF-IDF**. Modele smo trenirali na 80 % podatkov in jih preverili na preostalih
+20 %,
 kakovost pa merili po posameznih razredih, ne le s skupno točnostjo. Najmočnejše besede potrdijo intuicijo: pri visoki
 plači izstopajo *poučevanje*, *trženje*, *promocija*, pri nizki pa *prodaja* in *dostava*.
 
@@ -64,16 +75,15 @@ plači izstopajo *poučevanje*, *trženje*, *promocija*, pri nizki pa *prodaja* 
 
 ## Del 5 — Aplikacija, omejitve in nadaljnje delo *(član 5)*
 
-Vse skupaj smo zapakirali v interaktivno **Streamlit aplikacijo** s petimi stranmi: pregled zbirke na zemljevidu,
-primerjava plač po atributih in besednih značkah, dinamika trga in napovedovalec plače, kjer vpišeš svoj opis dela in
-dobiš napovedan razred postavke ter podobne oglase. Dostopna je na **pr2608.streamlit.app**.
+Vse skupaj smo zapakirali v interaktivno **Streamlit aplikacijo** s petimi stranmi, ki smo vam jo kazali tekom
+predstavitve.
 
-Seveda imamo omejitve. Dva meseca in pol je za nekatere časovne hipoteze prekratko — recimo, ali se bolje plačani oglasi
-hitreje zapolnijo, ne moremo zanesljivo odgovoriti, ker je ob koncu zbiranja še **43 % oglasov aktivnih**. Pri
-napovednem modelu tudi sami priznamo blago obliko "label leakage", ki ga bomo v naslednji iteraciji odpravili.
+Seveda imama naša seminarska naloga par omejitev. Dva meseca in pol je za nekatere časovne hipoteze prekratko — recimo,
+ali se bolje plačani oglasi hitreje zapolnijo, ne moremo zanesljivo odgovoriti, ker je ob koncu zbiranja še **43 %
+oglasov aktivnih**.
 
 In morda najpomembnejše: **scraper pustimo teči naprej**. Pri približno 113 novih oglasih na dan bi v enem letu nastala
 zbirka okoli **41.000 oglasov**. To zbirko nameravamo **predati naslednji generaciji** študentov, da bodo lahko delali
-analize, ki jih mi v dveh mesecih še ne moremo — sezonska nihanja, dolgoročne trende plač in dinamiko podjetij.
+analize, ki jih mi v dveh mesecih še ne moremo — sezonska nihanja in dolgoročne trende plač.
 
 Hvala za pozornost.
