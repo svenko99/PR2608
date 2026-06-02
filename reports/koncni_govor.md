@@ -1,16 +1,16 @@
 ## Del 1 — Problem in podatkovna zbirka *(član 1)*
 
-Pozdravljeni. Analizirali smo trg študentskega dela v Sloveniji.
+Pozdravljeni. V okviru našega projekta smo analizirali trg študentskega dela v Sloveniji z analizo oglasov na e-Študentskem servisu.
 
-E-Študentski servis je največji portal za študentsko delo pri nas, ima pa veliko omejitev: pokaže samo trenutno aktivne
-oglase. Ko oglas izgine, izgine z njim tudi podatek — API-ja pa portal nima. Iz takega pogleda ne moreš videti, kje so
-plače najboljše ali kako se ponudba spreminja skozi čas.
+E-Študentski servis je največji portal za študentsko delo pri nas, ki pa ima eno precej veliko omejitev: prikazuje samo trenutno aktivne
+oglase. Ko oglas izgine, izginejo z njim tudi vsi njegovi podatki — API-ja pa portal nima. Iz takega pogleda tako nimamo pregleda nad analizo ponudbe (npr. kje so postavke najvišje) 
+ali nad tem kako se ponudba spreminja skozi čas.
 
 Zato smo to zgodovino zgradili sami, in to je naš glavni prispevek: lastna podatkovna zbirka. Od 12. marca scraper vsak
-večer samodejno teče na GitHub Actions in pobere cel portal. Do 30. maja smo tako zbrali **8.574 unikatnih oglasov** od
-**4.080 različnih delodajalcev**; pri **94 %** je navedena neto urna postavka.
+večer samodejno teče preko GitHub Actions in pobere oglase iz portala. Do 30. maja smo  zbrali **8.574 unikatnih oglasov** od
+**4.080 različnih delodajalcev**, ključne ugotovitve iz teh podatkov bomo predstavili v nadaljevanju; na aplikaciji pa imamo najnovejše podatke.
 
-Podatke hranimo v dveh datotekah — prva ima vrstico na oglas, druga pa beleži vsako spremembo na obstoječem oglasu, na
+Podatke hranimo v dveh datotekah — prva beleži vse navedene podatke o posameznem oglasu, druga pa beleži vsako spremembo na obstoječem oglasu, na
 primer če delodajalec dvigne postavko. Lokacije smo normalizirali v regije, vrsto dela pa določili s klasifikatorjem na
 ključnih besedah v naslovu, ki oglase razvrsti v 17 kategorij.
 
