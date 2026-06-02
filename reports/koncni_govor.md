@@ -55,21 +55,12 @@ Geografsko je slika ravno obratna — skoraj **polovica vseh oglasov** je v osre
 
 ## Del 4 — Napovedovanje plače in metoda *(član 4)*
 
-Najbolj nas je zanimalo, ali lahko plačo napovemo vnaprej. Plače smo razvrstili v tri razrede — **nizka, srednja, visoka
-** — in zgradili tri modele.
+Najbolj nas je zanimalo ali lahko plačo napovemo vnaprej, zato smo plače smo razdelili v tri razrede — nizka, srednja, visoka — in primerjali tri modele.
+Nizka plača je do 8,00 €/h, srednja od 8,00 do 8,61 €/h, visoka pa nad 8,61 €/h.
 
-Osnovni "baseline", ki vedno ugiba najpogostejši razred, zadene **37 %**. Model na strukturiranih atributih — vrsta
-dela, regija, urnik, trajanje — to dvigne na **skoraj 50 %**. Najbolje pa se odreže model, ki bere kar **celoten opis**
-oglasa:
-doseže **dobrih 53 %**. Z drugimi besedami, prosto besedilo opisa nosi informacijo o plači, ki je suhi atributi ne
-ujamejo.
+Začeli smo s baseline modelom, ki vedno ugiba najpogostejši razred. Ta zadane v 37% primerov, kar smo vzeli za izhodišče. Model na strukturiranih atributih (torej vrsta dela, regija, urnika in trajanje), zadane v skoraj 50 %, najboljši pa je model, ki prebere kar celoten opis oglasa in doseže dobrih 53 %. To nam pove, da prosto besedilo opisa nosi najvec informacij o plači samega dela.
 
-Glede metode, da boste vedeli, kaj smo uporabili: za napoved smo primerjali **logistično regresijo** in **naivni Bayes
-**,
-besedilo pa predstavili z vektorizacijo **TF-IDF**. Modele smo trenirali na 80 % podatkov in jih preverili na preostalih
-20 %,
-kakovost pa merili po posameznih razredih, ne le s skupno točnostjo. Najmočnejše besede potrdijo intuicijo: pri visoki
-plači izstopajo *poučevanje*, *trženje*, *promocija*, pri nizki pa *prodaja* in *dostava*.
+Za napoved smo primerjali logistično regresijo in naivni Bayes, besedilo pa vektorizirali s TF-IDF. Trenirali smo na 80 % podatkov, testirali na 20 %, evalvirali pa po posameznih razredih — ne le s skupno točnostjo. Rezultati potrdijo, da pri visoki plači izstopajo besede *poučevanje*, *trženje*, *promocija*, pri nizki pa *prodaja* in *dostava*.
 
 ---
 
