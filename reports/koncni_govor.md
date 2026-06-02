@@ -33,7 +33,7 @@ gostinstvo dobrih 8, na dnu pa je trgovina in prodaja s **7,80 €**. Razpon med
 osemkrat večji kot med regijami. Iz tega lahko pridemo do ugotovitve, da je bolj važno VRSTA dela, koker KRAJ dela.
 
 In še en praktičen nasvet, kdaj sploh gledati portal: daleč največ novih oglasov pride v **ponedeljek**, okoli 120 na
-dan, čez teden pade na sto, ob **nedeljah** pa nove ponudbe praktično ni. Splača se torej preveriti v ponedeljek.
+dan, čez teden pade na 100, ob **nedeljah** pa nove ponudbe praktično ni. Splača se torej preveriti v ponedeljek.
 
 ---
 
