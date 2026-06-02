@@ -29,7 +29,7 @@ po vseh dvanajstih regijah giblje le med **8,00 € v večini regij** in **8,50 
 centov.
 
 Pravo razliko prinese **vrsta dela**. Poučevanje in inštrukcije imajo mediano **12 € na uro**, promocije skoraj 10,
-gostinstvo dobrih 8, na dnu pa je trgovina in prodaja s **7,80 €**. To je za pričakovati, saj so tehnična/intelektualna dela bolje plačana koker fizična dela. Razpon med vrsto dela je več kot **4 €** — torej
+gostinstvo dobrih 8, na dnu pa je trgovina in prodaja s **7,80 €**. Razpon med vrsto dela je več kot **4 €** — torej
 osemkrat večji kot med regijami. Iz tega lahko pridemo do ugotovitve, da je bolj važno VRSTA dela, koker KRAJ dela.
 
 In še en praktičen nasvet, kdaj sploh gledati portal: daleč največ novih oglasov pride v **ponedeljek**, okoli 120 na
