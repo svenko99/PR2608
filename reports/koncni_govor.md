@@ -10,8 +10,7 @@ pregleda nad analizo ponudbe (npr. kje so postavke najvišje)
 ali nad tem kako se ponudba spreminja skozi čas.
 
 Zato smo to zgodovino zgradili sami, in to je naš glavni prispevek: lastna podatkovna zbirka. Od 12. marca scraper vsak
-večer samodejno teče preko GitHub Actions in pobere oglase iz portala. Do 30. maja smo zbrali **8.574 unikatnih oglasov
-** od
+večer samodejno teče preko GitHub Actions in pobere oglase iz portala. Do 30. maja smo zbrali **8.574 unikatnih oglasov** od
 **4.080 različnih delodajalcev**, ključne ugotovitve iz teh podatkov bomo predstavili v nadaljevanju; na aplikaciji pa
 imamo najnovejše podatke.
 
