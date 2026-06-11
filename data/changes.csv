@@ -7910,3 +7910,55 @@ listing_id,changed_at,field,old_value,new_value
 472689,2026-06-10T21:10:53.929487+00:00,payment_type,10.33 €/h neto (12.00 €/h bruto),12.05 €/h neto (14.00 €/h bruto)
 472689,2026-06-10T21:10:53.929487+00:00,start_date,,2026-06-11
 471355,2026-06-10T21:10:53.929487+00:00,duration,PO DOGOVORU,POČITNIŠKO DELO
+483572,2026-06-11T21:04:39.800271+00:00,duration,PO DOGOVORU,POČITNIŠKO DELO
+483572,2026-06-11T21:04:39.800271+00:00,start_date,2026-06-11,
+483560,2026-06-11T21:04:39.800271+00:00,hourly_rate_neto,9.0,9.5
+483560,2026-06-11T21:04:39.800271+00:00,hourly_rate_bruto,10.46,11.04
+483560,2026-06-11T21:04:39.800271+00:00,payment_type,9.00 €/h neto (10.46 €/h bruto),9.50 €/h neto (11.04 €/h bruto)
+483560,2026-06-11T21:04:39.800271+00:00,description,"Te zanima prodaja in uživaš v komunikaciji z ljudmi? Pridruži se njihovi ekipi. Kot študentski sodelavec/-ka za telemarketing boš odgovoren za potencialne stranke, ki so že pokazale zanimanje za njihove programe. Iščejo samozavestno, komunikativno in vztrajno osebo z obveznimi izkušnjami v prodaji, telemarketingu ali primerljivem delu s strankami.","Te zanima prodaja in uživaš v komunikaciji z ljudmi? Pridruži se njihovi ekipi. Kot študentski/a sodelavec/ka za telemarketing boš odgovoren/a za potencialne stranke, ki so že pokazale interes za njihove programe. Iščejo komunikativno in samozavestno osebo z obveznimi izkušnjami v prodaji, telemarketingu ali primerljivem delu s strankami. Obvezno odlično znanje slovenskega jezika. Prijavi priložite tudi CV oziroma opis delovnih izkušenj."
+483555,2026-06-11T21:04:39.800271+00:00,start_date,2026-06-11,
+483551,2026-06-11T21:04:39.800271+00:00,start_date,2026-06-11,
+483537,2026-06-11T21:04:39.800271+00:00,start_date,2026-06-11,
+483522,2026-06-11T21:04:39.800271+00:00,sublocation,BENCINSKI SERVIS TEPANJE 1,TEPANJE 1
+483506,2026-06-11T21:04:39.800271+00:00,start_date,2026-06-11,
+483505,2026-06-11T21:04:39.800271+00:00,start_date,2026-06-11,
+483504,2026-06-11T21:04:39.800271+00:00,start_date,2026-06-11,
+483500,2026-06-11T21:04:39.800271+00:00,description,"Iščeš priložnostno študentsko delo? Iščejo odgovorne in polnoletne študente/ke za etiketiranje. Če se ti sliši zanimivo, jim pošlji tvoje ime in priimek, telefonsko številko in lokacijo ter naziv trgovine na e-mail.","Iščeš priložnostno študentsko delo? Iščejo odgovorne in polnoletne študente/ke za etiketiranje, ki bo potekalo 26. 6. 2026. Če se ti sliši zanimivo, jim pošlji tvoje ime in priimek, telefonsko številko in lokacijo ter naziv trgovine na njihov e-mail!"
+483493,2026-06-11T21:04:39.800271+00:00,start_date,2026-06-11,
+483464,2026-06-11T21:04:39.800271+00:00,start_date,2026-06-11,
+483332,2026-06-11T21:04:39.800271+00:00,start_date,2026-06-11,
+483316,2026-06-11T21:04:39.800271+00:00,start_date,2026-06-11,
+483315,2026-06-11T21:04:39.800271+00:00,start_date,2026-06-11,
+483314,2026-06-11T21:04:39.800271+00:00,start_date,2026-06-11,
+483283,2026-06-11T21:04:39.800271+00:00,description,"Podjetje potrebuje osebo za delo operaterja/ke v klicnem centru. Iščejo komunikativno, zanesljivo in motivirano osebo za delo na področju razpisov, subvencij in bančnega posredovanja. Opis dela: telefonsko kontaktiranje podjetij in potencialnih strank, dogovarjanje za sestanke za svetovalce, predstavitev storitev podjetja, pomoč prodajni ekipi. Pogoji: dobre komunikacijske sposobnosti, samozavesten nastop po telefonu, pozitiven odnos do dela z ljudmi, želja po doseganju rezultatov.","Podjetje potrebuje osebo za delo operaterja/ke v klicnem centru. Iščejo komunikativno, zanesljivo in motivirano osebo za delo na področju razpisov, subvencij in bančnega posredovanja. Opis dela: telefonsko kontaktiranje podjetij in potencialnih strank, dogovarjanje za sestanke za svetovalce, predstavitev storitev podjetja, pomoč prodajni ekipi. Pogoj za delo je tudi nujno bančno in ekonomsko znanje oz.vsaj podlaga."
+483283,2026-06-11T21:04:39.800271+00:00,start_date,2026-06-17,2026-06-22
+483242,2026-06-11T21:04:39.800271+00:00,title,ČIŠČENJE,POMOČ V KUHINJI
+483242,2026-06-11T21:04:39.800271+00:00,description,"Iščejo polnoletni osebi za pomoč pri pomivanju posode in čiščenju. Delo poteka med ponedeljkom in petkom, med 7. in 16. uro, po potrebi in dogovoru.","Iščejo polnoletni osebi za pomoč pri osnovnih opravilih v kuhinji - pripravi solat, rezanju zelenjave, paniranju, pomivanju posode in čiščenju delovnih površin (pultov, kotlov,..). Delo poteka med ponedeljkom in petkom, med 7. in 16. uro, po potrebi in dogovoru."
+483189,2026-06-11T21:04:39.800271+00:00,start_date,2026-06-11,
+483060,2026-06-11T21:04:39.800271+00:00,start_date,2026-06-11,
+483013,2026-06-11T21:04:39.800271+00:00,start_date,2026-06-11,
+482824,2026-06-11T21:04:39.800271+00:00,start_date,2026-06-11,
+482817,2026-06-11T21:04:39.800271+00:00,duration,DLJE ČASA (ZAČ. IN OBČ. DELO),PO DOGOVORU
+482584,2026-06-11T21:04:39.800271+00:00,start_date,2026-06-11,
+482094,2026-06-11T21:04:39.800271+00:00,start_date,,2026-06-22
+481453,2026-06-11T21:04:39.800271+00:00,title,STREŽBA HRANE IN PIJAČE,STREŽBA
+481453,2026-06-11T21:04:39.800271+00:00,description,Azijska restavracija išče osebi za strežbo hrane in pijače. Delo obsega tudi delo na blagajni in izdajo računov ter pripravo naročil za dostavo. Zaželene so izkušnje z delom na blagajni ali v gostinstvu (niso pa pogoj) ter komunikativnost in prijaznost do strank.,Azijska restavracija išče osebi za strežbo hrane in pijače. Delo obsega tudi delo na blagajni in izdajo računov ter pripravo naročil za dostavo. Zaželene so izkušnje z delom na blagajni ali v gostinstvu (niso pa pogoj) ter komunikativnost in prijaznost do strank. Urnik je prilagodljiv.
+481453,2026-06-11T21:04:39.800271+00:00,start_date,,2026-06-22
+481444,2026-06-11T21:04:39.800271+00:00,description,Nudijo delo učitelji/ice plavanja - vodenje plavalne skupine ali pomočnikov/c učitelja plavanja na plavalnih tečajih za otroke. Delo poteka v času med 8. in 12. 6. v terminu med 11.30 in 13.30 (izvedba plavalnega tečaja za OŠ). V skupini je max 3-5 otrok/vaditelja. Pogoj je licenca za vaditelja plavanja.,Nudijo delo učitelji/ice plavanja - vodenje plavalne skupine ali pomočnikov/c učitelja plavanja na plavalnih tečajih za otroke. Delo poteka v času do 12. 6. v terminu med 11.30 in 13.30 (izvedba plavalnega tečaja za OŠ). V skupini je max 3-5 otrok/vaditelja. Pogoj je licenca za vaditelja plavanja.
+481184,2026-06-11T21:04:39.800271+00:00,start_date,2026-06-11,
+480955,2026-06-11T21:04:39.800271+00:00,duration,DLJE ČASA (ZAČ. IN OBČ. DELO),POČITNIŠKO DELO
+480381,2026-06-11T21:04:39.800271+00:00,location,"LJUBLJANA, MASERA SPASICEVA 8","LJUBLJANA, MAŠERA SPASIĆEVA 8"
+479076,2026-06-11T21:04:39.800271+00:00,company,"MGF, ZASTOPSTVO IN SVETOVANJE, D.O.O.",STORKS D.O.O.
+478807,2026-06-11T21:04:39.800271+00:00,title,PRODAJA,KOMERCIALNA DELA
+478807,2026-06-11T21:04:39.800271+00:00,subtitle,KOMERCIALNA DELA,DELO V KOMERCIALI
+478718,2026-06-11T21:04:39.800271+00:00,open_positions,4,2
+478718,2026-06-11T21:04:39.800271+00:00,start_date,,2026-06-20
+477499,2026-06-11T21:04:39.800271+00:00,duration,DLJE ČASA (ZAČ. IN OBČ. DELO),POČITNIŠKO DELO
+474179,2026-06-11T21:04:39.800271+00:00,hourly_rate_neto,7.77,8.0
+474179,2026-06-11T21:04:39.800271+00:00,hourly_rate_bruto,9.03,9.3
+474179,2026-06-11T21:04:39.800271+00:00,payment_type,7.77 €/h neto (9.03 €/h bruto),8.00 €/h neto (9.30 €/h bruto)
+472689,2026-06-11T21:04:39.800271+00:00,start_date,2026-06-11,
+468930,2026-06-11T21:04:39.800271+00:00,duration,PO DOGOVORU,POČITNIŠKO DELO
+468891,2026-06-11T21:04:39.800271+00:00,description,"Si komunikativen/a, družaben/na in rad/a delaš z ljudmi? Pridruži se njihovi ekipi. Delo zajema postrežbo, pomoč za šankom in skrb za urejen lokal. Izkušnje super, niso pa pogoj. Ponujajo fajn ekipo, fleksibilen urnik in dobro plačilo.","Si komunikativen/a, družaben/na in rad/a delaš z ljudmi? Pridruži se njihovi ekipi. Delo zajema postrežbo, pomoč za šankom in skrb za urejen lokal. Izkušnje super, niso pa pogoj. Ponujajo fajn ekipo, fleksibilen urnik in dobro plačilo. Pogoj je polnoletnost."
+451451,2026-06-11T21:04:39.800271+00:00,description,"Za daljšo občasno pomoč ali sezonsko pomoč iščejo 2 osebi za strežbo, z izkušnjami ali brez, tudi take, ki bi se radi dela v strežbi priučili. Iščejo osebe, ki imajo veselje do dela z ljudmi, so odgovorni pri delu, so motivirani in so se pripravljeni učiti. Pokličite za razgovor.","Za daljšo občasno pomoč ali sezonsko pomoč iščejo 2 osebi za strežbo, z izkušnjami ali brez, tudi take, ki bi se radi dela v strežbi priučili. Iščejo osebi, ki imata veselje do dela z ljudmi, so odgovorni pri delu, motivirani in so se pripravljeni učiti. Pokličite za razgovor."
+451451,2026-06-11T21:04:39.800271+00:00,duration,PO DOGOVORU,POČITNIŠKO DELO
