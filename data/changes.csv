@@ -8908,3 +8908,69 @@ listing_id,changed_at,field,old_value,new_value
 468569,2026-06-22T21:21:34.141381+00:00,hourly_rate_bruto,9.88,11.62
 468569,2026-06-22T21:21:34.141381+00:00,payment_type,8.50 €/h neto (9.88 €/h bruto),10.00 €/h neto (11.62 €/h bruto)
 468569,2026-06-22T21:21:34.141381+00:00,description,Iščejo osebo za pomoč pri izdelavi slaščic - monoporcijskih tortic. Izkušnje pri izdelavi slaščic so obvezne. Delovni čas po dogovoru oz dopoldan.,"Iščejo osebo za pomoč pri izdelavi sladoleda. Izkušnje so zaželene. Delo na območju LPP, ostalo po dogovoru. Delovni čas po dogovoru oz dopoldan. Pri prijavi navedite izdelava sladoleda."
+484595,2026-06-23T20:36:42.407673+00:00,description,Potrebujejo osebo za ročna dela v proizvodnji. Polizdelek se sestavi v izdelek. Dela se od 14. do 22. ure.,Potrebujejo osebo za ročna dela v proizvodnji. Polizdelek se sestavi v izdelek. Dela se med 14. in 22. uro.
+484595,2026-06-23T20:36:42.407673+00:00,duration,DO 26. 6. 2026,DO 24. 7. 2026
+484595,2026-06-23T20:36:42.407673+00:00,start_date,2026-06-23,
+484583,2026-06-23T20:36:42.407673+00:00,description,V trgovini s športno opremo in oblačili potrebujejo osebo za pomoč pri prodaji.,V trgovini s športno opremo in oblačili potrebujejo polnoletno osebo za pomoč pri prodaji.
+484579,2026-06-23T20:36:42.407673+00:00,description,"Podjetje išče polnoletno osebo za pomoč v skladišču (skeniranje in prepakiranje paketov). Dela se med 8.00 in 16.00, med tednom, po dogovoru. Zaželene izkušnje z tovrstnim delom. Pošlji e-prijavo. . .","Podjetje išče polnoletni osebi za pomoč v skladišču (skeniranje in prepakiranje paketov). Dela se med 8.00 in 16.00, med tednom, po potrebi in dogovoru. Pošlji e-prijavo ali pokliči. ."
+484579,2026-06-23T20:36:42.407673+00:00,open_positions,,2
+484537,2026-06-23T20:36:42.407673+00:00,start_date,2026-06-23,
+484533,2026-06-23T20:36:42.407673+00:00,start_date,2026-06-23,
+484510,2026-06-23T20:36:42.407673+00:00,start_date,2026-06-23,
+484505,2026-06-23T20:36:42.407673+00:00,start_date,2026-06-23,
+484501,2026-06-23T20:36:42.407673+00:00,start_date,2026-06-23,
+484492,2026-06-23T20:36:42.407673+00:00,start_date,2026-06-23,
+484478,2026-06-23T20:36:42.407673+00:00,start_date,2026-06-23,
+484455,2026-06-23T20:36:42.407673+00:00,start_date,2026-06-23,
+484333,2026-06-23T20:36:42.407673+00:00,start_date,2026-06-23,
+484294,2026-06-23T20:36:42.407673+00:00,title,TRŽENJE,DIGITALNI MARKETING
+484294,2026-06-23T20:36:42.407673+00:00,subtitle,,COPYWRITER
+484294,2026-06-23T20:36:42.407673+00:00,hourly_rate_neto,,9.0
+484294,2026-06-23T20:36:42.407673+00:00,hourly_rate_bruto,,10.46
+484294,2026-06-23T20:36:42.407673+00:00,payment_type,PO DOGOVORU,9.00 €/h neto (10.46 €/h bruto)
+483824,2026-06-23T20:36:42.407673+00:00,description,"V baru potrebujejo študenta/ko za delo med poletnimi počitnicami. Pogoji so izkušnje v gostinstvu, resnost, fleksibilnost, komunikativnost ter urejenost. Lokal je odprt od ponedeljka do sobote, od 6. do 22. ure ter ob nedeljah in praznikih, od 7. do 21. ure. Za prijavo jih pokličite.","V baru potrebujejo študenta/ko za strežbo. Pogoji so izkušnje v gostinstvu, resnost, fleksibilnost, komunikativnost ter urejenost. Lokal je odprt od ponedeljka do sobote, od 6. do 22. ure ter ob nedeljah in praznikih, od 7. do 21. ure. Za prijavo jih pokličite."
+483824,2026-06-23T20:36:42.407673+00:00,duration,POČITNIŠKO DELO,DLJE ČASA (ZAČ. IN OBČ. DELO)
+483639,2026-06-23T20:36:42.407673+00:00,open_positions,2,4
+483639,2026-06-23T20:36:42.407673+00:00,duration,2 DNI,26. IN 27. 6 . 2026
+483628,2026-06-23T20:36:42.407673+00:00,hourly_rate_neto,8.5,9.0
+483628,2026-06-23T20:36:42.407673+00:00,hourly_rate_bruto,9.88,10.46
+483628,2026-06-23T20:36:42.407673+00:00,payment_type,8.50 €/h neto (9.88 €/h bruto),9.00 €/h neto (10.46 €/h bruto)
+483610,2026-06-23T20:36:42.407673+00:00,title,PROJEKTIRANJE,ELEKTROTEHNIČNA DELA
+483610,2026-06-23T20:36:42.407673+00:00,subtitle,,TEHNIČNO RISANJE
+483610,2026-06-23T20:36:42.407673+00:00,hourly_rate_neto,,9.0
+483610,2026-06-23T20:36:42.407673+00:00,hourly_rate_bruto,,10.46
+483610,2026-06-23T20:36:42.407673+00:00,payment_type,PO DOGOVORU,9.00 €/h neto (10.46 €/h bruto)
+483610,2026-06-23T20:36:42.407673+00:00,duration,PO DOGOVORU,DLJE ČASA (ZAČ. IN OBČ. DELO)
+483610,2026-06-23T20:36:42.407673+00:00,work_schedule,PO DOGOVORU,DOPOLDAN
+483610,2026-06-23T20:36:42.407673+00:00,start_date,,2026-07-01
+483471,2026-06-23T20:36:42.407673+00:00,description,"Nudijo delo polnoletni, urejeni in vestni osebi z izkušnjami v japonski restavraciji.","Nudijo delo polnoletni, urejeni in vestni osebi z izkušnjami za delo v strežbi v japonski restavraciji."
+483321,2026-06-23T20:36:42.407673+00:00,location,KRANJ,"LJUBLJANA, TRNOVSKO PREDMESTJE"
+483321,2026-06-23T20:36:42.407673+00:00,start_date,,2026-07-01
+481962,2026-06-23T20:36:42.407673+00:00,description,"V svojo ekipo vabijo nove sodelavce in sodelavke, ki jih veseli delo v strežbi. Ponujajo fleksibilen urnik in stimulativno plačilo. Prijavi se! Zaželene osnovne izkušnje z delom v strežbi ter s poslovalnjem z blagajno in pos terminalom. Zaželeno znanje tujega jezika (angleščina, italijanščina ...)Tvoje delo bo obsegalo: strežba hrane in pijače, skrb za goste, skrb za urejeno delovno okolje (čiščenje, odnašanje smeti, pospravljanje, skrb za HACCP).","V svojo ekipo vabijo nove sodelavce in sodelavke, ki jih veseli delo v strežbi. Ponujajo fleksibilen urnik in stimulativno plačilo. Prijavi se! Zaželene osnovne izkušnje z delom v strežbi ter s poslovanjem z blagajno in pos terminalom. Zaželeno znanje tujega jezika (angleščina, italijanščina ...)Tvoje delo bo obsegalo: strežba hrane in pijače, skrb za goste, skrb za urejeno delovno okolje (čiščenje, odnašanje smeti, pospravljanje, skrb za HACCP)."
+481962,2026-06-23T20:36:42.407673+00:00,start_date,,2026-07-01
+481961,2026-06-23T20:36:42.407673+00:00,description,"V svojo ekipo vabijo nove sodelavce in sodelavke, ki jih veseli delo v strežbi. Ponujajo fleksibilen urnik in stimulativno plačilo. Prijavi se! Zaželene osnovne izkušnje z delom v strežbi ter s poslovalnjem z blagajno in pos terminalom. Zaželeno znanje tujega jezika (angleščina, italijanščina ...). Tvoje delo bo obsegalo: strežba hrane in pijače, skrb za goste, skrb za urejeno delovno okolje (čiščenje, odnašanje smeti, pospravljanje, skrb za HACCP).","V svojo ekipo vabijo nove sodelavce in sodelavke, ki jih veseli delo v strežbi. Ponujajo fleksibilen urnik in stimulativno plačilo. Prijavi se! Zaželene osnovne izkušnje z delom v strežbi ter s poslovanjem z blagajno in pos terminalom. Zaželeno znanje tujega jezika (angleščina, italijanščina ...). Tvoje delo bo obsegalo: strežba hrane in pijače, skrb za goste, skrb za urejeno delovno okolje (čiščenje, odnašanje smeti, pospravljanje, skrb za HACCP)."
+481961,2026-06-23T20:36:42.407673+00:00,start_date,,2026-07-01
+481009,2026-06-23T20:36:42.407673+00:00,description,"Delovno mesto zajema pranje vozil in pomožna dela v zvezi s popravilom osebnih vozil. Pričetek dela takoj, dela se 1-2 x tedensko, v času poletnih počitnic več. Pogoj je vozniški izpit B kategorije.",Delovno mesto zajema pranje vozil in pomožna dela v zvezi s popravilom osebnih vozil. Pogoj je vozniški izpit B kategorije.
+481009,2026-06-23T20:36:42.407673+00:00,duration,POČITNIŠKO DELO,DO 31. 7. 2026
+481009,2026-06-23T20:36:42.407673+00:00,start_date,,2026-07-01
+480716,2026-06-23T20:36:42.407673+00:00,description,Potrebujejo dve osebi za strežbo. Obratovalni čas bara je med 6. in 14. ter med 14. in 22. uro; ob nedeljah in praznikih pa med 8. in 14. ter 14. in 22. uro. Pokliči za več informacij. Pogoja za delo sta polnoletnost ter izkušnje.,"Potrebujejo dve osebi za strežbo. Obratovalni čas bara je med 6. in 14. ter med 14. in 22. uro, ob nedeljah in praznikih pa med 8. in 14. ter 14. in 22. uro. Pokliči za več informacij. Zaželene izkušnje."
+479969,2026-06-23T20:36:42.407673+00:00,hourly_rate_neto,7.74,8.0
+479969,2026-06-23T20:36:42.407673+00:00,hourly_rate_bruto,9.0,9.3
+479969,2026-06-23T20:36:42.407673+00:00,payment_type,7.74 €/h neto (9.00 €/h bruto),8.00 €/h neto (9.30 €/h bruto)
+479939,2026-06-23T20:36:42.407673+00:00,hourly_rate_neto,9.0,9.2
+479939,2026-06-23T20:36:42.407673+00:00,hourly_rate_bruto,10.46,10.69
+479939,2026-06-23T20:36:42.407673+00:00,payment_type,9.00 €/h neto (10.46 €/h bruto),9.20 €/h neto (10.69 €/h bruto)
+479034,2026-06-23T20:36:42.407673+00:00,hourly_rate_neto,7.75,8.0
+479034,2026-06-23T20:36:42.407673+00:00,hourly_rate_bruto,9.01,9.3
+479034,2026-06-23T20:36:42.407673+00:00,payment_type,7.75 €/h neto (9.01 €/h bruto),8.00 €/h neto (9.30 €/h bruto)
+477629,2026-06-23T20:36:42.407673+00:00,hourly_rate_neto,9.5,12.0
+477629,2026-06-23T20:36:42.407673+00:00,hourly_rate_bruto,11.04,13.95
+477629,2026-06-23T20:36:42.407673+00:00,payment_type,9.50 €/h neto (11.04 €/h bruto),12.00 €/h neto (13.95 €/h bruto)
+474877,2026-06-23T20:36:42.407673+00:00,hourly_rate_neto,8.0,9.0
+474877,2026-06-23T20:36:42.407673+00:00,hourly_rate_bruto,9.3,10.46
+474877,2026-06-23T20:36:42.407673+00:00,payment_type,8.00 €/h neto (9.30 €/h bruto),9.00 €/h neto (10.46 €/h bruto)
+474877,2026-06-23T20:36:42.407673+00:00,description,"V prijetnem lokalu iščejo prijetno osebo za delo v strežbi. Izkušnje so zaželene, niso pa pogoj. Pomoč rabijo predvsem med vikendi, občasno pa tudi med tednom.","V prijetnem lokalu iščejo prijetno osebo za delo v strežbi. Izkušnje niso pogoj. Pričakuje se urejenost, skrbnost in odgovornost. Delo poteka med tednom in med vikendi, oziroma po dogovoru."
+474877,2026-06-23T20:36:42.407673+00:00,open_positions,,2
+471722,2026-06-23T20:36:42.407673+00:00,start_date,2026-06-23,
+471435,2026-06-23T20:36:42.407673+00:00,duration,PO DOGOVORU,POČITNIŠKO DELO
+463070,2026-06-23T20:36:42.407673+00:00,description,"V prijetnem Pubu na turistični lokaciji iščejo zanesljivi in samostojni osebi za strežbo pijač, napitkov in prigrizkov na izmeni med 10.00 in 17.00, vikendi so lahko prosti - po potrebi in dogovoru. Izkušnje so zaželene. Vsa napitnina je v celoti vaša.","V prijetnem Pubu na turistični lokaciji iščejo zanesljivi, samostojni in prijazni osebi za strežbo pijač, napitkov in prigrizkov. Urnik je fleksibilen in se prilagaja študijskim obveznostim. Pogoj je polnoletnost, veselje do dela in vsaj nekaj delovnih izkušenj v gostinstvu. Vsa napitnina je v celoti vaša."
