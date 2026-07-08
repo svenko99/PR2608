@@ -9805,3 +9805,65 @@ listing_id,changed_at,field,old_value,new_value
 480252,2026-07-07T20:28:41.779828+00:00,payment_type,8.50 €/h neto (9.88 €/h bruto),9.50 €/h neto (11.04 €/h bruto)
 480252,2026-07-07T20:28:41.779828+00:00,description,"Za pomoč pri izvajanju zdravstvene nege in socialne oskrbe stanovalcev doma starejših občanov iščejo dijake/ke ali študente/ke zdravstvene nege. Za dopoldansko delo je urna postavka 9,88 € bruto. Za popoldansko izmeno je urna postavka 11,04 € bruto. Za nedeljsko, praznično in nočno delo je urna postavka 12,78 € bruto. Za opravljanje nočnega dela je pogoj polnoletnost.","Za pomoč pri izvajanju zdravstvene nege in socialne oskrbe stanovalcev doma starejših občanov iščejo dijake/študente (m/ž) zdravstvene nege. Za dopoldansko delo je urna postavka 11,04 € bruto. Za popoldansko izmeno je urna postavka 12,50 € bruto. Za nedeljsko, praznično in nočno delo je urna postavka 13,95 € bruto. Za opravljanje nočnega dela je pogoj polnoletnost."
 460210,2026-07-07T20:28:41.779828+00:00,description,"Iščejo motivirane osebe, ki bi želele pridobiti dragocene izkušnje pri delu v zdravstveni negi. Prijavijo se lahko osebe, ki imajo zaključen najmanj 3. letnik srednje zdravstvene šole ali zaključen najmanj 1. letnik zdravstvene fakultete študijskega programa zdravstvena nega (v kolikor nimajo zdravstvene predizobrazbe). Nudiji delo v prijetnem in strokovnem okolju, priložnost za učenje in nadgradnjo znanja s praktičnimi izkušnjami. Plačilo za nočno delo, delo ob ned. in praznikih: 9,5 €/h bruto.","Iščejo motivirane osebe, ki bi želele pridobiti dragocene izkušnje pri delu v zdravstveni negi. Prijavijo se lahko osebe, ki imajo zaključen najmanj 3. letnik srednje zdravstvene šole ali zaključen najmanj 1. letnik zdravstvene fakultete študijskega programa zdravstvena nega (v kolikor nimajo zdravstvene predizobrazbe). Nudiji delo v prijetnem in strokovnem okolju, priložnost za učenje in nadgradnjo znanja s praktičnimi izkušnjami. Plačilo za nočno delo, delo ob ned. in praznikih: 10,45 € bruto."
+485642,2026-07-08T20:06:28.367736+00:00,start_date,2026-07-08,
+485634,2026-07-08T20:06:28.367736+00:00,subtitle,,KUHAR/KUHARICA
+485602,2026-07-08T20:06:28.367736+00:00,start_date,2026-07-08,
+485593,2026-07-08T20:06:28.367736+00:00,start_date,2026-07-08,
+485588,2026-07-08T20:06:28.367736+00:00,start_date,2026-07-08,
+485581,2026-07-08T20:06:28.367736+00:00,start_date,2026-07-08,
+485564,2026-07-08T20:06:28.367736+00:00,start_date,2026-07-08,
+485562,2026-07-08T20:06:28.367736+00:00,hourly_rate_neto,7.74,8.61
+485562,2026-07-08T20:06:28.367736+00:00,hourly_rate_bruto,9.0,10.0
+485562,2026-07-08T20:06:28.367736+00:00,payment_type,7.74 €/h neto (9.00 €/h bruto),8.61 €/h neto (10.00 €/h bruto)
+485560,2026-07-08T20:06:28.367736+00:00,hourly_rate_neto,7.74,8.61
+485560,2026-07-08T20:06:28.367736+00:00,hourly_rate_bruto,9.0,10.0
+485560,2026-07-08T20:06:28.367736+00:00,payment_type,7.74 €/h neto (9.00 €/h bruto),8.61 €/h neto (10.00 €/h bruto)
+485532,2026-07-08T20:06:28.367736+00:00,start_date,2026-07-08,
+485526,2026-07-08T20:06:28.367736+00:00,duration,PO DOGOVORU,POČITNIŠKO DELO
+485505,2026-07-08T20:06:28.367736+00:00,start_date,2026-07-08,
+485469,2026-07-08T20:06:28.367736+00:00,start_date,2026-07-08,
+485432,2026-07-08T20:06:28.367736+00:00,start_date,2026-07-08,
+485402,2026-07-08T20:06:28.367736+00:00,start_date,2026-07-08,
+485345,2026-07-08T20:06:28.367736+00:00,start_date,2026-07-08,
+485271,2026-07-08T20:06:28.367736+00:00,start_date,2026-07-08,
+485249,2026-07-08T20:06:28.367736+00:00,start_date,2026-07-08,
+485159,2026-07-08T20:06:28.367736+00:00,start_date,2026-07-08,
+485108,2026-07-08T20:06:28.367736+00:00,hourly_rate_neto,7.74,8.61
+485108,2026-07-08T20:06:28.367736+00:00,hourly_rate_bruto,9.0,10.0
+485108,2026-07-08T20:06:28.367736+00:00,payment_type,7.74 €/h neto (9.00 €/h bruto),8.61 €/h neto (10.00 €/h bruto)
+485088,2026-07-08T20:06:28.367736+00:00,description,"Podjetje, ki se ukvarja s prodajo strojev za mesnopredelovalno industrijo išče zanesljivega, tehnično ustreznega in natančnega sodelavca/ko (zaželena smer mehatronika), ki se bo pridružil/a njihovi ekipi kot serviser. Glavne naloge bodo: montaža in zagon novih strojev, vzdrževanje, diagnostika in popravila mehanskih in električnih napak na strojih. Delo poteka po dogovoru, po celotni Sloveniji s službenim vozilom, zato je nujen opravljen izpit za avto. Nudijo možnost kasnejše redne zaposlitve.","Podjetje, ki se ukvarja s prodajo strojev za mesnopredelovalno industrijo išče zanesljivega, tehnično ustreznega in natančnega sodelavca/ko (zaželen študij višjega letnika mehatronike), ki se bo pridružil/a njihovi ekipi kot serviser. Glavne naloge: montaža in zagon novih strojev, vzdrževanje, diagnostika in popravila mehanskih in električnih napak na strojih. Delo poteka po dogovoru, po celotni Sloveniji s službenim vozilom, (pogoj izpit za avto). Nudijo možnost kasnejše redne zaposlitve."
+485062,2026-07-08T20:06:28.367736+00:00,start_date,,2026-08-01
+485010,2026-07-08T20:06:28.367736+00:00,start_date,2026-07-08,
+484982,2026-07-08T20:06:28.367736+00:00,description,"Potrebujejo študenta/ko za delo v trgovini z oblačili in izdelki za dom. Delo obsega delo na blagajni, obešanje tekstila in pospravljanje. Pogoj so izkušnje z delom na blagajni. Za več informacij se oglasite v poslovalnici ali jih pokličite. Nudijo tudi možnost občasnega opravljanja dela po počitnicah.","Potrebujejo študenta/ko, zaželeno absolventa/ko za delo v trgovini z oblačili in izdelki za dom. Delo obsega delo na blagajni, obešanje tekstila in pospravljanje. Pogoj so izkušnje z delom na blagajni. Za več informacij se oglasite v poslovalnici ali jih pokličite."
+484982,2026-07-08T20:06:28.367736+00:00,duration,POČITNIŠKO DELO,DLJE ČASA (ZAČ. IN OBČ. DELO)
+484813,2026-07-08T20:06:28.367736+00:00,duration,"POČOITNIŠKO DELO, NAPREJ PO DOGOVORU","POČITNIŠKO DELO, NAPREJ PO DOGOVORU"
+484800,2026-07-08T20:06:28.367736+00:00,duration,DLJE ČASA (ZAČ. IN OBČ. DELO),POČITNIŠKO DELO
+484630,2026-07-08T20:06:28.367736+00:00,duration,POČITNIŠKPO DELO,POČITNIŠKO DELO
+484564,2026-07-08T20:06:28.367736+00:00,description,"V prijetno kavarno vabijo zanesljivi in komunikativni osebi za delo v strežbi. Iščejo nekoga, ki je prilagodljiv in rad dela z ljudmi. Obvezne so predhodne izkušnje z delom v strežbi in pripravljenost na timsko delo. Delo bo potekalo izmensko, po potrebi in dogovoru.","V prijetno kavarno vabijo zanesljivi in komunikativni osebi za delo v strežbi. Iščejo nekoga, ki je polnoleten, prilagodljiv in rad dela z ljudmi. Obvezne so predhodne izkušnje z delom v strežbi in pripravljenost na timsko delo. Delo bo potekalo izmensko, po potrebi in dogovoru."
+483992,2026-07-08T20:06:28.367736+00:00,duration,DLJE ČASA (ZAČ. IN OBČ. DELO),POČITNŠKO DELO
+483783,2026-07-08T20:06:28.367736+00:00,start_date,2026-07-08,
+483686,2026-07-08T20:06:28.367736+00:00,hourly_rate_neto,7.73,10.0
+483686,2026-07-08T20:06:28.367736+00:00,hourly_rate_bruto,8.98,11.62
+483686,2026-07-08T20:06:28.367736+00:00,payment_type,7.73 €/h neto (8.98 €/h bruto),10.00 €/h neto (11.62 €/h bruto)
+482629,2026-07-08T20:06:28.367736+00:00,duration,DLJE ČASA (ZAČ. IN OBČ. DELO),AVGUST IN SEPTEMBER
+482629,2026-07-08T20:06:28.367736+00:00,start_date,,2026-08-01
+479794,2026-07-08T20:06:28.367736+00:00,duration,DLJE ČASA (ZAČ. IN OBČ. DELO),POČITNIŠKO
+479760,2026-07-08T20:06:28.367736+00:00,company,B.G.S. D.O.O.,B.G.S. GOSTINSTVO IN TURIZEM D.O.O.
+479369,2026-07-08T20:06:28.367736+00:00,duration,PO DOGOVORU,DO KONCA AVGUSTA
+479216,2026-07-08T20:06:28.367736+00:00,duration,DO 31. 8.. 2026,DO 31. 8. 2026
+478468,2026-07-08T20:06:28.367736+00:00,description,"Iščejo energične in komunikativne osebe z izkušnjami, za delo v kavarni (delo za šankom, priprava napitkov, strežba). Ponujajo: stimulacijo za dobro opravljeno delo, fleksibilen urnik, sproščeno in prijetno ekipo. Pričakujejo: zanesljivost in prijaznost, veselje do dela z ljudmi. Izkušnje so pogoj. Delo se opravlja popoldan med ponedeljkom in četrtkom od 15.00 dalje, po potrebi in dogovoru.","Iščejo energične in komunikativne osebe z izkušnjami, za delo v kavarni (delo za šankom, priprava napitkov, strežba). Ponujajo: stimulacijo za dobro opravljeno delo, fleksibilen urnik, sproščeno in prijetno ekipo. Pričakujejo: zanesljivost in prijaznost, veselje do dela z ljudmi. Izkušnje so pogoj. Delo se opravlja popoldan med ponedeljkom in četrtkom od 15.00 dalje, po potrebi in dogovoru. Iščejo za daljše občasno sodelovanje."
+478084,2026-07-08T20:06:28.367736+00:00,sublocation,,FESTIVAL AVSENIK
+478084,2026-07-08T20:06:28.367736+00:00,description,Iščejo pomoč v strežbi. Zaželene so izkušnje in samostojno opravljanje dela. Lahko tudi izdajanje pijače v šanku.,Iščejo pomoč v strežbi na festivalu. Zaželene so izkušnje in samostojno opravljanje dela. Lahko tudi izdajanje pijače v šanku.
+478084,2026-07-08T20:06:28.367736+00:00,duration,PO DOGOVORU,27.-31. 8.
+478084,2026-07-08T20:06:28.367736+00:00,start_date,,2026-08-27
+477352,2026-07-08T20:06:28.367736+00:00,sublocation,KAVARNA JOZEF,KAVARNA JOZEF TUŠ CENTER
+477352,2026-07-08T20:06:28.367736+00:00,hourly_rate_neto,8.5,9.0
+477352,2026-07-08T20:06:28.367736+00:00,hourly_rate_bruto,9.88,10.46
+477352,2026-07-08T20:06:28.367736+00:00,payment_type,8.50 €/h neto (9.88 €/h bruto),9.00 €/h neto (10.46 €/h bruto)
+477352,2026-07-08T20:06:28.367736+00:00,description,"Iščejo prijazno, komunikativno osebo za delo v kavarni. Izkušnje so zaželene, niso pa pogoj. Veselje do priprave toplih napitkov (kuhanje kave) pripomore k dobremu počutju na delovnem mestu. Delovno mesto zajema pripravo toplih napitkov, pijače, strežbo in skrb za urejenost kavarne.","Delo nudijo prijazni, komunikativni osebi. Delo poteka v kavarni v sklopu trgovskega centra. Izkušnje so zaželene, niso pa pogoj. Veselje do priprave toplih napitkov (kuhanje kave) pripomore k dobremu počutju na delovnem mestu. Delovno mesto zajema pripravo toplih napitkov, pijače, strežbo in skrb za urejenost kavarne. Kavarna obratuje med 6.30 in 20.00. Sobote, nedelje in prazniki med 6.30 in 13.00."
+465762,2026-07-08T20:06:28.367736+00:00,hourly_rate_neto,8.0,9.0
+465762,2026-07-08T20:06:28.367736+00:00,hourly_rate_bruto,9.3,10.46
+465762,2026-07-08T20:06:28.367736+00:00,payment_type,8.00 €/h neto (9.30 €/h bruto),9.00 €/h neto (10.46 €/h bruto)
+465762,2026-07-08T20:06:28.367736+00:00,description,"Iščejo polnoletno, delavno in iznajdljivo osebo za občasno pomoč pri elektroinštalacijskih delih na terenu.","Iščejo polnoletno, delavno in iznajdljivo osebo za občasno pomoč pri elektroinštalacijskih delih na terenu (Šmartno pri Litiji in okolica)."
+465762,2026-07-08T20:06:28.367736+00:00,start_date,,2026-07-15
+449753,2026-07-08T20:06:28.367736+00:00,start_date,,2026-08-01
