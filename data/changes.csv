@@ -10029,3 +10029,27 @@ listing_id,changed_at,field,old_value,new_value
 464598,2026-07-13T20:00:54.914087+00:00,hourly_rate_neto,8.5,8.61
 464598,2026-07-13T20:00:54.914087+00:00,hourly_rate_bruto,9.88,10.01
 464598,2026-07-13T20:00:54.914087+00:00,payment_type,8.50 €/h neto (9.88 €/h bruto),8.61 €/h neto (10.01 €/h bruto)
+486048,2026-07-14T19:52:34.534602+00:00,start_date,2026-07-14,
+486043,2026-07-14T19:52:34.534602+00:00,start_date,2026-07-14,
+486036,2026-07-14T19:52:34.534602+00:00,start_date,2026-07-14,
+486028,2026-07-14T19:52:34.534602+00:00,start_date,2026-07-14,
+486025,2026-07-14T19:52:34.534602+00:00,start_date,2026-07-14,
+486011,2026-07-14T19:52:34.534602+00:00,subtitle,,KONTROLA KAKOVOSTI
+486007,2026-07-14T19:52:34.534602+00:00,start_date,2026-07-14,
+486006,2026-07-14T19:52:34.534602+00:00,start_date,2026-07-14,
+485993,2026-07-14T19:52:34.534602+00:00,start_date,2026-07-14,
+485970,2026-07-14T19:52:34.534602+00:00,duration,DLJE ČASA (ZAČ. IN OBČ. DELO),MED POČITNICAMI
+485963,2026-07-14T19:52:34.534602+00:00,subtitle,,DELO NA RECEPCIJI V TURIZMU
+485863,2026-07-14T19:52:34.534602+00:00,duration,PO DOGOVORU,DLJE ČASA (ZAČ. IN OBČ. DELO)
+485639,2026-07-14T19:52:34.534602+00:00,start_date,2026-07-14,
+485346,2026-07-14T19:52:34.534602+00:00,title,ADMINISTRATIVNA DELA,INFORMATIKA
+485346,2026-07-14T19:52:34.534602+00:00,subtitle,ANALITSKA DELA,IT SVETOVALEC
+483761,2026-07-14T19:52:34.534602+00:00,description,"V visokotehnološkem podjetju iščejo študenta/ko za pomoč v skladišču. Po uvajanju in mentorstvu bo samostojno in odgovorno skrbel/a za pakiranje končnih izdelkov, skladiščenje (sistem Kardex) in razvoz materiala kooperantom. Nudijo raznoliko in odgovorno delo v pozitivnem okolju. Pričakujejo vesten odnos, natančnost, samoiniciativnost, vozniški izpit B kategorije, dobro poznavanje dela z računalnikom. Plačana je tudi malica. Prijavo in CV pošlji na e-mail.","V visokotehnološkem podjetju iščejo študenta/ko za pomoč v skladišču. Po uvajanju in mentorstvu bo samostojno in odgovorno skrbel/a za pakiranje končnih izdelkov, skladiščenje (sistem Kardex) in razvoz materiala kooperantom. Nudijo raznoliko in odgovorno delo v pozitivnem okolju. Pričakujejo vesten odnos, natančnost, samoiniciativnost, vozniški izpit B kategorije, poznavanje dela z računalnikom. Plačana je tudi malica. Avtobusni prevoz iz Kamnika in Ljubljane. Prijavo in CV pošlji na e-mail."
+483037,2026-07-14T19:52:34.534602+00:00,description,"V ekipo vabijo zanesljivi osebi za pomoč pri pripravi napitkov. Iščejo nekoga, ki ima izkušnje pri kuhanju kave in pripravi osnovnih mix pijačah. Lokal je odprt vsak dan, dela se po potrebi in dogovoru. Možnost napredovanja.","V ekipo vabijo zanesljivi polnoletni osebi za pomoč pri pripravi napitkov. Iščejo nekoga, ki ima izkušnje pri kuhanju kave in pripravi osnovnih mix pijačah. Lokal je odprt vsak dan, dela se po potrebi in dogovoru. Možnost napredovanja."
+482284,2026-07-14T19:52:34.534602+00:00,description,"V ekipo vabijo zanesljive osebe za pomoč pri strežbi pijač. Iščejo nekoga, ki je hiter in prijazen. Zahtevano je znanje slovenskega, angleškega in italijanskega jezika. Polnoletnost ni pogoj. Lokal je odprt vsak dan. Možnost napredovanja in dviga urne postavke.","V ekipo vabijo zanesljive osebe za pomoč pri strežbi pijač. Iščejo nekoga, ki je hiter in prijazen. Pogoji so: polnoletnost, znanje slovenskega, angleškega in italijanskega jezika ter izkušnje. Lokal je odprt vsak dan. Možnost napredovanja in dviga urne postavke."
+479131,2026-07-14T19:52:34.534602+00:00,description,"Pomoč v strežbi in na blagajni v restavraciji s hitro prehrano. Pogoja sta delavnost in iznajdljivost. Delovni čas je fleksibilen, delo je dinamično in timsko. Nudijo nagrajevanje in možnost napredovanja. Urna postavka je ob praznikih in v nočnem času 11 € bruto. Za nočno delo je pogoj polnoletnost. Možnostjo nadaljnjega sodelovanja tudi po koncu počitnic","Pomoč v strežbi in na blagajni v restavraciji s hitro prehrano. Pogoji so polnoletnost, delavnost in iznajdljivost. Delovni čas je fleksibilen, delo je dinamično in timsko. Nudijo nagrajevanje in možnost napredovanja. Urna postavka je ob praznikih in v nočnem času 11 € bruto. Možnostjo nadaljnjega sodelovanja tudi po koncu počitnic."
+478135,2026-07-14T19:52:34.534602+00:00,hourly_rate_neto,7.73,9.0
+478135,2026-07-14T19:52:34.534602+00:00,hourly_rate_bruto,8.98,10.46
+478135,2026-07-14T19:52:34.534602+00:00,payment_type,7.73 €/h neto (8.98 €/h bruto),9.00 €/h neto (10.46 €/h bruto)
+475462,2026-07-14T19:52:34.534602+00:00,start_date,,2026-09-01
+471682,2026-07-14T19:52:34.534602+00:00,description,"V svoj kolektiv sprejmejo odgovorno, samostojno in resno osebo kozmetične ali zdravstvene šole, ki je pripravljena rasti skupaj z njimi in ji delo z ljudmi in v kolektivu ni tuje. Gre predvsem za delo z napravami, ostalo vas naučijo.","V svoj kolektiv sprejmejo odgovorno, samostojno in resno osebo kozmetične ali zdravstvene šole, ki je pripravljena rasti skupaj z njimi in ji delo z ljudmi in v kolektivu ni tuje. Gre predvsem za delo z napravami, ostalo vas naučijo. Potrebujejo za daljše občasno sodelovanje, ne samo za čas počitnic."
