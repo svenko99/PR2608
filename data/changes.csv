@@ -10099,3 +10099,42 @@ listing_id,changed_at,field,old_value,new_value
 439210,2026-07-15T19:47:32.468440+00:00,hourly_rate_neto,7.73,8.0
 439210,2026-07-15T19:47:32.468440+00:00,hourly_rate_bruto,8.98,9.3
 439210,2026-07-15T19:47:32.468440+00:00,payment_type,7.73 €/h neto (8.98 €/h bruto),8.00 €/h neto (9.30 €/h bruto)
+486220,2026-07-16T19:43:21.100524+00:00,start_date,2026-07-16,
+486209,2026-07-16T19:43:21.100524+00:00,start_date,2026-07-16,
+486208,2026-07-16T19:43:21.100524+00:00,start_date,2026-07-16,
+486199,2026-07-16T19:43:21.100524+00:00,start_date,2026-07-16,
+486186,2026-07-16T19:43:21.100524+00:00,start_date,2026-07-16,
+486149,2026-07-16T19:43:21.100524+00:00,start_date,2026-07-16,
+486141,2026-07-16T19:43:21.100524+00:00,start_date,2026-07-16,
+486003,2026-07-16T19:43:21.100524+00:00,start_date,2026-07-16,
+485971,2026-07-16T19:43:21.100524+00:00,hourly_rate_neto,,12.0
+485971,2026-07-16T19:43:21.100524+00:00,hourly_rate_bruto,,13.95
+485971,2026-07-16T19:43:21.100524+00:00,payment_type,PO DOGOVORU,12.00 €/h neto (13.95 €/h bruto)
+485971,2026-07-16T19:43:21.100524+00:00,description,"Iščejo študenta/ki za strežbo hrane in pijače. Pogoj so izkušnje pri delu z hrano in pijačo. Plačilo je po dogovoru, saj je odvisno od izkušenj. Delo poteka na različnih lokacijah (za prevoz je poskrbljeno). Pogoj je, da je kandidat/ka polnoleten/a, saj delo občasno poteka dlje kot do 22. ure.","Iščejo študenta/ki za strežbo hrane in pijače. Pogoj so izkušnje pri delu s hrano in pijačo. Delo poteka na različnih lokacijah (za prevoz je poskrbljeno). Pogoj je, da je kandidat/ka polnoleten/a, saj delo občasno poteka dlje kot do 22. ure."
+485971,2026-07-16T19:43:21.100524+00:00,duration,"POLETNI MESECI, PO DOGOVORU DLJE",DLJE ČASA (ZAČ. IN OBČ. DELO)
+485931,2026-07-16T19:43:21.100524+00:00,hourly_rate_neto,7.73,10.33
+485931,2026-07-16T19:43:21.100524+00:00,hourly_rate_bruto,8.98,12.0
+485931,2026-07-16T19:43:21.100524+00:00,payment_type,7.73 €/h neto (8.98 €/h bruto),10.33 €/h neto (12.00 €/h bruto)
+485931,2026-07-16T19:43:21.100524+00:00,description,"Priprava hrane, kuhanje, pomivanje posode in strežba na festivalu, možnost dogovora za delo tudi na naslednjih dogodkih.","Priprava hrane, kuhanje, pomivanje posode in strežba na poletnih festivalih."
+485931,2026-07-16T19:43:21.100524+00:00,duration,DO 19. 7.,POČITNIŠKO DELO
+485869,2026-07-16T19:43:21.100524+00:00,start_date,2026-07-16,
+485535,2026-07-16T19:43:21.100524+00:00,hourly_rate_neto,8.0,8.5
+485535,2026-07-16T19:43:21.100524+00:00,hourly_rate_bruto,9.3,9.88
+485535,2026-07-16T19:43:21.100524+00:00,payment_type,8.00 €/h neto (9.30 €/h bruto),8.50 €/h neto (9.88 €/h bruto)
+485535,2026-07-16T19:43:21.100524+00:00,description,"Iščejo polnoletni in zanesljivi osebi. Zaželene osnovne izkušnje v strežbi. Če uživaš v komunikaciji z ljudmi, te veseli strežba pijače in si želiš biti del pozitivne ekipe enega najbolj priljubljenih lokalov v regiji, se jim pridruži. Dela se izmensko, po potrebi in dogovoru. Začetna urna postavka se lahko zviša, če se izkažeš z vestnim in zanesljivim delom.","Iščejo polnoletni in zanesljivi osebi. Obvezne osnovne izkušnje v strežbi (nošenje pladnja - z eno roko, skrb za urejenost miz, strežba in odnašanje pijače). Če uživaš v komunikaciji z ljudmi, te veseli strežba pijače in si želiš biti del pozitivne ekipe enega najbolj priljubljenih lokalov v regiji, se jim pridruži. Dela se izmensko, po potrebi in dogovoru. Začetna urna postavka se lahko zviša, če se izkažeš z vestnim in zanesljivim delom."
+484989,2026-07-16T19:43:21.100524+00:00,title,POMOČ PRI PRODAJI,POMOČ V TRGOVINI
+484989,2026-07-16T19:43:21.100524+00:00,sublocation,,TRGOVINA EUROSPIN
+484989,2026-07-16T19:43:21.100524+00:00,start_date,,2026-07-20
+481078,2026-07-16T19:43:21.100524+00:00,description,"Podjetje z več letnimi izkušnjami v zavarovalništvu, išče več oseb za klicni center, ki ponuja pomoč in podporo terenskim finančnim svetovalcem. Imaš veselje do dela z ljudmi in ti ustreza dinamično pisarniško delo? Rad/a presegaš svoje meje in dosegaš zastavljene cilje? Delo zajema predvsem telefonsko dogovarjanje terminov. Pričakujejo komunikativnost, samoiniciativnost in pozitiven odnos do dela, veselje do timskega dela in dela z ljudmi ter poznavanje dela z računalnikom.","Podjetje z večletnimi izkušnjami v zavarovalništvu, išče več oseb za klicni center, ki ponuja pomoč in podporo terenskim finančnim svetovalcem. Imaš veselje do dela z ljudmi in ti ustreza dinamično pisarniško delo? Rad/a presegaš svoje meje in dosegaš zastavljene cilje? Delo zajema predvsem telefonsko dogovarjanje terminov. Pričakujejo komunikativnost, samoiniciativnost in pozitiven odnos do dela, veselje do timskega dela in dela z ljudmi ter poznavanje dela z računalnikom."
+480082,2026-07-16T19:43:21.100524+00:00,duration,DLJE ČASA (ZAČ. IN OBČ. DELO),MED POČITNICAMI
+479541,2026-07-16T19:43:21.100524+00:00,open_positions,5,4
+478593,2026-07-16T19:43:21.100524+00:00,subtitle,,BARISTA
+478593,2026-07-16T19:43:21.100524+00:00,description,"V prijetnem koktejl baru z živo glasbo iščejo pomoč za popoldansko izmeno in čez vikende. Delo med tednom poteka med 17.00 in 2.00 zjutraj (ali med 19.00 in 1.00), med vikendi pa med 10.00 in 14.00 (ali 18.00), vse po dogovoru. Napitnina je solidna, povezave so blizu. Nudijo mentorstvo in razgibano delo, tudi na terenu. Dobrodošli ste vsi, ki vam delo ni tuje in cenite poštenje.","V prijetnem koktejl baru z živo glasbo iščejo osebo za delo bariste v jutranji izmeni in čez vikende. Delo poteka med 7.30 in 17.00, po dogovoru in potrebi. Od kandidata/ke zahtevajo predhodno znanje kuhanja kave in urejenost. Nudijo mentorstvo in razgibano delo, tudi na terenu. Dobrodošli ste vsi, ki vam delo ni tuje in cenite poštenje."
+478593,2026-07-16T19:43:21.100524+00:00,work_schedule,POPOLDAN,DOPOLDAN
+478301,2026-07-16T19:43:21.100524+00:00,title,TRŽENJE,PRODAJA
+478301,2026-07-16T19:43:21.100524+00:00,hourly_rate_neto,,15.0
+478301,2026-07-16T19:43:21.100524+00:00,hourly_rate_bruto,,17.43
+478301,2026-07-16T19:43:21.100524+00:00,payment_type,PO DOGOVORU,15.00 €/h neto (17.43 €/h bruto)
+478301,2026-07-16T19:43:21.100524+00:00,description,"Ambasador zdravja - karierni razvoj. V podjetju gradijo 1. generacijo mladih ambasadorjev, ki širijo zavedanje o preventivi in prihodnosti zdravja. To ni klasično študentsko delo — razvijaš veščine, ki jih dejansko uporabljaš v življenju. Ponujajo fleksibilen urnik, mentorski program, dolgoročno občasno priložnost sodelovanja. Iščejo mlade, ki radi komunicirajo z ljudmi, imajo ambicijo, želijo nekaj več kot samo študentsko delo.","Želiš že med študijem graditi mrežo poznanstev, razvijati veščine, ki jih fakulteta ne uči? Podjetje odpira prijave za prvo generacijo ambasadorjev. Predstavljaj si, da že med študijem / ob vsakdanjih obveznostih: razvijaš komunikacijske in prodajne veščine, sodeluješ z uspešnimi podjetniki in mentorji, gradiš mrežo poznanstev, ki ti lahko odpre vrata v prihodnosti, možnost kariernega razvoja in stimulativnega plačila. Če se vidiš v tej vlogi, se prijavi!"
+478301,2026-07-16T19:43:21.100524+00:00,open_positions,10,5
+478301,2026-07-16T19:43:21.100524+00:00,start_date,,2026-07-21
