@@ -10318,3 +10318,39 @@ listing_id,changed_at,field,old_value,new_value
 472587,2026-07-21T20:03:44.955506+00:00,hourly_rate_bruto,10.46,11.04
 472587,2026-07-21T20:03:44.955506+00:00,payment_type,9.00 €/h neto (10.46 €/h bruto),9.50 €/h neto (11.04 €/h bruto)
 467603,2026-07-21T20:03:44.955506+00:00,duration,"POČITNIŠKO DELO, MOŽNOST PODALJŠANJA",DLJE ČASA (ZAČ. IN OBČ. DELO)
+486501,2026-07-22T19:54:07.601616+00:00,start_date,,2026-07-28
+486500,2026-07-22T19:54:07.601616+00:00,start_date,2026-07-22,
+486493,2026-07-22T19:54:07.601616+00:00,description,"Delo v novem lokalu na Bledu z mladim kolektivom. Delo zajema sprejemanje naročil, strežbo pijače in prigrizkov, delo v šanku, skrb za čistočo in profesionalen odnos z gosti. Zaželene so predhodne izkušnje in znanje angleščine. Delovnik v primeru študentskega dela poteka med 10.00 in 21.00.","Delo v novem lokalu na Bledu z mladim kolektivom ( sprejemanje naročil, strežbo pijače in prigrizkov, delo v šanku, skrb za čistočo in profesionalen odnos z gosti). Zaželene so predhodne izkušnje in znanje angleščine. Delovnik v primeru študentskega dela poteka med 10.00 in 21.00."
+486489,2026-07-22T19:54:07.601616+00:00,start_date,2026-07-22,
+486487,2026-07-22T19:54:07.601616+00:00,start_date,2026-07-22,
+486486,2026-07-22T19:54:07.601616+00:00,start_date,2026-07-22,
+486478,2026-07-22T19:54:07.601616+00:00,start_date,2026-07-22,
+486471,2026-07-22T19:54:07.601616+00:00,start_date,2026-07-22,
+486467,2026-07-22T19:54:07.601616+00:00,start_date,2026-07-22,
+486456,2026-07-22T19:54:07.601616+00:00,start_date,2026-07-22,
+486452,2026-07-22T19:54:07.601616+00:00,start_date,2026-07-22,
+486410,2026-07-22T19:54:07.601616+00:00,start_date,2026-07-22,
+486408,2026-07-22T19:54:07.601616+00:00,start_date,2026-07-22,
+486394,2026-07-22T19:54:07.601616+00:00,duration,DO 29. 7. 2026,DO 31. 7. 2026
+486394,2026-07-22T19:54:07.601616+00:00,start_date,2026-07-27,2026-07-29
+486373,2026-07-22T19:54:07.601616+00:00,start_date,2026-07-22,
+486241,2026-07-22T19:54:07.601616+00:00,hourly_rate_neto,7.73,8.61
+486241,2026-07-22T19:54:07.601616+00:00,hourly_rate_bruto,8.98,10.0
+486241,2026-07-22T19:54:07.601616+00:00,payment_type,7.73 €/h neto (8.98 €/h bruto),8.61 €/h neto (10.00 €/h bruto)
+486237,2026-07-22T19:54:07.601616+00:00,start_date,2026-07-22,
+486219,2026-07-22T19:54:07.601616+00:00,start_date,2026-07-22,
+485966,2026-07-22T19:54:07.601616+00:00,hourly_rate_neto,8.0,8.5
+485966,2026-07-22T19:54:07.601616+00:00,hourly_rate_bruto,9.3,9.88
+485966,2026-07-22T19:54:07.601616+00:00,payment_type,8.00 €/h neto (9.30 €/h bruto),8.50 €/h neto (9.88 €/h bruto)
+485924,2026-07-22T19:54:07.601616+00:00,description,"Iščejo polnoletnega/o kandidata/ko za vnos prejetih računov v računovodski program, administrativna dela in urejanje spletne strani. Pogoji: aktivno znanje slovenskega in angleškega jezika, poznavanje MS Office, komunikativnost, natančnost, zanesljivost, organiziranost in sposobnost timskega dela. Prednost imajo osebe, ki imajo znanje programa Pantheon, Canve in delovne izkušnje. Zaželen/a je študent/ka višjih letnikov ali absolvent/ka, za daljše občasno sodelovanje.","Iščejo polnoletnega/o kandidata/ko za vnos prejetih računov v računovodski program, administrativna dela in urejanje spletne strani. Pogoji: aktivno znanje slovenskega in angleškega jezika, poznavanje MS Office, komunikativnost, natančnost, zanesljivost, organiziranost in sposobnost timskega dela. Prednost imajo osebe, ki imajo znanje programa Pantheon, Canve in delovne izkušnje. Zaželen/a je študent/ka višjih letnikov, ki si želi dolgoročnega občasnega sodelovanja in kasnejše redne zaposlitve."
+485881,2026-07-22T19:54:07.601616+00:00,start_date,2026-07-22,
+484982,2026-07-22T19:54:07.601616+00:00,description,"Potrebujejo študenta/ko, zaželeno absolventa/ko za delo v trgovini z oblačili in izdelki za dom. Delo obsega delo na blagajni, obešanje tekstila in pospravljanje. Pogoj so izkušnje z delom na blagajni. Za več informacij se oglasite v poslovalnici ali jih pokličite.","Potrebujejo študenta/ko, zaželeno absolventa/ko za delo v trgovini z oblačili in izdelki za dom. Delo obsega delo na blagajni, obešanje tekstila in pospravljanje. Izkušnje z delom na blagajni so pogoj. Za več informacij se oglasite v poslovalnici ali jih pokličite oz. jim pošljite e-prijavo."
+484966,2026-07-22T19:54:07.601616+00:00,start_date,2026-07-22,
+482339,2026-07-22T19:54:07.601616+00:00,title,POMOČ V STREŽBI,POMOČ V KUHINJI
+482339,2026-07-22T19:54:07.601616+00:00,duration,PO DOGOVORU,POČITNIŠKO DELO
+482111,2026-07-22T19:54:07.601616+00:00,start_date,2026-07-22,
+481635,2026-07-22T19:54:07.601616+00:00,duration,POČITNIŠKO DELO,DLJE ČASA (ZAČ. IN OBČ. DELO)
+477446,2026-07-22T19:54:07.601616+00:00,start_date,,2026-09-01
+475175,2026-07-22T19:54:07.601616+00:00,description,"Iščejo osebe za pomoč pri vodenju poletnega plesnega tabora. Delo zajema lažja administrativna opravila, pomoč pri organizaciji in spremstvo otrok.","Iščejo osebe za pomoč pri vodenju poletnega plesnega tabora (lažja administrativna opravila, pomoč pri organizaciji in spremstvo otrok)."
+449753,2026-07-22T19:54:07.601616+00:00,duration,PO DOGOVORU,DLJE ČASA (ZAČ. IN OBČ. DELO)
+449753,2026-07-22T19:54:07.601616+00:00,start_date,2026-08-01,2026-09-01
