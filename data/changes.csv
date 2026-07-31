@@ -10575,3 +10575,22 @@ listing_id,changed_at,field,old_value,new_value
 483906,2026-07-30T20:03:56.619882+00:00,start_date,,2026-08-15
 479875,2026-07-30T20:03:56.619882+00:00,description,"Srežba v lokalu, zaželene izkušnje.","Srežba v lokalu, zaželene izkušnje. Ne gre samo za počitniško delo."
 479134,2026-07-30T20:03:56.619882+00:00,subtitle,,DELO V CASINO-JU
+486989,2026-07-31T20:05:37.869940+00:00,start_date,2026-07-31,
+486861,2026-07-31T20:05:37.869940+00:00,work_schedule,MED VIKENDI,PO DOGOVORU
+486828,2026-07-31T20:05:37.869940+00:00,start_date,2026-07-31,
+486734,2026-07-31T20:05:37.869940+00:00,start_date,2026-07-31,
+486727,2026-07-31T20:05:37.869940+00:00,start_date,2026-07-31,
+486607,2026-07-31T20:05:37.869940+00:00,description,"Potrebujejo osebo za delo v proizvodnji (nalaganje in razlaganje komponent stranke v impregnacijske košare). Delo je izmensko, delovnik po dogovoru oz. po potrebi. Iščejo osebo, ki je resna in ima občutek za odgovornost. Možnost kasnejše zaposlitve.","Potrebujejo osebo za delo v proizvodnji (nalaganje in razlaganje komponent stranke v impregnacijske košare). Delo je izmensko, delovnik po dogovoru oz. po potrebi. Iščejo osebo, ki je resna, fizično močna in ima občutek za odgovornost. Zaželen višji letnik študija. Možnost kasnejše zaposlitve."
+486529,2026-07-31T20:05:37.869940+00:00,hourly_rate_neto,8.61,10.0
+486529,2026-07-31T20:05:37.869940+00:00,hourly_rate_bruto,10.0,11.62
+486529,2026-07-31T20:05:37.869940+00:00,payment_type,8.61 €/h neto (10.00 €/h bruto),10.00 €/h neto (11.62 €/h bruto)
+486529,2026-07-31T20:05:37.869940+00:00,description,"Potrebujejo več oseb za strežbo na dogodku Velka meša. Dela se v soboto, 15. 8. 2026.","Potrebujejo več oseb za strežbo na dogodku Velka meša. Dela se v soboto, 15. 8. 2026. Obvezne so predhodne izkušnje v strežbi."
+486529,2026-07-31T20:05:37.869940+00:00,work_schedule,MED VIKENDI,DOPOLDAN
+486150,2026-07-31T20:05:37.869940+00:00,start_date,2026-07-31,
+486113,2026-07-31T20:05:37.869940+00:00,duration,DO 31. 8. 2026- POČITNIŠKO DELO,DO 31. 8. 2026 - POČITNIŠKO DELO
+485482,2026-07-31T20:05:37.869940+00:00,description,"Pomivanje posode in ostala pomoč v kuhinji. Delo poteka večinoma v popoldanskem času, tudi do polnoči. Pogoja: polnoletnost in osnovno razumevanje slovenskega jezika.","Pomivanje posode in ostala pomoč v kuhinji. Delo poteka večinoma v popoldanskem času, tudi do polnoči. Pogoj je polnoletnost."
+485482,2026-07-31T20:05:37.869940+00:00,open_positions,,2
+485482,2026-07-31T20:05:37.869940+00:00,duration,MED POČITNICAMI ALI DLJE PO DOGOVORU,DLJE ČASA (ZAČ. IN OBČ. DELO)
+470184,2026-07-31T20:05:37.869940+00:00,hourly_rate_neto,10.0,15.0
+470184,2026-07-31T20:05:37.869940+00:00,hourly_rate_bruto,11.62,17.43
+470184,2026-07-31T20:05:37.869940+00:00,payment_type,10.00 €/h neto (11.62 €/h bruto),15.00 €/h neto (17.43 €/h bruto)
