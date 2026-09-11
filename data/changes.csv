@@ -12672,3 +12672,66 @@ listing_id,changed_at,field,old_value,new_value
 483442,2026-09-10T21:08:33.481365+00:00,hourly_rate_neto,8.0,9.0
 483442,2026-09-10T21:08:33.481365+00:00,hourly_rate_bruto,9.3,10.46
 483442,2026-09-10T21:08:33.481365+00:00,payment_type,8.00 €/h neto (9.30 €/h bruto),9.00 €/h neto (10.46 €/h bruto)
+490490,2026-09-11T21:13:14.641394+00:00,start_date,2026-09-11,
+490487,2026-09-11T21:13:14.641394+00:00,description,"Delo na recepciji. Pogoji za prijavo so: tekoče govorno in pisno znanje slovenskega in angleškega jezika, izkušnje z delom v administraciji, z delom s strankami, v poslovnem okolju, v poslovni komunikaciji ter poslovnem bontonu.","Delo na recepciji. Pogoji za prijavo so: tekoče govorno in pisno znanje slovenskega in angleškega jezika, izkušnje z delom v administraciji, na poslovnih dogodkih, izkušnje z delom s strankami v poslovnem okolju, v poslovni komunikaciji ter poslovnem bontonu."
+490476,2026-09-11T21:13:14.641394+00:00,subtitle,,OBDELAVA IN ODPREMA SPLETNIH NAROČIL
+490470,2026-09-11T21:13:14.641394+00:00,start_date,2026-09-11,
+490450,2026-09-11T21:13:14.641394+00:00,description,"Potrebujejo osebo za poučevanje izbirnega predmeta Računalniška omrežja. Delo poteka ob sredah od 13.10 do 14.45. Postavka znaša 13,95 € bruto/45min.","Potrebujejo osebo za poučevanje izbirnega predmeta Računalniška omrežja. Delo poteka ob sredah od 13.10 do 14.45. Postavka znaša 13,95 € bruto/45min. Zaželena je končana vsaj 1. stopnja bolonjskega študija smeri računalništva, informatike ter morebitne delovne izkušnje na tem področju."
+490446,2026-09-11T21:13:14.641394+00:00,start_date,2026-09-11,
+490442,2026-09-11T21:13:14.641394+00:00,start_date,2026-09-11,
+490409,2026-09-11T21:13:14.641394+00:00,start_date,2026-09-11,
+490401,2026-09-11T21:13:14.641394+00:00,start_date,2026-09-11,
+490398,2026-09-11T21:13:14.641394+00:00,start_date,2026-09-11,
+490390,2026-09-11T21:13:14.641394+00:00,start_date,2026-09-11,
+490273,2026-09-11T21:13:14.641394+00:00,start_date,2026-09-11,
+490266,2026-09-11T21:13:14.641394+00:00,start_date,2026-09-14,2026-09-21
+490257,2026-09-11T21:13:14.641394+00:00,hourly_rate_neto,9.0,9.5
+490257,2026-09-11T21:13:14.641394+00:00,hourly_rate_bruto,10.46,11.04
+490257,2026-09-11T21:13:14.641394+00:00,payment_type,9.00 €/h neto (10.46 €/h bruto),9.50 €/h neto (11.04 €/h bruto)
+490254,2026-09-11T21:13:14.641394+00:00,start_date,2026-09-11,
+490234,2026-09-11T21:13:14.641394+00:00,start_date,2026-09-11,
+490150,2026-09-11T21:13:14.641394+00:00,start_date,2026-09-11,
+490123,2026-09-11T21:13:14.641394+00:00,start_date,2026-09-11,
+490044,2026-09-11T21:13:14.641394+00:00,start_date,2026-09-11,
+490017,2026-09-11T21:13:14.641394+00:00,start_date,2026-09-11,
+489906,2026-09-11T21:13:14.641394+00:00,start_date,2026-09-11,
+489854,2026-09-11T21:13:14.641394+00:00,duration,DLJE ČASA (ZAČ. IN OBČ. DELO),PO DOGOVORU
+489641,2026-09-11T21:13:14.641394+00:00,start_date,2026-09-11,
+489640,2026-09-11T21:13:14.641394+00:00,start_date,2026-09-11,
+489635,2026-09-11T21:13:14.641394+00:00,start_date,2026-09-11,
+488595,2026-09-11T21:13:14.641394+00:00,start_date,2026-09-11,
+488482,2026-09-11T21:13:14.641394+00:00,hourly_rate_neto,20.0,
+488482,2026-09-11T21:13:14.641394+00:00,hourly_rate_bruto,23.24,
+488482,2026-09-11T21:13:14.641394+00:00,payment_type,20.00 €/h neto (23.24 €/h bruto),PO DOGOVORU
+488293,2026-09-11T21:13:14.641394+00:00,duration,DO 30. 9. 2026,DO CCA 15. 10. 2026
+488103,2026-09-11T21:13:14.641394+00:00,start_date,2026-09-11,
+488086,2026-09-11T21:13:14.641394+00:00,title,STREŽBA HRANE IN PIJAČE,DELO V KUHINJI
+488086,2026-09-11T21:13:14.641394+00:00,description,"Iščejo polnoletni osebi za pomoč v kuhinji, strežbo, delo na blagajni ter deljenje pijače in hrane v prijetnem bistroju. Dopoldansko delo med tednom (po potrebi in dogovoru). Pričakujejo samostojnost, komunikativnost, prijaznost in veselje do dela z ljudmi.","Iščejo polnoletni osebi za pomoč v kuhinji v prijetnem bistroju. Dopoldansko delo med tednom (po potrebi in dogovoru). Pričakujejo samostojnost, komunikativnost, izkušnje dela v kuhinji, prijaznost in veselje do dela z ljudmi."
+488054,2026-09-11T21:13:14.641394+00:00,hourly_rate_neto,10.0,
+488054,2026-09-11T21:13:14.641394+00:00,hourly_rate_bruto,11.62,
+488054,2026-09-11T21:13:14.641394+00:00,payment_type,10.00 €/h neto (11.62 €/h bruto),PO DOGOVORU
+487581,2026-09-11T21:13:14.641394+00:00,hourly_rate_neto,8.61,9.0
+487581,2026-09-11T21:13:14.641394+00:00,hourly_rate_bruto,10.0,10.46
+487581,2026-09-11T21:13:14.641394+00:00,payment_type,8.61 €/h neto (10.00 €/h bruto),9.00 €/h neto (10.46 €/h bruto)
+487302,2026-09-11T21:13:14.641394+00:00,hourly_rate_neto,7.74,8.69
+487302,2026-09-11T21:13:14.641394+00:00,hourly_rate_bruto,9.0,10.1
+487302,2026-09-11T21:13:14.641394+00:00,payment_type,7.74 €/h neto (9.00 €/h bruto),8.69 €/h neto (10.10 €/h bruto)
+484670,2026-09-11T21:13:14.641394+00:00,description,"Iščejo zagnane in motivirane osebe za delo promocij. Kot predstavnik/ca društva boš spodbujal/a ljudi, da del dohodnine namenijo za defibrilatorje. Urna postavka velja za 5 zbranih obrazcev na uro, pogosto se jih zbere več. Potrebna sta izpit in lasten prevoz. Zaželene so izkušnje s promocijami ali prodajo, komunikativnost in pripravljenost pristopiti do ljudi. Vse potrebne informacije boš prejel/a pred začetkom dela. Prijavo pošlji preko e-maila ter pripni CV in telefonski kontakt.","Iščejo zagnane in motivirane osebe za delo promocij. Kot predstavnik/ca društva boš spodbujal/a ljudi, da del dohodnine namenijo za defibrilatorje. Urna postavka velja za 5 zbranih obrazcev na uro, pogosto se jih zbere več. Potrebna sta izpit in lasten prevoz. Zaželene so izkušnje s promocijami ali prodajo, komunikativnost in pripravljenost pristopiti do ljudi. Vse potrebne informacije boš prejel/a pred začetkom dela. Prijavo pošlji elektronsko ter pripni CV in telefonski kontakt."
+482644,2026-09-11T21:13:14.641394+00:00,hourly_rate_neto,8.0,9.0
+482644,2026-09-11T21:13:14.641394+00:00,hourly_rate_bruto,9.3,10.46
+482644,2026-09-11T21:13:14.641394+00:00,payment_type,8.00 €/h neto (9.30 €/h bruto),9.00 €/h neto (10.46 €/h bruto)
+480512,2026-09-11T21:13:14.641394+00:00,hourly_rate_neto,8.6,8.8
+480512,2026-09-11T21:13:14.641394+00:00,hourly_rate_bruto,9.99,10.23
+480512,2026-09-11T21:13:14.641394+00:00,payment_type,8.60 €/h neto (9.99 €/h bruto),8.80 €/h neto (10.23 €/h bruto)
+480512,2026-09-11T21:13:14.641394+00:00,description,Podjetje išče dve osebi za strežbo. Za več informacij pokličite.,Podjetje išče dve osebi z izkušnjami za delo v strežbi. Zaželen je lastni prevoz. Delo bi večino potekalo popoldne med tednom oz. po dogovoru.
+480512,2026-09-11T21:13:14.641394+00:00,work_schedule,IZMENSKO,POPOLDAN
+480080,2026-09-11T21:13:14.641394+00:00,duration,POČITNIŠKO DELO,DLJE ČASA (ZAČ. IN OBČ. DELO)
+478223,2026-09-11T21:13:14.641394+00:00,duration,POČITNIŠKO DELO,DLJE ČASA (ZAČ. IN OBČ. DELO)
+478136,2026-09-11T21:13:14.641394+00:00,hourly_rate_neto,8.5,9.0
+478136,2026-09-11T21:13:14.641394+00:00,hourly_rate_bruto,9.88,10.46
+478136,2026-09-11T21:13:14.641394+00:00,payment_type,8.50 €/h neto (9.88 €/h bruto),9.00 €/h neto (10.46 €/h bruto)
+477800,2026-09-11T21:13:14.641394+00:00,description,Iščejo študente ali študentke za pomoč pri delu v strežbi v novi restavraciji in piceriji v Ljubljani-Vižmarje. Zaželene izkušnje pri delu s hrano in pijačo. Delo poteka v prijetnem okolju.,Iščejo študente ali študentke za pomoč pri delu v strežbi v prijetni restavraciji in piceriji v Ljubljani-Vižmarje. Zaželene izkušnje pri delu s hrano in pijačo. Delo poteka v prijetnem okolju.
+475571,2026-09-11T21:13:14.641394+00:00,open_positions,6,5
+475571,2026-09-11T21:13:14.641394+00:00,duration,DLJE ČASA (ZAČ. IN OBČ. DELO),PO DOGOVORU
+475571,2026-09-11T21:13:14.641394+00:00,start_date,,2026-09-14
+450330,2026-09-11T21:13:14.641394+00:00,description,"Iščejo zagnane in motivirane ljudi za delo promocij. Kot predstavnik/-ca društva boš spodbujal/-a ljudi, da del dohodnine namenijo za defibrilatorje. Urna postavka velja za 5 zbranih obrazcev na uro, pogosto se jih zbere več. Zaželene so izkušnje s promocijami ali prodajo, komunikativnost, pripravljenost pristopiti do ljudi in lasten prevoz. Vse potrebne informacije prejmete pred pričetkom dela. Prijavo s priloženim CV-jem, telefonom in krajem, kjer bi delo opravljali, pošlji preko emaila.","Iščejo zagnane in motivirane ljudi za delo promocij. Kot predstavnik/-ca društva boš spodbujal/-a ljudi, da del dohodnine namenijo za defibrilatorje. Urna postavka velja za 5 zbranih obrazcev na uro, pogosto se jih zbere več. Zaželene so izkušnje s promocijami ali prodajo, komunikativnost, pripravljenost pristopiti do ljudi in lasten prevoz. Vse potrebne informacije prejmete pred pričetkom dela. Pošlji prijavo s priloženim CV-jem, telefonom in krajem, kjer bi delo opravljali."
