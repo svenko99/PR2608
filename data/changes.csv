@@ -13520,3 +13520,111 @@ listing_id,changed_at,field,old_value,new_value
 478172,2026-09-23T21:43:12.408071+00:00,work_schedule,IZMENSKO,PO DOGOVORU
 475517,2026-09-23T21:43:12.408071+00:00,company,"ASALA, GOSTINSKE STORITVE, D.O.O.",ASALA D.O.O.
 472329,2026-09-23T21:43:12.408071+00:00,company,"ASALA, GOSTINSKE STORITVE, D.O.O.",ASALA D.O.O.
+491514,2026-09-24T21:44:20.710357+00:00,start_date,2026-09-24,
+491512,2026-09-24T21:44:20.710357+00:00,start_date,2026-09-24,
+491507,2026-09-24T21:44:20.710357+00:00,description,"Dnevni bar za Bežigradom išče pomoč v strežbi pijač. Zaželene izkušnje, vendar niso pogoj.","Dnevni bar za Bežigradom išče pomoč v strežbi pijač. Zaželene izkušnje, vendar niso pogoj. Pogoj je znanje slovenskega jezika."
+491492,2026-09-24T21:44:20.710357+00:00,start_date,2026-09-24,
+491481,2026-09-24T21:44:20.710357+00:00,start_date,2026-09-24,
+491476,2026-09-24T21:44:20.710357+00:00,start_date,2026-09-24,
+491464,2026-09-24T21:44:20.710357+00:00,start_date,2026-09-24,
+491421,2026-09-24T21:44:20.710357+00:00,start_date,2026-09-24,
+491318,2026-09-24T21:44:20.710357+00:00,start_date,2026-09-24,
+491316,2026-09-24T21:44:20.710357+00:00,start_date,2026-09-24,
+491315,2026-09-24T21:44:20.710357+00:00,start_date,2026-09-24,
+491306,2026-09-24T21:44:20.710357+00:00,start_date,2026-09-24,
+491305,2026-09-24T21:44:20.710357+00:00,start_date,2026-09-24,
+491297,2026-09-24T21:44:20.710357+00:00,start_date,2026-09-24,
+491216,2026-09-24T21:44:20.710357+00:00,start_date,2026-09-24,
+490987,2026-09-24T21:44:20.710357+00:00,start_date,2026-09-24,
+490985,2026-09-24T21:44:20.710357+00:00,start_date,2026-09-24,
+490690,2026-09-24T21:44:20.710357+00:00,start_date,2026-09-24,
+490661,2026-09-24T21:44:20.710357+00:00,start_date,2026-09-24,
+490404,2026-09-24T21:44:20.710357+00:00,hourly_rate_neto,8.17,8.61
+490404,2026-09-24T21:44:20.710357+00:00,hourly_rate_bruto,9.5,10.0
+490404,2026-09-24T21:44:20.710357+00:00,payment_type,8.17 €/h neto (9.50 €/h bruto),8.61 €/h neto (10.00 €/h bruto)
+490217,2026-09-24T21:44:20.710357+00:00,title,PROMOCIJA,DELJENJE LETAKOV
+490217,2026-09-24T21:44:20.710357+00:00,subtitle,DELJENJE LETAKOV,PROMOCIJA
+490217,2026-09-24T21:44:20.710357+00:00,location,"CELJE, LJUBLJANA, MARIBOR",LJUBLJANA
+490217,2026-09-24T21:44:20.710357+00:00,description,"Iščejo prijazne, komunikativne in zanesljive študente/ke za deljenje letakov in promocijskih bonov v trgovinskih centrih. Delo se opravlja dva dni. Dela se med 10.00 in 20.00, po dogovoru. Delo je primerno za vse, ki radi komunicirate z ljudmi in ste pripravljeni aktivno pristopiti do mimoidočih.","Iščejo prijazne, komunikativne in zanesljive študente/ke za deljenje letakov in promocijskih bonov v trgovinskih centrih. Delo se opravlja dva dni, 2. 10. in 3. 10. 2026, med 10.00 in 20.00, po dogovoru. Delo je primerno za vse, ki radi komunicirate z ljudmi in ste pripravljeni aktivno pristopiti do mimoidočih."
+490217,2026-09-24T21:44:20.710357+00:00,open_positions,12,6
+490217,2026-09-24T21:44:20.710357+00:00,duration,DO 26. 9. 2026,DVA DNI
+490217,2026-09-24T21:44:20.710357+00:00,start_date,2026-09-26,2026-10-02
+490032,2026-09-24T21:44:20.710357+00:00,start_date,2026-09-24,
+489929,2026-09-24T21:44:20.710357+00:00,hourly_rate_neto,8.0,9.0
+489929,2026-09-24T21:44:20.710357+00:00,hourly_rate_bruto,9.3,10.46
+489929,2026-09-24T21:44:20.710357+00:00,payment_type,8.00 €/h neto (9.30 €/h bruto),9.00 €/h neto (10.46 €/h bruto)
+488921,2026-09-24T21:44:20.710357+00:00,duration,SEPTEMBER,DLJE ČASA (ZAČ. IN OBČ. DELO)
+488762,2026-09-24T21:44:20.710357+00:00,start_date,2026-09-24,
+488593,2026-09-24T21:44:20.710357+00:00,hourly_rate_neto,9.0,10.0
+488593,2026-09-24T21:44:20.710357+00:00,hourly_rate_bruto,10.46,11.62
+488593,2026-09-24T21:44:20.710357+00:00,payment_type,9.00 €/h neto (10.46 €/h bruto),10.00 €/h neto (11.62 €/h bruto)
+488593,2026-09-24T21:44:20.710357+00:00,description,"Iščejo polnoletne osebe za delo v kovinarski proizvodnji. Lahko so mehatroniki, strojni tehniki, avtomehaniki, varilci, brusilci, monterji ali podobne smeri.","Iščejo polnoletne osebe za delo v kovinarski proizvodnji. Lahko so mehatroniki, strojni tehniki, avtomehaniki, vulkanizerji, varilci, brusilci, monterji ali podobne smeri."
+488146,2026-09-24T21:44:20.710357+00:00,title,PROJEKTIRANJE,GRAFIČNA PRIPRAVA ZA TISK
+488146,2026-09-24T21:44:20.710357+00:00,hourly_rate_neto,8.0,8.61
+488146,2026-09-24T21:44:20.710357+00:00,hourly_rate_bruto,9.3,10.0
+488146,2026-09-24T21:44:20.710357+00:00,payment_type,8.00 €/h neto (9.30 €/h bruto),8.61 €/h neto (10.00 €/h bruto)
+488114,2026-09-24T21:44:20.710357+00:00,description,"Iščeš počitniško delo? V svojo ekipo vabijo študenta/ki v času počitnic za pomoč pri čiščenju in pospravljanju hotelskih sob, sanitarij, gostinskih, medicinskih in wellness prostorov, družabnih prostorov, garderob za osebje in pisarn. Če si natančna in zanesljiva oseba, pripravljena na delo, se prijavi.","V svojo ekipo vabijo študenta/ki za pomoč pri čiščenju in pospravljanju hotelskih sob, sanitarij, gostinskih, medicinskih in wellness prostorov, družabnih prostorov, garderob za osebje in pisarn. Če si natančna in zanesljiva oseba, pripravljena na delo, se prijavi."
+488114,2026-09-24T21:44:20.710357+00:00,duration,POČITNIŠKO DELO,DLJE ČASA (ZAČ. IN OBČ. DELO)
+487958,2026-09-24T21:44:20.710357+00:00,duration,POČITNIŠKO DELO,DLJE ČASA (ZAČ. IN OBČ. DELO)
+487417,2026-09-24T21:44:20.710357+00:00,duration,POČITNIŠKO DELO,PO DOGOVORU
+487300,2026-09-24T21:44:20.710357+00:00,duration,POČITNIŠKO DELO,DO 31. 10. 2026
+486017,2026-09-24T21:44:20.710357+00:00,description,"Iščejo tonske tehnike in asistente (m/ž), ki se bodo pridružili njihovemu timu za broadcast produkcijo. Kot tonski tehnik boste odgovorni za zagotavljanje kakovosti zvoka pri vseh njihovih produkcijah oz. projektih, vključno s snemanjem, miksanjem in masteringom zvoka za televizijske oddaje, športne prenose v živo in druge multimedijske projekte. Ključne odgovornosti: snemanje, miksanje in mastering zvoka za različne broadcast produkte.","Te zanimajo zvok, TV in športni prenosi? V broadcast ekipi iščejo študente (m/ž) za delo tonskega tehnika in asistenta pri televizijskih oddajah, športnih prenosih v živo in drugih produkcijah. Delo vključuje pripravo tonske opreme, pomoč pri snemanju in miksanju zvoka ter sodelovanje s produkcijsko ekipo. Izkušnje so dobrodošle, niso pa pogoj – pomembni so tehnična žilica, zanesljivost in želja po učenju. Nudijo možnost pridobivanja praktičnega znanja in daljšega občasnega sodelovanja."
+486017,2026-09-24T21:44:20.710357+00:00,open_positions,5,10
+485943,2026-09-24T21:44:20.710357+00:00,description,Iščejo polnoletno osebo za delo v strežbi. Pogoj je lastni prevoz. Po dogovoru lahko delo poteka tudi po počitnicah.,Iščejo polnoletno osebo za delo v strežbi. Pogoj je lastni prevoz.
+485943,2026-09-24T21:44:20.710357+00:00,duration,POČITNIŠKO DELO,DLJE ČASA (ZAČ. IN OBČ. DELO)
+485469,2026-09-24T21:44:20.710357+00:00,duration,MED POČITNICAMI,DLJE ČASA (ZAČ. IN OBČ. DELO)
+483936,2026-09-24T21:44:20.710357+00:00,description,"Iščejo več oseb za delo kamermana/ke za live broadcast (snemalec/ka za neposredne prenose). Kamerman/ka za live broadcast je strokovnjak/inja, ki upravlja kamero med v živo predvajanimi dogodki – kot so športne tekme, koncerti, televizijski prenosi, konference, predstave ali spletni streami. Glavne naloge so: zagotoviti tekoče, vizualno kakovostne kadre v realnem času, brez možnosti naknadne montaže ter upravljanje in nastavljanje profesionalnih kamer (studijske, ročne, PTZ).","Iščejo več študentov/k za delo kamermana/ke pri športnih tekmah, TV oddajah in drugih prenosih v živo. Delo vključuje upravljanje profesionalnih kamer ter snemanje kakovostnih kadrov po navodilih režije. Izkušnje so dobrodošle, niso pa pogoj. Pomembni so občutek za kader, tehnična žilica, zanesljivost in želja po učenju. Nudijo uvajanje in možnost dolgoročnega občasnega sodelovanja."
+483936,2026-09-24T21:44:20.710357+00:00,open_positions,10,20
+483827,2026-09-24T21:44:20.710357+00:00,duration,POČITNIŠKO DELO,DLJE ČASA (ZAČ. IN OBČ. DELO)
+483795,2026-09-24T21:44:20.710357+00:00,duration,POČITNIŠKO DELO,DLJE ČASA (ZAČ. IN OBČ. DELO)
+483660,2026-09-24T21:44:20.710357+00:00,description,"Če si komunikativen/a, nasmejan/a in uživaš v dinamičnem delu z ljudmi, te vabijo v ekipo gostilne. Izkušnje so dobrodošle, niso pa pogoj - pomembnejša sta pozitiven odnos in pripravljenost za delo. Ponujajo delo med poletnimi počitnicami med torkom in nedeljo, po potrebi in dogovoru,","Če si komunikativen/a, nasmejan/a in uživaš v dinamičnem delu z ljudmi, te vabijo v ekipo gostilne. Izkušnje so dobrodošle, niso pa pogoj - pomembnejša sta pozitiven odnos in pripravljenost za delo. Ponujajo delo med torkom in nedeljo, po potrebi in dogovoru,"
+483475,2026-09-24T21:44:20.710357+00:00,open_positions,4,6
+482443,2026-09-24T21:44:20.710357+00:00,duration,MED POČITNICAMI,DLJE ČASA (ZAČ. IN OBČ. DELO)
+481891,2026-09-24T21:44:20.710357+00:00,description,"Iščejo študenta/ki zdravstvene nege (2., 3. letnik ali absolvent/ka) za delo v Urgentnem centru (ne v reševalnem vozilu). Delo poteka v kirurški urgentni službi in internistični prvi pomoči, kjer boš pridobival/a dragocene praktične izkušnje v dinamičnem in strokovnem okolju. Delo je dvoizmensko, po potrebi, vikendi po dogovoru. Če te zanima urgentna medicina in timsko delo, se jim pridruži!","Iščejo študenta/ki zdravstvene nege (absolvent/ka) za delo v Urgentnem centru (ne v reševalnem vozilu). Delo poteka v kirurški urgentni službi in internistični prvi pomoči, kjer boš pridobival/a dragocene praktične izkušnje v dinamičnem in strokovnem okolju. Delo je dvoizmensko, po potrebi, vikendi po dogovoru. Če te zanima urgentna medicina in timsko delo, se jim pridruži!"
+481252,2026-09-24T21:44:20.710357+00:00,duration,POČITNIŠKO DELO,DLJE ČASA (ZAČ. IN OBČ. DELO)
+481252,2026-09-24T21:44:20.710357+00:00,work_schedule,PO DOGOVORU,MED VIKENDI
+481155,2026-09-24T21:44:20.710357+00:00,duration,POČITNIŠKO DELO,DLJE ČASA (ZAČ. IN OBČ. DELO)
+480983,2026-09-24T21:44:20.710357+00:00,duration,POČITNIŠKO DELO OZ. PO DOGOVORU,PO DOGOVORU
+479938,2026-09-24T21:44:20.710357+00:00,duration,POČITNIŠKO DELO,DLJE ČASA (ZAČ. IN OBČ. DELO)
+479934,2026-09-24T21:44:20.710357+00:00,duration,POČITNIŠKO DELO,DLJE ČASA (ZAČ. IN OBČ. DELO)
+479747,2026-09-24T21:44:20.710357+00:00,duration,PO DOGOVORU,DLJE ČASA (ZAČ. IN OBČ. DELO)
+479270,2026-09-24T21:44:20.710357+00:00,hourly_rate_neto,7.73,8.0
+479270,2026-09-24T21:44:20.710357+00:00,hourly_rate_bruto,8.98,9.3
+479270,2026-09-24T21:44:20.710357+00:00,payment_type,7.73 €/h neto (8.98 €/h bruto),8.00 €/h neto (9.30 €/h bruto)
+479270,2026-09-24T21:44:20.710357+00:00,description,"V pretežno študentskem baru iščejo pomoč v strežbi. Nahajajo se na lokaciji nasproti študentskega doma in Fakultete za socialno delo, stranke so prijetne in kulturne. Potrebujejo zanesljivi osebi z veliko dobre volje in odgovornosti. Zaželene so izkušnje. Možnost zvišanja urne postavka glede na način in kvaliteto dela.","V pretežno študentskem baru iščejo pomoč v strežbi. Nahajajo se na lokaciji nasproti študentskega doma in Fakultete za socialno delo, stranke so prijetne in kulturne. Popoldanska izmena ima malo dela in ni zahtevna. Potrebujejo zanesljivo osebo z veliko dobre volje in odgovornosti. Zaželene so izkušnje. Možnost zvišanja urne postavka glede na način in kvaliteto dela."
+479270,2026-09-24T21:44:20.710357+00:00,open_positions,2,
+479131,2026-09-24T21:44:20.710357+00:00,duration,POČITNIŠKO DELO,DLJE ČASA (ZAČ. IN OBČ. DELO)
+478766,2026-09-24T21:44:20.710357+00:00,duration,POČITNIŠKO DELO,DLJE ČASA (ZAČ. IN OBČ. DELO)
+478173,2026-09-24T21:44:20.710357+00:00,duration,POČITNIŠKO DELO,DLJE ČASA (ZAČ. IN OBČ. DELO)
+477354,2026-09-24T21:44:20.710357+00:00,duration,POČITNIŠKO DELO,DLJE ČASA (ZAČ. IN OBČ. DELO)
+476412,2026-09-24T21:44:20.710357+00:00,duration,PO DOGOVORU,DO 31. 10. 2026
+476411,2026-09-24T21:44:20.710357+00:00,duration,PO DOGOVORU,DO 31. 10. 2026
+476410,2026-09-24T21:44:20.710357+00:00,duration,DLJE ČASA (ZAČ. IN OBČ. DELO),DO 31. 10. 2026
+476267,2026-09-24T21:44:20.710357+00:00,duration,POČITNIŠKO DELO,DLJE ČASA (ZAČ. IN OBČ. DELO)
+476265,2026-09-24T21:44:20.710357+00:00,duration,MED POČITNICAMI,DLJE ČASA (ZAČ. IN OBČ. DELO)
+476264,2026-09-24T21:44:20.710357+00:00,duration,MED POČITNICAMI,DLJE ČASA (ZAČ. IN OBČ. DELO)
+476262,2026-09-24T21:44:20.710357+00:00,duration,MED POČITNICAMI,DLJE ČASA (ZAČ. IN OBČ. DELO)
+476260,2026-09-24T21:44:20.710357+00:00,duration,MED POČITNICAMI,DLJE ČASA (ZAČ. IN OBČ. DELO)
+476069,2026-09-24T21:44:20.710357+00:00,description,"Podjetje išče več oseb za pomoč v restavraciji s hitro prehrano. Delovni čas je fleksibilen. Ob praznikih in v nočnem času (pogoj je 18 let) znaša urna postavka 10 € bruto. Zainteresirani se lahko prijavite preko elektronske pošte, e-prijave, spletne strani ali se oglasite osebno v restavraciji. Možnost nadaljnjega sodelovanja tudi po koncu počitnic.","Podjetje išče več oseb za pomoč v restavraciji s hitro prehrano. Delovni čas je fleksibilen. Ob praznikih in v nočnem času (pogoj je 18 let) znaša urna postavka 10 € bruto. Zainteresirani se lahko prijavite preko elektronske pošte, e-prijave, spletne strani ali se oglasite osebno v restavraciji."
+476069,2026-09-24T21:44:20.710357+00:00,duration,MED POČITNICAMI,DLJE ČASA (ZAČ. IN OBČ. DELO)
+475990,2026-09-24T21:44:20.710357+00:00,duration,MED POČITNICAMI,DLJE ČASA (ZAČ. IN OBČ. DELO)
+475179,2026-09-24T21:44:20.710357+00:00,description,"Iščejo več polnoletnih oseb za pomoč pri strežbi v planinskem domu. Delo ni peveč zahtevno in poteka v krasnem kolektivu. Delo bo potekalo med vikendi, do 17.00, po dogovoru.","Iščejo več polnoletnih oseb za pomoč pri strežbi v planinskem domu. Delo ni preveč zahtevno in poteka v krasnem kolektivu. Delo bo potekalo med vikendi, do 17.00, po dogovoru."
+475179,2026-09-24T21:44:20.710357+00:00,duration,PO DOGOVORU,DLJE ČASA (ZAČ. IN OBČ. DELO)
+474039,2026-09-24T21:44:20.710357+00:00,duration,POČITNIŠKO DELO,DLJE ČASA (ZAČ. IN OBČ. DELO)
+472802,2026-09-24T21:44:20.710357+00:00,duration,POČITNIŠKO DELO,DLJE ČASA (ZAČ. IN OBČ. DELO)
+471355,2026-09-24T21:44:20.710357+00:00,duration,POČITNIŠKO DELO,DLJE ČASA (ZAČ. IN OBČ. DELO)
+468741,2026-09-24T21:44:20.710357+00:00,duration,POČITNIŠKO DELO,DLJE ČASA (ZAČ. IN OBČ. DELO)
+466725,2026-09-24T21:44:20.710357+00:00,duration,POČITNIŠKO DELO,DLJE ČASA (ZAČ. IN OBČ. DELO)
+465590,2026-09-24T21:44:20.710357+00:00,duration,POČITNIŠKO DELO,DLJE ČASA (ZAČ. IN OBČ. DELO)
+464939,2026-09-24T21:44:20.710357+00:00,description,"Delo v restavraciji s hitro prehrano. Iščejo komunikativne, samoiniciativne in zanesljive osebe, ki rade delajo v timu. Nudijo fleksibilen urnik. Dela se večinoma popoldne ter za vikende, po dogovoru in potrebi. Urna postavka se zviša glede na uspešnost pri delu. Ob praznikih in v nočnem času (pogoj je polnoletnost) znaša urna postavka 11 € bruto. Pošljite prijavo. Možnost nadaljnjega sodelovanja tudi po koncu počitnic.","Delo v restavraciji s hitro prehrano. Iščejo komunikativne, samoiniciativne in zanesljive osebe, ki rade delajo v timu. Nudijo fleksibilen urnik. Dela se večinoma popoldne ter za vikende, po dogovoru in potrebi. Urna postavka se zviša glede na uspešnost pri delu. Ob praznikih in v nočnem času (pogoj je polnoletnost) znaša urna postavka 11 € bruto. Pošljite prijavo."
+464939,2026-09-24T21:44:20.710357+00:00,duration,POČITNIŠKO DELO,DLJE ČASA (ZAČ. IN OBČ. DELO)
+462660,2026-09-24T21:44:20.710357+00:00,hourly_rate_neto,,8.0
+462660,2026-09-24T21:44:20.710357+00:00,hourly_rate_bruto,,9.3
+462660,2026-09-24T21:44:20.710357+00:00,payment_type,PO DOGOVORU,8.00 €/h neto (9.30 €/h bruto)
+459948,2026-09-24T21:44:20.710357+00:00,duration,POČITNIŠKO DELO,DLJE ČASA (ZAČ. IN OBČ. DELO)
+457340,2026-09-24T21:44:20.710357+00:00,duration,POČITNIŠKO DELO,DLJE ČASA (ZAČ. IN OBČ. DELO)
+454161,2026-09-24T21:44:20.710357+00:00,duration,MED POČITNICAMI,DLJE ČASA (ZAČ. IN OBČ. DELO)
+454160,2026-09-24T21:44:20.710357+00:00,duration,MED POČITNICAMI,DLJE ČASA (ZAČ. IN OBČ. DELO)
+450220,2026-09-24T21:44:20.710357+00:00,description,"Delo v restavraciji s hitro prehrano. Iščejo pridne, zanesljive in samoiniciativne osebe, ki so pripravljeni/e na dolgoročno občasno sodelovanje. Nudijo fleksibilen urnik (delo si lahko prilagajate s šolskimi obveznostmi). V nočnem času znaša urna postavka 11 € bruto. Za delo v nočnem času je pogoj starost nad 18 let. Možnost nadaljnjega sodelovanja tudi po koncu počitnic.","Delo v restavraciji s hitro prehrano. Iščejo pridne, zanesljive in samoiniciativne osebe, ki so pripravljeni/e na dolgoročno občasno sodelovanje. Nudijo fleksibilen urnik (delo si lahko prilagajate s šolskimi obveznostmi). V nočnem času znaša urna postavka 11 € bruto. Za delo v nočnem času je pogoj starost nad 18 let."
+442784,2026-09-24T21:44:20.710357+00:00,description,"Pridruži se ekipi in se prijavi na delo v restavraciji s hitro prehrano. V svoj kolektiv vabijo delavne in odgovorne osebe. Čakata te huda služba in dobra družba. Ponujajo dobro in stimulativno plačilo, prijetno in sproščeno okolje urnik po dogovoru, pridobiš pa tudi neprecenljive izkušnje in veščine. Možnost nadaljnjega sodelovanja tudi po koncu počitnic. .","Pridruži se ekipi in se prijavi na delo v restavraciji s hitro prehrano. V svoj kolektiv vabijo delavne in odgovorne osebe. Čakata te huda služba in dobra družba. Ponujajo dobro in stimulativno plačilo, prijetno in sproščeno okolje urnik po dogovoru, pridobiš pa tudi neprecenljive izkušnje in veščine."
+442784,2026-09-24T21:44:20.710357+00:00,duration,POČITNIŠKO DELO,DLJE ČASA (ZAČ. IN OBČ. DELO)
