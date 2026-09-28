@@ -13687,3 +13687,118 @@ listing_id,changed_at,field,old_value,new_value
 491299,2026-09-26T21:27:54.712290+00:00,start_date,2026-09-26,
 491273,2026-09-26T21:27:54.712290+00:00,start_date,2026-09-26,
 488516,2026-09-26T21:27:54.712290+00:00,start_date,2026-09-26,
+491696,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+491693,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+491687,2026-09-28T23:28:04.328065+00:00,hourly_rate_neto,8.0,8.5
+491687,2026-09-28T23:28:04.328065+00:00,hourly_rate_bruto,9.3,9.88
+491687,2026-09-28T23:28:04.328065+00:00,payment_type,8.00 €/h neto (9.30 €/h bruto),8.50 €/h neto (9.88 €/h bruto)
+491687,2026-09-28T23:28:04.328065+00:00,description,"Podjetje išče okrepitve. So majhen, prijeten lokal z večinoma rednimi gosti, ki so zelo prijazni. Pomoč potrebujejo predvsem ob vikendih, pa tudi med tednom. Delovne ure so prilagodljive vašim željam. Delovne izkušnje so obvezne. Pogoj za delo je polnoletnost. Poleg osnovne urne postavke upoštevajo še stimulacijo na delovno uspešnost.","Podjetje išče okrepitve! So majhen, prijeten lokal z večinoma rednimi gosti, ki so zelo prijazni. Pomoč potrebujejo predvsem ob vikendih, pa tudi med tednom. Delovne ure so prilagodljive vašim željam, izkušnje so obvezne. Pogoj za delo je polnoletnost. Poleg osnovne urne postavke upoštevajo tudi stimulacijo na delovno uspešnost."
+491687,2026-09-28T23:28:04.328065+00:00,duration,DO 31. 12. 2026,PO DOGOVORU
+491682,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+491681,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+491668,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+491647,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+491644,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-29,
+491639,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+491637,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+491634,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+491630,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+491627,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+491616,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+491611,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+491610,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-29,
+491609,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+491591,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-29,
+491574,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+491567,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+491549,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+491542,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+491537,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+491536,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+491522,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+491515,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+491508,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+491497,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+491483,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+491480,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+491474,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+491468,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+491463,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+491455,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+491449,2026-09-28T23:28:04.328065+00:00,hourly_rate_neto,7.73,8.0
+491449,2026-09-28T23:28:04.328065+00:00,hourly_rate_bruto,8.98,9.3
+491449,2026-09-28T23:28:04.328065+00:00,payment_type,7.73 €/h neto (8.98 €/h bruto),8.00 €/h neto (9.30 €/h bruto)
+491449,2026-09-28T23:28:04.328065+00:00,work_schedule,IZMENSKO,PO DOGOVORU
+491444,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+491443,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+491436,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+491434,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+491431,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+491429,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+491427,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+491424,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+491420,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+491403,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+491395,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+491388,2026-09-28T23:28:04.328065+00:00,duration,DO 30. 9. 2026,DO 5. 10. 2026
+491385,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+491355,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+491343,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+491326,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+491322,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+491321,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+491312,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+491310,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+491285,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+491276,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+491274,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+491241,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-29,
+491239,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+491235,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+491231,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+491230,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+491217,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-29,
+491201,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+491198,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+491197,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+491160,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+491131,2026-09-28T23:28:04.328065+00:00,description,"Iščejo študenta/ko, ki bi opravljal/a preprosta dela v kuhinji. Delovnik in plačilo je po dogovoru. Izkušnje so zaželene, niso pa pogoj. Za več informacij in prijavo pokliči.","Iščejo študenta/ko, ki bi opravljal/a preprosta dela v kuhinji. Delovnik je med 9.00 in 15.00 ali med 15.00 in 21.00, po dogovoru in popolnoma prilagodljiv. Izkušnje so zaželene, niso pa pogoj. Za več informacij in prijavo pokliči."
+491131,2026-09-28T23:28:04.328065+00:00,duration,PO DOGOVORU,DLJE ČASA (ZAČ. IN OBČ. DELO)
+491131,2026-09-28T23:28:04.328065+00:00,work_schedule,PO DOGOVORU,IZMENSKO
+491117,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+491071,2026-09-28T23:28:04.328065+00:00,description,"Iščejo učitelje/ice plavanja z opravljeno licenco. Iščejo osebe, ki bi pokrivale menjave tekom tedna in bile pripravljene menjati in delati tudi ob sobotah. Plavalna šola se izvaja v Tivoliju, rekreacije pa tudi na drugih bazenih. Vsak začne v plavalni šoli. Sprva je obvezno uvajanje (urna postavka 10 € bruto), po uvajanju pa urna postavka znaša 14,41€ bruto (12,4 € neto).","Iščejo učitelje/ice plavanja z veljavno licenco za delo v plavalni šoli. Delo obsega vodenje in izvajanje plavalnih tečajev za otroke in odrasle. Delo je občasno, praviloma 1–4 ure tedensko. Izkušnje so zaželene, za učitelje/ice začetnike/ce nudijo uvajanje in podporo. Veselje do dela z ljudmi in ljubezen do plavanja sta obvezna. Pogoj za delo je polnoletnost."
+491020,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+490952,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+490923,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+490898,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+490893,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+490866,2026-09-28T23:28:04.328065+00:00,description,"Podjetje išče zanesljivega in natančnega študenta/ko za pomoč pri delu na stroju za lasersko graviranje. Delo obsega upravljanje stroja, pripravo in vstavljanje izdelkov, osnovno kontrolo kakovosti ter po potrebi tudi pomoč pri lažjih delih v proizvodnji. Možnost priučitve, ustrezno uvajanje je zagotovljeno. Pričakujejo odgovoren odnos do dela in pripravljenost za učenje. Delo poteka po dogovoru in se lahko prilagaja študijskim obveznostim. zaželen je lasten prevoz.",Podjetje išče zanesljivega in natančnega študenta/ko za pomoč pri lažjih fizičnih delih v proizvodnji ter občasno pomoč pri delu za strojem za laseriranje. Delo poteka dopoldne in popoldne oz. po dogovoru s podjetjem. Pričakujejo odgovoren odnos do dela in pripravljenost za učenje. Zaželen je lasten prevoz.
+490769,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+490654,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+490649,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+490549,2026-09-28T23:28:04.328065+00:00,location,VRZDENEC,"VRZDENEC, VRZDENEC 100"
+490502,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+490482,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+490242,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+490221,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+490147,2026-09-28T23:28:04.328065+00:00,description,"Podjetje potrebuje osebo za lažja fizična dela v proizvodnji manjših plastičnih izdelkov (avtomobilska industrija); vlaganje, kontrola in sortiranje izdelkov. Delo bo potekalo dvoizmensko, po potrebi in dogovoru. Pogoj je razumevanje slovenskega jezika. Za dodatne informacije in prijavo jih pokličite dopoldan do 15. ure. Možnost nadaljnjega sodelovanja, tudi po koncu počitnic.","Podjetje potrebuje osebo za lažja fizična dela v proizvodnji manjših plastičnih izdelkov (avtomobilska industrija); vlaganje, kontrola in sortiranje izdelkov. Delo bo potekalo dvoizmensko, po potrebi in dogovoru. Pogoj je razumevanje slovenskega jezika. Za dodatne informacije in prijavo jih pokličite dopoldan do 15. ure."
+490015,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+489845,2026-09-28T23:28:04.328065+00:00,description,Potrebujejo osebo za geodetska dela operaterja na terenu. Pogoja: polnoletnost in osnovno znanje dela z inštrumenti. Za prijavo jih pokliči ali jim pošlji e-mail.,Potrebujejo osebo za geodetska dela operaterja na terenu. Pogoja: polnoletnost in osnovno znanje dela z inštrumenti. Urna postavka je začetna in se glede na znanje poviša. Delo je občasno. Za prijavo jih pokliči ali jim pošlji e-mail.
+489418,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+489374,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+489100,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+488803,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+488702,2026-09-28T23:28:04.328065+00:00,location,"KOMENDA , POD HRASTI 7, POSLOVNA CONA","KOMENDA, POD HRASTI 7, POSLOVNA CONA"
+488702,2026-09-28T23:28:04.328065+00:00,description,"V podjetju, ki se ukvarja s proizvodnjo prenapetostnih zaščit, potrebujejo osebi za enostavnejša dela v proizvodnji. Delo je primerno tudi za mladoletne. Zaželene so ročne spretnosti in resnost pri delu. Delo poteka med 6.00 in 14.00, lahko pa tudi med 14.00 in 22.00, po potrebi in dogovoru. Zagotovljena je brezplačna topla malica in brezplačen organiziran avtobusni prevoz iz LJ na sedež podjetja v poslovni coni Komenda in nazaj.","V podjetju, ki se ukvarja s proizvodnjo prenapetostnih zaščit, potrebujejo osebo za enostavnejša dela v proizvodnji. Delo je primerno tudi za mladoletne. Zaželene so ročne spretnosti in resnost pri delu. Delo poteka med 6.00 in 14.00, lahko pa tudi med 14.00 in 22.00, po potrebi in dogovoru. Zagotovljena je brezplačna topla malica in brezplačen organiziran avtobusni prevoz iz LJ na sedež podjetja v poslovni coni Komenda in nazaj."
+488702,2026-09-28T23:28:04.328065+00:00,open_positions,20,
+488702,2026-09-28T23:28:04.328065+00:00,duration,PO DOGOVORU,DLJE ČASA (ZAČ. IN OBČ. DELO)
+488702,2026-09-28T23:28:04.328065+00:00,work_schedule,PO DOGOVORU,DOPOLDAN
+488702,2026-09-28T23:28:04.328065+00:00,start_date,,2026-10-12
+488194,2026-09-28T23:28:04.328065+00:00,duration,POČITNIŠKO DELO,PO DOGOVORU
+487854,2026-09-28T23:28:04.328065+00:00,location,"KOPER, MUZEJEKI TRG1","KOPER, MUZEJSKI TRG1"
+486062,2026-09-28T23:28:04.328065+00:00,start_date,2026-09-28,
+476748,2026-09-28T23:28:04.328065+00:00,location,"HORJUL, VRZDENEC 100","VRZDENEC, VRZDENEC 100"
+467790,2026-09-28T23:28:04.328065+00:00,hourly_rate_neto,8.5,9.0
+467790,2026-09-28T23:28:04.328065+00:00,hourly_rate_bruto,9.88,10.46
+467790,2026-09-28T23:28:04.328065+00:00,payment_type,8.50 €/h neto (9.88 €/h bruto),9.00 €/h neto (10.46 €/h bruto)
+458837,2026-09-28T23:28:04.328065+00:00,subtitle,,PREDAVANJE
