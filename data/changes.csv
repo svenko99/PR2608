@@ -13802,3 +13802,54 @@ listing_id,changed_at,field,old_value,new_value
 467790,2026-09-28T23:28:04.328065+00:00,hourly_rate_bruto,9.88,10.46
 467790,2026-09-28T23:28:04.328065+00:00,payment_type,8.50 €/h neto (9.88 €/h bruto),9.00 €/h neto (10.46 €/h bruto)
 458837,2026-09-28T23:28:04.328065+00:00,subtitle,,PREDAVANJE
+491892,2026-09-29T22:32:50.097905+00:00,description,"Podjetje išče osebo z izkušnjami za delo med tednom in/ali med vikendi (strežba pijač, prodaja kruha in slaščic). Delo je v urejenem okolju in mladem timu.","Podjetje išče osebo z izkušnjami za delo med tednom in/ali med vikendi (strežba pijač, prodaja kruha in slaščic). Delo je v urejenem okolju in mladem timu. Kvarna je v bližini železniške postaje v sklopu hotela."
+491890,2026-09-29T22:32:50.097905+00:00,title,DELO V TURIZMU,REDITELJ
+491890,2026-09-29T22:32:50.097905+00:00,description,"Podjetje išče primerne osebe za delo na prireditvi. Reditelj, pomoč pri postavitiv stojnic in pomoč ponudnikom, po končanem dogodku pospravljanje prizorišča.","Podjetje išče primerne osebe za delo na prireditvi. Reditelj, pomoč pri postavitvi stojnic in pomoč ponudnikom, po končanem dogodku pospravljanje prizorišča."
+491890,2026-09-29T22:32:50.097905+00:00,duration,3. 10. 2026,"SOBOTA, 3. 10. 2026"
+491890,2026-09-29T22:32:50.097905+00:00,work_schedule,POPOLDAN,MED VIKENDI
+491885,2026-09-29T22:32:50.097905+00:00,description,"Pomoč vzgojiteljici pri delu z otroki. Obvezno je, da je oseba polnoletna in ima smisel za tovrstno delo.","Pomoč vzgojiteljici pri delu z otroki. Obvezno je, da je oseba polnoletna in ima smisel za tovrstno delo. Znanje slovenskega jezika (tako govorno kot pisno) je obvezno."
+491870,2026-09-29T22:32:50.097905+00:00,hourly_rate_neto,10.0,12.0
+491870,2026-09-29T22:32:50.097905+00:00,hourly_rate_bruto,11.62,13.95
+491870,2026-09-29T22:32:50.097905+00:00,payment_type,10.00 €/h neto (11.62 €/h bruto),12.00 €/h neto (13.95 €/h bruto)
+491862,2026-09-29T22:32:50.097905+00:00,start_date,2026-09-30,
+491861,2026-09-29T22:32:50.097905+00:00,start_date,2026-09-30,
+491853,2026-09-29T22:32:50.097905+00:00,start_date,2026-09-30,
+491852,2026-09-29T22:32:50.097905+00:00,start_date,2026-09-30,
+491826,2026-09-29T22:32:50.097905+00:00,start_date,2026-09-30,
+491794,2026-09-29T22:32:50.097905+00:00,start_date,2026-09-30,
+491740,2026-09-29T22:32:50.097905+00:00,start_date,2026-09-30,
+491738,2026-09-29T22:32:50.097905+00:00,start_date,2026-09-30,
+491721,2026-09-29T22:32:50.097905+00:00,start_date,2026-09-30,
+491716,2026-09-29T22:32:50.097905+00:00,start_date,2026-09-30,
+491704,2026-09-29T22:32:50.097905+00:00,description,"Podjetje išče študenta ali študentki za nastopanje v kratkih video vsebinah v hrvaščini. Želijo si osebo, ki hrvaščino govori na ravni maternega jezika ter pred kamero nastopa jasno, sproščeno in naravno. Pošljite jim kratko predstavitev in 15–20 sekundni video, v katerem v hrvaščini s svojimi besedami predstavite podjetje na podlagi informacij s hrvaške spletne strani podjetja. Profesionalna oprema ni potrebna posnetek s telefonom povsem zadostuje.","Podjetje išče študenta ali študentki za nastopanje v kratkih video vsebinah v hrvaščini. Želijo si osebo, ki hrvaščino govori na ravni maternega jezika ter pred kamero nastopa jasno, sproščeno in naravno. Pošljite jim kratko predstavitev in 15–20 sekundni video, v katerem v hrvaščini s svojimi besedami predstavite podjetje na podlagi informacij s hrvaške spletne strani podjetja. Profesionalna oprema ni potrebna, posnetek s telefonom povsem zadostuje."
+491662,2026-09-29T22:32:50.097905+00:00,description,"Za sodelovanje v skupinski diskusiji iščejo dijake 3. in 4. letnikov, ki razmišljajo o vpisu na fakulteto. Diskusija traja uro in pol na sedežu podjetja.",Za sodelovanje v skupinski diskusiji iščejo dijake 3. in 4. letnikov in študente 1. letnikov. Diskusija traja uro in pol na sedežu podjetja.
+491662,2026-09-29T22:32:50.097905+00:00,start_date,2026-10-01,2026-10-06
+491621,2026-09-29T22:32:50.097905+00:00,start_date,2026-09-30,
+491544,2026-09-29T22:32:50.097905+00:00,hourly_rate_neto,9.0,12.0
+491544,2026-09-29T22:32:50.097905+00:00,hourly_rate_bruto,10.46,13.95
+491544,2026-09-29T22:32:50.097905+00:00,payment_type,9.00 €/h neto (10.46 €/h bruto),12.00 €/h neto (13.95 €/h bruto)
+491544,2026-09-29T22:32:50.097905+00:00,description,"Iščejo snemalca/ko za lov za zakladom z UV lučkami za družine z otroki v rovu v Zasavju. Enkrat na mesec posnameš vsebino na dogodku, jo zmontiraš in vsak dan objaviš na TikToku in Instagramu. Spremljaš rezultate in predlagaš, kaj izboljšati. Plačilo: 10,46 €/h bruto + bonusi. Iščejo kreativno osebo z zagonom, ki sama išče priložnosti. Kdor se izkaže, napreduje in prevzame vodenje projekta. Prijava na e-mail, pošlji povezave do 3 videov, ki si jih zmontiral/a sam/a.","Iščejo snemalca/ko za lov za zakladom z UV lučkami za družine z otroki v rovu v Zasavju. Enkrat na mesec posnameš vsebino na dogodku, jo zmontiraš in vsak dan objaviš na TikToku in Instagramu. Spremljaš rezultate in predlagaš, kaj izboljšati. Plačilo: 13/95 €/bruto + bonusi. Iščejo kreativno osebo z zagonom, ki sama išče priložnosti. Kdor se izkaže, napreduje in prevzame vodenje projekta. Prijava na e-mail, pošlji povezave do 3 videov, ki si jih zmontiral/a sam/a."
+491012,2026-09-29T22:32:50.097905+00:00,description,"Iščejo študenta/ko za občasno pomoč pri fizičnih delih v skladišču in okrog njega. Tvoje delo bo vključevalo pospravljanje skladiščnih prostorov ter skrb za urejeno okolico – košnjo trave, pihanje listja in druga podobna vzdrževalna dela. Urnik si prilagodiš po dogovoru z njimi. Pomembna je predvsem zanesljivost. V septembru je obseg dela večji, kasneje je dela manj.","Iščejo študenta/ko za občasno pomoč pri fizičnih delih v skladišču in okrog njega. Tvoje delo bo vključevalo pospravljanje skladiščnih prostorov ter skrb za urejeno okolico – košnjo trave, pihanje listja in druga podobna vzdrževalna dela. Urnik si prilagodiš po dogovoru z njimi. Pomembna je predvsem zanesljivost."
+490926,2026-09-29T22:32:50.097905+00:00,hourly_rate_neto,9.0,10.0
+490926,2026-09-29T22:32:50.097905+00:00,hourly_rate_bruto,10.46,11.62
+490926,2026-09-29T22:32:50.097905+00:00,payment_type,9.00 €/h neto (10.46 €/h bruto),10.00 €/h neto (11.62 €/h bruto)
+490925,2026-09-29T22:32:50.097905+00:00,hourly_rate_neto,9.0,10.0
+490925,2026-09-29T22:32:50.097905+00:00,hourly_rate_bruto,10.46,11.62
+490925,2026-09-29T22:32:50.097905+00:00,payment_type,9.00 €/h neto (10.46 €/h bruto),10.00 €/h neto (11.62 €/h bruto)
+490763,2026-09-29T22:32:50.097905+00:00,start_date,2026-09-30,
+490293,2026-09-29T22:32:50.097905+00:00,start_date,2026-09-30,
+490206,2026-09-29T22:32:50.097905+00:00,start_date,2026-09-30,
+489102,2026-09-29T22:32:50.097905+00:00,start_date,2026-09-30,
+488408,2026-09-29T22:32:50.097905+00:00,start_date,2026-10-01,2026-10-05
+487447,2026-09-29T22:32:50.097905+00:00,location,"LJUBLJANA , EKONOMSKA GIMNAZIJA,","LJUBLJANA , EKONOMSKA GIMNAZIJA"
+487417,2026-09-29T22:32:50.097905+00:00,hourly_rate_neto,7.73,8.52
+487417,2026-09-29T22:32:50.097905+00:00,hourly_rate_bruto,8.98,9.9
+487417,2026-09-29T22:32:50.097905+00:00,payment_type,7.73 €/h neto (8.98 €/h bruto),8.52 €/h neto (9.90 €/h bruto)
+487417,2026-09-29T22:32:50.097905+00:00,description,"V ekipo vabijo dijake/inje, zaželeno višjih letnikov SZŠ in študente/ke ZF. Potrebujejo pomoč pri negi pacientov, transportu na preiskave ter vsakodnevnih opravilih na oddelku ali v EIT. Delo je enkratna priložnost za pridobitev novih znanj in praktičnih izkušenj (sodelovanje pri reanimaciji, nadzor po invazivnih posegih, zdravljenju motenj srčnega ritma, spoznavanje novih metod zdravljenja srčnih obolenj itd.). Delo poteka izmensko in občasno med vikendi, po potrebi in dogovoru.","V ekipo vabijo dijaka/injo, zaželeno višjih letnikov SZŠ ali študenta/ko ZF. Gre za pomoč pri sprejemu in odpustu pacientov po opravljenih preiskavah, nadzor vitalnih funkcij, pomoč pri transportu na preiskave. Delo je enkratna priložnost za pridobitev novih znanj in praktičnih izkušenj (sodelovanje pri reanimaciji, nadzor po invazivnih posegih, zdravljenju motenj srčnega ritma, spoznavanje novih metod zdravljenja srčnih obolenj itd.). Delo poteka med tednom dopoldan, po dogovoru."
+487417,2026-09-29T22:32:50.097905+00:00,open_positions,3,
+487417,2026-09-29T22:32:50.097905+00:00,work_schedule,IZMENSKO,DOPOLDAN
+482867,2026-09-29T22:32:50.097905+00:00,description,"Iščejo 2 študenta/ki za strežbo hrane in pijače. Zaželene izkušnje v strežbi. Urna postavka za študenta/ko z izkušnjami, ki so sposobne samostojno opravljati delo je 11,62 € bruto, za tiste brez izkušenj pa 10,46 € bruto.","Iščejo 2 študenta/ki za strežbo hrane in pijače. Pogoje je polnoletnost. Urna postavka 13,95 € bruto je za študenta/ko z izkušnjami, ki je sposoben/na samostojno opravljati delo."
+478172,2026-09-29T22:32:50.097905+00:00,title,LAŽJA FIZIČNA DELA,STREŽBA
+478172,2026-09-29T22:32:50.097905+00:00,subtitle,POMIVALEC,
+478172,2026-09-29T22:32:50.097905+00:00,description,Iščejo dve osebi z izkušnjami za pomivanje posode v šanku. Plačilo je lahko tudi višje glede na kvaliteto dela.,"Iščejo dve osebi z izkušnjami v strežbi za delo v šanku in v klasični strežbi. Plačilo je lahko tudi višje glede na kvaliteto dela. Dela se ob petkih, sobotah in nedeljah, po dogovoru."
+478172,2026-09-29T22:32:50.097905+00:00,work_schedule,PO DOGOVORU,MED VIKENDI
