@@ -15186,3 +15186,30 @@ listing_id,changed_at,field,old_value,new_value
 485966,2026-10-26T22:50:49.232503+00:00,work_schedule,POPOLDAN,IZMENSKO
 485966,2026-10-26T22:50:49.232503+00:00,start_date,,2026-11-02
 477709,2026-10-26T22:50:49.232503+00:00,start_date,2026-10-26,
+493979,2026-10-27T22:33:40.614274+00:00,hourly_rate_neto,11.0,9.5
+493979,2026-10-27T22:33:40.614274+00:00,hourly_rate_bruto,12.78,11.04
+493979,2026-10-27T22:33:40.614274+00:00,payment_type,11.00 €/h neto (12.78 €/h bruto),9.50 €/h neto (11.04 €/h bruto)
+493973,2026-10-27T22:33:40.614274+00:00,start_date,2026-10-27,
+493944,2026-10-27T22:33:40.614274+00:00,start_date,2026-10-27,
+493942,2026-10-27T22:33:40.614274+00:00,location,"ŽALEC, GOTOVELJSKA 12","ŽALEC, GOTOVELJSKA CESTA 12"
+493938,2026-10-27T22:33:40.614274+00:00,start_date,2026-10-27,
+493928,2026-10-27T22:33:40.614274+00:00,start_date,2026-10-27,
+493893,2026-10-27T22:33:40.614274+00:00,start_date,2026-10-27,
+493891,2026-10-27T22:33:40.614274+00:00,location,"RADOMLJE, DOMŽALE, TRZIN, LJUBLJANA, DOLENJE 11","RADOMLJE, DOMŽALE, TRZIN, LJUBLJANA"
+493891,2026-10-27T22:33:40.614274+00:00,description,Iščejo osebo za delo z otroci. Zaželene so izkušnje pri delu z otroki in študij v tej smeri (razredni pouk ali predšolska vzgoja). Delovnik je po potrebi in dogovoru.,Iščejo osebo za delo z otroci (različne delavnice po osnovnih šolah). Zaželene so izkušnje pri delu z otroki in študij v tej smeri (razredni pouk ali predšolska vzgoja). Delovnik je po potrebi in dogovoru.
+493883,2026-10-27T22:33:40.614274+00:00,hourly_rate_neto,11.0,9.5
+493883,2026-10-27T22:33:40.614274+00:00,hourly_rate_bruto,12.78,11.04
+493883,2026-10-27T22:33:40.614274+00:00,payment_type,11.00 €/h neto (12.78 €/h bruto),9.50 €/h neto (11.04 €/h bruto)
+493780,2026-10-27T22:33:40.614274+00:00,start_date,2026-10-27,
+493724,2026-10-27T22:33:40.614274+00:00,start_date,2026-10-27,
+493679,2026-10-27T22:33:40.614274+00:00,start_date,,2026-11-06
+493672,2026-10-27T22:33:40.614274+00:00,start_date,2026-10-27,
+493663,2026-10-27T22:33:40.614274+00:00,start_date,2026-10-27,
+493628,2026-10-27T22:33:40.614274+00:00,start_date,2026-10-27,
+493253,2026-10-27T22:33:40.614274+00:00,description,"Iščejo več oseb za vožnjo taksija. Ponujajo prilagodljiv urnik, vse po potrebi in dogovoru. Pogoj je vozniški izpit B kategorije veljaven vsaj 3 leta.","Podjetje išče več oseb za vožnjo taksija. Ponujajo prilagodljiv urnik. Delo zaenkrat poteka večinoma samo med vikendi, po potrebi in dogovoru se lahko dela tudi kdaj med tednom. Pogoj je vozniški izpit B kategorije veljaven vsaj 3 leta."
+493253,2026-10-27T22:33:40.614274+00:00,work_schedule,PO DOGOVORU,MED VIKENDI
+490683,2026-10-27T22:33:40.614274+00:00,start_date,2026-10-27,
+490366,2026-10-27T22:33:40.614274+00:00,start_date,2026-10-27,
+488406,2026-10-27T22:33:40.614274+00:00,description,"Podjetje išče zagnani osebi za pomoč pri administraciji in komunikaciji s strankami. Iščejo mlad kader, ki je komunikativen, urejen in si želi stabilnega dela v popoldanskem času ter rasti skupaj z ekipo. Glavne naloge obsegajo administrativno pomoč, pošiljanje osnovnih informativnih ponudb po vnaprej pripravljenih predlogah, podporo strankam, informativno klicanje strank in nudenje osnovnih informacij. Pomembno: delo ne vključuje prodaje, pač pa le podporo strankam in administracijo.","Podjetje išče zagnani osebi za pomoč pri administraciji in komunikaciji s strankami. Iščejo mlad kader, ki je komunikativen, urejen in si želi stabilnega dela v dopoldanskem ali popoldanskem času ter rasti skupaj z ekipo.Glavne naloge obsegajo administrativno pomoč, pošiljanje osnovnih informativnih ponudb po vnaprej pripravljenih predlogah, podporo strankam, informativno klicanje strank in nudenje osnovnih informacij. Pomembno:delo ne vključuje prodaje,temveč podporo strankam in administraciji."
+488406,2026-10-27T22:33:40.614274+00:00,work_schedule,POPOLDAN,DOPOLDAN
+488406,2026-10-27T22:33:40.614274+00:00,start_date,,2026-11-02
