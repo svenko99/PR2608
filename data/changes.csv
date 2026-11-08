@@ -15602,3 +15602,4 @@ listing_id,changed_at,field,old_value,new_value
 463189,2026-11-06T23:27:44.949579+00:00,hourly_rate_neto,8.15,8.7
 463189,2026-11-06T23:27:44.949579+00:00,hourly_rate_bruto,9.47,10.11
 463189,2026-11-06T23:27:44.949579+00:00,payment_type,8.15 €/h neto (9.47 €/h bruto),8.70 €/h neto (10.11 €/h bruto)
+494545,2026-11-08T22:25:03.228070+00:00,start_date,2026-11-08,
