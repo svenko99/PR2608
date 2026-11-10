@@ -15719,3 +15719,31 @@ listing_id,changed_at,field,old_value,new_value
 473276,2026-11-10T01:44:18.320870+00:00,hourly_rate_bruto,9.3,10.3
 473276,2026-11-10T01:44:18.320870+00:00,payment_type,8.00 €/h neto (9.30 €/h bruto),8.86 €/h neto (10.30 €/h bruto)
 473276,2026-11-10T01:44:18.320870+00:00,description,"Delo v marketinški agenciji. Delo zajema pripravo marketinških tiskovin in drugih promocijskih materialov. Pogoj je poznavanje programov Adobe. Urna postavka znaša od 9,30 do 13,95 € bruto (od 8 do 12 € neto). Delo poteka na sedežu podjetja. Prijave sprejemajo na e-mail ali po pošti. Priprava marketinških tiskovin in drugih promocijskih materialov.","Delo v marketinški agenciji. Delo zajema pripravo marketinških tiskovin in drugih promocijskih materialov. Pogoj je poznavanje programov Adobe. Urna postavka znaša od 10,30 do 13,95 € bruto (od 8,86 do 12 € neto). Delo poteka na sedežu podjetja. Prijave sprejemajo na e-mail ali po pošti. Priprava marketinških tiskovin in drugih promocijskih materialov."
+494749,2026-11-10T23:40:09.300218+00:00,title,STREŽBA,DELO NA RECEPCIJI
+494717,2026-11-10T23:40:09.300218+00:00,start_date,2026-11-11,
+494700,2026-11-10T23:40:09.300218+00:00,hourly_rate_neto,8.0,9.0
+494700,2026-11-10T23:40:09.300218+00:00,hourly_rate_bruto,9.3,10.46
+494700,2026-11-10T23:40:09.300218+00:00,payment_type,8.00 €/h neto (9.30 €/h bruto),9.00 €/h neto (10.46 €/h bruto)
+494700,2026-11-10T23:40:09.300218+00:00,start_date,2026-11-11,
+494639,2026-11-10T23:40:09.300218+00:00,start_date,2026-11-11,
+494614,2026-11-10T23:40:09.300218+00:00,start_date,2026-11-11,
+494601,2026-11-10T23:40:09.300218+00:00,start_date,2026-11-11,
+494564,2026-11-10T23:40:09.300218+00:00,start_date,2026-11-11,
+494514,2026-11-10T23:40:09.300218+00:00,start_date,2026-11-11,
+494483,2026-11-10T23:40:09.300218+00:00,start_date,2026-11-11,
+494367,2026-11-10T23:40:09.300218+00:00,start_date,2026-11-11,
+494331,2026-11-10T23:40:09.300218+00:00,start_date,2026-11-11,
+494320,2026-11-10T23:40:09.300218+00:00,description,"Iščejo osebi za čiščenje in urejanje prostorov vrtca, kar vključuje čiščenje in prezračevanje igralnic, pisarn, sanitarij ter drugih prostorov, čiščenje steklenih in ostalih površin, pohištva ter opreme vrtca.","Iščejo osebo za čiščenje in urejanje prostorov vrtca, kar vključuje čiščenje in prezračevanje igralnic, pisarn, sanitarij ter drugih prostorov, čiščenje steklenih in ostalih površin, pohištva ter opreme vrtca."
+494320,2026-11-10T23:40:09.300218+00:00,open_positions,2,
+494292,2026-11-10T23:40:09.300218+00:00,description,"Iščejo osebo za delo v proizvodnji in pakiranje. Zaželene so izkušnje pri delu v proizvodnji, osnovno znanje angleškega jezika ter dela z računalnikom.","Iščejo polnoletno osebo za delo v proizvodnji in pakiranje. Zaželene so izkušnje pri delu v proizvodnji, osnovno znanje angleškega jezika ter dela z računalnikom."
+494190,2026-11-10T23:40:09.300218+00:00,hourly_rate_neto,8.0,9.0
+494190,2026-11-10T23:40:09.300218+00:00,hourly_rate_bruto,9.3,10.46
+494190,2026-11-10T23:40:09.300218+00:00,payment_type,8.00 €/h neto (9.30 €/h bruto),9.00 €/h neto (10.46 €/h bruto)
+494154,2026-11-10T23:40:09.300218+00:00,description,Podjetje išče osebo za pomoč pri odtiskovanju škatlic in nalepk. Lažje fizično delo zahteva ročno spretnost in natančnost. Delo lahko obsega tudi administrativna dela. Nudijo urnik prilagojen študijskim obveznostim.,Podjetje išče osebo za pomoč pri odtiskovanju škatlic in nalepk. Lažje fizično delo zahteva ročno spretnost in natančnost. Delo lahko obsega tudi administrativna dela. Nudijo urnik prilagojen študijskim obveznostim. Delo bo potekalo 10-15 ur na teden.
+494085,2026-11-10T23:40:09.300218+00:00,start_date,,2026-11-16
+493895,2026-11-10T23:40:09.300218+00:00,hourly_rate_neto,7.74,8.0
+493895,2026-11-10T23:40:09.300218+00:00,hourly_rate_bruto,9.0,9.3
+493895,2026-11-10T23:40:09.300218+00:00,payment_type,7.74 €/h neto (9.00 €/h bruto),8.00 €/h neto (9.30 €/h bruto)
+493069,2026-11-10T23:40:09.300218+00:00,description,Na novo odprta restavracija v Domžalah išče osebo za pomoč v kuhinji. Delovnik je po potrebi in dogovoru.,Iščejo osebo za pomoč v kuhinji. Delovnik je po potrebi in dogovoru.
+493067,2026-11-10T23:40:09.300218+00:00,description,Pomoč pri strežbi hrane in pijače v novo odprti restavraciji.,Pomoč pri strežbi hrane in pijače v novo odprti restavraciji. Delovnik je po potrebi in dogovoru.
+473717,2026-11-10T23:40:09.300218+00:00,duration,PO DOGOVORU,DLJE ČASA (ZAČ. IN OBČ. DELO)
