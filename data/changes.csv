@@ -15986,3 +15986,37 @@ listing_id,changed_at,field,old_value,new_value
 461700,2026-11-17T02:01:09.285441+00:00,hourly_rate_neto,8.17,8.61
 461700,2026-11-17T02:01:09.285441+00:00,hourly_rate_bruto,9.5,10.0
 461700,2026-11-17T02:01:09.285441+00:00,payment_type,8.17 €/h neto (9.50 €/h bruto),8.61 €/h neto (10.00 €/h bruto)
+495249,2026-11-18T01:13:51.776324+00:00,start_date,2026-11-18,
+495240,2026-11-18T01:13:51.776324+00:00,hourly_rate_neto,10.0,12.0
+495240,2026-11-18T01:13:51.776324+00:00,hourly_rate_bruto,11.62,13.95
+495240,2026-11-18T01:13:51.776324+00:00,payment_type,10.00 €/h neto (11.62 €/h bruto),12.00 €/h neto (13.95 €/h bruto)
+495240,2026-11-18T01:13:51.776324+00:00,start_date,2026-11-18,
+495233,2026-11-18T01:13:51.776324+00:00,start_date,2026-11-18,
+495220,2026-11-18T01:13:51.776324+00:00,start_date,2026-11-18,
+495201,2026-11-18T01:13:51.776324+00:00,start_date,2026-11-18,
+495198,2026-11-18T01:13:51.776324+00:00,start_date,2026-11-18,
+495169,2026-11-18T01:13:51.776324+00:00,start_date,2026-11-18,
+495158,2026-11-18T01:13:51.776324+00:00,start_date,2026-11-18,
+495074,2026-11-18T01:13:51.776324+00:00,sublocation,TAKOS,TAKO´S EUROPARK
+495073,2026-11-18T01:13:51.776324+00:00,sublocation,TAKO´S,TAKO´S EUROPARK
+494921,2026-11-18T01:13:51.776324+00:00,start_date,2026-11-18,
+494911,2026-11-18T01:13:51.776324+00:00,hourly_rate_neto,7.73,8.73
+494911,2026-11-18T01:13:51.776324+00:00,hourly_rate_bruto,8.98,10.15
+494911,2026-11-18T01:13:51.776324+00:00,payment_type,7.73 €/h neto (8.98 €/h bruto),8.73 €/h neto (10.15 €/h bruto)
+494285,2026-11-18T01:13:51.776324+00:00,hourly_rate_neto,8.0,8.2
+494285,2026-11-18T01:13:51.776324+00:00,hourly_rate_bruto,9.3,9.53
+494285,2026-11-18T01:13:51.776324+00:00,payment_type,8.00 €/h neto (9.30 €/h bruto),8.20 €/h neto (9.53 €/h bruto)
+494285,2026-11-18T01:13:51.776324+00:00,start_date,2026-11-17,
+493799,2026-11-18T01:13:51.776324+00:00,open_positions,,3
+488492,2026-11-18T01:13:51.776324+00:00,description,"Pomoč pri izdelavi lesene skeletne hiše in lesene opazovalnice. Žaganje, vijačenje lesenih elementov, uporaba ročnega orodja, polaganje OSB plošč in Knauf plošč. Dela se občasno, cca. 3 mesece. Ne gre za delo na višini.","Pomoč pri izdelavi lesene skeletne hiše in lesene opazovalnice. Žaganje, vijačenje lesenih elementov, uporaba ročnega orodja, polaganje OSB plošč in Knauf plošč. Dela se občasno. Ne gre za delo na višini."
+488492,2026-11-18T01:13:51.776324+00:00,duration,CCA. 3 MESECE,DLJE ČASA (ZAČ. IN OBČ. DELO)
+479134,2026-11-18T01:13:51.776324+00:00,hourly_rate_neto,7.74,8.61
+479134,2026-11-18T01:13:51.776324+00:00,hourly_rate_bruto,9.0,10.0
+479134,2026-11-18T01:13:51.776324+00:00,payment_type,7.74 €/h neto (9.00 €/h bruto),8.61 €/h neto (10.00 €/h bruto)
+476554,2026-11-18T01:13:51.776324+00:00,location,"LJUBLJANA - ČRNUČE, DUNAJSKA CESTA 348","LJUBLJANA ČRNUČE, DUNAJSKA CESTA 348"
+476554,2026-11-18T01:13:51.776324+00:00,hourly_rate_neto,10.0,10.5
+476554,2026-11-18T01:13:51.776324+00:00,hourly_rate_bruto,11.62,12.2
+476554,2026-11-18T01:13:51.776324+00:00,payment_type,10.00 €/h neto (11.62 €/h bruto),10.50 €/h neto (12.20 €/h bruto)
+473717,2026-11-18T01:13:51.776324+00:00,hourly_rate_neto,8.61,10.0
+473717,2026-11-18T01:13:51.776324+00:00,hourly_rate_bruto,10.0,11.62
+473717,2026-11-18T01:13:51.776324+00:00,payment_type,8.61 €/h neto (10.00 €/h bruto),10.00 €/h neto (11.62 €/h bruto)
